@@ -1,5 +1,7 @@
 # ED-Generative
 
+[![DOI](https://zenodo.org/badge/1237222292.svg)](https://doi.org/10.5281/zenodo.20149496)
+
 **Event Density: A 13-Primitive Generative Substrate Ontology**
 
 This repository is the canonical home for the Event Density (ED) framework. ED is a **Generative Primitives System**: 13 substrate-level primitives, stated as postulated axioms, together with the downstream physics they generate across approximately 40 orders of magnitude.
