@@ -15,17 +15,17 @@
 1. **The 13 primitives are not derived.** They are postulated within the Event Density Generative Substrate Ontology. This paper does not attempt to derive them from a deeper structural layer.
 2. **No claim that the substrate is the only possible ontology.** Other substrate ontologies (with different primitive sets) are conceivable; ED commits to this specific 13-primitive set.
 3. **No claim that any downstream result is "forced from nothing."** Every downstream result is *conditional* on the 13 primitives + V1/V5 inheritance + upstream papers.
-4. **No claim that the primitives are minimal in some absolute sense.** Whether the 13-primitive set could be reduced to fewer primitives (with the remaining ones derived from a subset) is structurally open. The current commitment is to 13.
+4. **No claim that the primitives are minimal in some absolute sense.** Whether the 13-primitive set could be reduced to fewer primitives (with the remaining ones derived from a subset) is structurally open. The current commitment is to 13 — claimed *necessary-for-current-derivations* (removing any one blocks at least one downstream derivation, audited in `PRIMITIVE_LOAD_BEARING_AUDIT.md`), not minimal in an absolute sense. Two specific minimality caveats: **P03 bundles three commitments** (channel indexing, locus indexing, and spatial homogeneity) that could in principle be split; and **the arrow of time is supplied jointly by P11 + P13 + V1's retardation property** (Theorem T18), with the redundancy question among these three structurally open.
 5. **No claim that the primitives capture all of physical reality.** Specific value-layer empirical content (mass spectrum, coupling constants, cosmological parameters) is inherited from empirical measurement, not derived from the primitives.
 6. **No claim that P14 (Bilocal Strain Coupling) is part of the 13.** A P14 *placeholder slot* is reserved (§4.14) for the bilocal-strain postulate introduced in Paper_030, but P14 is **not** included in the canonical 13. Whether P14 should be elevated to the canonical set is open.
-7. **No claim that this paper is a foundational metaphysics.** ED's framing is in the operational-postulational tradition (Newton, Einstein, Schrödinger, Hardy, CDP, Coecke–Kissinger): the primitives are operational substrate-level commitments, evaluated by downstream cross-domain reach.
+7. **No claim that this paper is a foundational metaphysics.** ED's intellectual neighborhood is the **substrate-ontology research program** ('t Hooft's cellular-automaton interpretation, Wolfram's Ruliad / hypergraph rewriting, the causal-set program). The methodological precedent for *positing axioms and arguing from downstream reach* runs through Newton, Einstein, Schrödinger, Dirac, and the operational-reconstruction tradition (Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017) — but ED is **not in the operational-reconstruction lineage**: those programs derive finite-dimensional QM from operational axioms with closed proofs, while ED postulates a substrate and exhibits cross-domain reach without a closed substrate→continuum reconstruction theorem. The primitives are operational substrate-level commitments, evaluated by downstream cross-domain reach.
 8. **No claim that the primitives are testable in isolation.** Individual primitives are not directly empirically testable; the empirical case rests on cross-domain downstream content (substrate-gravity arc, Q-COMPUTE arc, BH arc, etc.).
 
 ---
 
 ## Abstract
 
-The Event Density (ED) substrate is a **13-primitive generative system**. This paper is the position-paper definition of those 13 primitives — the canonical enumeration **P01 through P13** — together with the postulational-genre framing in which they operate. The primitives are **postulated, not derived**: each is a substrate-level commitment in the operational-postulational tradition (Newton's three laws, Einstein's two postulates of special relativity, Schrödinger's equation, Hardy 2001, Coecke–Kissinger 2017). All downstream content in the ED corpus — the gravity arc (Newton's $G$, $a_0$, ECR, BTFR), the QM-kinematics arc (Born rule, Hilbert-space emergence, gauge fields), the BH/Hawking arc, the soft-matter arc, the Q-COMPUTE arc, the entanglement arc — is **conditional structural derivation given the 13 primitives + the V1/V5 kernel inheritance**. The empirical case for the substrate is the **cross-domain reach** of these conditional derivations across regimes that share no obvious common physics in standard frameworks. The paper makes no claim that the primitives are forced from a deeper structural layer, no claim that ED is the only consistent substrate ontology, no claim that the primitive set is minimal in some absolute sense, and no claim of derivation from nothing. A P14 *placeholder slot* is reserved for the Bilocal Strain Coupling postulate introduced in Paper_030; P14 is **not** included in the canonical 13 at this time.
+The Event Density (ED) substrate is a **13-primitive generative system**. This paper is the position-paper definition of those 13 primitives — the canonical enumeration **P01 through P13** — together with the postulational-genre framing in which they operate. The primitives are **postulated, not derived**. ED's closest intellectual neighbors are substrate-ontology research programs — 't Hooft's cellular-automaton interpretation, Wolfram's Ruliad / hypergraph rewriting, and the causal-set program. The methodological precedent for *positing axioms and arguing from downstream reach* runs through Newton, Einstein, Schrödinger, Dirac, and the operational-reconstruction tradition (Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017) — but ED's epistemic standing is honestly closer to Wolfram's Ruliad than to Hardy's closed-proof reconstruction of finite-dimensional QM. ED postulates a substrate and exhibits cross-domain reach without a closed substrate→continuum reconstruction theorem. All downstream content in the ED corpus — the gravity arc (Newton's $G$, $a_0$, ECR, BTFR), the QM-kinematics arc (Born rule, Hilbert-space emergence, gauge fields), the BH/Hawking arc, the soft-matter arc, the Q-COMPUTE arc, the entanglement arc — is **conditional structural derivation given the 13 primitives + the V1/V5 kernel inheritance**. The empirical case for the substrate is the **cross-domain reach** of these conditional derivations across regimes that share no obvious common physics in standard frameworks. The paper makes no claim that the primitives are forced from a deeper structural layer, no claim that ED is the only consistent substrate ontology, no claim that the primitive set is minimal in some absolute sense, and no claim of derivation from nothing. A P14 *placeholder slot* is reserved for the Bilocal Strain Coupling postulate introduced in Paper_030; P14 is **not** included in the canonical 13 at this time.
 
 ---
 
@@ -57,13 +57,27 @@ The genre of Wave-2 ED is **conditional structural derivation given postulated p
 
 > *Given the 13 primitives (+ V1/V5 inheritance + upstream paper results), the following structural consequence follows: [downstream result].*
 
-This is the same genre as:
+**Intellectual neighborhood (substrate-ontology research programs):**
+
+- **'t Hooft cellular-automaton interpretation of QM:** discrete substrate posited; quantum mechanics emerges as a coarse-grained description.
+- **Wolfram Ruliad / hypergraph-rewriting program:** computational substrate posited; physics emerges as exhibits of substrate-level structure.
+- **Causal-set program (Sorkin et al.):** discrete causal-set substrate posited; continuum spacetime emerges via coarse-graining.
+
+ED sits structurally adjacent to these programs: ontology + cross-domain exhibits, not an axiomatic reconstruction.
+
+**Methodological precedent (positing axioms and arguing from downstream reach):**
 
 - **Newton's three laws:** posited; classical mechanics follows.
 - **Einstein's two postulates of special relativity:** posited; relativistic kinematics follows.
 - **Schrödinger's equation:** posited; non-relativistic QM follows.
-- **Hardy 2001 / Masanes-Müller / CDP:** operational postulates posited; QM reconstruction follows.
-- **Coecke–Kissinger 2017:** symmetric-monoidal-dagger-category axioms posited; categorical QM follows.
+- **Dirac equation:** posited under Lorentz-covariance + first-order requirements; spinor structure and $g = 2$ follow.
+
+**A different genre — operational reconstruction:**
+
+- **Hardy 2001 / Masanes-Müller 2011 / CDP 2011:** operational postulates posited; finite-dimensional QM reconstructed by **closed proofs**.
+- **Coecke–Kissinger 2017:** symmetric-monoidal-dagger-category axioms posited; categorical QM follows by closed-proof reconstruction.
+
+**ED is not in the operational-reconstruction lineage.** Those programs derive finite-dimensional QM from operational axioms by closed proofs; ED postulates a substrate and exhibits cross-domain reach without a closed substrate→continuum reconstruction theorem. The honest comparison places ED in the Wolfram-Ruliad / 't Hooft / causal-set lineage. The methodological precedent (Newton, Einstein, etc.) is invoked as a posit-then-argue-downstream genre, not as a claim of equivalent epistemic standing with closed-proof reconstructions.
 
 The empirical case rests on cross-domain reach (what the postulates *generate* across domains), not on derivation of the postulates themselves.
 
@@ -75,7 +89,9 @@ The empirical case rests on cross-domain reach (what the postulates *generate* a
 
 **Upstream dependencies for the position-paper genre framing:**
 
-- Operational-postulational tradition (Newton, Einstein, Hardy, CDP).
+- Substrate-ontology research-program lineage ('t Hooft cellular-automaton interpretation, Wolfram Ruliad / hypergraph rewriting, causal-set program). The closest neighbors to ED.
+- Methodological precedent (Newton, Einstein, Schrödinger, Dirac) for *positing axioms and arguing from downstream reach*. Not an equivalent epistemic-standing claim; ED is closer to Wolfram-Ruliad than to closed-proof reconstructions.
+- Distinguished from (not in) the operational-reconstruction tradition (Hardy, CDP, Masanes-Müller, Coecke-Kissinger) — see §1.3.
 - The M-series archive (`ARCHIVED_M_SERIES_NOTICE.md`) which documents the pre-pivot exploratory "primitive forcing" attempt that external review identified as circular.
 
 **No empirical inputs at the primitive level.** The empirical case is downstream cross-domain reach.
@@ -87,7 +103,7 @@ The empirical case rests on cross-domain reach (what the postulates *generate* a
 | Step | Status | Source / justification |
 |---|---|---|
 | The 13 primitives are postulated | P | This paper's foundational commitment |
-| Postulational genre (Newton, Einstein, Hardy) | I | Inherited tradition; see §1.3 |
+| Substrate-ontology research-program lineage ('t Hooft, Wolfram, causal-set) + postulational-genre methodological precedent (Newton, Einstein, Schrödinger, Dirac) | I | Inherited from substrate-ontology and postulational traditions; **distinguished from operational-reconstruction tradition** (Hardy, CDP, etc.) — see §1.3 |
 | Each Pᵢ's operational content | P | §5 below; each is a substrate-level commitment |
 | Downstream results are conditional | **P (genre tautology)** | Follows tautologically from the postulated conditional-derivation genre; not derived from primitives via algebraic/logical operations. *(Round-4 Rereading Test: was D, now P — genre-consequence rows are P, not D.)* |
 | Cross-domain reach is the empirical case | A→P | **Position commitment** of this paper; not derived. Moved to §6.4 explicitly. |
@@ -128,21 +144,23 @@ The empirical case for the ED 13-primitive system is:
 
 Each primitive is stated as a substrate-level operational commitment. Where downstream papers depend load-bearingly on a primitive, the cross-reference is noted.
 
-### P01 — Chains as primitive ontological objects
+### P01 — Event-density layer existence
 
-The substrate's most fundamental ontological objects are **chains**: forward-causal sequences of substrate events. A chain is a primitive — not a sequence of pre-existing point-particles, not a worldline through a pre-existing spacetime, not an excitation of a pre-existing field. Chains are the substrate's primitive bearers of dynamical identity.
+A pre-quantum substrate exists as a primitive structural layer. The substrate is not a Hilbert space, not a smooth manifold, not a field theory — it is a discrete graph-like structure equipped with primitive scalar, relational, and angular quantities. P01 is the foundational **ontological-existence commitment** that grounds every paper in the program.
 
-*Operational content:* each chain is a substrate-level entity carrying identity through forward-causal sequences of events. The substrate's primitive operations (P02–P11) operate on chains.
+The substrate is not derived from a deeper structural layer; the event-density layer is *what there is* at substrate level. Within this layer, the further primitive structures (P02–P13) operate — including chains as derived composite structures (persistent forward-causal sequences of substrate events within the event-density layer; introduced in P02 as the things that participate).
 
-*Load-bearing in:* every Wave-2 paper.
+*Operational content:* a substrate layer exists, with primitive structural content articulated by P02–P13. Below this layer there is no further substrate structure resolved by ED; P01 is the foundational existence commitment.
+
+*Load-bearing in:* every Wave-2 paper. P01 is **universally implicit** — without P01, there is no substrate, and the rest of the ontology has no carrier.
 
 ### P02 — Participation as primitive relation
 
-A chain $C$ **participates** in a channel $K$ at substrate locus $u$ at substrate time $t$. The participation relation is a primitive: not derived from a deeper interaction structure, not derived from field-coupling, not derived from gauge connection. Participation is the substrate's primitive mechanism for chain-channel coupling.
+A **chain** $C$ — a persistent forward-causal sequence of substrate events within the event-density layer of P01 — **participates** in a channel $K$ at substrate locus $u$ at substrate time $t$. The participation relation is a primitive: not derived from a deeper interaction structure, not derived from field-coupling, not derived from gauge connection. Participation is the substrate's primitive mechanism for chain-channel coupling. Chains themselves are *not* canonical primitives separate from P01; they are the substrate-level entities (within the event-density layer) whose participation in channels P02 declares as primitively relational.
 
-*Operational content:* $(C, K, u, t)$ — the four-tuple parameterizing a substrate participation event.
+*Operational content:* $(C, K, u, t)$ — the four-tuple parameterizing a substrate participation event. Chains are the derived composite structures (persistent micro-event sequences) that participate; P02 declares the participation relation between chains and channels as primitive.
 
-*Load-bearing in:* all kernel-related papers (089, 090, 093), gravity arc (025, 027), Q-COMPUTE arc (054, 056).
+*Load-bearing in:* all kernel-related papers (089, 090, 093), gravity arc (025, 027), Q-COMPUTE arc (054, 056). Every Wave-2 paper using the language of "chains," "channels," "participation measure," "participation manifold" rests on P02.
 
 ### P03 — Channel and locus indexing; spatial homogeneity
 
@@ -447,10 +465,10 @@ If P14 (Bilocal Strain Coupling) is derived from the canonical 13, the placehold
 
 ## 9. Position Statement
 
-The Event Density (ED) substrate is a **13-Primitive Generative System** in the postulational tradition of Newton, Einstein, Schrödinger, Hardy, CDP, and Coecke–Kissinger. The canonical 13 primitives are:
+The Event Density (ED) substrate is a **13-Primitive Generative System** situated in the substrate-ontology research-program lineage ('t Hooft cellular-automaton interpretation, Wolfram Ruliad / hypergraph rewriting, causal-set program). The methodological precedent for *positing axioms and arguing from downstream reach* runs through Newton, Einstein, Schrödinger, Dirac, and the operational-reconstruction tradition (Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017) — but ED's epistemic standing is honestly closer to Wolfram's Ruliad than to closed-proof operational reconstructions; ED postulates a substrate and exhibits cross-domain reach without a closed substrate→continuum reconstruction theorem. The canonical 13 primitives are:
 
-> **P01** chains as primitive ontological objects;
-> **P02** participation as primitive relation;
+> **P01** event-density layer existence;
+> **P02** participation as primitive relation (chains participating in channels);
 > **P03** channel + locus indexing with spatial homogeneity;
 > **P04** bandwidth as non-negative additive scalar;
 > **P05** polarity-transport along edges;
@@ -493,7 +511,9 @@ What this paper does *not* claim:
 - **Postulational genre.** Primitives postulated; downstream content conditional structural derivation.
 - **Cross-domain reach.** Empirical case: same 13 primitives generate mechanisms across gravity/QM/BH/soft-matter/Q-COMPUTE/entanglement.
 - **Conditional structural derivation.** Wave-2 generative paper format: given primitives + inheritance + upstream, derive structural consequence.
-- **Operational-postulational tradition.** Newton, Einstein, Schrödinger, Hardy, CDP, Coecke–Kissinger genre.
+- **Substrate-ontology research-program lineage.** 't Hooft cellular-automaton interpretation, Wolfram Ruliad / hypergraph rewriting, causal-set program (Sorkin et al.). ED's closest intellectual neighborhood: ontology + cross-domain exhibits, not closed-proof reconstruction.
+- **Methodological precedent (postulational genre).** Newton's three laws, Einstein's special-relativity postulates, Schrödinger's equation, Dirac's spinor equation — *positing axioms and arguing from downstream reach* as a research practice. ED invokes this precedent for its methodology, not for equivalent epistemic standing.
+- **Operational-reconstruction tradition (NOT ED's lineage).** Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017 — programs that derive finite-dimensional QM from operational axioms by **closed proofs**. ED is *not* in this lineage; ED postulates a substrate and exhibits cross-domain reach without a closed substrate→continuum reconstruction theorem.
 
 ---
 
