@@ -1,0 +1,110 @@
+{
+  "A": {
+    "label": "Canonical Q\u22483 (10mH, 1\u00b5F, DCR-only)",
+    "purpose": "Baseline \u2014 default benchtop configuration; clean ringdown with ~5 visible cycles.",
+    "inductor_part": "Bourns RLB0913-103KL (10 mH, DCR \u2248 30 \u03a9)",
+    "external_R_ohm": 0.0,
+    "L_mH": 10.0,
+    "R_total_ohm": 30.0,
+    "C_uF": 1.0,
+    "predicted": {
+      "omega0_rad_s": 10000.0,
+      "gamma_per_s": 1500.0,
+      "omega_rad_s": 9886.859966642594,
+      "frequency_Hz": 1573.5426353485404,
+      "period_us": 635.5086780209801,
+      "envelope_tau_us": 666.6666666666666,
+      "Q": 3.3333333333333335,
+      "regime": "underdamped",
+      "visible_cycles_to_1pct": 4.886237325862853
+    },
+    "measured": {
+      "omega_rad_s": null,
+      "gamma_per_s": null,
+      "frequency_Hz": null,
+      "Q": null,
+      "notes": ""
+    }
+  },
+  "B": {
+    "label": "Heavy damping (10mH, 1\u00b5F, R=80\u03a9 total)",
+    "purpose": "Near-critical damping; demonstrates the \u03b3/\u03c9\u2080 ratio controls oscillation count.",
+    "inductor_part": "Bourns RLB0913-103KL (10 mH, DCR \u2248 30 \u03a9)",
+    "external_R_ohm": 50.0,
+    "L_mH": 10.0,
+    "R_total_ohm": 80.0,
+    "C_uF": 1.0,
+    "predicted": {
+      "omega0_rad_s": 10000.0,
+      "gamma_per_s": 4000.0,
+      "omega_rad_s": 9165.15138991168,
+      "frequency_Hz": 1458.6791478899988,
+      "period_us": 685.5517208472575,
+      "envelope_tau_us": 250.0,
+      "Q": 1.25,
+      "regime": "underdamped",
+      "visible_cycles_to_1pct": 1.8323389971985697
+    },
+    "measured": {
+      "omega_rad_s": null,
+      "gamma_per_s": null,
+      "frequency_Hz": null,
+      "Q": null,
+      "notes": ""
+    }
+  },
+  "C": {
+    "label": "L-swap: 1mH (high-Q, 10\u00d7 faster)",
+    "purpose": "Higher frequency + higher Q; tests \u03c9\u2080 \u221d 1/\u221aL scaling.",
+    "inductor_part": "Bourns RLB0913-102KL (1 mH, DCR \u2248 3 \u03a9)",
+    "external_R_ohm": 0.0,
+    "L_mH": 1.0,
+    "R_total_ohm": 3.0,
+    "C_uF": 1.0,
+    "predicted": {
+      "omega0_rad_s": 31622.776601683792,
+      "gamma_per_s": 1500.0,
+      "omega_rad_s": 31587.18094417417,
+      "frequency_Hz": 5027.255985603441,
+      "period_us": 198.91567146445323,
+      "envelope_tau_us": 666.6666666666666,
+      "Q": 10.540925533894598,
+      "regime": "underdamped",
+      "visible_cycles_to_1pct": 15.45163913785698
+    },
+    "measured": {
+      "omega_rad_s": null,
+      "gamma_per_s": null,
+      "frequency_Hz": null,
+      "Q": null,
+      "notes": ""
+    }
+  },
+  "D": {
+    "label": "L-swap: 100\u00b5H (very-high-Q, 100\u00d7 faster)",
+    "purpose": "Highest accessible frequency; pushes scope timebase but still within 50 MSa/s limit.",
+    "inductor_part": "Bourns RLB0913-101KL (100 \u00b5H, DCR \u2248 0.5 \u03a9)",
+    "external_R_ohm": 0.0,
+    "L_mH": 0.1,
+    "R_total_ohm": 0.5,
+    "C_uF": 1.0,
+    "predicted": {
+      "omega0_rad_s": 99999.99999999999,
+      "gamma_per_s": 2500.0,
+      "omega_rad_s": 99968.745115661,
+      "frequency_Hz": 15910.519939851218,
+      "period_us": 62.85149723456185,
+      "envelope_tau_us": 400.0,
+      "Q": 19.999999999999996,
+      "regime": "underdamped",
+      "visible_cycles_to_1pct": 29.317423955177105
+    },
+    "measured": {
+      "omega_rad_s": null,
+      "gamma_per_s": null,
+      "frequency_Hz": null,
+      "Q": null,
+      "notes": ""
+    }
+  }
+}
