@@ -4,9 +4,9 @@
 
 **Event Density: A 13-Primitive Generative Substrate Ontology**
 
-This repository is the canonical home for the Event Density (ED) framework. ED is a **Generative Primitives System**: 13 substrate-level primitives, stated as postulated axioms, together with the downstream physics they generate across approximately 40 orders of magnitude.
+This repository is the canonical home for the Event Density (ED) framework. ED is a **Generative Primitives System**: 13 substrate-level primitives, stated as postulated axioms, together with the downstream physics they generate across phenomenological scales spanning roughly 40 orders of magnitude. The same V5 rule-type appears with parameter values across this scale range; the cross-scale parameter relations between domains are currently OPEN pending the substrate-cosmology coupling derivation (Route A in Paper ED-SC 4.2).
 
-ED is in the same genre as classical axiomatic physics (Newton, Einstein, Schrödinger, Dirac) and the operational-reconstruction tradition (Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017). The 13 primitives are *postulated*, not derived. **The empirical case is downstream cross-domain reach.**
+ED's intellectual neighborhood is the **substrate-ontology research program**: 't Hooft's cellular-automaton interpretation, Wolfram's Ruliad / hypergraph rewriting, and the causal-set program. The methodological precedent for *positing axioms and arguing from downstream reach* runs through Newton, Einstein, Schrödinger, Dirac, and the operational-reconstruction tradition (Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017) — but the operational-reconstruction programs derive finite-dimensional QM from explicit operational axioms with **closed proofs**, while ED postulates a substrate and exhibits cross-domain reach without a closed substrate→continuum reconstruction theorem. The honest comparison places ED in the Wolfram-Ruliad lineage: an ontology plus a programme of cross-domain exhibits, not an axiomatic reconstruction. The 13 primitives are *postulated*, not derived. **The empirical case is downstream cross-domain reach.**
 
 ---
 
