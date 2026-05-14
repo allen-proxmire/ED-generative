@@ -1,4 +1,4 @@
-# ED-Generative
+# Event Density - the Generative Primitives System
 
 [![DOI](https://zenodo.org/badge/1237222292.svg)](https://doi.org/10.5281/zenodo.20149496)
 
