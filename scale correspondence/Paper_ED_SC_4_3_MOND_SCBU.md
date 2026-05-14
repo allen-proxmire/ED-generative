@@ -86,19 +86,21 @@ The **deep-MOND regime** ($|\nabla\Phi| \ll a_0$, Paper_034) lives at the **IR e
 
 By P-Cascade-Continuity (Paper_091), the IR regime is structurally continuous with the cosmological-boundary regime. The deep-MOND regime is **the IR-side neighborhood of the SCBU boundary**, projected to local-galactic parameters.
 
-### 3.2 $a_0$ as azimuthal-Fourier projection of $R_H$
+### 3.2 $a_0$ as azimuthal-Fourier projection of the substrate-cosmology boundary
 
-Paper_029 derives $a_0 = c H_0/(2\pi)$. The factor of $2\pi$ in the denominator is the **azimuthal-Fourier projection signature** identified in Paper_ED_SC_4.1 §3.2: the substrate-cosmology boundary's azimuthal-mode structure descends to a $2\pi$-normalized scale.
+Paper_029 derives $a_0 = c H_0/(2\pi)$ via **azimuthal-Fourier-mode normalization on residual SO(2)**: an accelerating chain breaks substrate-graph SO(3) symmetry to residual SO(2) about the acceleration axis; the $|m|=1$ dipole Fourier projection on the circle of period $2\pi$ supplies the geometric factor $1/(2\pi)$.
 
-Under P-Substrate-Cosmology-Unified, $a_0$ is the **IR-projection of the SCBU boundary** onto a galactic-scale acceleration regime. The mapping is:
+Under P-Substrate-Cosmology-Unified, $a_0$ is the **azimuthal-Fourier IR-projection of the substrate-cosmology boundary** onto the galactic-acceleration parameter axis. The mapping:
 
-$$\underbrace{R_H = c/H_0}_{\text{cosmological-scale length}} \quad \xrightarrow{\text{azimuthal-Fourier + dimensional transposition}} \quad \underbrace{a_0 = c H_0/(2\pi)}_{\text{galactic-scale acceleration}}$$
+$$\underbrace{\text{substrate-cosmology boundary}}_{\text{anchored at } R_H = c/H_0} \quad \xrightarrow{\text{azimuthal-Fourier on residual SO(2)}} \quad \underbrace{a_0 = c H_0/(2\pi)}_{\text{galactic-acceleration projection}}$$
 
-Dimensionally, $a_0 \sim c^2 / R_H$ (up to the $1/(2\pi)$ azimuthal factor), so $a_0$ is the cosmological-boundary acceleration scale: the acceleration at which a test particle traversing $R_H$ at speed $c$ would be characterized.
+Note carefully: the azimuthal-Fourier projection mechanism applies to **$a_0$**, not to $R_H$. Paper_028's derivation of $R_H = c/H_0$ uses a **substrate-causality / decoupling-surface argument** (kernel-propagation-rate / Hubble-expansion-rate crossover), not azimuthal-Fourier. Both $a_0$ and $R_H$ inherit substrate-cosmology-boundary anchoring (via Paper_SCBU + Paper_ED_SC_4.1's regime-4 placement), but they use distinct projection mechanisms onto distinct parameter axes:
+- $R_H$: substrate-causality argument → regime-4 cosmological global arm.
+- $a_0$: azimuthal-Fourier on residual SO(2) → regime-3 IR-galactic projection.
 
-The projection mechanism is the same as Paper_ED_SC_4.1's azimuthal-Fourier projection that produces $R_H$ from the SCBU object. The two scales $R_H$ (length) and $a_0$ (acceleration) are related by a $c^2$ dimensional rotation and a common $2\pi$ signature.
+Dimensionally, $a_0 \sim c^2 / R_H$ up to the $1/(2\pi)$ azimuthal factor — so the two scales are related by a $c^2$ dimensional rotation, but the **derivation mechanisms** are distinct (Paper_028 vs Paper_029) even though the **substrate-cosmology origin** is shared (Paper_SCBU).
 
-**Structural conclusion:** $a_0$ is the substrate-cosmology boundary's **galactic-scale projection**. Its form $c H_0/(2\pi)$ is FORM-FORCED by P-Substrate-Cosmology-Unified + azimuthal-Fourier projection. Its numerical value $\approx 1.2 \times 10^{-8}$ cm/s$^2$ is INHERITED via $H_0$-matching.
+**Structural conclusion:** $a_0$ is the substrate-cosmology boundary's **azimuthal-Fourier IR-galactic projection**. Its form $c H_0/(2\pi)$ is FORM-FORCED by P-Substrate-Cosmology-Unified + Paper_029's azimuthal-Fourier mechanism. Its numerical value $\approx 1.2 \times 10^{-8}$ cm/s$^2$ is INHERITED via $H_0$-matching.
 
 ### 3.3 BTFR slope-4 as IR-regime scaling law
 
@@ -132,7 +134,7 @@ The mapping is **bijective at the structural level**: every load-bearing feature
 
 This is the M3 outcome: structural correspondence FORCED; numerical values INHERITED.
 
-### 3.5 Relationship between $\xi_{\mathrm{canonical}}$ and $a_0$ (structural, not numeric)
+### 3.5 Six-way structural relationship across SCBU projections (structural, not numeric)
 
 Paper_ED_SC_4.2 attempted the substrate-derivation of $\xi_{\mathrm{canonical}}(H_0)$ and identified three OPEN routes (A: $\ell_{V5}(H_0)$; B: $\beta(K)$ form; C: $K_{\mathrm{boundary}}$). Without closing one of these routes, $\xi_{\mathrm{canonical}}$ has FORM-FORCED structural anchoring to the SCBU boundary but VALUE-INHERITED canonical numerical 1.7575 lu.
 
@@ -147,26 +149,26 @@ Both $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2) and $a_0$ (this paper) project
 
 **Important caveat:** this paper does **not** claim a numerical relationship $\xi_{\mathrm{canonical}} = f(a_0)$ for any specific $f$. The relationship is structural — both project from the same SCBU object — not quantitative. Closing the quantitative relationship requires the same OPEN routes as Paper_ED_SC_4.2 (Routes A/B/C).
 
-If Route A closes (substrate-derived $\ell_{V5}(H_0)$), both $\xi_{\mathrm{canonical}}$ and $a_0$ would acquire substrate-derived numerical content simultaneously, since both inherit from the same boundary; this would be a **simultaneous closure** of two ED-SC 4.x extension paper verdicts (Paper_ED_SC_4.2 → M2 + Paper_ED_SC_4.3 → M2). This is a load-bearing structural prediction of the SCBU framework.
+If Route A closes (substrate-derived $\ell_{V5}(H_0)$), all projections sharing the SCBU boundary anchor would acquire substrate-derived numerical content **simultaneously**: $r_H$, $R_H$, $\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, and $Q$ together form a **six-projection structure** (counting $r_H$ and $R_H$ as separate parameter-axis arms per Paper_ED_SC_4.1 §3.7). Route A closure propagates to a **six-way simultaneous M3 → M2 verdict upgrade** across the entire ED-SC 4.x arc. If Routes A + B + C all close without introducing additional postulates, the upgrade reaches **M1** arc-wide. This is the load-bearing structural prediction of the SCBU framework's cumulative-closure cascade.
 
-### 3.6 Regime classification: UV / transition / IR / cosmological
+### 3.6 Regime classification: four regimes + IR sub-projections
 
-Composing Paper_091 cascade + Paper_097 three-regime RG + Paper_ED_SC_4.1 cosmological extension + this paper's IR-galactic extension:
+Composing Paper_091 cascade + Paper_097 three-regime RG + Paper_ED_SC_4.1 cosmological extension + this paper's IR-galactic sub-projection, the canonical view is **four RG regimes**, with regime 3 (IR) hosting multiple parameter-axis sub-projections and regime 4 (cosmological) hosting two parameter-axis arms:
 
 | Regime | Scale | Substrate content | Phenomenological manifestation |
 |---|---|---|---|
-| UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade kinetic content |
-| Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade | Paper_097 0.6 exponent |
-| IR (hydrodynamic) | $\ell_{V5} \lesssim r \ll R_H$ | V5-modulated | NS / MHD continuum |
-| **IR (deep-MOND galactic)** | $r$ such that $a \sim a_0$ | V5-saturated boundary projection | Deep-MOND regime + BTFR slope-4 |
-| BH-horizon | $r \sim r_H$ | V5-saturated boundary (local-grav) | Schwarzschild / Kerr horizons |
-| Cosmological | $r \sim R_H$ | V5-saturated boundary (global) | Cosmic decoupling surface |
+| 1 UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade kinetic content |
+| 2 Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade | Paper_097 0.6 exponent |
+| 3 IR — hydrodynamic sub-projection | $\ell_{V5} \lesssim r \ll R_H$ | V5-modulated | NS / MHD continuum |
+| **3 IR — deep-MOND galactic sub-projection** | $r$ such that $a \sim a_0$ | V5-saturated boundary projection | Deep-MOND regime + BTFR slope-4 |
+| 4 Cosmological — local-grav arm | $r \sim r_H$ | V5-saturated boundary | Schwarzschild / Kerr horizons (parameterized by mass $M$) |
+| 4 Cosmological — global arm | $r \sim R_H$ | V5-saturated boundary | Cosmic decoupling surface (parameterized by $H_0$) |
 
-The deep-MOND galactic regime sits **at the IR-end of the hydrodynamic regime** but **inside the SCBU boundary**: it is the regime where local accelerations approach $a_0$, the projection of $R_H$ onto galactic scales.
+The deep-MOND galactic sub-projection sits **within regime 3 (IR)** but **inside the SCBU boundary**: it is the parameter-axis projection where local accelerations approach $a_0$, an azimuthal-Fourier projection of the substrate-cosmology boundary onto the galactic-acceleration parameter.
 
-The BH-horizon and cosmological regimes are also boundary projections (per Paper_ED_SC_4.1), but parameterized by local mass ($r_H = 2GM/c^2$) and global cosmological rate ($R_H = c/H_0$) respectively. The deep-MOND regime is parameterized by **local galactic acceleration** ($a \sim a_0$).
+The two regime-4 arms ($r_H$ local-grav, $R_H$ global) are both boundary projections (per Paper_ED_SC_4.1), parameterized by local mass and global cosmological rate respectively. The deep-MOND galactic sub-projection is parameterized by **local galactic acceleration** ($a \sim a_0$) — a regime-3 IR-sub-projection of the same SCBU boundary.
 
-**Three boundary-regime projections share the SCBU object:** BH-horizon (local-gravitational), deep-MOND galactic (local-galactic-acceleration), cosmological (global cosmological rate). All three are FORM-FORCED to be the same substrate object at different projection parameters.
+**The SCBU object is one; its parameter-axis projections across regimes 3 and 4 are multiple.** This paper adds the IR-galactic sub-projection to the regime-3 IR multi-sector regime. Subsequent ED-SC 4.x papers (4.4, 4.5) add further IR sub-projections (Q-Compute, NS-Q hydrodynamic).
 
 ### 3.7 Summary
 
@@ -205,12 +207,12 @@ Verdict: **M3** (FORM-FORCED structural correspondence + VALUE-INHERITED numeric
 | 17 | $a_0$ as azimuthal-Fourier projection of $R_H$ | D-via-I | §3.2; composition of I-029 + I-ED_SC_4_1 projection mechanism. |
 | 18 | BTFR slope-4 as IR-regime scaling law | D-via-I | §3.3; composition of I-030 + I-031 + cascade structure. |
 | 19 | MOND IR-regime ↔ SCBU boundary bijection | D | §3.4; composition of §3.1–§3.3. |
-| 20 | $\xi_{\mathrm{canonical}}$–$a_0$ structural relationship | D (composition, not numerical) | §3.5; shared SCBU object. |
-| 21 | Five-regime classification (UV / transition / IR-hydro / IR-galactic / BH / cosmological) | D-via-I | §3.6; extension of Paper_ED_SC_4.1 classification. |
+| 20 | Six-way structural relationship across SCBU projections | D (composition, not numerical) | §3.5; shared SCBU object; six projections including $r_H$, $R_H$ as separate regime-4 arms. |
+| 21 | Four-regime classification with regime-3 IR sub-projections + regime-4 two-arm | D-via-I | §3.6; canonical four-regime view per Paper_ED_SC_4.6. |
 | 22 | $a_0$ numerical value $\approx 1.2 \times 10^{-8}$ cm/s² | I | Empirical / standard matching. |
 | 23 | BTFR amplitude coefficient | I | Empirical galactic-rotation-curve matching. |
 | 24 | Quantitative $\xi_{\mathrm{canonical}}$–$a_0$ relation | OPEN | Conditional on Paper_ED_SC_4.2 Routes A/B/C closure. |
-| 25 | Simultaneous closure of $\xi_{\mathrm{canonical}}$ + $a_0$ derivations | OPEN — structural prediction | §3.5; load-bearing forecast. |
+| 25 | Six-way simultaneous closure structural prediction (Route A → M2; A+B+C + no new postulates → M1, arc-wide) | OPEN — structural prediction | §3.5; load-bearing forecast across all six SCBU projections. |
 | 26 | Verdict M3 (FORM-FORCED + VALUE-INHERITED) | A→position | Per Paper_095 methodology. |
 
 ---

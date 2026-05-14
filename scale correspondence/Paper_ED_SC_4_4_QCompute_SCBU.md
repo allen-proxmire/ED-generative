@@ -115,25 +115,24 @@ The three-constituent structure inherits **directly** from substrate primitive c
 
 The exhaustiveness of A/B/C (Paper_055) is FORM-FORCED by the three-constituent structure of $\mathcal{M}_{\mathrm{cap}}$ (Paper_053) and the SCBU boundary's V5-saturation primary mechanism: at the boundary, V5 saturation is universal, but Class A and B platforms reach the boundary via $N_{\mathrm{bw}}$ or $N_{\mathrm{commit}}$ binding earlier.
 
-### 3.4 Relationship between $\xi_{\mathrm{canonical}}$, $a_0$, and $\mathcal{M}_{\mathrm{crit}}$
+### 3.4 Multi-way structural relationship across SCBU projections
 
-The three ED-SC 4.x extension papers (4.2, 4.3, this paper) identify three SCBU-boundary projections:
+The ED-SC 4.x extension papers (4.1, 4.2, 4.3, this paper) jointly identify a **six-projection structure** ($r_H$, $R_H$, $\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, $Q$; the last awaiting Paper_ED_SC_4.5). The projections this paper interacts with directly:
 
-$$\xi_{\mathrm{canonical}} \xleftrightarrow{\text{shared SCBU}} a_0 \xleftrightarrow{\text{shared SCBU}} \mathcal{M}_{\mathrm{crit}}$$
+$$r_H \;\;\text{(4.1)}\; \leftrightarrow\; R_H \;\;\text{(4.1)}\; \leftrightarrow\; \xi_{\mathrm{canonical}} \;\;\text{(4.2)}\; \leftrightarrow\; a_0 \;\;\text{(4.3)}\; \leftrightarrow\; \mathcal{M}_{\mathrm{crit}} \;\;\text{(this paper)}$$
 
-All three project from the **same** substrate-cosmology boundary onto **different parameter axes**:
+All five project from the **same** substrate-cosmology boundary onto **different parameter axes**:
+- $r_H$: local-gravitational-mass parameter (Paper_ED_SC_4.1, regime 4 local-grav arm).
+- $R_H$: global cosmological-rate parameter (Paper_ED_SC_4.1, regime 4 global arm).
 - $\xi_{\mathrm{canonical}}$: substrate-scale fixed-point parameter (Paper_096).
 - $a_0$: galactic-acceleration parameter (Paper_029).
 - $\mathcal{M}_{\mathrm{crit}}$: multiplicity-budget parameter (Paper_060).
 
-**Structural relationship (not numerical):** All three inherit cosmological-boundary anchoring at $R_H = c/H_0$. Their numerical values are mutually independent at the inherited level; their **structural setups** are bijectively related through the shared SCBU object.
+**Structural relationship (not numerical):** All five inherit cosmological-boundary anchoring at $R_H = c/H_0$. Their numerical values are mutually independent at the inherited level; their **structural setups** are bijectively related through the shared SCBU object.
 
-If Paper_ED_SC_4.2's Routes A/B/C close (substrate-derived $\ell_{V5}(H_0)$ etc.), the closures would propagate **simultaneously** to:
-- $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2 verdict upgrade M3 → M2).
-- $a_0$ (Paper_ED_SC_4.3 verdict upgrade M3 → M2).
-- $\mathcal{M}_{\mathrm{crit}}$ (this paper's verdict upgrade M3 → M2).
+**Standardized verdict-upgrade convention.** If Paper_ED_SC_4.2's Route A closes (substrate-derived $\ell_{V5}(H_0)$), the closure propagates to an arc-wide **M3 → M2** simultaneous verdict upgrade across all currently-drafted SCBU projection papers (4.1, 4.2, 4.3, 4.4, plus 4.5 once drafted). If all three Routes A + B + C close without introducing additional postulates, the upgrade reaches **M1** arc-wide.
 
-This is a **three-way simultaneous closure** structural prediction of the SCBU framework. The structural-positive verdict tier upgrade in any one of three extension papers automatically upgrades all three, because they project from the same SCBU object.
+The structural-positive verdict tier upgrade in any one extension paper automatically upgrades all six because they project from the same SCBU object. This is the load-bearing **simultaneous-closure cascade** structural prediction of the SCBU framework.
 
 ### 3.5 Cross-platform universality as SCBU-inherited property
 
@@ -143,21 +142,21 @@ This universality is a **direct consequence of SCBU**: if $\mathcal{M}_{\mathrm{
 
 **Three-way structural prediction:** Cross-platform universality (Paper_060) inherits from SCBU's structural invariance. The numerical universality target — that matter-wave 140–250 kDa and qubit-array thresholds map to the **same** $\mathcal{M}_{\mathrm{crit}}$ at substrate level — is FORM-FORCED. Empirical refutation (different platforms with substrate-mapped thresholds that disagree) refutes P-Cross-Platform-Universality and propagates back to the SCBU projection.
 
-### 3.6 Regime classification: UV / transition / IR / cosmological
+### 3.6 Regime classification: four regimes with IR multi-sector + regime-4 two-arm
 
-Composing Paper_ED_SC_4.3's five-regime classification with the Q-Compute boundary-projection:
+The canonical view (per Paper_ED_SC_4.6) is **four RG regimes**, with regime 3 (IR) hosting multiple parameter-axis sub-projections and regime 4 (cosmological) hosting two parameter-axis arms. Adding the Q-Compute sub-projection to the regime-3 IR multi-sector regime:
 
 | Regime | Scale | Substrate content | Phenomenological manifestation |
 |---|---|---|---|
-| UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade kinematic |
-| Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade | Paper_097 0.6 exponent |
-| IR (hydrodynamic) | $\ell_{V5} \lesssim r \ll R_H$ | V5-modulated | NS / MHD continuum |
-| **IR (Q-Compute platform-coherence)** | $r$ such that $\mathcal{M}_{\mathrm{cap}} \sim \mathcal{M}_{\mathrm{crit}}$ | V5-saturated boundary projection | Class A/B/C coherence walls |
-| IR (deep-MOND galactic) | $r$ such that $a \sim a_0$ | V5-saturated boundary projection | Deep-MOND regime + BTFR slope-4 |
-| BH-horizon | $r \sim r_H$ | V5-saturated boundary (local-grav) | Schwarzschild / Kerr horizons |
-| Cosmological | $r \sim R_H$ | V5-saturated boundary (global) | Cosmic decoupling surface |
+| 1 UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade kinematic |
+| 2 Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade | Paper_097 0.6 exponent |
+| 3 IR — hydrodynamic sub-projection | $\ell_{V5} \lesssim r \ll R_H$ | V5-modulated | NS / MHD continuum |
+| **3 IR — Q-Compute platform-coherence sub-projection** | $r$ such that $\mathcal{M}_{\mathrm{cap}} \sim \mathcal{M}_{\mathrm{crit}}$ | V5-saturated boundary projection | Class A/B/C coherence walls |
+| 3 IR — deep-MOND galactic sub-projection | $r$ such that $a \sim a_0$ | V5-saturated boundary projection | Deep-MOND regime + BTFR slope-4 |
+| 4 Cosmological — local-grav arm | $r \sim r_H$ | V5-saturated boundary | Schwarzschild / Kerr horizons (parameterized by mass $M$) |
+| 4 Cosmological — global arm | $r \sim R_H$ | V5-saturated boundary | Cosmic decoupling surface (parameterized by $H_0$) |
 
-The Q-Compute platform-coherence regime joins the deep-MOND galactic regime, BH-horizon regime, and cosmological regime as **four boundary-regime projections** of the same SCBU object onto four parameter axes (multiplicity-budget, galactic-acceleration, local-mass, global-cosmological-rate respectively).
+The Q-Compute platform-coherence sub-projection joins the deep-MOND galactic and NS-hydrodynamic sub-projections within the regime-3 IR multi-sector regime. Together with the two regime-4 arms (BH-horizon and cosmic decoupling), these are **five parameter-axis projections** of the same SCBU object (with the sixth — NS-Q canonical $Q$ — added in Paper_ED_SC_4.5). The substrate object is one; the parameter-axis projections across regimes 3 and 4 are multiple.
 
 ### 3.7 Summary
 
@@ -197,10 +196,10 @@ Verdict: **M3** (FORM-FORCED structural correspondence + VALUE-INHERITED numeric
 | 18 | Q-Compute coherence scale = IR regime of cascade | D-via-I | §3.1; composition of I-091, I-097, I-062. |
 | 19 | $\mathcal{M}_{\mathrm{crit}}$ as IR-projection of SCBU boundary | D-via-I | §3.2; composition of SCBU + I-058 + I-060. |
 | 20 | Class A/B/C → V1/V5/P11 substrate mapping | D-via-I | §3.3. |
-| 21 | $\xi_{\mathrm{canonical}}$–$a_0$–$\mathcal{M}_{\mathrm{crit}}$ structural triangle | D (composition) | §3.4; shared SCBU object. |
+| 21 | Multi-way structural relationship across $r_H$ / $R_H$ / $\xi_{\mathrm{canonical}}$ / $a_0$ / $\mathcal{M}_{\mathrm{crit}}$ | D (composition) | §3.4; shared SCBU object; six-projection arc structure. |
 | 22 | Cross-platform universality as SCBU inheritance | D-via-I | §3.5. |
-| 23 | Seven-regime classification (UV / transition / IR-hydro / IR-Q-Compute / IR-galactic / BH / cosmological) | D-via-I | §3.6. |
-| 24 | Three-way simultaneous closure structural prediction | D — conditional | §3.4 forecast; conditional on Paper_ED_SC_4.2 Routes A/B/C. |
+| 23 | Four-regime classification with regime-3 IR multi-sector + regime-4 two-arm | D-via-I | §3.6; canonical four-regime view per Paper_ED_SC_4.6. |
+| 24 | Arc-wide simultaneous-closure cascade prediction (Route A → M2; A+B+C + no new postulates → M1) | D — conditional | §3.4; load-bearing forecast across all six SCBU projections. |
 | 25 | $\mathcal{M}_{\mathrm{crit}}$ numerical value (canon-internal) | I | Empirical / platform-specific matching. |
 | 26 | Class A 140–250 kDa numerical value | I | Empirical / matter-wave extrapolation. |
 | 27 | Verdict M3 (FORM-FORCED + VALUE-INHERITED) | A→position | Per Paper_095 methodology. |
@@ -253,7 +252,7 @@ All four project from the **same** substrate-cosmology boundary. Form correspond
 
 **Numerical content.** $\mathcal{M}_{\mathrm{crit}}$ canon-internal value, matter-wave 140–250 kDa Class A wall, qubit-array Class B/C numerical thresholds remain **INHERITED**. The substrate-level claim is the structural IR-projection-correspondence, FORM-FORCED only. Verdict: **M3**.
 
-**Testable structural prediction inherited from Paper_ED_SC_4.2 + Paper_ED_SC_4.3.** If $H_0$ varies (Hubble-tension-class), SCBU predicts that $\mathcal{M}_{\mathrm{crit}}$ **co-varies** with $H_0$ through the same boundary anchor as $\xi_{\mathrm{canonical}}$ and $a_0$. Specifically, the three-way co-variation should be **synchronized**: $\xi_{\mathrm{canonical}}$, $a_0$, and $\mathcal{M}_{\mathrm{crit}}$ all shift together with $H_0$ variations.
+**Testable structural prediction inherited from Paper_ED_SC_4.2 + Paper_ED_SC_4.3.** If $H_0$ varies (Hubble-tension-class), SCBU predicts that $\mathcal{M}_{\mathrm{crit}}$ **co-varies** with $H_0$ through the same boundary anchor as $\xi_{\mathrm{canonical}}$, $a_0$, and the other SCBU projections. The arc-wide synchronized co-variation should encompass all six SCBU projections ($r_H$, $R_H$, $\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, $Q$) shifting together with $H_0$ variations — see Paper_ED_SC_4.5 §6 and Paper_ED_SC_4.6 §3.4 for the full six-way synchronization claim.
 
 This is a strong structural test: empirically detecting $H_0$ variation while observing $\mathcal{M}_{\mathrm{crit}}$ remains constant (F1 falsifier) would refute the SCBU-projection identification for the Q-Compute case while leaving the BH-horizon, MOND, and cosmological projections potentially intact.
 

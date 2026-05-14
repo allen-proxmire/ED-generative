@@ -235,13 +235,17 @@ The derivation does **not** close, but supplies the following partial results:
 
 **Implications for SCBU verdict.** The SCBU synthesis (Paper_SCBU) remains at **M3** (FORM-FORCED + VALUE-INHERITED). This paper does not upgrade to M2 because it does not close the substrate-cosmology coupling parameter (Route A) or the $\beta(K)$ functional form (Route B) or the boundary value $K_{\mathrm{boundary}}$ (Route C).
 
-**Closing one of Routes A, B, C upgrades the verdict:**
+**Closing one of Routes A, B, C upgrades the verdict** (standardized convention):
 
-- **Closing Route A** ($\ell_{V5}(H_0)$ derivation) is the highest-impact closure. It would supply the dimensional content for $\xi_{\mathrm{canonical}}$ in terms of $H_0$ directly. If this closure produces $\xi_{\mathrm{canonical}} = 1.7575$ lu, the SCBU synthesis upgrades **M3 → M2** (and possibly M1 if the closure requires no additional postulates beyond Paper_087 primitives + P-Substrate-Cosmology-Unified). This would be the first cross-arc M1 result in the corpus.
+- **Closing Route A** ($\ell_{V5}(H_0)$ derivation) propagates to an arc-wide **M3 → M2** upgrade. Route A supplies the substrate-cosmology coupling parameter that grounds $\xi_{\mathrm{canonical}}$'s numerical content in $H_0$ directly. This is the highest-impact closure target.
 
-- **Closing Route B** ($\beta(K)$ derivation) supplies the RG-flow functional form; combined with cosmological-boundary anchoring, this could also close the numerical content. Verdict upgrade: M3 → M2.
+- **Closing Route B** ($\beta(K)$ derivation) supplies the RG-flow functional form; combined with cosmological-boundary anchoring, contributes to closure. Verdict upgrade: M3 → M2.
 
-- **Closing Route C** ($K_{\mathrm{boundary}}$ derivation) supplies the boundary value; combined with $\beta(K)$ form (Route B), the closure is complete. Verdict upgrade: M3 → M2 (combined with B); M3 → M1 if all three close simultaneously without additional postulates.
+- **Closing Route C** ($K_{\mathrm{boundary}}$ derivation) supplies the boundary value. Verdict upgrade: M3 → M2.
+
+- **Closing all three Routes A + B + C simultaneously without additional postulates** propagates to an arc-wide **M3 → M1** upgrade. This would be the first cross-arc M1 result in the corpus.
+
+The standardized verdict-upgrade convention (single Route → M2, all three Routes + no new postulates → M1) is used uniformly across the ED-SC 4.x arc.
 
 **Position in ED-SC 4.x roadmap.** This paper is the **second** ED-SC 4.x extension paper, following Paper_ED_SC_4.1 (BH horizon ↔ cosmic decoupling surface projection). It identifies the **highest-impact open derivation** in the ED-SC 4.x program: the substrate-cosmology coupling $\ell_{V5}(H_0)$ (Route A). Subsequent ED-SC 4.x papers (in queue) should target Route A as the priority.
 

@@ -17,7 +17,7 @@
 3. **IR regime** ($\ell_{V5} \lesssim r \ll R_H$): V5-modulated effective dynamics; **multi-sector projection regime** hosting NS-Q canonical operating point, deep-MOND galactic asymptote, and Q-Compute platform-coherence wall as three distinct boundary-projection manifestations.
 4. **Cosmological regime** ($r \sim R_H$): V5-saturated boundary; cosmic decoupling surface; BH-horizon (parameterized by local mass) as boundary-projection.
 
-All **five SCBU projections** identified across the ED-SC 4.x arc occupy distinct, FORM-FORCED positions within this unified four-regime structure: $r_H/R_H$ (Paper_ED_SC_4.1; cosmological regime), $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2; substrate-scale anchor spanning IR-to-cosmological), $a_0$ (Paper_ED_SC_4.3; IR-galactic projection), $\mathcal{M}_{\mathrm{crit}}$ (Paper_ED_SC_4.4; IR-platform-coherence projection), $Q \approx 3.5$ (Paper_ED_SC_4.5; IR-hydrodynamic projection).
+All **six SCBU projections** identified across the ED-SC 4.x arc occupy distinct, FORM-FORCED positions within this unified four-regime structure (counting Paper_ED_SC_4.1's two arms — $r_H$ and $R_H$ — as two separate parameter-axis projections): $r_H$ and $R_H$ (Paper_ED_SC_4.1; regime-4 local-grav arm and global arm respectively), $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2; substrate-scale anchor spanning IR-to-cosmological), $a_0$ (Paper_ED_SC_4.3; IR-galactic sub-projection), $\mathcal{M}_{\mathrm{crit}}$ (Paper_ED_SC_4.4; IR-platform-coherence sub-projection), $Q \approx 3.5$ (Paper_ED_SC_4.5; IR-hydrodynamic sub-projection).
 
 **Clarification.** The unified model is **FORM-FORCED**. Numerical values at each projection remain INHERITED. The unification's substantive content is structural: a single substrate-cosmology boundary, multiple projection mechanisms, four regime classes. No new postulates introduced beyond P-Substrate-Cosmology-Unified.
 
@@ -124,9 +124,9 @@ Mechanism: cross-scale fixed-point projection (Paper_096) of the SCBU boundary o
 Status: FORM-FORCED structural projection; numerical $r_H$ INHERITED via standard Schwarzschild matching.
 
 **Projection 2: Cosmic decoupling surface $R_H = c/H_0$ (Paper_028).**
-RG regime: 4 (cosmological).
+RG regime: 4 (cosmological) — global arm.
 Parameter axis: global cosmological rate $H_0$.
-Mechanism: azimuthal-Fourier projection (Paper_029 + Paper_ED_SC_4.1) of the SCBU boundary onto global-cosmological coordinates.
+Mechanism: substrate-causality / decoupling-surface argument (Paper_028 directly) — kernel-propagation-rate / Hubble-expansion-rate crossover places the boundary at $R_H = c/H_0$. **Distinct from $a_0$'s azimuthal-Fourier mechanism** (Projection 4 below); both anchor to the substrate-cosmology boundary via Paper_SCBU but use different projection mechanisms.
 Status: FORM-FORCED structural projection; numerical $R_H$ INHERITED via Hubble-rate measurement.
 
 **Projection 3: $\xi_{\mathrm{canonical}}$ (Paper_096 / Paper_ED_SC_4.2).**
@@ -136,9 +136,9 @@ Mechanism: fixed-point equation $\beta(K(\xi_{\mathrm{canonical}})) = 0$ on the 
 Status: FORM-FORCED structural setup; numerical 1.7575 lu INHERITED (canon-internal); three OPEN closure routes (A: $\ell_{V5}(H_0)$, B: $\beta(K)$, C: $K_{\mathrm{boundary}}$).
 
 **Projection 4: $a_0 = c H_0/(2\pi)$ (Paper_ED_SC_4.3).**
-RG regime: 3 (IR-galactic).
+RG regime: 3 (IR-galactic sub-projection).
 Parameter axis: local galactic acceleration.
-Mechanism: azimuthal-Fourier projection of $R_H$ (same $2\pi$ signature as $R_H$ projection) to galactic-acceleration scale via $c^2/R_H$ dimensional rotation.
+Mechanism: azimuthal-Fourier-mode normalization on residual SO(2) symmetry of an accelerating chain (Paper_029). The $2\pi$ factor in the denominator is the load-bearing geometric signature of this mechanism. **Distinct from $R_H$'s substrate-causality mechanism** (Projection 2 above); $a_0$ and $R_H$ are dimensionally related by $a_0 \sim c^2/R_H$ up to the $1/(2\pi)$ azimuthal factor, but their derivation mechanisms differ.
 Status: FORM-FORCED structural projection; numerical $a_0 \approx 1.2 \times 10^{-8}$ cm/s$^2$ INHERITED via empirical / standard matching.
 
 **Projection 5: $\mathcal{M}_{\mathrm{crit}}$ (Paper_ED_SC_4.4).**
@@ -157,14 +157,16 @@ Status: FORM-FORCED structural projection; canon-internal numerical 3.5 INHERITE
 
 | Projection | RG regime | Parameter axis | Mechanism |
 |---|---|---|---|
-| $r_H$ | 4 cosmological (local-grav arm) | Mass $M$ | Cross-scale fixed-point |
-| $R_H$ | 4 cosmological (global arm) | $H_0$ | Azimuthal-Fourier |
+| $r_H$ | 4 cosmological (local-grav arm) | Mass $M$ | Cross-scale fixed-point + Schwarzschild matching |
+| $R_H$ | 4 cosmological (global arm) | $H_0$ | Substrate-causality / decoupling-surface (Paper_028) |
 | $\xi_{\mathrm{canonical}}$ | spans 3–4 | Substrate-scale | Fixed-point + boundary anchor |
-| $a_0$ | 3 IR-galactic | Local galactic accel | Azimuthal-Fourier to accel scale |
-| $\mathcal{M}_{\mathrm{crit}}$ | 3 IR-platform | Multiplicity-budget | Three-constituent boundary projection |
-| $Q$ | 3 IR-hydrodynamic | Hydrodynamic-Q | Stored / dissipated ratio at canonical operating point |
+| $a_0$ | 3 IR-galactic sub-projection | Local galactic accel | Azimuthal-Fourier on residual SO(2) (Paper_029) |
+| $\mathcal{M}_{\mathrm{crit}}$ | 3 IR-platform sub-projection | Multiplicity-budget | Three-constituent boundary projection |
+| $Q$ | 3 IR-hydrodynamic sub-projection | Hydrodynamic-Q | Stored / dissipated ratio at canonical operating point |
 
-(Six entries: $r_H$ and $R_H$ are the two arms of Paper_ED_SC_4.1's single projection paper; Paper_ED_SC_4.1 places both in regime 4 with different parameter axes.)
+Note the mechanism distinction: $R_H$ uses Paper_028's substrate-causality argument; $a_0$ uses Paper_029's azimuthal-Fourier mechanism on residual SO(2). Both anchor to the substrate-cosmology boundary (via Paper_SCBU) but employ different projection mechanisms onto different parameter axes.
+
+Six projections total, counting $r_H$ and $R_H$ as separate parameter-axis projections within regime 4 (Paper_ED_SC_4.1 §3.7 establishes both arms; they share regime placement but have distinct projection mechanisms and parameter axes).
 
 ### 3.4 Cross-sector invariance relations
 
@@ -213,7 +215,7 @@ All values are INHERITED. Form correspondences are FORCED.
 
 ### 3.7 Summary: unified cross-scale invariance model
 
-The substrate-cosmology boundary at $R_H = c/H_0$ induces a unified four-regime RG structure on substrate kernel dynamics. Five (six counting the two arms of Paper_ED_SC_4.1) SCBU-derived projections occupy distinct, FORM-FORCED positions within this structure:
+The substrate-cosmology boundary at $R_H = c/H_0$ induces a unified four-regime RG structure on substrate kernel dynamics. **Six SCBU-derived projections** (counting Paper_ED_SC_4.1's two arms as two separate parameter-axis projections) occupy distinct, FORM-FORCED positions within this structure:
 
 - **Regime 4 (cosmological):** BH horizon $r_H$ + cosmic decoupling $R_H$ (Paper_ED_SC_4.1).
 - **Regime 3-spanning-4 (substrate-scale anchor):** $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2).
@@ -313,11 +315,12 @@ The four cross-sector invariance relations (IR-1 through IR-4) + four multi-regi
 
 **Numerical content.** All canonical / canon-internal numerical values across the unified model ($r_H$, $R_H$, $\xi_{\mathrm{canonical}} = 1.7575$ lu, $a_0 \approx 1.2 \times 10^{-8}$ cm/s$^2$, $\mathcal{M}_{\mathrm{crit}}$ per platform, $Q \approx 3.5$, 0.6 transition exponent) remain **INHERITED**. The substrate-level claim is the **structural unification**, FORM-FORCED only. Verdict: **M3**.
 
-**Closure conditional and verdict-upgrade structure.** The unified-arc verdict is conditional on Paper_ED_SC_4.2's closure routes:
+**Closure conditional and verdict-upgrade structure** (standardized convention, consistent with Papers 4.2, 4.3, 4.4, 4.5):
 
-- **Closing Route A** (substrate-derived $\ell_{V5}(H_0)$): **six-way simultaneous M3 → M2 upgrade** across all ED-SC 4.x papers (4.1, 4.2, 4.3, 4.4, 4.5, 4.6). This is the highest-impact corpus-level achievement currently identifiable.
-- **Closing Routes B + C** (substrate-derived $\beta(K)$ + boundary kernel $K_{\mathrm{boundary}}$): same six-way upgrade; alternative path.
-- **Closing all three routes simultaneously without additional postulates**: potential **M3 → M1 upgrade across the ED-SC 4.x arc** — the first cross-arc M1 result in the corpus.
+- **Closing Route A** (substrate-derived $\ell_{V5}(H_0)$): propagates to **six-way simultaneous M3 → M2 upgrade** across all six ED-SC 4.x papers (4.1, 4.2, 4.3, 4.4, 4.5, 4.6). Route A is the highest-impact closure target.
+- **Closing Route B** (substrate-derived $\beta(K)$ functional form): propagates to **M3 → M2**, alternative path.
+- **Closing Route C** (substrate-derived $K_{\mathrm{boundary}}$ at $R_H$): propagates to **M3 → M2**, alternative path.
+- **Closing all three Routes A + B + C simultaneously without introducing additional postulates beyond Paper_087 primitives + P-Substrate-Cosmology-Unified**: propagates to **M3 → M1 upgrade across the entire ED-SC 4.x arc** — the first cross-arc M1 result in the corpus.
 
 **Testable predictions inherited and extended.** The unified model supplies multiple testable structural predictions:
 

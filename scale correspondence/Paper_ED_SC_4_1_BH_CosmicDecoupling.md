@@ -67,14 +67,14 @@ By P-Substrate-Cosmology-Unified (Paper_SCBU), the substrate-cosmology boundary 
 
 This shared object is **not** the GR metric; it is a substrate-level structural feature. The two derived quantities $r_H$ and $R_H$ are projections of this object onto two distinct parameter regimes.
 
-### 3.2 Projection mechanism A: azimuthal-Fourier (Paper_029)
+### 3.2 Projection mechanism A: substrate-causality (Paper_028)
 
-The cosmic decoupling surface $R_H = c/H_0$ (Paper_028) arises from the substrate-cosmology boundary under **azimuthal-Fourier projection**: at the global cosmological scale, the boundary's $\Gamma_{\mathrm{cross}}$ structure is averaged over the substrate's azimuthal (rotational) degrees of freedom, producing an isotropic boundary radius set by the cosmological rate $H_0$.
-
-The factor of $2\pi$ entering Paper_029's $a_0 = c H_0/(2\pi)$ is the **azimuthal-Fourier-projection signature**: the substrate-cosmology boundary's azimuthal-mode structure descends to a $2\pi$-normalized radius scale. This is the structural origin of the $2\pi$ factor.
+The cosmic decoupling surface $R_H = c/H_0$ (Paper_028) arises from the substrate-cosmology boundary under a **substrate-causality / decoupling-surface argument**: beyond $R_H$, substrate-level cross-locus influence cannot reach a local chain coherently, because the kernel-propagation-rate / Hubble-expansion-rate crossover places the boundary at $R_H = c/H_0$. This is Paper_028's load-bearing mechanism; it does **not** invoke azimuthal-Fourier projection (that mechanism applies to $a_0$ via Paper_029, not to $R_H$).
 
 Projection A yields:
 $$R_H = c/H_0 \quad \text{(cosmic decoupling surface scale)} .$$
+
+The factor of $2\pi$ that appears in Paper_029's $a_0 = c H_0/(2\pi)$ is a **distinct** projection-mechanism signature: it arises from azimuthal-Fourier-mode normalization on the residual SO(2) symmetry of an accelerating chain, applied at the galactic-acceleration parameter axis (Paper_029 + Paper_ED_SC_4.3 §3.2). Both projections share substrate-cosmology-boundary anchoring (via Paper_SCBU), but they use different projection mechanisms onto different parameter axes.
 
 ### 3.3 Projection mechanism B: cross-scale fixed point (Paper_096)
 
@@ -105,7 +105,7 @@ where the left side parameterizes the boundary by local gravitational mass and t
 
 The numerical values of $r_H$ and $R_H$ at any specific $(M, H_0)$ remain INHERITED from standard expressions. The substrate-level content is the **structural projection-correspondence**, not a quantitative identification.
 
-The factor of 2 in $r_H = 2GM/c^2$ and the factor of $2\pi$ in $R_H = c/H_0$ (via the $a_0 = c H_0/(2\pi)$ azimuthal-Fourier signature, §3.2) are different projection-mechanism signatures, both inherited via empirical / standard-math matching at the projection level.
+The factor of 2 in $r_H = 2GM/c^2$ (Schwarzschild form) and the absence of a $2\pi$ factor in $R_H = c/H_0$ (Paper_028's substrate-causality form) are different projection-mechanism signatures, both inherited via empirical / standard-math matching at the projection level. The $2\pi$ that *does* appear in $a_0 = cH_0/(2\pi)$ (Paper_029) is a separate signature attached to the galactic-acceleration projection axis, not to $R_H$ itself.
 
 ### 3.6 Kernel-cascade interpretation (Paper_091)
 
@@ -119,27 +119,27 @@ By Paper_091's kernel cascade across scales, the substrate kernel hierarchy V1 �
 
 By P-Cascade-Continuity (Paper_091), the transition between regimes is smooth; the BH-horizon and cosmological-decoupling regimes are continuous endpoints of the same cascade structure.
 
-### 3.7 Regime classification: UV / transition / IR / cosmological
+### 3.7 Regime classification: four RG regimes with multi-parameter cosmological arms
 
-Composing Paper_097's three-regime RG (UV V1-dominated, transition, IR V5-dominated) with this paper's substrate-cosmology boundary projection, the full regime classification is:
+Composing Paper_097's three-regime RG (UV V1-dominated, transition, IR V5-dominated) with this paper's substrate-cosmology boundary projection, the full classification is **four RG regimes** with regime 4 (cosmological) hosting two parameter-axis arms (local-gravitational mass and global cosmological rate):
 
 | Regime | Scale | Substrate content | Boundary manifestation |
 |---|---|---|---|
-| UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade; no boundary |
-| Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade region | Cascade region (Paper_097 0.6 exponent) |
-| IR (hydrodynamic) | $\ell_{V5} \lesssim r \lesssim L_{\mathrm{flow}}$ | V5-modulated dynamics | NS / MHD regime |
-| **BH-horizon** | $r \sim r_H$ | V5-saturated boundary | Local-gravitational projection of substrate-cosmology boundary |
-| **Cosmological** | $r \sim R_H$ | V5-saturated boundary | Azimuthally-projected substrate-cosmology boundary |
+| 1 UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade; no boundary |
+| 2 Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade region | Cascade region (Paper_097 0.6 exponent) |
+| 3 IR (hydrodynamic) | $\ell_{V5} \lesssim r \lesssim L_{\mathrm{flow}}$ | V5-modulated dynamics | NS / MHD regime |
+| 4 Cosmological — local-grav arm | $r \sim r_H$ | V5-saturated boundary | BH-horizon projection of substrate-cosmology boundary (parameterized by mass $M$) |
+| 4 Cosmological — global arm | $r \sim R_H$ | V5-saturated boundary | Cosmic decoupling projection of substrate-cosmology boundary (parameterized by $H_0$) |
 
-The BH-horizon and cosmological rows are **both** manifestations of the same V5-saturated substrate boundary. The substrate object is one; the parameter-regimes of its projection are two.
+The two "regime 4" rows are **both arms of the same RG regime** — different parameter-axis projections of the same V5-saturated substrate-cosmology boundary. They are not separate regimes; they are two parameter-axis manifestations within regime 4. The substrate object is one; the parameter-axes of its projection are two.
 
 ### 3.8 Summary
 
-The BH horizon $r_H = 2GM/c^2$ and the cosmic decoupling surface $R_H = c/H_0$ are **two boundary-regime manifestations of the same substrate-cosmology boundary object** under the SCBU unification postulate. They differ by:
+The BH horizon $r_H = 2GM/c^2$ and the cosmic decoupling surface $R_H = c/H_0$ are **two parameter-axis arms of regime 4** (cosmological) under the SCBU unification postulate. They differ by:
 
-- **Projection mechanism:** azimuthal-Fourier (cosmological) vs cross-scale fixed-point (BH-horizon).
-- **Parameter regime:** local gravitational mass $M$ vs global cosmological rate $H_0$.
-- **Numerical-factor signatures:** $2\pi$ azimuthal vs $2$ Schwarzschild — both empirically-matched and not derived from substrate primitives.
+- **Projection mechanism:** substrate-causality / decoupling-surface argument (Paper_028, for $R_H$) vs cross-scale fixed-point + Schwarzschild matching (Paper_039 + Paper_096, for $r_H$).
+- **Parameter axis:** global cosmological rate $H_0$ vs local gravitational mass $M$.
+- **Numerical-factor signatures:** $R_H$ carries no special signature factor (form is $c/H_0$ directly); $r_H$ carries Schwarzschild factor $2$. Both inherited via empirical / standard-math matching, not derived from substrate primitives.
 
 The structural correspondence is FORM-FORCED. The numerical values are INHERITED. The verdict is **M3**: form-FORCED + value-INHERITED, no constructive numerical identification claimed.
 
@@ -158,12 +158,12 @@ The structural correspondence is FORM-FORCED. The numerical values are INHERITED
 | 7 | Cross-scale invariance + canonical operating point | I | Paper_096. |
 | 8 | Three-regime RG classification | I | Paper_097. |
 | 9 | Substrate-cosmology boundary as shared object | D (composition of SCBU + I-039 + I-028) | Composition is new content of §3.1. |
-| 10 | Projection A: azimuthal-Fourier $\to R_H$ | D-via-I | Application of Paper_029 $2\pi$-signature to SCBU object. |
-| 11 | Projection B: cross-scale fixed-point $\to r_H$ | D-via-I | Application of Paper_096 fixed-point to SCBU object. |
+| 10 | Projection A: substrate-causality $\to R_H = c/H_0$ | D-via-I | Application of Paper_028 substrate-causality argument to SCBU object. |
+| 11 | Projection B: cross-scale fixed-point $\to r_H = 2GM/c^2$ | D-via-I | Application of Paper_096 fixed-point + Schwarzschild matching to SCBU object. |
 | 12 | BH horizon = V5-saturated boundary manifestation | I | Paper_039 substrate identification. |
 | 13 | Mapping $r_H \leftrightarrow R_H$ under SCBU | D (composition) | §3.5; structural correspondence, not numerical identity. |
 | 14 | Cascade-continuity at boundary regimes | I | Paper_091. |
-| 15 | Five-regime classification (UV / transition / IR / BH-horizon / cosmological) | D-via-I | §3.7 composition of Paper_097 + SCBU + this paper. |
+| 15 | Four-regime classification with regime-4 two-arm (local-grav $r_H$ + global $R_H$) | D-via-I | §3.7 composition of Paper_097 + SCBU + this paper. |
 | 16 | Structural correspondence FORM-FORCED | A→position | Composite verdict. |
 | 17 | Numerical values $r_H, R_H$ inherited | I | Standard expressions; not derived from substrate primitives. |
 | 18 | M3 verdict (FORM-FORCED + VALUE-INHERITED) | A→position | Verdict register per Paper_095 methodology. |

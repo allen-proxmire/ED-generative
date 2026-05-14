@@ -1,166 +1,291 @@
 # Papers Index — Canonical Source of Truth
 
-**Last updated:** 2026-05-13
-**Purpose:** Single source of truth for every paper in the ED-Generative repository. Tracks global paper number (historical), title, domain assignment, status, and file location.
+**Last updated:** 2026-05-14
+**Purpose:** Single source of truth for every paper in the ED corpus. Tracks paper number (locked-in numbering), title, domain/arc assignment, status, and file location. Reflects the corpus state after Round 1 (per-paper QC), Round 2 (cross-paper audit + theorem gap-fill), and Round 3 (cross-arc harmonization + SCBU + ED-SC 4.x arc).
+
+**Source corpus:** `C:\Users\allen\GitHub\event-density\papers\Forcing Papers\`
 
 **Status enum:**
-- **WRITTEN** — paper complete, in repository.
+- **WRITTEN** — paper complete in corpus.
 - **DRAFTING** — actively being written.
 - **PLANNED** — identified, scheduled, not yet started.
-- **CANDIDATE** — on the 101-candidate list but not yet committed to.
-- **ARCHIVED** — superseded or retired.
+- **CANDIDATE** — on the long candidate list but not yet committed to.
+- **ARCHIVED** — superseded or retired; preserved for provenance.
 - **SUPERSEDED** — replaced by a later paper or restructured.
 
 ---
 
-## Wave-1 Papers (Forcing Papers #1–#19 from `event-density` repo)
+## Arc 1 — Quantum Kinematics (Papers 001–012)
 
-These are the first-wave conditional-derivation papers written in the `event-density/papers/Forcing Papers/` folder. Migration to this repository is pending.
+The Phase-1 QM-emergence program. Sixteen theorems closing the four standard quantum-mechanical postulates as substrate-derived results.
 
-| # | Title | Domain | Sub-domain | Status | File path |
-|---|---|---|---|---|---|
-| 1 | The Participation Measure | qm-kinematics | foundations | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/foundations/01_participation_measure.md` |
-| 2 | The Born Rule | qm-kinematics | foundations | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/foundations/02_born_rule.md` |
-| 3 | Sesquilinear Inner Product + Tsirelson Bound | qm-kinematics | foundations | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/foundations/03_inner_product_tsirelson.md` |
-| 4 | Schrödinger Equation (Stone-theorem route) | qm-kinematics | dynamics | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/dynamics/01_schrodinger_stone.md` |
-| 5 | Gauge Fields (Theorem 17) | qft | gauge | WRITTEN (pending migration) | `domain-arcs/qft/gauge/01_gauge_fields_T17.md` |
-| 6 | Hamiltonian + Mass Structure | qm-kinematics | observables | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/observables/01_hamiltonian_mass.md` |
-| 7 | Dirac Equation + g=2 | qm-kinematics | relativistic | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/relativistic/01_dirac_g2.md` |
-| 8 | DCGT Gauge Translation | qft | gauge | WRITTEN (pending migration) | `domain-arcs/qft/gauge/02_DCGT_gauge_translation.md` |
-| 9 | Newton's G + a₀ + BTFR + ECR | gravity | foundations | WRITTEN (pending migration) | `domain-arcs/gravity/foundations/01_newton_a0_BTFR.md` |
-| 10 | BH Architecture + Hawking Spectrum | black-hole | hawking | WRITTEN (pending migration) | `domain-arcs/black-hole/hawking/01_BH_architecture_hawking.md` |
-| 11 | Heisenberg Uncertainty | qm-kinematics | observables | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/observables/02_heisenberg.md` |
-| 12 | Momentum Operator | qm-kinematics | dynamics | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/dynamics/02_momentum_operator.md` |
-| 13 | Schrödinger thin-participation limit | qm-kinematics | dynamics | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/dynamics/03_schrodinger_thin_limit.md` |
-| 14 | Born Rule via Bandwidth Ratio | qm-kinematics | foundations | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/foundations/04_born_via_bandwidth_ratio.md` |
-| 15 | Adjacency Kinetic Structure | qm-kinematics | observables | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/observables/03_adjacency_kinetic.md` |
-| 16 | Phase-Independence of Bandwidth | qm-kinematics | foundations | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/foundations/05_phase_independence.md` |
-| 17 | Four Postulates Unified (synthesis) | qm-kinematics | synthesis | WRITTEN (pending migration) | `domain-arcs/qm-kinematics/synthesis/01_four_postulates_unified.md` |
-| 18 | V1 Finite-Width Kernel (Theorem N1) | cross-domain | kernels | WRITTEN (pending migration) | `cross-domain/kernels/V1_finite_width.md` |
-| 19 | V1 Retarded Support (Theorem T18) | cross-domain | kernels | WRITTEN (pending migration) | `cross-domain/kernels/V1_retarded_support.md` |
-
-**Wave-1 status:** 19 papers WRITTEN; pending migration into this repository's structure.
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 001 | Pre-Individuation Amplitudes | foundations | WRITTEN | `Paper_001_PreIndividuation.md` |
+| 002 | Tensor Product / Bipartite Mapping | foundations | WRITTEN | `Paper_002_TensorProduct.md` |
+| 003 | Born Rule | foundations | WRITTEN | `Paper_003_BornRule.md` |
+| 004 | Gleason-Type Uniqueness | foundations | WRITTEN | `Paper_004_GleasonUniqueness.md` |
+| 005 | Projective Measurement | measurement | WRITTEN | `Paper_005_ProjectiveMeasurement.md` |
+| 006 | Unitary Evolution | dynamics | WRITTEN | `Paper_006_UnitaryEvolution.md` |
+| 007 | Hilbert-Space Emergence | foundations | WRITTEN | `Paper_007_HilbertSpace.md` |
+| 008 | Phase Structure / U(1) Cyclic Substructure | foundations | WRITTEN | `Paper_008_PhaseStructure.md` |
+| 008 (legacy) | Kernel Arrow (early draft; content moved to Paper_093) | — | ARCHIVED | `Paper_008_KernelArrow.md` |
+| 009 | Berry Phase via Adiabatic Coarse-Graining | observables | WRITTEN | `Paper_009_BerryPhase.md` |
+| 010 | Aharonov-Bohm Phase | observables | WRITTEN | `Paper_010_AharonovBohm.md` |
+| 011 | Bloch Theorem from P10 Translation Symmetry | dynamics | WRITTEN | `Paper_011_BlochTheorem.md` |
+| 012 | RB-1: Rate of Becoming (substrate-c invariance) | dynamics | WRITTEN | `Paper_012_RB1_RateOfBecoming.md` |
 
 ---
 
-## Wave-2 Papers (next in queue)
+## Arc 2 — Form-Level QFT (Papers 013–024)
 
-Identified as natural successors to Paper #19. Not yet drafted.
+Substrate-level QFT scaffolding. V1 spectral structure, T17 gauge fields, Yang–Mills arc, Lindblad open-system limit.
 
-| # | Title | Domain | Sub-domain | Status | Notes |
-|---|---|---|---|---|---|
-| 20 | V5 Cross-Chain Correlation Kernel | cross-domain | kernels | PLANNED | High priority — cross-scale-unification wedge. Existing material in Arc-D, Arc-E, Arc-Hawking memos. |
-| 21 | Memory-Kernel Cascade (N1-E, N2-E, N3-D) | cross-domain | kernels | PLANNED | Inherits retarded support from V1 (Paper #19). |
-| 22 | Lindblad Limit | qm-kinematics | measurement | PLANNED | Markovian limit of retarded V1; open-system dynamics. |
-| 23 | Kernel Hierarchy Structural Unification | cross-domain | kernels | PLANNED | Synthesis of V1 + V5 + memory-kernel cascade. |
-
----
-
-## Wave-3+ Candidates (from the 101-candidate list)
-
-The full 101-candidate list identified during the 2026-05-12 corpus mapping spans multiple domains. Candidates here are CANDIDATE-status until promoted to PLANNED / DRAFTING. Realistic completion estimate: ~30–60 papers over the program's lifetime; the 101 is an upper bound, and many candidates will merge, split, or be deprecated on closer inspection.
-
-### qm-kinematics candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| Berry phase generative derivation | observables | CANDIDATE |
-| Aharonov-Bohm phase | observables | CANDIDATE |
-| Bloch theorem | dynamics | CANDIDATE |
-| Photonic Chern channels + quantized Hall drift | observables | CANDIDATE |
-| Rate of Becoming (Hau-Katori-Ye AMO) | dynamics | CANDIDATE |
-| Quantum-erasure substrate-level analysis | measurement | CANDIDATE |
-| ER=EPR-class entanglement structure | (see entanglement) | CANDIDATE |
-| ... (additional Wave-1 candidates not yet allocated) | — | CANDIDATE |
-
-### qft candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| Renormalization group via DCGT three-regime | renormalization | CANDIDATE |
-| ζ-function vacuum-energy derivation | renormalization | CANDIDATE |
-| Anomaly content from substrate primitives | anomalies | CANDIDATE |
-| LSZ reduction formula from V1 propagator | propagators | CANDIDATE |
-| ... | — | CANDIDATE |
-
-### gravity candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| Curvature emergence (Arc ED-10 closure) | strong-field | CANDIDATE (existing memos in event-density) |
-| Galactic rotation curve fits (DR1 sample) | galactic | CANDIDATE |
-| Cosmological-arrow synthesis | cosmological | CANDIDATE |
-| Weak-lensing activity dependence | galactic | CANDIDATE |
-| Merger-lag prediction | galactic | CANDIDATE |
-| ... | — | CANDIDATE |
-
-### soft-matter candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| Maxwell relaxation in polymer melts (Arc D paper) | viscoelasticity | CANDIDATE (existing memos) |
-| Universal mobility law publication-grade | mobility | CANDIDATE (FRAP-validated) |
-| Navier-Stokes structural smoothness (Intermediate Path C) | fluid-mechanics | CANDIDATE (NS Synthesis Paper exists) |
-| MHD kinematic-coupling structural analysis | fluid-mechanics | CANDIDATE |
-| Yang-Mills mass-gap structural | (cross-domain?) | CANDIDATE |
-| ... | — | CANDIDATE |
-
-### black-hole candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| BH information paradox resolution (publication-grade) | information | CANDIDATE (paper exists in event-density) |
-| Page curve from V5 bandwidth-budget | hawking | CANDIDATE |
-| Greybody factors substrate-level | hawking | CANDIDATE |
-| Planck-mass remnant cosmological abundance | remnants | CANDIDATE (H-9 memo exists) |
-| Trans-Planckian resolution paper | hawking | CANDIDATE |
-| ... | — | CANDIDATE |
-
-### q-compute candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| Class-A multiplicity wall publication-grade | multiplicity | CANDIDATE (Q-COMPUTE foundations exists) |
-| Class-B exponential gap-suppression | multiplicity | CANDIDATE |
-| Class-C correlation-budget plateau | multiplicity | CANDIDATE |
-| Platform-specific bridges (SC qubits, trapped ions, etc.) | platforms | CANDIDATE |
-| ... | — | CANDIDATE |
-
-### entanglement candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| Arc E synthesis paper | — | CANDIDATE (7 memos exist in event-density) |
-| Monogamy from cross-chain bandwidth | — | CANDIDATE |
-| Bipartite entanglement structural derivation | — | CANDIDATE |
-| ... | — | CANDIDATE |
-
-### cross-domain candidates
-
-| Title | Sub-domain | Status |
-|---|---|---|
-| ED Combination Rule publication-grade | ED_combination_rule | CANDIDATE |
-| Cross-scale invariants synthesis | cross_scale_invariants | CANDIDATE |
-| Kernel-level arrow of time publication-grade | arrow_of_time | CANDIDATE |
-| V5 cross-scale unification publication-grade | kernels | CANDIDATE |
-| ED-QFT Overview (unified position paper) | synthesis_papers | CANDIDATE (existing in event-density) |
-| ... | — | CANDIDATE |
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 013 | V1 Vacuum Kernel (Spectral + Form Factor) | kernels | WRITTEN | `Paper_013_V1_VacuumKernel.md` |
+| 014 | V1 in Curved Acoustic Background | kernels | WRITTEN | `Paper_014_V1_CurvedBackground.md` |
+| 015 | T17 — Gauge Fields as Rule-Type Bundles | gauge | WRITTEN | `Paper_015_T17_GaugeFields.md` |
+| 016 | Generalized Minimal Coupling (Non-Abelian) | gauge | WRITTEN | `Paper_016_MinimalCoupling.md` |
+| 017 | Free Scalar QFT / Lorentz Covariantization | qft | WRITTEN | `Paper_017_FreeScalarQFT.md` |
+| 018 | Yang–Mills YM-1: DCGT-NA Construction | yang-mills | WRITTEN | `Paper_018_YangMills1.md` |
+| 019 | YM-2: Substrate→Continuum Action | yang-mills | WRITTEN | `Paper_019_YM2_SubstrateToContinuum.md` |
+| 020 | YM-3: Osterwalder–Schrader Positivity | yang-mills | WRITTEN | `Paper_020_YM3_OSPositivity.md` |
+| 021 | YM-4: Mass-Gap Mechanism (Coercivity) | yang-mills | WRITTEN | `Paper_021_YM4_MassGap.md` |
+| 022 | YM-5: Gauge Orbits / Quotient Hilbert | yang-mills | WRITTEN | `Paper_022_YM5_GaugeQuotient.md` |
+| 023 | YM-6: Clay-Relevance Synthesis | yang-mills | WRITTEN | `Paper_023_YM6_ClaySynthesis.md` |
+| 024 | Lindblad Master Equation (Open-System Limit) | measurement | WRITTEN | `Paper_024_LindbladLimit.md` |
 
 ---
 
-## Total counts (2026-05-13)
+## Arc 3 — Gravity / Substrate Gravity (Papers 025–038)
 
-- **WRITTEN:** 19 (Wave-1 Forcing Papers; pending migration)
-- **PLANNED:** 4 (Wave-2 immediate-queue)
-- **CANDIDATE:** ~78 (remaining from 101-list, allocated to domains)
-- **ARCHIVED:** 5 (M-series: M-1, M-2, M-3, M-4, M-Omnibus) + Meta-Paper M0 drafts
+Substrate-level derivations of Newton's law, a₀, ECR, BTFR slope-4, plus weak-field prerequisites and acoustic-metric covariantization.
 
-The 101-candidate list is an upper bound. Realistic program completion: 30–60 papers depending on which candidates merge, prove redundant, or fall out of scope.
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 025 | Holographic Participation-Count Bound | holography | WRITTEN | `Paper_025_HolographicBound.md` |
+| 026 | Cumulative-Strain Reading of P12 | foundations | WRITTEN | `Paper_026_CumulativeStrain.md` |
+| 027 | Newton's $G = c^3\ell_P^2/\hbar$ | foundations | WRITTEN | `Paper_027_Newtons_G.md` |
+| 028 | Cosmic Decoupling Surface $R_H = c/H_0$ | cosmology | WRITTEN | `Paper_028_CosmicDecoupling.md` |
+| 029 | Transition Acceleration $a_0 = cH_0/(2\pi)$ | mond | WRITTEN | `Paper_029_a0.md` |
+| 030 | ED Combination Rule $a = \sqrt{a_N a_0}$ | mond | WRITTEN | `Paper_030_CombinationRule.md` |
+| 031 | BTFR Slope-4 $v^4 = GMa_0$ | galactic | WRITTEN | `Paper_031_BTFR.md` |
+| 032 | Six Weak-Field Prerequisites | weak-field | WRITTEN | `Paper_032_WeakFieldPrereqs.md` |
+| 033 | Scalar-Tensor Acoustic-Metric Covariantization (Arc ED-10) | strong-field | WRITTEN | `Paper_033_AcousticMetric.md` |
+| 034 | Deep MOND + Superluminality Cost | mond | WRITTEN | `Paper_034_DeepMOND.md` |
+| 035 | Acoustic-Metric Guardrails (C1–C6) | strong-field | WRITTEN | `Paper_035_AcousticGuardrails.md` |
+| 036 | Flat-Background MOND Field Equation | mond | WRITTEN | `Paper_036_MOND_FieldEquation.md` |
+| 037 | $a_0$ Cosmological-Rate Invariance | mond | WRITTEN | `Paper_037_a0_Invariance.md` |
+| 038 | Cosmological Implications (Substrate-Cosmology Decoupling) | cosmology | WRITTEN | `Paper_038_CosmologicalImplications.md` |
+
+---
+
+## Arc 4 — Black Holes / Hawking (Papers 039–052)
+
+Arc BH + Arc Hawking. Horizon as decoupling surface, Hawking spectrum, trans-Planckian resolution, Planck-mass remnant Scenario C, area law, BHPT scattering, helicity, Page curve, info-paradox synthesis.
+
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 039 | Horizon as Decoupling Surface ($\Gamma_{\text{cross}} \to 0$) | foundations | WRITTEN | `Paper_039_HorizonDecoupling.md` |
+| 040 | Trans-Planckian Resolution via V5 Cutoff | hawking | WRITTEN | `Paper_040_TransPlanckian.md` |
+| 041 | Planck-Mass Remnant Scenario C | remnants | WRITTEN | `Paper_041_RemnantMass.md` |
+| 042 | No-Singularity from Substrate Cutoff | interior | WRITTEN | `Paper_042_NoSingularity.md` |
+| 043 | Area-Law Form + $\log g$ Coefficient | thermodynamics | WRITTEN | `Paper_043_AreaLaw.md` |
+| 044 | BHPT Scattering Structure | scattering | WRITTEN | `Paper_044_BHPT_Scattering.md` |
+| 045 | Helicity Behavior at Horizons | scattering | WRITTEN | `Paper_045_Helicity.md` |
+| 046 | Kerr Twist / Axisymmetric Substrate Geometry | rotating | WRITTEN | `Paper_046_KerrTwist.md` |
+| 047 | Hawking Spectrum via Substrate-Unruh / KMS | hawking | WRITTEN | `Paper_047_HawkingSpectrum.md` |
+| 048 | H-8: Higher-Order Resummation Selecting Scenario C | hawking | WRITTEN | `Paper_048_H8_Resummation.md` |
+| 049 | H-9: Cosmological PBH Relic Abundance | remnants | WRITTEN | `Paper_049_PBH_RelicAbundance.md` |
+| 050 | Page Curve via V5 Entanglement-Bandwidth | information | WRITTEN | `Paper_050_PageCurve.md` |
+| 051 | Information Paradox Not Generated (Substrate Audit) | information | WRITTEN | `Paper_051_SubstrateAudit.md` |
+| 052 | BH Information-Paradox Synthesis | information | WRITTEN | `Paper_052_BH_ParadoxSynthesis.md` |
+
+---
+
+## Arc 5 — Q-Compute / UR-1 (Papers 053–062)
+
+Substrate origin of quantum-computing limits. $\mathcal{M}_{\text{cap}}$ as one substrate object; Class A/B/C exhaustiveness; UR-1 theorem; cross-platform unification via $\mathcal{M}_{\text{crit}}$; cross-domain echo with BH.
+
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 053 | $\mathcal{M}_{\text{cap}}$ as One Substrate Object | foundations | WRITTEN | `Paper_053_Mcap.md` |
+| 054 | UR-1 Theorem (Unresolved-Regime Characterization) | foundations | WRITTEN | `Paper_054_UR1.md` |
+| 055 | A/B/C Architectural Exhaustiveness | classification | WRITTEN | `Paper_055_ABC_Exhaustiveness.md` |
+| 056 | Class A Wall at 140–250 kDa (Matter-Wave) | predictions | WRITTEN | `Paper_056_ClassA_Wall.md` |
+| 057 | Class B Exponential Gap-Suppression | predictions | WRITTEN | `Paper_057_ClassB_GapSuppression.md` |
+| 058 | Class C Correlation-Budget Plateau | predictions | WRITTEN | `Paper_058_ClassC_Plateau.md` |
+| 059 | Meta-Architectures as Compositions (EC, DD, hybrids) | architectures | WRITTEN | `Paper_059_MetaArchitectures.md` |
+| 060 | $\mathcal{M}_{\text{crit}}$ Unification (Matter-Wave / Qubit) | unification | WRITTEN | `Paper_060_Mcrit_Unification.md` |
+| 061 | Q-Compute Foundations Consolidated (Capstone) | capstone | WRITTEN | `Paper_061_QCompute_Foundations.md` |
+| 062 | Cross-Domain Echo: BH ↔ Q-Compute V5-Saturation | cross-arc | WRITTEN | `Paper_062_CrossDomainEcho.md` |
+
+---
+
+## Arc 6 — Entanglement (Papers 063–072)
+
+Bipartite entanglement architecture substrate-derived. Tensor product, Schmidt, monogamy via V5, no-signaling three-lock, Tsirelson, von Neumann entropy. Interpretive capstone identifying entanglement as the unresolved regime.
+
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 063 | E-1: Tensor Product Structure | foundations | WRITTEN | `Paper_063_TensorProduct.md` |
+| 064 | E-3: Schmidt Decomposition | foundations | WRITTEN | `Paper_064_SchmidtDecomposition.md` |
+| 065 | E-4: Monogamy via V5 Cross-Chain Bandwidth | foundations | WRITTEN | `Paper_065_Monogamy.md` |
+| 066 | E-5: No-Signaling Three-Lock | foundations | WRITTEN | `Paper_066_NoSignaling.md` |
+| 067 | von Neumann Entropy (folder slot-shifted; see Paper_068) | foundations | WRITTEN | `Paper_067_VonNeumannEntropy.md` |
+| 068 | E-6: von Neumann Entropy (canonical slot per Paper_087) | foundations | WRITTEN | `Paper_068_VonNeumannEntropy.md` |
+| 069 | Bell–Tsirelson Polytope Reconstruction | foundations | WRITTEN | `Paper_069_TsirelsonReconstruction.md` |
+| 070 | E-7: Bipartite Synthesis (Capstone) | capstone | WRITTEN | `Paper_070_BipartiteSynthesis.md` |
+| 071 | ER=EPR-Class Structural Echo (Entanglement ↔ BH) | cross-arc | WRITTEN | `Paper_071_ER_EPR_Echo.md` |
+| 072 | Entanglement as Unresolved Regime (Interpretive Capstone) | interpretation | WRITTEN | `Paper_072_IndividuationRegime.md` |
+
+---
+
+## Arc 7 — Soft Matter / Navier–Stokes / MHD (Papers 073–086)
+
+DCGT bridge, V5 viscoelastic, NS-1 dimensional forcing, NS-2 coarse-graining, NS-Smoothness Intermediate Path C, cascade, P4-NN rheology, NS-Q, NS-MHD closure, advection/induction non-ED, vortex-stretching obstruction, Universal Mobility Law.
+
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 073 | DCGT — Diffusion Coarse-Graining Theorem | foundations | WRITTEN | `Paper_073_DCGT.md` |
+| 074 | V5 Viscoelastic Maxwell Ansatz | viscoelasticity | WRITTEN | `Paper_074_V5_MaxwellAnsatz.md` |
+| 075 | NS-1: Dimensional Forcing to $D = 3+1$ | foundations | WRITTEN | `Paper_075_NS1_DimensionalForcing.md` |
+| 076 | NS-2: Substrate→Continuum Coarse-Graining | foundations | WRITTEN | `Paper_076_NS2_CoarseGraining.md` |
+| 077 | NS-3: Smoothness via R1 (Intermediate Path C) | regularity | WRITTEN | `Paper_077_NS_Smoothness_R1.md` |
+| 078 | NS-Turb: P7 ↔ Cascade | turbulence | WRITTEN | `Paper_078_NS_Turb_P7_Cascade.md` |
+| 079 | P4-NN: Krieger–Dougherty + Maxwell Rheology | rheology | WRITTEN | `Paper_079_P4_NN_Rheology.md` |
+| 080 | NS-Q Canonical $Q \approx 3.5$ | rheology | WRITTEN | `Paper_080_NS_Q_Factor.md` |
+| 081 | NS-MHD H1/H2/H3 Closure | mhd | WRITTEN | `Paper_081_NS_MHD_Closure.md` |
+| 082 | Advection / Induction Non-ED Triangulation | mhd | WRITTEN | `Paper_082_Advection_Induction_NonED.md` |
+| 083 | Unified Kinematic-Coupling Pattern (NS / MHD) | mhd | WRITTEN | `Paper_083_KinematicCoupling.md` |
+| 084 | Vortex-Stretching Obstruction at Substrate Level | regularity | WRITTEN | `Paper_084_VortexStretching.md` |
+| 085 | Universal Mobility Law (Empirical Anchor) | mobility | WRITTEN | `Paper_085_UniversalMobilityLaw.md` |
+| 086 | Soft-Matter Synthesis (Capstone) | capstone | WRITTEN | `Paper_086_SoftMatter_Synthesis.md` |
+
+---
+
+## Arc 8 — Wedges / Kernel Theory / Foundations (Papers 087–097)
+
+Foundational substrate-level theorems and methodology. 13-primitive position paper, primitive load-bearing audit, V1/V5 canonical references, memory-kernel cascade, kernel hierarchy unification, T18 kernel-level arrow, forward-causal primitive structure, methodology formalization, cross-scale invariance, three-regime RG.
+
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 087 | The 13 Primitives — Position Paper | foundations | WRITTEN | `Paper_087_13Primitives.md` |
+| 088 | Primitive Load-Bearing Audit | foundations | WRITTEN | `Paper_088_PrimitiveAudit.md` |
+| 089 | V1 Finite-Width Retarded Kernel (Canonical) | kernels | WRITTEN | `Paper_089_V1Kernel.md` |
+| 090 | V5 Cross-Chain Correlation Kernel (Canonical) | kernels | WRITTEN | `Paper_090_V5Kernel.md` |
+| 091 | Memory-Kernel Cascade Across Scales | kernels | WRITTEN | `Paper_091_KernelCascade.md` |
+| 092 | Kernel Hierarchy Unification (Three-Index Classification) | kernels | WRITTEN | `Paper_092_KernelHierarchy.md` |
+| 093 | T18 — Kernel-Level Arrow of Time | arrow | WRITTEN | `Paper_093_T18_ArrowOfTime.md` |
+| 094 | Forward-Causal Substrate Primitive Structure | arrow | WRITTEN | `Paper_094_ForwardCausality.md` |
+| 095 | Form-FORCED / Value-INHERITED Methodology | methodology | WRITTEN | `Paper_095_FormForced_ValueInherited.md` |
+| 096 | Cross-Scale Invariance (ED-SC 3.x Canonical) | sc-arc | WRITTEN | `Paper_096_CrossScaleInvariance.md` |
+| 097 | Three-Regime RG / 0.6 Problem | sc-arc | WRITTEN | `Paper_097_RG_0p6_Problem.md` |
+
+---
+
+## Program-Level Synthesis Papers (Papers 098–101)
+
+Cross-arc synthesis and corpus-level capstones.
+
+| # | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| 098 | ED-QFT Unified Overview (Program Synthesis) | synthesis | WRITTEN | `Paper_098_EDQFT_Overview.md` |
+| 099 | NS Synthesis Paper | synthesis | WRITTEN | `Paper_099_NS_Synthesis.md` |
+| 100 | Five-Sector Program Overview (100-Paper Milestone Capstone) | capstone | WRITTEN | `Paper_100_FiveSector_ProgramOverview.md` |
+| 101 | Falsification Register and Prediction Inventory (Corpus Capstone) | capstone | WRITTEN | `Paper_101_FalsificationRegister.md` |
+
+---
+
+## Theorem Stubs (T19, T20, T21)
+
+Recovered theorem-stub papers per Round 2 Phase B.2. Follow Paper_093 (T18 rewrite) template; introduce no new postulates.
+
+| Theorem | Title | Status | File |
+|---|---|---|---|
+| T19 | Newton's $G$ Structural Role | WRITTEN | `T19.md` |
+| T20 | $a_0$ Structural Role | WRITTEN | `T20.md` |
+| T21 | BTFR Slope-4 Structural Form | WRITTEN | `T21.md` |
+
+Together with T17 (Paper_015), T18 (Paper_093), GR1 + N1 (Paper_014), UR-1 (Paper_054), the corpus foundational-theorem inventory is complete.
+
+---
+
+## Cross-Arc Synthesis: SCBU
+
+Round 3 Phase B.2 deliverable. Introduces P-Substrate-Cosmology-Unified (corpus's 125th paper-specific postulate).
+
+| Title | Status | File |
+|---|---|---|
+| Substrate-Cosmology Boundary Unification (SCBU) | WRITTEN | `Paper_SCBU_SubstrateCosmologyBoundary.md` |
+
+---
+
+## ED-SC 4.x Arc (Six-Paper Cross-Scale Extension)
+
+Round 3 cross-scale extension arc. Identifies six SCBU-boundary projections within a unified four-regime RG model (UV / Transition / IR multi-sector / Cosmological).
+
+| Paper | Title | Status | File |
+|---|---|---|---|
+| ED-SC 4.1 | BH Horizon ↔ Cosmic Decoupling Surface | WRITTEN | `Paper_ED_SC_4_1_BH_CosmicDecoupling.md` |
+| ED-SC 4.2 | Substrate-Derivation of $\xi_{\text{canonical}}(H_0)$ | WRITTEN | `Paper_ED_SC_4_2_xi_canonical_H0_derivation.md` |
+| ED-SC 4.3 | MOND/Galactic Scale ↔ SCBU IR Projection | WRITTEN | `Paper_ED_SC_4_3_MOND_SCBU.md` |
+| ED-SC 4.4 | Q-Compute Platform Scale ↔ SCBU IR Projection | WRITTEN | `Paper_ED_SC_4_4_QCompute_SCBU.md` |
+| ED-SC 4.5 | Soft-Matter NS-Q Scale ↔ SCBU IR Projection | WRITTEN | `Paper_ED_SC_4_5_SoftMatter_SCBU.md` |
+| ED-SC 4.6 | Unified Cross-Scale Invariance (Capstone) | WRITTEN | `Paper_ED_SC_4_6_UnifiedCrossScale.md` |
+
+All six papers sit at verdict tier M3 (FORM-FORCED + VALUE-INHERITED). Closing Paper_ED_SC_4.2 Route A (substrate-derived $\ell_{V5}(H_0)$) propagates to a **six-way simultaneous M3 → M2 verdict upgrade** across the entire ED-SC 4.x arc. Closing all three Routes A + B + C without additional postulates propagates to **M1** arc-wide — the first cross-arc M1 result in the corpus.
+
+---
+
+## Total counts (2026-05-14)
+
+- **Numbered Papers (001–101):** 101 WRITTEN
+- **Theorem stubs (T19, T20, T21):** 3 WRITTEN
+- **Cross-arc synthesis (SCBU):** 1 WRITTEN
+- **ED-SC 4.x arc extensions (4.1–4.6):** 6 WRITTEN
+- **ARCHIVED legacy file:** 1 (`Paper_008_KernelArrow.md` — kernel-arrow content migrated to Paper_093 T18)
+
+**Grand total: 111 distinct corpus entities (110 WRITTEN + 1 ARCHIVED).**
+
+**Registry state (per Round-3 final rebuild, 2026-05-14):**
+- Paper-specific postulates: 125 (zero WARN-dup name collisions)
+- Foundational theorems: 8 (T17, T18, T19, T20, T21, GR1, N1, UR-1)
+- Top-3 most-cited upstream papers: Paper_087 (96), Paper_090 (51), Paper_089 (49)
+- Orphan papers: 10 (all by-design — 8 capstones, Paper_011 terminus result, Paper_SCBU pending ED-SC 4.x citers though now resolved post-arc-drafting)
+
+---
+
+## Domain ↔ Arc cross-reference
+
+For migration purposes, the canonical arc structure maps to the domain partition as follows:
+
+| Arc | Paper range | Domain | Sub-domains |
+|---|---|---|---|
+| 1 QM Kinematics | 001–012 | qm-kinematics | foundations, dynamics, observables, measurement |
+| 2 Form-Level QFT | 013–024 | qft | kernels, gauge, yang-mills, measurement |
+| 3 Gravity | 025–038 | gravity | foundations, mond, cosmology, strong-field, weak-field, galactic |
+| 4 Black Holes / Hawking | 039–052 | black-hole | foundations, hawking, remnants, interior, thermodynamics, scattering, information |
+| 5 Q-Compute | 053–062 | q-compute | foundations, classification, predictions, architectures, unification, cross-arc |
+| 6 Entanglement | 063–072 | entanglement | foundations, capstone, cross-arc, interpretation |
+| 7 Soft Matter / NS | 073–086 | soft-matter | foundations, viscoelasticity, regularity, turbulence, rheology, mhd, mobility |
+| 8 Wedges / Foundations | 087–097 | cross-domain | foundations, kernels, arrow, methodology, sc-arc |
+| Synthesis (program-level) | 098–101 | cross-domain | synthesis, capstone |
+| T-stubs | T19/T20/T21 | gravity / cross-domain | theorem-stubs |
+| Cross-arc synthesis | SCBU | cross-domain | substrate-cosmology |
+| ED-SC 4.x extensions | 4.1–4.6 | cross-domain | sc-arc |
 
 ---
 
 ## Maintenance discipline
 
 - **Each new paper:** add an entry here when promoted from CANDIDATE → PLANNED → DRAFTING → WRITTEN.
-- **Cross-references in paper §3.0 sections:** reference papers by domain-local filename, not global #.
-- **Global # is historical:** preserved here for paper-trail continuity with the `event-density` Forcing Papers folder. New papers (Wave-2+) get a global # if they're sequenced (Paper #20, #21, etc.); alternatively, new Wave-2+ papers can be referred to by their domain-local filename only and the global # field left blank.
+- **Round-numbered audit suffix `_FIXED`:** several files in the corpus carry a `_FIXED` suffix from Round 1 QC. The file paths in this index use the base name (no `_FIXED` suffix) for stability; treat `Paper_NNN_*.md` and `Paper_NNN_*_FIXED.md` as the same entity when both exist.
+- **Cross-references in paper §3 sections:** reference papers by paper number (Paper_NNN) for in-corpus citations; by file path for repository-migration purposes.
+- **Locked-in numbering:** the 001–101 numbering is stable as of 2026-05-14. T-stubs and SCBU + ED-SC 4.x papers use distinct naming conventions and do not consume numbered slots.
+- **Registry source of truth:** for the live citation graph, postulate inventory, and numerical-value registry, see `event-density/papers/Forcing Papers/_RegistryRound2/`.
+
+---
+
+**End of Papers Index.**

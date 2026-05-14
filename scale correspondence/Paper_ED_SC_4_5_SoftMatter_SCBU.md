@@ -133,45 +133,45 @@ Under SCBU, the universality inherits **structurally** from the boundary's V5-sa
 
 **Structural conclusion:** Universal Mobility Law is FORM-FORCED to be a soft-matter IR-regime scaling law inherited from the substrate kernel hierarchy at the SCBU boundary. Numerical coefficients (specific mobility values per material class) remain INHERITED.
 
-### 3.5 Relationship between $\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, and $Q$
+### 3.5 Six-projection structural relationship across the ED-SC 4.x arc
 
-The five ED-SC 4.x extension papers identify **five SCBU-boundary projections** onto distinct parameter axes:
+The ED-SC 4.x extension papers jointly identify **six SCBU-boundary projections** onto six distinct parameter axes (counting Paper_ED_SC_4.1's two arms — $r_H$ at local-grav and $R_H$ at global cosmological rate — as two separate projections):
 
-$$\xi_{\mathrm{canonical}} \;\;\leftrightarrow\;\; a_0 \;\;\leftrightarrow\;\; \mathcal{M}_{\mathrm{crit}} \;\;\leftrightarrow\;\; Q \;\;\leftrightarrow\;\; r_H \,/\, R_H$$
+$$r_H \;\leftrightarrow\; R_H \;\leftrightarrow\; \xi_{\mathrm{canonical}} \;\leftrightarrow\; a_0 \;\leftrightarrow\; \mathcal{M}_{\mathrm{crit}} \;\leftrightarrow\; Q$$
 
 all project from the **same** substrate-cosmology boundary onto **different parameter axes**:
 
 | Projection paper | Parameter axis | Projected quantity |
 |---|---|---|
-| Paper_ED_SC_4.1 | Local gravitational mass $M$ | $r_H = 2GM/c^2$ |
-| Paper_ED_SC_4.1 | Global cosmological rate $H_0$ | $R_H = c/H_0$ |
+| Paper_ED_SC_4.1 (regime-4 local-grav arm) | Local gravitational mass $M$ | $r_H = 2GM/c^2$ |
+| Paper_ED_SC_4.1 (regime-4 global arm) | Global cosmological rate $H_0$ | $R_H = c/H_0$ |
 | Paper_ED_SC_4.2 | Substrate-scale fixed-point | $\xi_{\mathrm{canonical}}$ (canon-internal 1.7575 lu) |
 | Paper_ED_SC_4.3 | Local galactic acceleration | $a_0 = c H_0/(2\pi)$ |
 | Paper_ED_SC_4.4 | Multiplicity-budget | $\mathcal{M}_{\mathrm{crit}}$ |
 | Paper_ED_SC_4.5 (this) | Hydrodynamic Q-factor | $Q \approx 3.5$ |
 
-**Structural relationship (not numerical):** All five inherit cosmological-boundary anchoring at $R_H = c/H_0$. Numerical values are mutually independent at the inherited level; structural setups are bijectively related through the shared SCBU object.
+**Structural relationship (not numerical):** All six inherit cosmological-boundary anchoring at $R_H = c/H_0$. Numerical values are mutually independent at the inherited level; structural setups are bijectively related through the shared SCBU object.
 
-If Paper_ED_SC_4.2's Routes A/B/C close (substrate-derived $\ell_{V5}(H_0)$), the closure would propagate **simultaneously** to all five projections, producing a **five-way simultaneous verdict upgrade** M3 → M2 across the ED-SC 4.x arc (Papers 4.1, 4.2, 4.3, 4.4, 4.5).
+**Standardized verdict-upgrade convention.** If Paper_ED_SC_4.2's Route A closes (substrate-derived $\ell_{V5}(H_0)$), the closure propagates to a **six-way simultaneous M3 → M2 verdict upgrade** across the entire ED-SC 4.x arc (Papers 4.1, 4.2, 4.3, 4.4, 4.5, 4.6). If all three Routes A + B + C close without introducing additional postulates, the upgrade reaches **M1** arc-wide — the first cross-arc M1 result in the corpus.
 
-This is the load-bearing **simultaneous-closure structural prediction** of the SCBU framework. Closure of one substrate-cosmology coupling derivation (Route A) upgrades five papers at once.
+This is the load-bearing **simultaneous-closure cascade** structural prediction of the SCBU framework. Closure of one substrate-cosmology coupling derivation (Route A) upgrades six papers at once.
 
-### 3.6 Regime classification: UV / transition / IR / cosmological
+### 3.6 Regime classification: four regimes with IR multi-sector + regime-4 two-arm
 
-Extending Paper_ED_SC_4.4's seven-regime classification with the soft-matter NS-Q row:
+The canonical view (per Paper_ED_SC_4.6) is **four RG regimes**, with regime 3 (IR) hosting three parameter-axis sub-projections and regime 4 (cosmological) hosting two parameter-axis arms. Adding the NS-Q canonical sub-projection completes the regime-3 IR multi-sector:
 
 | Regime | Scale | Substrate content | Phenomenological manifestation |
 |---|---|---|---|
-| UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade kinematic |
-| Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade | Paper_097 0.6 exponent |
-| IR (hydrodynamic) | $\ell_{V5} \lesssim r \ll R_H$ | V5-modulated | NS / MHD continuum |
-| **IR (soft-matter NS-Q canonical)** | $\xi \sim \xi_{\mathrm{canonical}}$ | V5-saturated boundary projection | $Q \approx 3.5$ canonical operating point |
-| IR (Q-Compute platform-coherence) | $\mathcal{M}_{\mathrm{cap}} \sim \mathcal{M}_{\mathrm{crit}}$ | V5-saturated boundary projection | Class A/B/C coherence walls |
-| IR (deep-MOND galactic) | $a \sim a_0$ | V5-saturated boundary projection | Deep-MOND regime + BTFR slope-4 |
-| BH-horizon | $r \sim r_H$ | V5-saturated boundary (local-grav) | Schwarzschild / Kerr horizons |
-| Cosmological | $r \sim R_H$ | V5-saturated boundary (global) | Cosmic decoupling surface |
+| 1 UV | $r \lesssim \ell_{V1}$ | V1-dominated | Sub-cascade kinematic |
+| 2 Transition | $\ell_{V1} \lesssim r \lesssim \ell_{V5}$ | V1↔V5 cascade | Paper_097 0.6 exponent |
+| 3 IR — hydrodynamic sub-projection | $\ell_{V5} \lesssim r \ll R_H$ | V5-modulated | NS / MHD continuum |
+| **3 IR — NS-Q canonical sub-projection** | $\xi \sim \xi_{\mathrm{canonical}}$ | V5-saturated boundary projection | $Q \approx 3.5$ canonical operating point |
+| 3 IR — Q-Compute platform-coherence sub-projection | $\mathcal{M}_{\mathrm{cap}} \sim \mathcal{M}_{\mathrm{crit}}$ | V5-saturated boundary projection | Class A/B/C coherence walls |
+| 3 IR — deep-MOND galactic sub-projection | $a \sim a_0$ | V5-saturated boundary projection | Deep-MOND regime + BTFR slope-4 |
+| 4 Cosmological — local-grav arm | $r \sim r_H$ | V5-saturated boundary | Schwarzschild / Kerr horizons (parameterized by mass $M$) |
+| 4 Cosmological — global arm | $r \sim R_H$ | V5-saturated boundary | Cosmic decoupling surface (parameterized by $H_0$) |
 
-The IR regime now hosts **three boundary-projection manifestations** (NS-Q canonical, Q-Compute platform-coherence, deep-MOND galactic). Together with the BH-horizon and cosmological regimes, **five boundary-regime projections** of the same SCBU object are identified across the corpus.
+The regime-3 IR multi-sector now hosts **three boundary-projection manifestations** (NS-Q canonical, Q-Compute platform-coherence, deep-MOND galactic). Together with the regime-4 two-arm structure (BH-horizon and cosmic decoupling), **six parameter-axis projections** of the same SCBU object are identified across the ED-SC 4.x arc. The substrate object is one; the parameter-axis projections across regimes 3 and 4 are six.
 
 ### 3.7 Summary
 
@@ -180,7 +180,7 @@ The soft-matter hydrodynamic-window canonical Q-factor ($Q \approx 3.5$) and the
 - $Q \approx 3.5$ is the boundary-projection value on the hydrodynamic-Q parameter axis at the NS-Q canonical operating point.
 - V5 Maxwell relaxation timescale $\tau_M \sim \tau_{V5}$ inherits substrate anchoring to the same V5 mechanism that saturates at the SCBU boundary.
 - Universal Mobility Law (Paper_085) is an IR-regime scaling law inherited from the substrate kernel hierarchy at the SCBU boundary.
-- $Q$, $\mathcal{M}_{\mathrm{crit}}$, $a_0$, $\xi_{\mathrm{canonical}}$, $r_H/R_H$ are five SCBU-boundary projections onto five parameter axes.
+- $Q$, $\mathcal{M}_{\mathrm{crit}}$, $a_0$, $\xi_{\mathrm{canonical}}$, $r_H$, $R_H$ are **six SCBU-boundary projections** onto six parameter axes (counting Paper_ED_SC_4.1's two regime-4 arms as separate projections per the canonical six-projection view).
 
 Numerical values ($Q \approx 3.5$ canon-internal; $\tau_M$, mobility coefficients platform-specific) remain **INHERITED** via empirical / canon-internal matching.
 
@@ -215,9 +215,9 @@ Verdict: **M3** (FORM-FORCED structural correspondence + VALUE-INHERITED numeric
 | 21 | $Q \approx 3.5$ as IR-projection of SCBU | D-via-I | §3.2; composition of P-Q-Factor-Form + SCBU. |
 | 22 | V5 Maxwell timescale as SCBU-inherited | D-via-I | §3.3; V5 cross-domain unification. |
 | 23 | Universal Mobility Law as IR-scaling law | D-via-I | §3.4; composition of V1 + V5 + Krieger-Dougherty. |
-| 24 | Five-way structural relationship ($\xi, a_0, \mathcal{M}_{\mathrm{crit}}, Q, r_H/R_H$) | D (composition) | §3.5; shared SCBU object. |
-| 25 | Eight-regime classification (with IR-NS-Q row added) | D-via-I | §3.6. |
-| 26 | Five-way simultaneous closure structural prediction | D — conditional | §3.5; conditional on Paper_ED_SC_4.2 Routes A/B/C. |
+| 24 | Six-way structural relationship across SCBU projections ($r_H$, $R_H$, $\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, $Q$) | D (composition) | §3.5; shared SCBU object; counts both regime-4 arms of Paper_ED_SC_4.1 separately. |
+| 25 | Four-regime classification with regime-3 IR multi-sector (three sub-projections) + regime-4 two-arm | D-via-I | §3.6; canonical four-regime view per Paper_ED_SC_4.6. |
+| 26 | Six-way simultaneous-closure cascade prediction (Route A → arc-wide M2; A+B+C + no new postulates → arc-wide M1) | D — conditional | §3.5; load-bearing forecast across all six SCBU projections. |
 | 27 | $Q \approx 3.5$ numerical value (canon-internal) | I | Canon-internal; not derived. |
 | 28 | $\tau_M$ numerical values per platform | I | Empirical. |
 | 29 | Mobility coefficients per material class | I | Empirical. |
@@ -251,7 +251,7 @@ Refutation of F1–F5 falsifies the SCBU-projection extension without refuting P
 - Paper_ED_SC_4.4 — Q-Compute platform-coherence IR projection.
 - **Paper_ED_SC_4.5** (this paper) — Soft-matter NS-Q hydrodynamic IR projection.
 
-The five papers identify **five boundary-regime projections** of the SCBU object onto five parameter axes (local-mass + global-cosmological-rate from 4.1; substrate-fixed-point from 4.2; galactic-acceleration from 4.3; multiplicity-budget from 4.4; hydrodynamic-Q-factor from this paper).
+The five papers identify **six boundary-regime projections** of the SCBU object onto six parameter axes (Paper_ED_SC_4.1 supplies two: local-mass arm for $r_H$ + global-cosmological-rate arm for $R_H$; substrate-fixed-point from 4.2; galactic-acceleration from 4.3; multiplicity-budget from 4.4; hydrodynamic-Q-factor from this paper).
 
 **Relationship to SCBU.** Projection-extension only. No modifications to P-Substrate-Cosmology-Unified or parallel postulates. The extension is to the hydrodynamic-Q parameter regime.
 
@@ -264,7 +264,7 @@ The five papers identify **five boundary-regime projections** of the SCBU object
 
 **Numerical content.** $Q \approx 3.5$ canon-internal; $\tau_M$ and Universal Mobility Law coefficients platform-specific. All remain **INHERITED**. The substrate-level claim is the **structural IR-projection-correspondence**, FORM-FORCED only. Verdict: **M3**.
 
-**Testable structural prediction (inherited + extended).** $Q$ co-varies with $H_0$ under SCBU. The synchronized co-variation prediction from Paper_ED_SC_4.4 §6 extends here to a **five-way synchronized co-variation**: under Hubble-tension-class $H_0$ variation, all five projections ($\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, $Q$, $r_H/R_H$ scales) should shift together.
+**Testable structural prediction (inherited + extended).** $Q$ co-varies with $H_0$ under SCBU. The synchronized co-variation prediction extends here to a **six-way synchronized co-variation**: under Hubble-tension-class $H_0$ variation, all six projections ($r_H$, $R_H$, $\xi_{\mathrm{canonical}}$, $a_0$, $\mathcal{M}_{\mathrm{crit}}$, $Q$) should shift together.
 
 Empirical detection of one projection co-varying with $H_0$ while another does not refutes the SCBU-projection identification for the non-co-varying projection.
 
@@ -275,7 +275,7 @@ Empirical detection of one projection co-varying with $H_0$ while another does n
 - **Entanglement-arc V5-saturation ↔ SCBU** (extending Paper_071 ER=EPR-class echo).
 - **YM-arc OS-positivity ↔ SCBU** (extending YM-mass-gap structural-positive via SCBU).
 
-Priority remains **Paper_ED_SC_4.2 Route A closure** ($\ell_{V5}(H_0)$ substrate-cosmology coupling), which would now simultaneously upgrade **five** ED-SC 4.x extension paper verdicts and produce the first cross-arc M1 result.
+Priority remains **Paper_ED_SC_4.2 Route A closure** ($\ell_{V5}(H_0)$ substrate-cosmology coupling), which would simultaneously upgrade the arc-wide verdict to **M2** across all six SCBU projections (Papers 4.1, 4.2, 4.3, 4.4, 4.5, plus the 4.6 capstone). Closing Routes A + B + C simultaneously without additional postulates upgrades to **M1** arc-wide — the first cross-arc M1 result.
 
 **Honest framing.** This paper extends the SCBU framework to a fifth boundary projection (soft-matter hydrodynamic-Q). The structural correspondence is FORM-FORCED; numerical content remains INHERITED. Verdict: **M3**. No upgrade in this paper; upgrade conditional on Paper_ED_SC_4.2 Routes A/B/C closure (which would propagate to all five extension papers simultaneously).
 
