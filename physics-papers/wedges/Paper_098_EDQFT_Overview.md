@@ -24,7 +24,7 @@
 
 ## Abstract
 
-The ED program produces, across five sectors (QM emergence, form-level QFT, soft matter / NS, gauge theory / Yang–Mills, gravity / substrate gravity), a coherent **form-FORCED / value-INHERITED** structure. Phase-1 QM-emergence closes four QM postulates as FORCED-unconditional given the 13 primitives (per Paper_087). T17 (gauge fields) and T18 (kernel arrow) close the form-level QFT scaffold. DCGT provides the substrate→continuum bridge. NS, MHD, YM, and substrate-gravity arcs each produce conditional-positive verdicts with explicit declared postulates. **One substrate, five sectors, consistent methodology.**
+The ED program produces, across five sectors (QM emergence, form-level QFT, soft matter / NS, gauge theory / Yang–Mills, gravity / substrate gravity), a coherent **form-FORCED / value-INHERITED** structure. Phase-1 QM-emergence closes four QM postulates as conditional structural derivations from the 13 primitives (per Paper_087) **+ a small set of declared paper-specific postulates** (P-Motif-Algebra, P-Channel-Orthogonality, P-Gleason-Compatibility, P-Norm-Preservation, P-Commit-Projector-Match, P-QMkin-Composition, P-Bipartite-Mapping) — verdict tier **M2 (Intermediate Path C)** per Paper_095 methodology, not M1 (FORCED-unconditional). T17 (gauge fields) and T18 (kernel arrow) close the form-level QFT scaffold. DCGT provides the substrate→continuum bridge at verdict tier M3 (form-FORCED + value-INHERITED) within an A→regime hydrodynamic-window scale-separation assumption. NS, MHD, YM, and substrate-gravity arcs each produce M2-class conditional verdicts with explicit declared postulates. **One substrate, five sectors, consistent methodology — with declared postulates and OPEN derivations named at the verdict-tier level.**
 
 ---
 
@@ -65,7 +65,7 @@ No new postulates introduced in this paper.
 | # | Step | Label | Notes |
 |---|---|---|---|
 | 1 | 13 primitives P01–P13 posited per Paper_087 | P (axiomatic) | Substrate ontology. |
-| 2 | Phase-1 QM-emergence: 4 QM postulates FORCED-unconditional | I | 16 theorems; Phase-1 closure. |
+| 2 | Phase-1 QM-emergence: 4 QM postulates at verdict tier M2 (Intermediate Path C with declared paper-specific postulates) | I | 16 theorems; Phase-1 closure. Per-paper audit tables (Paper_007 P-Motif-Algebra; Paper_004 P-Channel-Orthogonality + P-Gleason-Compatibility; Paper_005 P-Commit-Projector-Match; Paper_006 P-Norm-Preservation; Paper_002 P-QMkin-Composition + P-Bipartite-Mapping) explicitly declare load-bearing paper-specific postulates. M2, not M1. *(Round-4 correction of prior "FORCED-unconditional" overclaim; see position paper §3.10 for full clarification.)* |
 | 3 | T17 gauge fields | I | Paper_015. |
 | 4 | T18 kernel arrow | I | Closed arc. |
 | 5 | DCGT | I | Paper_073. |
@@ -86,9 +86,10 @@ No structural-analogy mislabel.
 
 ### 3.1 Sector A: QM emergence (Phase-1)
 
-- **Verdict:** Four QM postulates FORCED-unconditional.
+- **Verdict:** Four QM postulates at verdict tier **M2 (Intermediate Path C with declared paper-specific postulates)** per Paper_095 methodology. The Phase-1 papers derive each QM postulate from substrate primitives + a small declared postulate set per paper — closed-proof structural derivations, but conditional on the per-paper postulates rather than from primitives alone. **Not M1 (FORCED-unconditional)**; see position paper §3.10 for the honest framing and the list of load-bearing paper-specific postulates (P-Motif-Algebra, P-Channel-Orthogonality, P-Gleason-Compatibility, P-Norm-Preservation, P-Commit-Projector-Match, P-QMkin-Composition, P-Bipartite-Mapping).
 - **Key results:** Born-Gleason rule (Paper_002), tensor-product structure (Paper_063 / E-1), measurement structure (Paper_005), Schmidt decomposition (Paper_064 / E-3), unitary evolution.
 - **Status:** Closed Phase-1.
+- **Lineage placement:** Stronger than pure substrate-ontology exhibit programs (per-paper postulates are explicitly declared and falsifiable); weaker than pure operational-reconstruction closed-proof programs (Hardy 2001, CDP 2011, Masanes-Müller 2011, Coecke-Kissinger 2017), which derive finite-dimensional QM with **no** paper-specific postulates beyond the operational axiom set. Phase-1 partially overlaps the operational-reconstruction tradition at the QM-emergence level only; the broader ED corpus (gravity, SCBU, cross-scale) is firmly in the Wolfram-Ruliad / 't Hooft / causal-set lineage.
 
 ### 3.2 Sector B: Form-level QFT + foundational theorems
 
@@ -185,7 +186,7 @@ Original ED-QFT Unified Overview at `papers/ED_QFT_Overview/` is a Phase-1+2 sna
 
 | Arc | Verdict | Source memory |
 |---|---|---|
-| Phase-1 QM emergence | FORCED-unconditional (4 postulates) | `project_qm_emergence_arc.md` |
+| Phase-1 QM emergence | M2 (Intermediate Path C with declared paper-specific postulates: P-Motif-Algebra, P-Channel-Orthogonality, P-Gleason-Compatibility, P-Norm-Preservation, P-Commit-Projector-Match, P-QMkin-Composition, P-Bipartite-Mapping) | `project_qm_emergence_arc.md` |
 | Substrate gravity | Closed (T19/T20/ECR/T21/GR1) | `project_substrate_gravity_arc.md` |
 | Arc D (DCGT) | Closed | `project_arc_d_dcgt.md` |
 | Yang–Mills | Clay-relevance / structural-positive | `project_ym_arc.md` |
