@@ -1,4 +1,4 @@
-# Event Density - the Generative Primitives System
+# Event Density - the Generative Substrate Ontolog
 
 [![DOI](https://zenodo.org/badge/1237222292.svg)](https://doi.org/10.5281/zenodo.20149496)
 
