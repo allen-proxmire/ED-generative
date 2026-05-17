@@ -1,6 +1,6 @@
 # ED Memory — ED-Generative repository
 
-**Last update:** 2026-05-14 (post-Tier-A/B/C reviewer-feedback round; pre-Zenodo posting).
+**Last update:** 2026-05-16 (post-Load-Bearing-Program substrate-research cascade; cross-arc closures propagated into corpus paper structure).
 
 This file is the **durable program-state anchor** for the ED-Generative repository. It tracks structural decisions, conventions, status anchors, and cleanup queues that should travel with the repository across sessions.
 
@@ -23,7 +23,7 @@ This file is the **durable program-state anchor** for the ED-Generative reposito
 
 6. **The substrate→continuum bridge is DCGT (Paper_073)**, at verdict tier **M3 within an A→regime hydrodynamic-window scale-separation assumption** ($\ell_{ED} \ll R_{cg} \ll L_{flow}$). Because DCGT is upstream of every continuum-level result, its M3-with-regime-caveat status is inherited by every downstream continuum prediction.
 
-7. **SCBU (Substrate-Cosmology Boundary Unification) is offered as the framework's organizing structural hypothesis**, not a closed cross-arc derivation. Paper ED-SC 4.2 explicitly acknowledges that the load-bearing derivation closing the synthesis — **Route A: a substrate-derived $\ell_{V5}(H_0)$** — does not currently close. With Route A open, the six-projection picture is the framework's hypothesis about how cross-domain structure is organized, not a derived result. **Closing Route A is the highest-leverage open derivation in the program.**
+7. **SCBU (Substrate-Cosmology Boundary Unification) is offered as the framework's organizing structural hypothesis**, not a closed cross-arc derivation. Paper ED-SC 4.2 explicitly acknowledges that the load-bearing derivation closing the synthesis — **Route A: a substrate-derived $\ell_{V5}(H_0)$** — does not currently close. With Route A open, the six-projection picture is the framework's hypothesis about how cross-domain structure is organized, not a derived result. **Closing Route A is the highest-leverage open derivation in the program.** Post-2026-05-16 Load-Bearing Program: Route A's cross-arc consequence is now *extended* — it additionally controls Paper_038_5's retroactive M2 → M3 upgrade and Paper_ED_Cos_05's draftability at M3 (per load-bearing #5 reframing).
 
 8. **The sharpest currently-clean empirical falsifier is BTFR slope-4 with zero intrinsic scatter in deep-MOND** (Paper_031), testable against galaxy-rotation-curve catalogs at present precision (McGaugh-Lelli-Schombert 2016 SPARC: slope 3.95 ± 0.08, scatter ~0.1 dex consistent with observational).
 
@@ -33,6 +33,12 @@ This file is the **durable program-state anchor** for the ED-Generative reposito
 
 11. **The academic case is downstream cross-domain reach**, not primitive derivation.
 
+12. **Substrate-ontology characterization (Load-Bearing Program 2026-05-16):** ED's discrete substrate supports standard cosmology + radiation phenomenology via DCGT inheritance, but does NOT supply specialized substrate-graph machinery for every physics question. Quantitative magnitude questions reduce to substrate-side scale derivations — chiefly Route A. The naïve 120-OOM Λ problem partially dissolves at substrate-side: ED's discrete ontology has no infinite QFT mode-tower to sum, so $\rho_{\mathrm{vac}}^{\mathrm{naive}} \sim M_P^4$ is structurally absent. Substrate-side $\rho_\Lambda = (3/8\pi) H_0^2 M_P^2$ closes conditionally on Route A + Paper_027.
+
+13. **M3-template substrate-graph chain (reusable Steps A–E pattern):** substrate state identification from $S_{\mathrm{sub}}[\Psi]$ → substrate-side Noether stress-energy → DCGT coarse-graining → standard-physics machinery inheritance → phenomenology. Applied successfully to load-bearings #1 (inflation), #3 (horizon motion), #4 (radiation). Audits ACCEPTED at "approximately-standard-physics level" with standard-analog inheritance qualifications.
+
+14. **Load-Bearing Program memo set lives in `event-density/papers/Load_Bearing_Program_2026_05/`** (moved 2026-05-16 from `ED Generative/physics-papers/cosmology|dynamics|gravity/`). Subfolders: `00_Overview/`, `01_ExponentialGrowth/`, `02_Baryogenesis/`, `03_HorizonMotion/`, `04_RadiationLaw/`, `05_LambdaSmallness/`, `Paper_Updates/`. The corpus-side paper updates (Paper_ED_Cos_01 M3 upgrade, Paper_ED_GW_00 row 12 closure, Paper_038_5 Λ reframing) remain in `ED Generative/physics-papers/`; only the Wave-3 memo cascade was relocated for consolidation.
+
 ---
 
 ## Verdict tier inventory (current state)
@@ -41,7 +47,7 @@ This file is the **durable program-state anchor** for the ED-Generative reposito
 |---|---|
 | M1 (FORCED-unconditional) | None currently. Closing Route A + Routes B + C without additional postulates would upgrade ED-SC 4.x arc-wide to M1 — first cross-arc M1 in the corpus. |
 | M2 (Intermediate Path C) | Phase-1 QM-emergence (per per-paper audit tables; corrected Paper_098 2026-05-14); YM mass-gap mechanism; NS-Smoothness; NS-MHD H1/H2/H3 closure; Arc ED-10 curvature emergence. |
-| M3 (form-FORCED + value-INHERITED) | DCGT (with A→regime); SCBU + all six ED-SC 4.x projections; Newton's $G$ (T19); $a_0$ (T20); BTFR slope-4 (T21); Area-law form; Hawking spectrum; Class-A wall 140–250 kDa; NS-Q canonical Q ≈ 3.5. |
+| M3 (form-FORCED + value-INHERITED) | DCGT (with A→regime); SCBU + all six ED-SC 4.x projections; Newton's $G$ (T19); $a_0$ (T20); BTFR slope-4 (T21); Area-law form; Hawking spectrum; Class-A wall 140–250 kDa; NS-Q canonical Q ≈ 3.5; **Paper_ED_Cos_01 inflation (upgraded 2026-05-16, load #1)**; **Paper_ED_GW_00 GW row 12 closed (2026-05-16, load #4)**. |
 | A→regime | DCGT scale separation; Acoustic guardrails (Paper_035). |
 | A→position | Various composite verdicts (paradox-not-generated, cross-domain echoes, methodological framing claims). |
 
@@ -73,6 +79,8 @@ The highest-leverage research closure in the corpus. Closing Route A (substrate-
 
 If Routes A + B + C all close without introducing additional postulates, the upgrade reaches M1 arc-wide — the first cross-arc M1 result in the corpus.
 
+**Extended cross-arc consequence (post-2026-05-16):** Route A closure additionally triggers Paper_038_5 retroactive M2 → M3 upgrade (per load-bearing #5 reframing in `event-density/papers/Load_Bearing_Program_2026_05/05_LambdaSmallness/`) and unlocks Paper_ED_Cos_05 (Dark Energy) drafting at M3.
+
 ### Cleanup 4: Transition-regime SPARC fits
 
 The §5 Gravity arc claim "explains galactic dynamics without dark matter" is currently qualified to the deep-MOND asymptotic. Transition-regime per-galaxy SPARC fits across the catalog are predicted by ECR (Paper_030) but not yet performed in the corpus. **Action item for the empirical-test program:** explicit per-galaxy residual fits across the transition radius. This is a Paper_101-register item, not a writing fix.
@@ -80,6 +88,38 @@ The §5 Gravity arc claim "explains galactic dynamics without dark matter" is cu
 ### Cleanup 5: T-stub PDFs (T19, T20, T21)
 
 The three theorem stubs are in `theorems/` but have no corresponding PDFs in `to_publish_01/`. If you want them published as standalone Zenodo entries (they're brief and could carry their own DOIs), generate PDFs and add to a follow-up Zenodo batch.
+
+---
+
+## Session accomplishments (2026-05-16) — Load-Bearing Program
+
+Systematic Wave-3 attack on the five load-bearing OPEN substrate-research derivations identified in Memo_ED_CosmologyAndDynamics_ResearchDirections §4. Discipline cascade per load-bearing: scoping → focused construction → adversarial audit → paper update (where applicable). Full memo set archived in `event-density/papers/Load_Bearing_Program_2026_05/` (see `README.md` there).
+
+### Final tally
+
+| # | Load-bearing | Outcome | Closure path |
+|---|---|---|---|
+| 1 | Exponential growth ($H$ in inflation) | **CLOSED at M3** | DCGT state-dependent → Noether vacuum-energy mapping → $w = -1$ continuum |
+| 2 | Matter-antimatter asymmetry | **NEGATIVE** | Substrate chirality-symmetric; P-BinaryAdmission postulate route only |
+| 3 | Horizon-motion law | **CLOSED at M3-template** | NonSaturation_StressEnergy (RDE $w=1/3$ + MDE $w=0$ chain-class identification) |
+| 4 | Radiation law (Larmor + GW quadrupole) | **CLOSED at M3-template** | NoetherFlux substrate-graph chain for time-varying $\Psi$ → standard formulas |
+| 5 | Λ smallness (120 OOM) | **REFRAMED** | Reduces to Route A + Friedmann inheritance; naïve QFT mode-tower structurally absent substrate-side |
+
+### Corpus paper propagation
+
+- **Paper_ED_Cos_01** (Inflation): M2 → M3 retroactive upgrade; new §3.8 M3-chain summary; row 13 OPEN → D-via-I.
+- **Paper_ED_GW_00** (GW): row 12 retroactively closed; new §3.9 quadrupole closure subsection. 7 D-via-I rows; no remaining load-bearing OPEN items. See `physics-papers/dynamics/Update_Paper_ED_GW_00_Row12.md` (now in event-density `Paper_Updates/`).
+- **Paper_038_5** (Lambda_V1_Cosmological): reframed; new §3.7 Reframing subsection; conditional M3 upgrade pending Route A; §3.4 naïve V1-cutoff preserved as record of failed approach. See `Paper_Updates/Update_Paper_038_5_Lambda_Reframing.md`.
+
+### Pending corpus propagation (DRAFTABLE at M3)
+
+- **Paper_ED_Dyn_02** (Horizon-Motion-Law) — draft pending; reference NonSaturation_StressEnergy chain.
+- **Paper_ED_Dyn_03** (Radiation Law) — draft pending; reference NoetherFlux chain.
+- **Paper_ED_Cos_05** (Dark Energy) — draftable at M3 conditional on Route A closure.
+
+### Substantive substrate-ontology finding
+
+ED's discrete substrate supports standard cosmology + radiation phenomenology via DCGT inheritance, but does not supply specialized substrate-graph machinery for every physics question. Quantitative magnitude questions reduce to substrate-side scale derivations — chiefly **Route A**, whose cross-arc consequence is now extended (controls Paper_038_5 + Paper_ED_Cos_05 in addition to ED-SC 4.x arc-wide upgrade).
 
 ---
 

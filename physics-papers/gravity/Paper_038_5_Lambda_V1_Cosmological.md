@@ -1,8 +1,8 @@
 # Paper GR-Λ-V1 — Cosmological Constant $\Lambda$ as V1 Cosmological-Scale Integral
 
 **Series:** Wave-3 Gravity Arc Extension — Cosmological Sector
-**Status:** Wave-3 generative paper; **M2 (Intermediate Path C)** verdict with OPEN flag on substrate derivation of observed $\rho_\Lambda$ scale.
-**Companions:** Paper_028 ($R_H = c/H_0$), Paper_038 (cosmological implications), Paper_089 (V1), Paper_017 (Lorentz covariantization), Paper_ED_SC_4.1 (SCBU BH ↔ cosmic boundary).
+**Status:** Wave-3 generative paper; **M2 (Intermediate Path C)** verdict with OPEN flag on substrate derivation of observed $\rho_\Lambda$ scale. Λ smallness derivation **reframed (2026-05-16)** as reducing to Route A + Friedmann inheritance, not direct V1-cutoff or specialized substrate-graph mechanism (see §3.7 + load-bearing program overview).
+**Companions:** Paper_028 ($R_H = c/H_0$), Paper_038 (cosmological implications), Paper_089 (V1), Paper_017 (Lorentz covariantization), Paper_ED_SC_4.1 (SCBU BH ↔ cosmic boundary), Paper_027 (Newton's $G$ substrate-side), Paper_ED_Cos_01 (M3-upgraded inflation, vacuum-energy template). **Reframing-support memos:** Memo_ED_LambdaSmallness_Scoping; Memo_ED_DCGT_LambdaSuppression; Memo_ED_LoadBearingProgram_Overview.
 
 ---
 
@@ -11,14 +11,14 @@
 1. This paper does **not** claim derivation of the cosmological constant $\Lambda$ from nothing. Result is conditional on the 13 ED primitives (Paper_087) + declared paper-specific postulates.
 2. It does **not** claim closed-proof reconstruction in the Hardy 2001 / CDP 2011 / Coecke-Kissinger operational-reconstruction sense. ED sits in the substrate-ontology lineage ('t Hooft cellular-automaton, Wolfram Ruliad, causal-set program), not the operational-reconstruction lineage.
 3. It does **not** override Paper_095's three-tier verdict grammar. Verdict for this paper is stated in §1.
-4. It does **not** claim derivation of the observed value $\rho_\Lambda \sim 10^{-120}\rho_P$ — that derivation is **OPEN**. The naïve V1-cutoff estimate is off by ~$10^{60}$ orders of magnitude (§3.4); the smallness of $\Lambda$ is NOT explained by this paper, and the cosmological-constant problem is NOT closed here.
-5. **INHERITED vs FORCED breakdown:** The V1-reframing of the cosmological-constant problem ($\Lambda$ as V1 cosmological-scale integral with curvature-coupling) is the structural ED contribution; the observed numerical value $\rho_\Lambda$ is INHERITED via empirical matching; substrate derivation of smallness is OPEN.
+4. It does **not** claim derivation of the observed value $\rho_\Lambda \sim 10^{-120}\rho_P$ — that derivation is **OPEN, conditional on Route A closure** per §3.7 reframing. The naïve V1-cutoff estimate (§3.4) is off by ~$10^{60}$; preserved as record of failure. The smallness of $\Lambda$ is NOT explained by this paper directly; the substrate-graph closure path reduces to Route A + Friedmann inheritance (§3.7).
+5. **INHERITED vs FORCED breakdown:** The V1-reframing of the cosmological-constant problem ($\Lambda$ as V1 cosmological-scale integral with curvature-coupling) is the structural ED contribution; the observed numerical value $\rho_\Lambda$ is INHERITED via empirical matching; substrate derivation of smallness reduces to Route A closure (highest-leverage open derivation per ED_MEMORY anchor 7).
 
 ---
 
 ## Abstract
 
-This paper supplies the substrate-level structural identification of the cosmological constant $\Lambda$ as a V1 cosmological-scale integral of curvature-induced vacuum backreaction, $\Lambda \propto \int_{V \sim R_H^3} \rho_{\mathrm{vac,V1}}^{\mathrm{curv}}(x)\,d^3x$, integrating over the substrate-cosmology boundary $R_H = c/H_0$ (Paper_028, Paper_ED_SC_4.1). The structural form is form-IDENTIFIED (no D rows in audit table; downgraded from FORM-FORCED per Paper_095 §2.3) by V1 finite second moment (Paper_089) + curved acoustic-metric coarse-graining (Paper_014) + cosmological-boundary integration domain. The numerical value $\rho_\Lambda \sim 10^{-120}\rho_P$ is INHERITED; substrate derivation of smallness is OPEN (naïve V1-cutoff over-predicts by ~$10^{60}$). Per Paper_095 form-FORCED / value-INHERITED methodology, verdict is **M2 (Intermediate Path C)** with OPEN flag. Key falsifier **F1:** a substrate-level derivation of $\rho_\Lambda/\rho_P$ from V1 parameters recovering the observed ratio would close OPEN status and upgrade verdict.
+This paper supplies the substrate-level structural identification of the cosmological constant $\Lambda$ as a V1 cosmological-scale integral of curvature-induced vacuum backreaction over the substrate-cosmology boundary $R_H = c/H_0$ (Paper_028, Paper_ED_SC_4.1). The structural form is form-IDENTIFIED via V1 finite second moment (Paper_089) + curved acoustic-metric coarse-graining (Paper_014) + cosmological-boundary integration domain. **Smallness derivation reframed (2026-05-16):** substrate-graph closure of $\rho_\Lambda \sim 10^{-120}\rho_P$ reduces to Route A closure (substrate-derived $\ell_{V_5}(H_0)$) + Friedmann inheritance $\rho_\Lambda = (3/8\pi) H_0^2 M_P^2$ + Paper_027 substrate-side $G$ via dimensional rearrangement (per Memo_ED_DCGT_LambdaSuppression). The naïve V1-cutoff approach (§3.4) is structurally absent substrate-side because ED's discrete substrate ontology doesn't admit infinite QFT mode-tower zero-point summation (§3.7). Per Paper_095 form-FORCED / value-INHERITED methodology, verdict remains **M2 (Intermediate Path C)** with **OPEN status now conditional on Route A**. Closure of Route A would close $\rho_\Lambda$ smallness simultaneously and upgrade Paper_038_5 verdict M2 → M3 retroactively (parallel to Paper_ED_Cos_01 M3-upgrade pattern). Key falsifier **F1:** Route A closure or independent substrate-derivation of $H_0$ would close OPEN status; Friedmann inheritance then gives $\rho_\Lambda$.
 
 ---
 
@@ -124,6 +124,46 @@ This estimate fails to recover the observed scale: the discrepancy with empirica
 - $\alpha_{\mathrm{curv}}$: INHERITED.
 - Structural form $\Lambda \propto$ V1 cosmological-scale integral: form-IDENTIFIED.
 
+### 3.7 Reframing: Λ smallness reduces to Route A + Friedmann inheritance (Added 2026-05-16)
+
+The naïve V1-cutoff approach of §3.4 fails by ~$10^{60}$. Per Memo_ED_DCGT_LambdaSuppression, the substrate-graph closure of $\Lambda$ smallness reduces to **Route A + Friedmann inheritance**, not specialized substrate-graph mechanism.
+
+**Why naïve QFT estimates do NOT apply substrate-side.** Standard QFT's $\rho_{\mathrm{vac}}^{\mathrm{naive}} \sim M_P^4 \sim 10^{76}$ GeV⁴ comes from summing zero-point energies of an infinite tower of QFT modes between $k = 0$ and $k = M_P$:
+$$
+\rho_{\mathrm{vac}}^{\mathrm{naive}} = \frac{1}{2}\int_0^{M_P} \frac{d^3 k}{(2\pi)^3} \, \omega_k \sim M_P^4 .
+$$
+**ED's substrate is fundamentally discrete at $\ell_{\mathrm{ED}}$ per Paper_087 + Paper_089.** There is no infinite tower of modes between substrate-scale and observation-scale. The naïve QFT estimate is **structurally absent from the substrate ontology**. The "120-OOM problem" is partially dissolved at substrate-side by the discrete substrate ontology before any DCGT scale-separation enters.
+
+**The actual substrate-graph closure path** (per Memo_ED_DCGT_LambdaSuppression):
+
+Standard Friedmann equations for Λ-dominated late universe ($w = -1$):
+$$
+\rho_\Lambda = \frac{3 H_0^2}{8\pi G} = \frac{3}{8\pi} H_0^2 M_P^2 .
+$$
+
+The 120-OOM "smallness" IS the dimensionless ratio $(H_0/M_P)^2 \sim 10^{-122}$. **Not a separate fine-tuning question — a direct consequence of two substrate-side scales.**
+
+Substrate-side derivations needed:
+- **$M_P$ / $G$** via Paper_027 (Newton's $G$ derivation): substrate-side identified via dimensional rearrangement of $G, \hbar, c$ ↔ $\ell_P$. **INHERITED at I-level** per ED_MEMORY.
+- **$H_0$** via Route A: substrate-derived $\ell_{V_5}(H_0)$ per Paper_ED_SC_4.2. **OPEN per ED_MEMORY anchor 7 — highest-leverage open derivation in the program.**
+
+**If Route A closes**, $H_0$ is substrate-derivable from $\ell_{V_5}$ + substrate-side constants. Combined with Paper_027's substrate-side $M_P$ + Friedmann inheritance, $\rho_\Lambda$ closes at D-via-I as:
+$$
+\rho_\Lambda^{\mathrm{substrate}} = \frac{3}{8\pi} H_0^2(\text{Route A}) \cdot M_P^2(\text{Paper\_027}) .
+$$
+
+**Load-bearing #5 (Λ smallness) ≡ Route A closure + standard Friedmann inheritance.**
+
+**The §3.4 naïve V1-cutoff approach is structurally on the wrong track.** It attempts substrate-graph closure via direct cutoff estimation, which inherits the naïve-QFT-mode-summation pattern. The substrate-side closure path is via macroscopic scales ($H_0$, $G$) — not via direct vacuum-energy summation. The §3.4 attempt is preserved as record of an early substrate-research-frontier exploration; the §3.7 reframing supplies the correct closure path.
+
+**Cross-arc consequence of Route A closure:**
+- ED-SC 4.x arc-wide M3 → M2 upgrade (pre-existing per ED_MEMORY anchor 7)
+- **Paper_038_5 (this paper) retroactive upgrade M2 → M3** (closure of $\rho_\Lambda$ smallness)
+- Paper_ED_Cos_05 (Dark Energy paper) draftable at M3 (conditional on Route A)
+- Quantitative cosmological scales ($H_0$, $\rho_\Lambda$, cosmic age) substrate-side derivable
+
+**Route A is the SINGLE substrate-research-frontier item with most consequential cross-arc impact in the corpus.**
+
 ---
 
 ## §4 Audit Table
@@ -139,18 +179,18 @@ This estimate fails to recover the observed scale: the discrepancy with empirica
 | 7 | $R_H = c/H_0$ cosmological boundary | I | Paper_028. |
 | 8 | Cosmological-scale integration domain | D-via-I | Composition with Paper_ED_SC_4.1. |
 | 9 | $\Lambda \propto $ V1 cosmological-scale integral | D-via-I | Composition of inherited results is D-via-I, not D (per Paper_095 §2.3). |
-| 10 | Hierarchy suppression $(\ell_P/R_H)^2$ structural | OPEN | Naïve $(\ell_P/R_H)^2$ hierarchy-suppression dimensional rearrangement fails by ~$10^{60}$ (see §3.4); preserved as record of failure, not as derived result. Substrate derivation of observed $\rho_\Lambda$ smallness is OPEN. |
+| 10 | Hierarchy suppression $(\ell_P/R_H)^2$ structural (naïve V1-cutoff attempt) | OPEN — failed approach | §3.4 preserved as record of failure. **Reframed §3.7: substrate-graph closure path is via Route A + Friedmann inheritance, not direct V1-cutoff.** |
 | 11 | $\alpha_{\mathrm{curv}}$ coupling constant | I | Substrate parameter; OPEN derivation. |
 | 12 | Empirical $\Lambda$ value | I | Empirical. |
-| 13 | Substrate-level derivation of $\alpha_{\mathrm{curv}}$ | OPEN | Future work. |
-| 14 | Substrate derivation of observed $\rho_\Lambda$ scale | OPEN | Naïve V1-cutoff over-predicts by $\sim 10^{60}$. |
-| 15 | Verdict M2 (Intermediate Path C) | A→position | Per Paper_095 §3.3. |
+| 13 | Substrate-level derivation of $\alpha_{\mathrm{curv}}$ | OPEN | Future work; reduces under §3.7 framework to subset of Route A. |
+| 14 | Substrate derivation of observed $\rho_\Lambda$ scale via Route A + Friedmann inheritance | **OPEN (conditional on Route A)** | §3.7. Closure path identified: $\rho_\Lambda = (3/8\pi) H_0^2(\text{Route A}) M_P^2(\text{Paper\_027})$. If Route A closes, $\rho_\Lambda$ closes at D-via-I. Naïve V1-cutoff (§3.4) is structurally on the wrong track. |
+| 15 | Verdict M2 (Intermediate Path C); upgrades to M3 conditional on Route A closure | A→position | Per Paper_095 §3.3 line 77. **M2 → M3 retroactive upgrade conditional on Route A** per §3.7 reframing. |
 
 ---
 
 ## §5 Falsification Criteria
 
-- **F1:** A substrate-level derivation of $\rho_\Lambda / \rho_P$ from V1 parameters that recovers the observed $\sim 10^{-120}$ ratio would close the OPEN status and upgrade to M3.
+- **F1 (reframed 2026-05-16):** Route A closure (substrate-derived $\ell_{V_5}(H_0)$ per Paper_ED_SC_4.2) gives substrate-side $H_0$. Combined with Paper_027 substrate-side $M_P$ + Friedmann inheritance $\rho_\Lambda = (3/8\pi) H_0^2 M_P^2$, this closes the OPEN status and upgrades verdict M2 → M3 retroactively (parallel to Paper_ED_Cos_01 M3-upgrade pattern). Direct V1-parameter derivation per §3.4 is structurally on the wrong track (§3.7 reframing).
 - **F2:** Substrate evidence that V1 vacuum backreaction does NOT couple to curvature — refutes step 6.
 - **F3:** Detection of $\Lambda$ evolution inconsistent with V1 cosmological-scale integral — would require revising step 9.
 - **F4:** Resolution of the residual hierarchy from a non-substrate source — would shift the dominant mechanism away from V1 cosmological-scale integration.
@@ -169,11 +209,19 @@ This paper supplies the substrate-level structural identification of the cosmolo
 - **Paper_028, 038:** cosmological-boundary content.
 - **Paper_ED_SC_4.1, 4.6:** SCBU framework places $\Lambda$ in regime-4 cosmological projection.
 
-**Numerical content INHERITED.** $\Lambda$ value, $\alpha_{\mathrm{curv}}$. **Form IDENTIFIED** (no D rows in audit table; downgraded from FORM-FORCED per Paper_095 §2.3)**.** $\Lambda$ as V1 cosmological-scale integral. Hierarchy-suppression structure OPEN (the naïve $(\ell_P/R_H)^2$ rearrangement fails by ~$10^{60}$; see §3.4).
+**Numerical content INHERITED.** $\Lambda$ value, $\alpha_{\mathrm{curv}}$. **Form IDENTIFIED.** $\Lambda$ as V1 cosmological-scale integral.
 
-**Future work.** Substrate derivation of $\alpha_{\mathrm{curv}}$ (Route A analog); substrate audit of residual hierarchy resolution; substrate audit of dynamical dark energy / quintessence-class alternatives.
+**Reframing (2026-05-16, §3.7):** Substrate-graph derivation of $\rho_\Lambda$ smallness reduces to **Route A + Friedmann inheritance**, not direct V1-cutoff (§3.4 preserved as record of failure). Naïve QFT vacuum-energy estimates are **structurally absent substrate-side** because ED's discrete substrate doesn't admit infinite QFT mode-tower zero-point summation. The 120-OOM "smallness" IS the dimensionless ratio $(H_0/M_P)^2$ — a direct Friedmann consequence given the two substrate-side scales.
 
-Verdict: **M2 (Intermediate Path C)** with OPEN flag.
+**Closure path:** $\rho_\Lambda^{\mathrm{substrate}} = (3/8\pi) H_0^2(\text{Route A}) \cdot M_P^2(\text{Paper\_027})$. Route A is **the single highest-leverage open derivation in the corpus** per ED_MEMORY anchor 7. Its closure simultaneously:
+- Closes Paper_038_5 (this paper) at D-via-I; verdict M2 → M3 retroactive upgrade
+- Closes ED-SC 4.x arc-wide M3 → M2 upgrade
+- Unlocks Paper_ED_Cos_05 (Dark Energy paper) at M3
+- Supplies substrate-side derivation of fundamental cosmological scales
+
+**Future work.** Route A closure (substrate-derived $\ell_{V_5}(H_0)$, per Paper_ED_SC_4.2) is the load-bearing remaining derivation. Substrate audit of dynamical dark energy / quintessence-class alternatives independent of Route A. Substrate audit of the cosmological "coincidence problem" (why universe transitions to Λ-dominated at current cosmic age) — independent of Route A.
+
+Verdict: **M2 (Intermediate Path C)** with OPEN flag; **conditional retroactive upgrade to M3 pending Route A closure**.
 
 ---
 

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/allen/GitHub/event-density/papers/Arc_R/**)",
+      "Read(//c/Users/allen/GitHub/event-density/papers/U2_Inner_Product/**)",
+      "Read(//c/Users/allen/GitHub/event-density/papers/U3_Time_Translation_Schrodinger/**)",
+      "Read(//c/Users/allen/GitHub/event-density/papers/U4_Hamiltonian_Form/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}

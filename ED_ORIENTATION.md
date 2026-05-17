@@ -1,6 +1,6 @@
 # ED Orientation — ED-Generative repository
 
-**Last update:** 2026-05-14 (post-Tier-A/B/C reviewer-feedback round; corpus stabilized; Zenodo posting scheduled).
+**Last update:** 2026-05-16 (post-Load-Bearing-Program substrate-research cascade; corpus paper structure updated with cross-arc closures).
 
 This file is the **orientation primer** for the ED-Generative repository. Read this first when arriving at the repo for the first time, returning after a gap, or onboarding an external reader.
 
@@ -48,7 +48,7 @@ ED uses a **form-FORCED / value-INHERITED methodology** with a three-tier verdic
 
 3. **The substrate→continuum bridge is DCGT** (Paper_073) at verdict tier **M3 within an A→regime hydrodynamic-window scale-separation assumption**. Every continuum-level corpus result inherits this M3-with-regime-caveat status.
 
-4. **The corpus's most ambitious synthesis is SCBU** (Substrate-Cosmology Boundary Unification): the substrate-cosmology boundary at $R_H = c/H_0$ is offered as the framework's **organizing structural claim**. Six projections of this boundary are proposed in the ED-SC 4.x extension arc (BH horizon, cosmic decoupling, $\xi_{canonical}$, $a_0$, $\mathcal{M}_{crit}$, $Q$ ≈ 3.5). **Route A (substrate-derived $\ell_{V5}(H_0)$) is currently OPEN**; closing it would upgrade the entire arc M3 → M2 simultaneously.
+4. **The corpus's most ambitious synthesis is SCBU** (Substrate-Cosmology Boundary Unification): the substrate-cosmology boundary at $R_H = c/H_0$ is offered as the framework's **organizing structural claim**. Six projections of this boundary are proposed in the ED-SC 4.x extension arc (BH horizon, cosmic decoupling, $\xi_{canonical}$, $a_0$, $\mathcal{M}_{crit}$, $Q$ ≈ 3.5). **Route A (substrate-derived $\ell_{V5}(H_0)$) is currently OPEN**; closing it would upgrade the entire arc M3 → M2 simultaneously. Post-2026-05-16: Route A additionally controls Paper_038_5 retroactive M2 → M3 (load-bearing #5 reframing) and Paper_ED_Cos_05 draftability — the single highest-leverage open derivation, with extended cross-arc reach.
 
 5. **The sharpest currently-clean empirical falsifier is BTFR slope-4 with zero intrinsic scatter** in the deep-MOND asymptotic (Paper_031). Testable against galaxy-rotation-curve catalogs at present precision.
 
@@ -147,7 +147,8 @@ The corpus is **structurally complete with declared open derivations** — not a
 
 ## Where to find more
 
-- **Memory anchor:** `ED_MEMORY.md` (same directory) — durable program-state facts, verdict-tier inventory, Round 4 cleanup queue.
+- **Memory anchor:** `ED_MEMORY.md` (same directory) — durable program-state facts, verdict-tier inventory, Round 4 cleanup queue, Load-Bearing Program tally (2026-05-16).
+- **Load-Bearing Program memo cascade:** `event-density/papers/Load_Bearing_Program_2026_05/` — Wave-3 substrate-research memos for the five load-bearing OPEN derivations (3 closed + 1 negative + 1 reframed to Route A).
 - **Reading list:** `ED_WHITEPAPER.md` §10 has the canonical core-reading sequence.
 - **Falsification register:** `falsifiers/Paper_101_FalsificationRegister.md`.
 - **PAPERS_INDEX:** `PAPERS_INDEX_redo.md` for the canonical paper inventory with status flags.
