@@ -1,6 +1,6 @@
 # ED Orientation — ED-Generative repository
 
-**Last update:** 2026-05-16 (post-Load-Bearing-Program substrate-research cascade; corpus paper structure updated with cross-arc closures).
+**Last update:** 2026-05-17 (post-Route A audit cascade + Empirical Predictions outreach trio published to Zenodo; memory + orientation + zenodo-list + outreach-contacts + paper-writing-checklist files relocated to `internal notes/`; Zenodo total now 28 entries).
 
 This file is the **orientation primer** for the ED-Generative repository. Read this first when arriving at the repo for the first time, returning after a gap, or onboarding an external reader.
 
@@ -34,7 +34,7 @@ ED uses a **form-FORCED / value-INHERITED methodology** with a three-tier verdic
 |---|---|
 | **M1 (FORCED-unconditional)** | Result follows from the 13 primitives + standard math alone, no additional paper-specific postulates required. No corpus result currently sits at M1. |
 | **M2 (Intermediate Path C)** | Structural mechanism identified with declared paper-specific postulates; closed-proof reduction OPEN. Phase-1 QM-emergence, Yang-Mills mass-gap, NS-Smoothness, NS-MHD closure, Arc ED-10 curvature emergence all sit at M2. |
-| **M3 (form-FORCED + value-INHERITED)** | Structural form follows under primitives + postulates; numerical values inherited via empirical matching. DCGT (within A→regime), SCBU + ED-SC 4.x, Newton's G, $a_0$, BTFR slope-4, Hawking spectrum, Class-A wall, NS-Q canonical Q ≈ 3.5 all sit at M3. |
+| **M3 (form-FORCED + value-INHERITED)** | Structural form follows under primitives + postulates; numerical values inherited via empirical matching. DCGT (within A→regime), SCBU + ED-SC 4.x (arc-wide M3 with substrate-parameter-INHERITED foundation post-Route-A closure), Newton's G, $a_0$, BTFR slope-4, Hawking spectrum, Class-A wall, NS-Q canonical Q ≈ 3.5 all sit at M3. **Cosmology Arc M3 Trinity (2026-05-17):** Paper_ED_Cos_01 (Inflation) + Paper_ED_Cos_05 (Dark Energy) + Paper_038_5 (Lambda_V1) all at M3 via the Q1A + Q2A + C3 + IC-INHERITED substrate-graph chain + Route A4 substrate-parameter-INHERITED closure ($\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$, $\tau_{V_5}/\tau_P \approx 10^{61}$ as primitive substrate-parameters at Paper_027-analog inheritance tier). |
 
 **Each paper carries a §2.5 Load-Bearing Step Audit Table** with explicit P/D/A/I labels for every load-bearing step. No "asserted-without-label" rows. This is the discipline that distinguishes ED from speculative-only substrate-ontology proposals.
 
@@ -48,7 +48,7 @@ ED uses a **form-FORCED / value-INHERITED methodology** with a three-tier verdic
 
 3. **The substrate→continuum bridge is DCGT** (Paper_073) at verdict tier **M3 within an A→regime hydrodynamic-window scale-separation assumption**. Every continuum-level corpus result inherits this M3-with-regime-caveat status.
 
-4. **The corpus's most ambitious synthesis is SCBU** (Substrate-Cosmology Boundary Unification): the substrate-cosmology boundary at $R_H = c/H_0$ is offered as the framework's **organizing structural claim**. Six projections of this boundary are proposed in the ED-SC 4.x extension arc (BH horizon, cosmic decoupling, $\xi_{canonical}$, $a_0$, $\mathcal{M}_{crit}$, $Q$ ≈ 3.5). **Route A (substrate-derived $\ell_{V5}(H_0)$) is currently OPEN**; closing it would upgrade the entire arc M3 → M2 simultaneously. Post-2026-05-16: Route A additionally controls Paper_038_5 retroactive M2 → M3 (load-bearing #5 reframing) and Paper_ED_Cos_05 draftability — the single highest-leverage open derivation, with extended cross-arc reach.
+4. **The corpus's most ambitious synthesis is SCBU** (Substrate-Cosmology Boundary Unification): the substrate-cosmology boundary at $R_H = c/H_0$ is now an **M3-supported structural claim at substrate-parameter-INHERITED level** (post-2026-05-17 Route A audit cascade closure). Six projections of this boundary (BH horizon, cosmic decoupling, $\xi_{canonical}$, $a_0$, $\mathcal{M}_{crit}$, $Q$ ≈ 3.5) all close at M3 with saturation-regime scale DERIVED at substrate-parameter-INHERITED level via Route A4 chain ($\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$). **Route A closed at substrate-parameter-INHERITED level (Paper_027-analog) per multi-route convergence audit option (ii):** both A4 ($\Theta_{\mathrm{ED}}$) and A2/A1 ($\tau_{V_5}$) close at same Paper_027-analog level; corpus carries both as independent primitive substrate-parameters. Tightening work (RA-OPEN-4a substrate-graph derivation of $\Theta_{\mathrm{ED}}$ value; RA-OPEN-4c-explicit substrate-graph derivation of multi-route convergence relation) is substrate-research-frontier — parallel to longstanding question "what determines $\ell_P, \hbar, c$ values?" at primitive level; **not load-bearing for M3 verdicts**.
 
 5. **The sharpest currently-clean empirical falsifier is BTFR slope-4 with zero intrinsic scatter** in the deep-MOND asymptotic (Paper_031). Testable against galaxy-rotation-curve catalogs at present precision.
 
@@ -59,15 +59,16 @@ ED uses a **form-FORCED / value-INHERITED methodology** with a three-tier verdic
 | Directory / file | Role |
 |---|---|
 | `ED_WHITEPAPER.md` | Public-facing front door. Non-technical orientation for new readers. Read first if external. |
+| `ED_Public_Onboarding_LessTechnical.md` + `ED_Public_Onboarding_MoreTechnical.md` | Public-facing onboarding docs at two technical levels. |
+| `internal notes/` | **Working-state files (2026-05-17 relocation):** `ED_MEMORY.md`, `ED_ORIENTATION.md` (this file), `ED_Zenodo_Uploads.md`, `ED_Outreach_Contacts.md`, `PAPER_WRITING_CHECKLIST.md`. Not for external readers. |
 | `position-paper/` | Canonical foundational statement of the 13-Primitive Generative System. |
-| `physics-papers/` | All Wave-2 papers organized by arc (qm-kinematics, qft, gravity, black-hole, q-compute, entanglement, soft-matter, wedges). |
+| `physics-papers/` | All Wave-2 papers organized by arc (qm-kinematics, qft, gravity, black-hole, q-compute, entanglement, soft-matter, wedges). **Includes new `physics-papers/predictions/` subdirectory** (Wave-3 prediction papers: Bundle + Postdictions + FRAP Template). |
 | `primitives/` | Two-tier structure: canonical P01–P13 reference cards at top level + `concepts/` subdirectory with pre-consolidation ontological-concept treatments. See `primitives/README.md`. |
 | `theorems/` | T-numbered theorem stubs (T19, T20, T21 currently). T17, T18, T21, GR1, N1, UR-1 also exist as full papers elsewhere. |
-| `scale correspondence/` | ED-SC arc papers (SCBU + ED-SC 4.x). |
+| `scale correspondence/` | ED-SC arc papers (SCBU + ED-SC 4.x). All six projections at M3 with substrate-parameter-INHERITED foundation post-2026-05-17 Route A closure. |
 | `falsifiers/` | Falsification register (Paper_101). |
 | `predictions/` | Active empirical-test program packets (FRAP, QC mass extrapolation, AFM dewetting, acoustic analog tests, etc.). |
-| `to_publish_01/` | First Zenodo posting batch (10 PDFs as of 2026-05-14). |
-| `archive/` | Superseded artifacts (M-series, older Phase-2 overviews). |
+| `archive/` | Superseded artifacts (M-series, older Phase-2 overviews, legacy `to_publish_01/`). |
 
 ---
 
@@ -147,8 +148,13 @@ The corpus is **structurally complete with declared open derivations** — not a
 
 ## Where to find more
 
-- **Memory anchor:** `ED_MEMORY.md` (same directory) — durable program-state facts, verdict-tier inventory, Round 4 cleanup queue, Load-Bearing Program tally (2026-05-16).
+- **Memory anchor:** `internal notes/ED_MEMORY.md` — durable program-state facts (22 anchors), verdict-tier inventory, Round 4 cleanup queue, full session-accomplishments history.
+- **Zenodo inventory:** `internal notes/ED_Zenodo_Uploads.md` — canonical list of 28 Zenodo entries with status, version, corpus source path, update protocol.
+- **Outreach-contacts inventory:** `internal notes/ED_Outreach_Contacts.md` — 8 MOND-community + 8 substrate-ontology contacts; arXiv-endorsement-request template; recommended endorsement order (McGaugh first).
+- **Paper-writing checklist:** `internal notes/PAPER_WRITING_CHECKLIST.md` — Wave-3 paper-writing discipline + corpus-style conventions.
+- **Empirical Predictions outreach trio (2026-05-17 Zenodo batch B):** `physics-papers/predictions/Paper_ED_Predictions_Bundle.md` (BTFR-led, 13 predictions) + `Paper_ED_Postdictions_PassedTests.md` (UDM peer-review credibility anchor) + `Paper_ED_FRAP_Template.md` (pre-registered protocol). Primary outreach material.
 - **Load-Bearing Program memo cascade:** `event-density/papers/Load_Bearing_Program_2026_05/` — Wave-3 substrate-research memos for the five load-bearing OPEN derivations (3 closed + 1 negative + 1 reframed to Route A).
+- **Q1Q2 + Chain-Class + Route A memo cascade:** `event-density/papers/Q1Q2_ChainClass_RouteA_2026_05/` — substrate-graph construction-uniqueness closures + chain-class identification + Route A audit cascade (Phases 2 + 3 of the three-phase substrate-research progression). **Single largest cross-arc closure cascade in the corpus to date** delivering Cosmology Arc M3 trinity + ED-SC 4.x arc-wide M3 upgrade simultaneously.
 - **Reading list:** `ED_WHITEPAPER.md` §10 has the canonical core-reading sequence.
 - **Falsification register:** `falsifiers/Paper_101_FalsificationRegister.md`.
 - **PAPERS_INDEX:** `PAPERS_INDEX_redo.md` for the canonical paper inventory with status flags.

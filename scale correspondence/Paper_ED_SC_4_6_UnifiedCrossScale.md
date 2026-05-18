@@ -3,8 +3,8 @@
 **Full Integration of SCBU Projections Across All Physical Regimes**
 
 **Series:** ED-SC 4.x — Cross-Scale Invariance Extensions (Capstone)
-**Status:** Wave-3 generative paper; M3 verdict at write-time (FORM-FORCED + VALUE-INHERITED)
-**Companions:** Paper_SCBU, Paper_ED_SC_4.1, Paper_ED_SC_4.2, Paper_ED_SC_4.3, Paper_ED_SC_4.4, Paper_ED_SC_4.5, Paper_091 (kernel cascade), Paper_096 ($\xi_{\mathrm{canonical}}$ + cross-scale invariance), Paper_097 (three-regime RG).
+**Status:** Wave-3 generative paper; **M3 (form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level)** post-2026-05-17 Route A audit cascade closure. Original write-time verdict (M3 FORM-FORCED + VALUE-INHERITED) is tightened: cosmological regime (regime 4) is now closed at substrate-parameter-INHERITED level via Route A4 chain (Paper_027-analog); the four-regime model is **M3-supported arc-wide** with saturation-regime scale (regime 4) substrate-graph-derived rather than canonically-matched. Six SCBU projections all close at M3 with shared substrate-parameter-INHERITED foundation. See §1.5 (added 2026-05-17) for the arc-wide M3 upgrade summary.
+**Companions:** Paper_SCBU, Paper_ED_SC_4.1, Paper_ED_SC_4.2 (Route A4 closure delivered post-2026-05-17), Paper_ED_SC_4.3, Paper_ED_SC_4.4, Paper_ED_SC_4.5, Paper_091, Paper_096, Paper_097, **Paper_027 (substrate-parameter-INHERITED template), Paper_ED_Cos_01 + Cos_05 + Paper_038_5 (Cosmology Arc M3 Trinity), Memo_ED_RouteA_MultiRouteConvergence_Audit, Update_ED_SC_4x_Arc_M3**.
 
 ---
 
@@ -19,9 +19,40 @@
 
 All **six SCBU projections** identified across the ED-SC 4.x arc occupy distinct, FORM-FORCED positions within this unified four-regime structure (counting Paper_ED_SC_4.1's two arms — $r_H$ and $R_H$ — as two separate parameter-axis projections): $r_H$ and $R_H$ (Paper_ED_SC_4.1; regime-4 local-grav arm and global arm respectively), $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2; substrate-scale anchor spanning IR-to-cosmological), $a_0$ (Paper_ED_SC_4.3; IR-galactic sub-projection), $\mathcal{M}_{\mathrm{crit}}$ (Paper_ED_SC_4.4; IR-platform-coherence sub-projection), $Q \approx 3.5$ (Paper_ED_SC_4.5; IR-hydrodynamic sub-projection).
 
-**Clarification.** The unified model is **FORM-FORCED**. Numerical values at each projection remain INHERITED. The unification's substantive content is structural: a single substrate-cosmology boundary, multiple projection mechanisms, four regime classes. No new postulates introduced beyond P-Substrate-Cosmology-Unified.
+**Clarification (post-2026-05-17 update).** The unified model is **FORM-FORCED** at the structural level (unchanged from write-time); **the cosmological regime (regime 4) is now closed at substrate-parameter-INHERITED level via Route A4 chain** (Paper_027-analog status). Numerical values at IR regime (regime 3) projections remain INHERITED at canonically-matched level; per-projection scaling exponent derivation via Route A inheritance chain is substrate-research-frontier tightening (not load-bearing for M3 verdict). The unification's substantive content is structural plus saturation-regime substrate-parameter inheritance: a single substrate-cosmology boundary M3-supported at substrate-parameter-INHERITED level, multiple projection mechanisms, four regime classes. No new postulates introduced beyond P-Substrate-Cosmology-Unified.
 
-This paper is the **capstone** of the ED-SC 4.x arc.
+This paper is the **capstone** of the ED-SC 4.x arc; the post-Route-A closure ratifies the four-regime model at substrate-parameter-INHERITED level across all six projections.
+
+---
+
+## §1.5 Arc-Wide M3 Upgrade Summary (Added 2026-05-17)
+
+Per Update_ED_SC_4x_Arc_M3 + Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii) verdict: the four-regime model + six-projection synthesis now closes at **M3 form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level (Paper_027-analog)** across the entire ED-SC 4.x arc.
+
+| Regime | Closure status (post-Route-A) |
+|---|---|
+| **UV (regime 1)** — $r \lesssim \ell_{V1}$, V1-dominated | M3 + $\ell_{V_1}$ substrate-parameter-INHERITED at primitive level |
+| **Transition (regime 2)** — $\ell_{V1} \lesssim r \lesssim \ell_{V5}$, V1↔V5 cascade | M3 + 0.6 cascade exponent (Paper_097); substrate-parameter content inherited |
+| **IR (regime 3)** — $\ell_{V5} \lesssim r \ll R_H$, V5-modulated multi-sector | M3 + three sub-projections ($a_0$, $\mathcal{M}_{\mathrm{crit}}$, $Q$) inherit from saturation-regime scale via Route A4 chain; per-projection exponent derivation = substrate-research-frontier tightening |
+| **Cosmological (regime 4)** — $r \sim R_H$, V5-saturated boundary | **CLOSED at substrate-parameter-INHERITED level via Route A4** (Paper_ED_SC_4.2 §1.5 closure): $R_H = c/H_0 = (3/8\pi)^{1/2} \ell_P^{-1} c^{1/2} \Theta_{\mathrm{ED}}^{-1/2}$ with $\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$ at P12 primitive level |
+
+**Six SCBU projections — post-Route-A status:**
+
+| Projection | Closure |
+|---|---|
+| $r_H$ (Paper_ED_SC_4.1, regime-4 local-grav) | M3 + Route A4 inheritance for cosmological-scale tie |
+| $R_H$ (Paper_ED_SC_4.1, regime-4 global) | **CLOSED at substrate-parameter-INHERITED level via Route A4** |
+| $\xi_{\mathrm{canonical}}$ (Paper_ED_SC_4.2) | **CLOSED at substrate-parameter-INHERITED level via Route A4** (Paper_ED_SC_4.2 §1.5) |
+| $a_0$ (Paper_ED_SC_4.3) | M3 + $H_0$ form-DERIVED via Route A4 ($a_0 = cH_0/(2\pi)$ per T20 + Route A4) |
+| $\mathcal{M}_{\mathrm{crit}}$ (Paper_ED_SC_4.4) | M3 + V5-cross-scale anchor tied to Route A4 substrate-parameter content |
+| $Q \approx 3.5$ (Paper_ED_SC_4.5) | M3 + cosmological-scale dependency via Route A4 substrate-parameter inheritance |
+
+**SCBU framing upgrade (per Update_SCBU_Synthesis_PostRouteA):** SCBU is no longer "organizing structural hypothesis pending Route A"; it is now "M3-supported structural claim at substrate-parameter-INHERITED level." The six-projection picture is a substrate-graph-derived structural feature.
+
+**Tightening work (substrate-research-frontier; not load-bearing for M3):**
+- RA-OPEN-4a: substrate-graph derivation of $\Theta_{\mathrm{ED}}$ value from sub-primitive content (analog of $\ell_P, \hbar, c$ value derivation)
+- RA-OPEN-4c-explicit: substrate-graph derivation of multi-route convergence relation $\ell_{V_5}^2 \sim c/(\ell_P^2 \Theta_{\mathrm{ED}})$ — would upgrade convergence from option (ii) to option (i)
+- Per-projection scaling exponent derivation via Route A inheritance chain — would sharpen synchronized-covariation prediction from "family of falsifiers" to "specific multi-axis covariation law"
 
 ---
 

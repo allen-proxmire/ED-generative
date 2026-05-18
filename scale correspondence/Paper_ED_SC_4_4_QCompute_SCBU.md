@@ -3,7 +3,7 @@
 **Matter-Wave / Qubit Coherence as IR-Projection of the SCBU Boundary**
 
 **Series:** ED-SC 4.x — Cross-Scale Invariance Extensions
-**Status:** Wave-3 generative paper; M3 verdict at write-time (FORM-FORCED + VALUE-INHERITED)
+**Status:** Wave-3 generative paper; **M3 (form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level)** post-2026-05-17 Route A audit cascade closure. Original write-time M3 verdict preserved; $\mathcal{M}_{\mathrm{crit}}$ V5-cross-scale anchor now tied to Route A4 substrate-parameter content via shared $\Theta_{\mathrm{ED}}$ / $\tau_{V_5}$ primitive-inheritance dependency (Paper_027-analog). Class A/B/C saturation structure inherits Route A4 foundational dependency at the V5 cross-scale anchor. See Paper_ED_SC_4.6 §1.5 + Paper_ED_SC_4.2 §1.5 + Update_ED_SC_4x_Arc_M3 for the arc-wide upgrade summary.
 **Companions:** Paper_SCBU (Substrate–Cosmology Boundary Unification), Paper_053 ($\mathcal{M}_{\mathrm{cap}}$), Paper_055 (A/B/C exhaustiveness), Paper_056 (Class A wall 140–250 kDa), Paper_057 (Class B gap-suppression), Paper_058 (Class C plateau), Paper_060 ($\mathcal{M}_{\mathrm{crit}}$ unification), Paper_062 (BH ↔ Q-Compute V5-echo), Paper_096 ($\xi_{\mathrm{canonical}}$), Paper_ED_SC_4.1, Paper_ED_SC_4.2, Paper_ED_SC_4.3.
 
 ---

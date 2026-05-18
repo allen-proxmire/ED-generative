@@ -51,6 +51,7 @@ This is a methodology paper; primitives are invoked only at the meta-level. The 
 | 3 | Three-tier verdict classification | P-Methodology-Triple | Postulate. |
 | 4 | Cross-corpus consistent application | P-Methodology-Consistency | Postulate. |
 | 5 | Specific verdict assignments | I | Per-paper inheritance. |
+| 6 | I sub-labels (substrate-parameter-INHERITED; IC-INHERITED) — see §3.2.1 | P-Methodology-Triple (extension) | Added 2026-05 corpus push. Sub-labels of I, not new top-level tier. Disambiguates inheritance kind without changing the M1/M2/M3 grammar. |
 
 ---
 
@@ -71,6 +72,50 @@ The methodology requires every load-bearing step in every paper to be labeled:
 - **D** (actual derivation).
 - **D-via-I** (application of standard machinery to substrate-adapted content under declared postulates).
 - **OPEN** (not claimed; flagged for future work).
+
+### 3.2.1 Sub-labels of I (added 2026-05 corpus push)
+
+The 2026-05 Wave-3 papers (Cos_05 Dark Energy; Cos_06 Inflationary Spectrum; Dyn_01 Saddle Dynamics; Dyn_04 Gravitational Collapse; and other papers in the Cosmology + Dynamics + GW arcs reading from Route A4 and CCC realizability) introduced two formal **sub-labels of I** to disambiguate the kind of inheritance carrying a row. Both are still I in the three-tier sense (M1/M2/M3); the sub-label is recorded in the Notes column of the audit table.
+
+- **I (substrate-parameter-INHERITED).** Used when a numerical value is inherited via substrate-parameter content (e.g., $\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$, $\tau_{V_5}/\tau_P \approx 10^{61}$, $\ell_P$) at the **Paper_027-analog** level — i.e., the substrate-parameter values themselves are inherited at primitive level (RA-OPEN-4a/4b/4c-explicit are substrate-research-frontier tightening questions, non-blocking for inheritance), and the paper's value rearranges them via dimensional / kernel composition. Distinguishes substrate-parameter-mediated inheritance from raw empirical-matching inheritance (which remains plain I).
+  - *Anchor pattern:* Paper_027 (Newton's $G$) is the original template. Route A4 (Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii)) is the corpus-wide closure at this tier.
+  - *Notation in audit tables:* label cell reads **I**; Notes column reads "Sub-type per label-class note: *substrate-parameter-INHERITED*. [reference to memo / construct]."
+
+- **IC-INHERITED.** Used when initial-condition or boundary-state content is inherited from an upstream substrate-state specification rather than reconstructed. Framework-neutral with respect to cyclic-CCC vs single-aeon ontology (per Memo_ED_CCC_Realizability_SubConstruct); the paper does not commit to either choice and inherits whichever is supplied by the upstream substrate-state specification.
+  - *Anchor pattern:* Cos_01 saturation entry; pre-collapse progenitor state (Dyn_04); local $\Psi$-gradient structure (Dyn_01).
+  - *Notation in audit tables:* label cell reads **I**; Notes column reads "Sub-type per label-class note: *IC-INHERITED*. [reference to substrate-state specification]."
+
+**Three-axis M3 verdict notation.** When a paper carries both sub-labels, the verdict tier expands to the three-axis form
+
+> **M3 (form-IDENTIFIED + value-INHERITED + IC-INHERITED)**
+
+read as: the structural form is IDENTIFIED (composition of upstream IDENTIFIED forms; no new substrate-research-frontier construction); the numerical value is INHERITED (via substrate-parameter content per Route A4 or via empirical matching); the initial-condition / boundary-state content is INHERITED (per the IC-INHERITED sub-label). This is still M3 in the three-tier classification of §3.1; the three-axis notation makes the *composition* of the M3 verdict explicit so that downstream verdict-sync checks (status / abstract / §1 / audit row / §6 anchors) can confirm all three axes carry the same status.
+
+Papers using only one or neither sub-label retain the plain M3 verdict and a two-axis or one-axis breakdown as appropriate.
+
+### 3.2.2 Mixed-verdict-tier papers: base verdict + sub-case carve-outs (added 2026-05 corpus push)
+
+Some Wave-3 papers carry **distinct verdict tiers for distinct sub-claims** within a single paper. The leading example is Paper_ED_Dyn_05 (Inspiral Dynamics): the *generic inspiral regime* inherits Paper_ED_Dyn_03's M2 status via the radiation-reaction step, while the *saturation case* (asymptotic circular-orbit limit) closes at M3 via Dyn_01 + Dyn_04 composition. To handle this honestly without breaking the three-tier grammar of §3.1, the methodology supports the following convention:
+
+- **Base verdict.** A paper has a single base verdict (M1, M2, or M3) which is the load-bearing claim for the paper as a whole — i.e., the verdict applying to the generic / load-bearing sub-claim. This is what appears in the status line, Abstract, §1, audit verdict row, and §6 anchors for the standard five-anchor sync.
+- **Sub-case carve-outs.** A paper may identify named sub-cases (e.g., "saturation case," "asymptotic limit," "circular-orbit limit") whose substrate-graph chain closes at a *stronger* verdict than the base. These are recorded as named sub-case verdicts in §1 (regime table or value/IC block), in the audit table as a dedicated row, and in §6 as a closing-paragraph note. Sub-case verdicts may not be *weaker* than the base verdict — a paper's base verdict is by definition its weakest load-bearing verdict.
+- **Anchor-sync convention.** Each of the five anchors carries the base verdict; sub-case verdicts are noted explicitly at each anchor in the form "M2 (generic) with M3 saturation-case noted" or similar. The verdict-sync check verifies that (i) the base verdict matches across all five anchors, and (ii) the sub-case verdicts are consistently named at each anchor.
+
+Mixed-verdict-tier framing does **not** create new tiers; it makes the *composition* of inherited verdicts within a paper explicit. Papers without sub-case carve-outs carry a single verdict and use the standard five-anchor sync unchanged.
+
+The three-axis verdict notation of §3.2.1 composes with mixed-verdict-tier framing: a paper may carry e.g. **M2 (form-IDENTIFIED + value-INHERITED + IC-INHERITED) — generic case; M3 saturation-case via Dyn_01 + Dyn_04** as its full verdict-tier statement.
+
+### 3.2.3 Component-status composition rule (added 2026-05 corpus push)
+
+A second class of mixed-tier paper composes several upstream chains as **distinct frequency-band / domain components** of one integrated observable, with each component inheriting a different verdict tier. Leading example: Paper_ED_GW_02 (Stochastic Background) composes inspiral (M2 via Dyn_05 → Dyn_03), merger + ringdown (M3 via Dyn_04 + GW_01), and cosmological + collapse (M3 via Cos_01 + GW_00) components into a single $\Omega_{\mathrm{GW}}(f)$ spectrum.
+
+- **Component-status composition rule.** When a paper integrates several upstream chains as distinct components of one observable, the **net verdict in any observable domain** (frequency band, energy range, redshift slice) is bounded above by the verdict of the component that **dominates that domain**. The paper's base verdict (for the five-anchor sync) is the net verdict in the observable domain where the integrated observable carries its load-bearing empirical anchors.
+- **Per-component verdict table.** Such papers should carry an explicit per-component verdict table in §1 (or audit row) listing for each component: source class, ED substrate-graph mechanism, observable domain, verdict tier. Five-anchor sync verifies the base verdict + the per-component breakdown.
+- **Subdomain carve-outs.** Domains where a higher-tier component dominates may be called out as sub-case verdicts in the §3.2.2 sense (e.g. "M3 in cosmological-source-dominated very-low-frequency bands"). These are not the base verdict but make the composition transparent.
+
+This rule does **not** create new tiers; it formalizes how the M1/M2/M3 grammar composes across multi-component observables. Papers without multi-component composition retain the standard single-verdict / mixed-tier framing of §3.2.2.
+
+The three rules (§3.2.1 sub-labels, §3.2.2 base + sub-case carve-outs, §3.2.3 component-status composition) compose cleanly: a paper may carry a three-axis verdict (§3.2.1), with a base + sub-case structure (§3.2.2), driven by component-status composition over multi-domain content (§3.2.3).
 
 ### 3.3 No conflation
 

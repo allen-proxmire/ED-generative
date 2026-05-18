@@ -3,8 +3,8 @@
 **Cross-Scale Fixed-Point Derivation from the Substrate–Cosmology Boundary**
 
 **Series:** ED-SC 4.x — Cross-Scale Invariance Extensions
-**Status:** Wave-3 generative paper; M3 verdict at write-time (derivation attempted, does not close at substrate-first-principles level; value-INHERITED status preserved; structural setup is FORM-FORCED M3)
-**Companions:** Paper_SCBU (Substrate–Cosmology Boundary Unification), Paper_096 (Cross-scale invariance, $\xi_{\mathrm{canonical}}$ canonical value), Paper_029 ($a_0 = c H_0/(2\pi)$), Paper_ED_SC_4_1 (BH ↔ cosmic decoupling boundary projection), Paper_091 (kernel cascade), Paper_097 (three-regime RG).
+**Status:** Wave-3 generative paper; **M3 (form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level via Route A4 chain).** Original write-time outcome was "Outcome-Open" (substrate-derived input not in corpus); **post-2026-05-17 Route A audit cascade closure** (Memo_ED_RouteA_A4_Construct + Audit + multi-route convergence audit option (ii)) supplies the missing substrate-derived input at substrate-parameter-INHERITED level (Paper_027-analog): $\xi_{\mathrm{canonical}} \sim \sqrt{\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}}} \cdot M_P$ via $H_0 = (8\pi/3)^{1/2} \ell_P c^{1/2} \Theta_{\mathrm{ED}}^{1/2}$. **Closure level matches Paper_027's M3 status.** Routes B + C carry substrate-research-frontier tightening status. See §1.5 (added 2026-05-17) for the Route A4 closure summary.
+**Companions:** Paper_SCBU, Paper_096, Paper_029, Paper_ED_SC_4_1, Paper_091, Paper_097, **Paper_027 (template for substrate-parameter-INHERITED closure), Paper_ED_Cos_01 (M3 saturation chain), Paper_ED_Cos_05 (M3 unconditional)**, **Memo_ED_RouteA_A4_Construct + Audit + Memo_ED_RouteA_MultiRouteConvergence_Audit** (substantive Route A closure cascade).
 
 ---
 
@@ -17,9 +17,34 @@
 - **(Outcome-Close)** The derivation closes: $\xi_{\mathrm{canonical}}$ is FORM-FORCED + VALUE-FORCED from substrate primitives + P-Substrate-Cosmology-Unified, upgrading Paper_096's verdict from M3 → M2 (or M1 if no additional postulate is required).
 - **(Outcome-Open)** The derivation produces a structural setup + dimensional / scaling constraints but **does not close** at first-principles level — the value of $\xi_{\mathrm{canonical}}$ remains INHERITED via canon-internal matching, pending a substrate-derived input not currently in the corpus.
 
-**Outcome of this paper.** The derivation **does not close** in the constructive sense. The fixed-point structure is set up, dimensional and scaling constraints are identified, and the missing substrate-level input is explicitly characterized as a **substrate-cosmology coupling parameter** that is not currently derived from primitives. Verdict remains **M3**: FORM-FORCED structural setup + VALUE-INHERITED numerical content. The paper supplies the **structural setup** for any future closure attempt.
+**Outcome of this paper (original write-time + post-2026-05-17 update).**
 
-Honest framing: this is the highest-leverage ED-SC 4.x paper, and the honest outcome is that the closure requires either (i) a substrate-derived $\ell_{V5}(H_0)$ relation or (ii) a substrate-derived RG-fixed-point-equation solution. Neither is supplied by this paper. The setup is supplied; the closure is OPEN.
+- **Original write-time:** the derivation does not close in the constructive sense. The fixed-point structure is set up, dimensional and scaling constraints are identified, and the missing substrate-level input is explicitly characterized as a substrate-cosmology coupling parameter that is not currently derived from primitives. Verdict at write-time: M3 FORM-FORCED structural setup + VALUE-INHERITED numerical content.
+
+- **Post-2026-05-17 Route A4 closure (see §1.5 below):** the missing substrate-derived input — substrate-derived $\ell_{V_5}(H_0)$ relation per outcome (i) — closes via the Route A4 audit cascade at **substrate-parameter-INHERITED level (Paper_027-analog)**. $\xi_{\mathrm{canonical}}$ is now substrate-graph-derived as a function of $H_0$ + Planck-scale substrate constants + the substrate-parameter $\Theta_{\mathrm{ED}}$ (P12 ED-threshold value). Verdict tightens to **M3 form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level**; no verdict-tier upgrade beyond M3, but value-INHERITED is now structured as substrate-parameter-INHERITED rather than canonically-matched. Routes B + C remain substrate-research-frontier.
+
+The paper supplies the structural setup; Route A4 closure (post-2026-05-17) supplies the substrate-parameter-INHERITED numerical content via the chain.
+
+---
+
+## §1.5 Route A4 Closure Summary (Added 2026-05-17)
+
+Post-write-time Route A audit cascade delivers the substrate-derived $\ell_{V_5}(H_0)$ closure as **Route A4 chain** at substrate-parameter-INHERITED level (Paper_027-analog). The chain:
+
+| Step | Substance | Source |
+|---|---|---|
+| **1** | Q1A (substrate-side Noether construction-uniqueness) — at uniform-$\Psi$ saturation, $T^{\mu\nu}_{\mathrm{sub}} = -g^{\mu\nu}\mathcal{L}_{\mathrm{sub}}^{\mathrm{const}}$ via six-candidate A.1–A.6 catalog eliminated to A.1 surviving | Memo_ED_Q1Q2_JointClosure_Construct §2 |
+| **2** | Q2A (DCGT mapping uniqueness at leading order) — $T^{\mu\nu}_{\mathrm{eff}} = -g^{\mu\nu}\rho_\Lambda$ via Bensoughssan-Lions-Papanicolaou homogenization; six-candidate B.1–B.6 catalog with B.1 surviving | Memo_ED_Q1Q2_JointClosure_Construct §3 |
+| **3** | P12 identification $\mathcal{L}_{\mathrm{sub}}^{\mathrm{const}} = \hbar \Theta_{\mathrm{ED}}$ (each substrate event carries action $\hbar$ per P-RB-1; substrate-action density at saturation = $\hbar$ × event-density at threshold) | Memo_ED_RouteA_A4_Audit §2 (audit-corrected dimensional bridge) |
+| **4** | Friedmann inheritance $H_0^2 = (8\pi G/3 c^2) \rho_\Lambda$ with $G$ via Paper_027 dimensional rearrangement | Standard cosmology + Paper_027 |
+| **5** | Resulting form: $H_0 = (8\pi/3)^{1/2} \ell_P c^{1/2} \Theta_{\mathrm{ED}}^{1/2}$; in Planck units $H_0 = (8\pi/3)^{1/2} \Theta_{\mathrm{ED}}^{\mathrm{Planck-units}, 1/2}$. Substrate-parameter $\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$ matches observation | Memo_ED_RouteA_A4_Construct §5 + audit §6.1 |
+| **6** | $\xi_{\mathrm{canonical}}$ identification: $\xi_{\mathrm{canonical}} \sim \sqrt{\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}}} \cdot M_P$ via this paper's fixed-point setup + Route A4 chain | This paper + Route A4 |
+
+**Multi-route convergence:** Route A2 (Hessian asymptotics) reduces to Route A1 ($\tau_{V_5}$) at leading-order linearity per Memo_ED_RouteA_A2_Construct; multi-route convergence audit verdict (ii) — both A4 ($\Theta_{\mathrm{ED}}$) and A2/A1 ($\tau_{V_5}$) close at the same Paper_027-analog level. Corpus carries both $\Theta_{\mathrm{ED}}$ and $\tau_{V_5}$ as independent primitive substrate-parameters. Substrate-graph multi-route convergence relation $\ell_{V_5}^2 \sim c/(\ell_P^2 \Theta_{\mathrm{ED}})$ is plausible but not derived — substrate-research-frontier tightening (RA-OPEN-4c-explicit), not load-bearing.
+
+**Cross-arc consequences delivered:** Cosmology Arc M3 Trinity (Cos_01 + Cos_05 + Paper_038_5) + ED-SC 4.x arc-wide M3 upgrade (six projections). Per Update_ED_SC_4x_Arc_M3.
+
+**Routes B + C status:** unchanged from original write-time — substrate-research-frontier tightening directions; not load-bearing for the M3 substrate-parameter-INHERITED closure delivered by Route A4.
 
 ---
 

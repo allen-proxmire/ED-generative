@@ -1,7 +1,7 @@
 # Paper GR-Λ-V1 — Cosmological Constant $\Lambda$ as V1 Cosmological-Scale Integral
 
 **Series:** Wave-3 Gravity Arc Extension — Cosmological Sector
-**Status:** Wave-3 generative paper; **M2 (Intermediate Path C)** verdict with OPEN flag on substrate derivation of observed $\rho_\Lambda$ scale. Λ smallness derivation **reframed (2026-05-16)** as reducing to Route A + Friedmann inheritance, not direct V1-cutoff or specialized substrate-graph mechanism (see §3.7 + load-bearing program overview).
+**Status:** Wave-3 generative paper. **Verdict upgraded 2026-05-17: M2 → M3 retroactive (form-IDENTIFIED + value-INHERITED + IC-INHERITED) per Paper_095 §3.2.1**, conditional on Route A4 substrate-parameter-INHERITED closure per Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii) (Paper_027-analog tier; same closure path used by Paper_ED_Cos_05 M3 unconditional). The M3-retroactive upgrade condition stated in §3.7 + §5 (closure of $\rho_\Lambda$ smallness via Route A + Friedmann inheritance) is satisfied: substrate-derived $\ell_{V_5}(H_0)$ inherits via Route A4 at substrate-parameter-INHERITED tier with $\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$ + $\tau_{V_5}/\tau_P \approx 10^{61}$ at primitive level; $\rho_\Lambda = (3/8\pi) H_0^2 M_P^2$ closes at D-via-I via Friedmann inheritance + Paper_027 substrate-side $M_P$. RA-OPEN-4a/4b/4c-explicit substrate-parameter tightening remains substrate-research-frontier (non-blocking, matches Cos_05 pattern). Prior verdict M2 with §3.7 reframing (2026-05-16) preserved as record. **Label-class note:** Audit-row sub-labels per Paper_095 §3.2.1.
 **Companions:** Paper_028 ($R_H = c/H_0$), Paper_038 (cosmological implications), Paper_089 (V1), Paper_017 (Lorentz covariantization), Paper_ED_SC_4.1 (SCBU BH ↔ cosmic boundary), Paper_027 (Newton's $G$ substrate-side), Paper_ED_Cos_01 (M3-upgraded inflation, vacuum-energy template). **Reframing-support memos:** Memo_ED_LambdaSmallness_Scoping; Memo_ED_DCGT_LambdaSuppression; Memo_ED_LoadBearingProgram_Overview.
 
 ---
@@ -18,7 +18,7 @@
 
 ## Abstract
 
-This paper supplies the substrate-level structural identification of the cosmological constant $\Lambda$ as a V1 cosmological-scale integral of curvature-induced vacuum backreaction over the substrate-cosmology boundary $R_H = c/H_0$ (Paper_028, Paper_ED_SC_4.1). The structural form is form-IDENTIFIED via V1 finite second moment (Paper_089) + curved acoustic-metric coarse-graining (Paper_014) + cosmological-boundary integration domain. **Smallness derivation reframed (2026-05-16):** substrate-graph closure of $\rho_\Lambda \sim 10^{-120}\rho_P$ reduces to Route A closure (substrate-derived $\ell_{V_5}(H_0)$) + Friedmann inheritance $\rho_\Lambda = (3/8\pi) H_0^2 M_P^2$ + Paper_027 substrate-side $G$ via dimensional rearrangement (per Memo_ED_DCGT_LambdaSuppression). The naïve V1-cutoff approach (§3.4) is structurally absent substrate-side because ED's discrete substrate ontology doesn't admit infinite QFT mode-tower zero-point summation (§3.7). Per Paper_095 form-FORCED / value-INHERITED methodology, verdict remains **M2 (Intermediate Path C)** with **OPEN status now conditional on Route A**. Closure of Route A would close $\rho_\Lambda$ smallness simultaneously and upgrade Paper_038_5 verdict M2 → M3 retroactively (parallel to Paper_ED_Cos_01 M3-upgrade pattern). Key falsifier **F1:** Route A closure or independent substrate-derivation of $H_0$ would close OPEN status; Friedmann inheritance then gives $\rho_\Lambda$.
+This paper supplies the substrate-level structural identification of the cosmological constant $\Lambda$ as a V1 cosmological-scale integral of curvature-induced vacuum backreaction over the substrate-cosmology boundary $R_H = c/H_0$ (Paper_028, Paper_ED_SC_4.1). The structural form is form-IDENTIFIED via V1 finite second moment (Paper_089) + curved acoustic-metric coarse-graining (Paper_014) + cosmological-boundary integration domain. **Smallness derivation reframed (2026-05-16):** substrate-graph closure of $\rho_\Lambda \sim 10^{-120}\rho_P$ reduces to Route A closure (substrate-derived $\ell_{V_5}(H_0)$) + Friedmann inheritance $\rho_\Lambda = (3/8\pi) H_0^2 M_P^2$ + Paper_027 substrate-side $G$ via dimensional rearrangement (per Memo_ED_DCGT_LambdaSuppression). The naïve V1-cutoff approach (§3.4) is structurally absent substrate-side because ED's discrete substrate ontology doesn't admit infinite QFT mode-tower zero-point summation (§3.7). Per Paper_095 form-FORCED / value-INHERITED methodology, verdict **upgraded 2026-05-17: M2 → M3 retroactive (form-IDENTIFIED + value-INHERITED + IC-INHERITED)** per Paper_095 §3.2.1. Upgrade-condition satisfied: Route A4 substrate-parameter-INHERITED closure per Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii) (Paper_027-analog tier — same path used by Paper_ED_Cos_05 for its M3 unconditional verdict) supplies substrate-derived $\ell_{V_5}(H_0)$ at primitive-level substrate-parameter content; Friedmann inheritance + Paper_027 substrate-side $M_P$ closes $\rho_\Lambda$ at D-via-I. Key falsifier **F1 (reframed):** failure of Route A4 substrate-parameter-INHERITED closure to yield $\rho_\Lambda$ consistent with observation would reopen OPEN status and reverse the M2 → M3 upgrade.
 
 ---
 
@@ -35,7 +35,7 @@ The **structural form** — $\Lambda$ as cosmological-scale integral of V1 vacuu
 
 The **numerical value** $\Lambda \approx 1.1 \times 10^{-52}\,\text{m}^{-2}$ is INHERITED via empirical / canon-internal matching. Substrate-level first-principles derivation is OPEN (closes via Paper_ED_SC_4.2 Route A or analogous cosmological-coupling derivation).
 
-Verdict: **M2 (Intermediate Path C)** with OPEN flag.
+Verdict: **M3 retroactive (form-IDENTIFIED + value-INHERITED + IC-INHERITED) per Paper_095 §3.2.1**, upgraded 2026-05-17 via Route A4 substrate-parameter-INHERITED closure. (Prior M2 with OPEN flag preserved as record in §3.7 + audit history.)
 
 ---
 
@@ -183,8 +183,9 @@ $$
 | 11 | $\alpha_{\mathrm{curv}}$ coupling constant | I | Substrate parameter; OPEN derivation. |
 | 12 | Empirical $\Lambda$ value | I | Empirical. |
 | 13 | Substrate-level derivation of $\alpha_{\mathrm{curv}}$ | OPEN | Future work; reduces under §3.7 framework to subset of Route A. |
-| 14 | Substrate derivation of observed $\rho_\Lambda$ scale via Route A + Friedmann inheritance | **OPEN (conditional on Route A)** | §3.7. Closure path identified: $\rho_\Lambda = (3/8\pi) H_0^2(\text{Route A}) M_P^2(\text{Paper\_027})$. If Route A closes, $\rho_\Lambda$ closes at D-via-I. Naïve V1-cutoff (§3.4) is structurally on the wrong track. |
-| 15 | Verdict M2 (Intermediate Path C); upgrades to M3 conditional on Route A closure | A→position | Per Paper_095 §3.3 line 77. **M2 → M3 retroactive upgrade conditional on Route A** per §3.7 reframing. |
+| 14 | Substrate derivation of observed $\rho_\Lambda$ scale via Route A4 + Friedmann inheritance | **D-via-I** (Route A4 substrate-parameter-INHERITED closure 2026-05-17 satisfies upgrade condition) | §3.7. $\rho_\Lambda = (3/8\pi) H_0^2(\text{Route A4}) M_P^2(\text{Paper\_027})$; Route A4 substrate-parameter inheritance per Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii) supplies $\ell_{V_5}(H_0)$ at primitive level. Naïve V1-cutoff (§3.4) preserved as record of failed approach. |
+| 14b | $H_0$ at Route A4 substrate-parameter-INHERITED level | **I** | Sub-type per Paper_095 §3.2.1: *substrate-parameter-INHERITED*. Paper_027-analog tier; $\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$, $\tau_{V_5}/\tau_P \approx 10^{61}$ at primitive level. RA-OPEN-4a/4b/4c-explicit substrate-research-frontier (non-blocking). |
+| 15 | Verdict **M3 retroactive (form-IDENTIFIED + value-INHERITED + IC-INHERITED)** per Paper_095 §3.2.1; upgraded 2026-05-17 via Route A4 closure | A→position | Per Paper_095 §3.2.1 + §3.3. Upgrade condition stated at original draft (§3.7 reframing 2026-05-16) is now satisfied. Five-anchor verdict-sync: status / abstract / §1 / this row / §6 all M3. |
 
 ---
 
@@ -221,7 +222,7 @@ This paper supplies the substrate-level structural identification of the cosmolo
 
 **Future work.** Route A closure (substrate-derived $\ell_{V_5}(H_0)$, per Paper_ED_SC_4.2) is the load-bearing remaining derivation. Substrate audit of dynamical dark energy / quintessence-class alternatives independent of Route A. Substrate audit of the cosmological "coincidence problem" (why universe transitions to Λ-dominated at current cosmic age) — independent of Route A.
 
-Verdict: **M2 (Intermediate Path C)** with OPEN flag; **conditional retroactive upgrade to M3 pending Route A closure**.
+Verdict: **M3 retroactive (form-IDENTIFIED + value-INHERITED + IC-INHERITED)** per Paper_095 §3.2.1, **upgraded 2026-05-17** via Route A4 substrate-parameter-INHERITED closure (Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii); same path as Paper_ED_Cos_05 M3 unconditional). Prior M2 verdict + §3.7 reframing preserved as audit-history record. Five-anchor verdict-sync (status / abstract / §1 / audit row 15 / closing) all M3.
 
 ---
 

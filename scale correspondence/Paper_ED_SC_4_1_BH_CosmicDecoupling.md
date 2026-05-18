@@ -3,7 +3,7 @@
 **Cross-Scale Correspondence at the Substrate–Cosmology Boundary**
 
 **Series:** ED-SC 4.x — Cross-Scale Invariance Extensions
-**Status:** Wave-3 generative paper; M3 verdict at write-time (FORM-FORCED + VALUE-INHERITED)
+**Status:** Wave-3 generative paper; **M3 (form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level)** post-2026-05-17 Route A audit cascade closure. Original write-time M3 verdict preserved; cosmological-scale tie ($R_H = c/H_0$) now form-DERIVED via Route A4 chain at substrate-parameter-INHERITED level (Paper_027-analog). BH-horizon ↔ cosmic-decoupling correspondence now M3-supported with shared Route A4 foundational dependency. See Paper_ED_SC_4.6 §1.5 + Paper_ED_SC_4.2 §1.5 + Update_ED_SC_4x_Arc_M3 for the arc-wide upgrade summary.
 **Companions:** Paper_SCBU (Substrate–Cosmology Boundary Unification), Paper_039 (Horizon as decoupling surface, $\Gamma_{\mathrm{cross}} \to 0$), Paper_028 (Cosmic decoupling surface $R_H = c/H_0$), Paper_096 (Cross-scale invariance, ED-SC 3.x canonical), Paper_091 (Kernel cascade across scales), Paper_097 (Three-regime RG).
 
 ---

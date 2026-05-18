@@ -3,7 +3,7 @@
 **Hydrodynamic-Window Canonical Q as IR-Projection of the SCBU Boundary**
 
 **Series:** ED-SC 4.x — Cross-Scale Invariance Extensions
-**Status:** Wave-3 generative paper; M3 verdict at write-time (FORM-FORCED + VALUE-INHERITED)
+**Status:** Wave-3 generative paper; **M3 (form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level)** post-2026-05-17 Route A audit cascade closure. Original write-time M3 verdict preserved; NS-Q canonical $Q \approx 3.5$ cosmological-scale dependency now via Route A4 substrate-parameter inheritance (Paper_027-analog). The IR-hydrodynamic sub-projection inherits saturation-regime scale via Route A4 chain. See Paper_ED_SC_4.6 §1.5 + Paper_ED_SC_4.2 §1.5 + Update_ED_SC_4x_Arc_M3 for the arc-wide upgrade summary.
 **Companions:** Paper_SCBU, Paper_074 (V5 viscoelastic Maxwell), Paper_080 (NS-Q canonical $Q \approx 3.5$), Paper_085 (Universal Mobility Law), Paper_086 (soft-matter synthesis), Paper_096 ($\xi_{\mathrm{canonical}}$), Paper_ED_SC_4.1, Paper_ED_SC_4.2, Paper_ED_SC_4.3, Paper_ED_SC_4.4.
 
 ---

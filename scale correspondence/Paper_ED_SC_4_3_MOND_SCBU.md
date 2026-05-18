@@ -3,7 +3,7 @@
 **Deep-MOND Regime as IR Projection of the SCBU Boundary**
 
 **Series:** ED-SC 4.x — Cross-Scale Invariance Extensions
-**Status:** Wave-3 generative paper; M3 verdict at write-time (FORM-FORCED + VALUE-INHERITED)
+**Status:** Wave-3 generative paper; **M3 (form-IDENTIFIED + value-INHERITED + saturation-regime scale DERIVED at substrate-parameter-INHERITED level)** post-2026-05-17 Route A audit cascade closure. Original write-time M3 verdict preserved; $a_0 = cH_0/(2\pi)$ (T20) inheritance now via Route A4-derived $H_0$ at substrate-parameter-INHERITED level (Paper_027-analog). T20 closure tightens correspondingly; BTFR slope-4 + $a_0$ value form a substrate-graph-derived MOND framework at substrate-parameter-INHERITED level. See Paper_ED_SC_4.6 §1.5 + Paper_ED_SC_4.2 §1.5 + Update_ED_SC_4x_Arc_M3 for the arc-wide upgrade summary.
 **Companions:** Paper_SCBU (Substrate–Cosmology Boundary Unification), Paper_029 ($a_0 = c H_0/(2\pi)$), Paper_030 (ED Combination Rule), Paper_031 (BTFR slope-4), Paper_033 (acoustic-metric covariantization), Paper_034 (deep-MOND + superluminality cost), Paper_096 (cross-scale invariance, $\xi_{\mathrm{canonical}}$), Paper_ED_SC_4.1 (BH ↔ cosmic boundary projection), Paper_ED_SC_4.2 (substrate-derivation of $\xi_{\mathrm{canonical}}(H_0)$).
 
 ---
