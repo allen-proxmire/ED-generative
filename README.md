@@ -14,7 +14,7 @@ Event Density says the universe is built that way. The smooth spacetime of stand
 
 The major postulates of standard physics — Newton's *G*, the cosmological constant Λ, the Born rule, Heisenberg's uncertainty, Bekenstein-Hawking entropy, the MOND acceleration scale, the arrow of time — are **derived** from the substrate in this work, not assumed. The data physics measures stays where it is. What changes is the floor underneath it.
 
-The popular-companion volume to this research is **[*The Universe Becoming: The Pattern Beneath Physics*](https://www.amazon.com/dp/9798198586062)** — sixteen chapters tracing the same architecture in plain English, no math required. ISBN 979-8-19858-606-2.
+The popular-companion volume to this research is **[*The Universe Becoming: The Pattern Beneath Physics*]((https://www.amazon.com/dp/B0H34MSH87))** — sixteen chapters tracing the same architecture in plain English, no math required. ISBN 979-8-19858-606-2.
 
 ---
 
