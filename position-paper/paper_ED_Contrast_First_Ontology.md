@@ -1,9 +1,3 @@
-# Contrast-First: Determinacy as Commitment in the Event Density Ontology
-
-Allen Proxmire — June 2026
-
----
-
 ## Abstract
 
 Event Density (ED) is usually presented through its machinery: thirteen primitives, two kernels, a coarse-graining theorem, a registry of derived structures. This paper steps beneath the machinery to ask what kind of thing ED *is*. The answer offered here is that ED is a **contrast-first** ontology. Its primitive is neither the *event* (a thing) nor the *relation* (a between), but **contrast** — a difference, a gradient, a participation pattern — from which both events and relations co-arise. The event-versus-relation dichotomy, which forces a choice between substance ontology and pure relationalism, is a false binary; ED dissolves it.
