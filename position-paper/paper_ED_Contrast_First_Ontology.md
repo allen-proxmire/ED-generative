@@ -1,8 +1,4 @@
-# Contrast-First: Determinacy as a Relational Event in the Event Density Substrate
-
-**A foundational paper on the ontology of Event Density**
-
-*Position-paper tier. Conceptual / foundational. Standalone, citable.*
+# Contrast-First: Determinacy as Commitment in the Event Density Ontology
 
 Allen Proxmire — June 2026
 
@@ -14,15 +10,17 @@ Event Density (ED) is usually presented through its machinery: thirteen primitiv
 
 The paper makes one further, sharper claim. A relational ontology owes an account of how anything becomes *determinate* — how the relational flux yields particular facts. ED has a concrete answer that the relational-ontology tradition lacks: **commitment** (primitive P11), the substrate's irreversible event in which one contrast is actualized as fact. Commitment does not create determinacy from nothing; it converts *relational potential* into *irreversible fact* — a substrate-level analogue of quantum collapse. From contrast-first plus commitment, two prohibitions follow that the framework must honor at every scale: **no determinate micro-fact in isolation**, and **no determinate macro-value (a physical constant) without global participation**. Together these read as a single principle — *determinacy is relational at every scale* — and they make ED's "value-inherited" methodological stance principled rather than apologetic: in a relational world, holistic quantities are not the kind of thing a substrate can produce in isolation.
 
-The paper is honest about its debts. The arrow of determinacy enters through a *posited* irreversibility (P11), not a derived one; the tension between relational properties and the *exact* universality of quantities like electric charge is named, with a topological-charge hypothesis offered as an open prediction rather than a result. ED is situated against Whitehead's process metaphysics, Rovelli's relational quantum mechanics, and the ontic structural realism of Ladyman and French; its distinctive contribution is commitment as a concrete, discrete, already-load-bearing determinateness mechanism. No claim is made that this derives any physical constant. The aim is to state, clearly and defensibly, the ontology ED has been using all along.
+The paper names its debts plainly. The arrow of determinacy enters as a *posited* irreversibility (P11) rather than a derived one: commitment actualizes facts *given* the arrow; it does not explain the arrow. And the perfect universality of quantities like electric charge is reconciled only by a hypothesis — that such quantities are discrete, topological invariants — offered here as an open prediction, not a result.
+
+ED is situated against Whitehead's process metaphysics, Rovelli's relational quantum mechanics, and the ontic structural realism of Ladyman and French; its distinctive contribution is commitment as a concrete, discrete, already-load-bearing determinateness mechanism. No claim is made that this derives any physical constant. The aim is to state, clearly and defensibly, the ontology ED has been using all along.
 
 ---
 
 ## 1. Introduction
 
-Foundational physics inherits a very old quarrel about what is basic: *things* or *relations*. Substance ontologies put things first — particles, fields, points — with relations as arrangements among pre-existing relata. Relational ontologies invert this — relations, structure, or process are primary, and "things" are derivative knots in the relational fabric. The quarrel is alive in physics today, from relational interpretations of quantum mechanics to structural realism in the philosophy of science.
+Foundational physics inherits a very old quarrel about what is basic: *things* or *relations*. Substance ontologies put things first — particles, fields, points — with relations as arrangements among pre-existing relata. Relational ontologies invert this — relations or process are primary, and "things" are derivative knots in the relational fabric. The quarrel is alive in physics today, from relational interpretations of quantum mechanics to structural realism in the philosophy of science. Notably, *structure* is claimed by both camps — the substance view treats it as the arrangement of things, the relational view as the thing itself — which is the first hint that the dichotomy is not as clean as it looks.
 
-Event Density sits, awkwardly, on both sides of this line at once. Its substrate is built from *micro-events* (which sound like things) standing in *participation* relations (which sound like relations prior to things). Asked "which is more fundamental in ED, the event or the relation?", the framework's own vocabulary pulls both ways. This is usually treated as an imprecision to be resolved by picking a side.
+Event Density sits on both sides of this line at once. Its substrate is built from *micro-events* (which sound like things) standing in *participation* relations (which sound like relations prior to things). Asked "which is more fundamental in ED, the event or the relation?", the framework's own vocabulary pulls both ways. This is usually treated as an imprecision to be resolved by picking a side.
 
 This paper argues the opposite: the imprecision is a clue, and picking a side is the mistake. The event-versus-relation choice is a **false binary**. There is a third position — older than the binary, and a better fit for ED's actual machinery — in which event and relation **co-arise** from a more basic primitive. That primitive is **contrast**.
 
@@ -36,13 +34,13 @@ The paper proceeds as follows. §2 presents contrast as the primitive and confro
 
 ## 2. Contrast as the Primitive
 
-By **contrast** we mean the minimal unit of difference: a gradient between densities, a sign-flip across a boundary, a participation pattern that distinguishes one channel from another. Contrast is concrete in ED — it is not an abstract logical "distinction" but a substrate-level quantity (a difference in event density, an edge in the participation graph, a polarity transported between loci). Wherever ED has structure, that structure is a configuration of contrasts.
+By **contrast** we mean the minimal unit of difference: a gradient between densities, a sign-flip across a boundary, a participation pattern that distinguishes one channel from another, a change of state from one moment to the next. Contrast is concrete in ED — it is not an abstract logical "distinction" but a substrate-level quantity (a difference in event density, an edge in the participation graph, a polarity transported between loci, a state-change across a commitment). Wherever ED has structure, that structure is a configuration of contrasts.
 
 The claim *contrast is the primitive* must immediately answer a hard objection, because if it cannot, it is empty. The objection: one can append "is a contrast" to every concept in the framework — a relation is a contrast between densities, an event is a realized contrast, a boundary is a persistent contrast, a constant is a contrast ratio — and a word that describes *everything* describes *nothing*. A primitive earns its place only if it **restricts** — if it tells you what cannot happen. A universal solvent is not a foundation.
 
 We accept this test and meet it in §5, where contrast-first is shown to forbid two specific things. Here we only fix the status of the primitive: contrast is offered not because everything can be *called* a contrast, but because contrast is what is left when one refuses to grant primacy to either side of the event/relation binary. If neither the relatum nor the relation is prior, what remains as basic is the *difference itself* — the having-of-two-sides. That is contrast. Its content as a primitive is exactly the prohibitions it underwrites, not the breadth of things it can be used to redescribe.
 
-This locates ED in a recognizable lineage without collapsing into it. Whitehead, in *Process and Reality*, uses "contrast" as a technical category — the mode in which diverse elements are synthesized into a single occasion. Spencer-Brown's *Laws of Form* takes the drawing of a distinction as the primitive act; Bateson's "a difference that makes a difference" makes difference the unit of information. ED's contrast is a physical, substrate-level cousin of these: difference as the basic furniture, with the framework's specific machinery (gradients, participation, the stability functional, commitment) as what makes the difference *do* anything.
+This locates ED in a recognizable lineage without collapsing into it. Whitehead, in *Process and Reality*, uses "contrast" as a technical category — the mode in which diverse elements are synthesized into a single occasion. Spencer-Brown's *Laws of Form* takes the drawing of a distinction as the primitive act; Bateson's "a difference that makes a difference" makes difference the unit of information. ED's contrast is a physical, substrate-level cousin of these: difference taken as fundamental, with the framework's specific machinery (gradients, participation, the stability functional, commitment) as what makes the difference *do* anything.
 
 ---
 
@@ -56,7 +54,7 @@ So the order of being is not "event, then relation" nor "relation, then event." 
 
 > **contrast → relational phase (participation) → commitment → event phase (fact)**
 
-Event and relation are the *before* and *after* of a single becoming, and contrast is what makes both possible. Neither is ontologically prior; each is unintelligible without the other. A relation with no terms to relate is empty; a term with no relations is, in ED, literally undefined — there is no determinate event in isolation (§5). This is co-constitution: the terms and the relating arise together, against contrast as their shared ground.
+Event and relation are two phases of a single becoming — the relational phase before commitment, the determinate phase after. But this temporal order is not an order of priority. That participation precedes the committed event *in time* makes the relation no more fundamental than a question is more fundamental than its answer; neither is intelligible without the other. A relation with no terms to relate is empty; a term with no relations is, in ED, literally undefined — there is no determinate event in isolation (§5). This is co-constitution: the terms and the relating arise together, against contrast as their shared ground.
 
 This dissolves the dichotomy rather than choosing within it. ED is not a substance ontology with relational vocabulary, and not a pure relationalism that dispenses with relata. It is a process ontology in which the *thing* and the *between* are co-emergent, with a definite mechanism marking the transition between phases. That mechanism is the subject of §4.
 
@@ -75,13 +73,13 @@ The correction distinguishes **two kinds of determinacy**:
 - **Relational (potential) determinacy** — the participation pattern itself. This *pre-exists* commitment. The pattern is a definite pattern; the relational phase is structured, not formless.
 - **Factual (actual) determinacy** — *which* continuation becomes the realized, irreversible fact. This is what commitment produces.
 
-Commitment therefore does not create determinacy *ex nihilo*; it **actualizes** a relational potential into an irreversible fact. The right picture is the one quantum mechanics already supplies:
+Commitment therefore does not create determinacy *ex nihilo*; it **actualizes** a relational potential into an irreversible fact. Quantum mechanics already supplies the right picture — taken as an analogy of *structure*, not as a claim that the substrate is itself quantum (ED aims to *derive* quantum mechanics from the substrate, so the substrate is pre-quantum). A superposition is a perfectly *definite state* — a precise mathematical object — whose measurement *outcome* is nonetheless open until measurement fixes it. The state is settled; the outcome is not. The parallel runs:
 
-> superposition (a perfectly definite *state*) → measurement → outcome (a definite *result*)
+> superposition (definite state, open outcome) → measurement → result (fixed outcome)
 >
-> participation pattern (relational potential) → commitment → realized event (irreversible fact)
+> participation pattern (definite pattern, open outcome) → commitment → event (fixed fact)
 
-**Commitment is ED's substrate-level collapse: the moment a contrast becomes a fact.** Contrast is the primitive; commitment is the actualization.
+In both rows, what pre-exists is a definite relational structure with an unfixed outcome; the operation fixes the outcome, irreversibly. **Commitment is ED's substrate-level collapse: the moment a contrast becomes a fact.** Contrast is the primitive; commitment is the actualization.
 
 Two honest points must accompany this.
 
@@ -95,7 +93,7 @@ What makes commitment ED's own contribution, rather than borrowed philosophy, is
 
 ## 5. The Two Teeth: What Contrast-First Forbids
 
-A primitive earns its place by forbidding. Contrast-first forbids exactly two things — and the smallness of that number is deliberate. Candidate prohibitions that turned out to be restatements of the thesis, or to belong to ED's *locality* structure rather than to contrast-first, are excluded; what remains are two genuine, independent restrictions.
+A primitive earns its place by forbidding. We identify two things contrast-first forbids — and the smallness of that number is itself the point. Candidate prohibitions that turned out to be restatements of the thesis, or to belong to ED's *locality* structure rather than to contrast-first, were set aside; what remains are two genuine, independent restrictions. We do not claim these exhaust what contrast-first forbids — only that these two are real and survive scrutiny.
 
 **Tooth 1 — No determinate micro-fact in isolation.** There is no determinate event, value, or property belonging to a single participant considered alone. Determinacy is conferred only at commitment, and commitment is inherently relational (a collapse *among* channels, fixing a position *in* a web). A lone event is no event. This is not a methodological caution; it follows from co-constitution plus commitment, and it is already encoded in ED's machinery.
 
@@ -115,7 +113,7 @@ ED's stated methodology splits every result into what is **form-FORCED** (derive
 
 The two teeth turn this reading on its head. If a constant's value is a property of the *whole relational web* (Tooth 2), then no substrate-level or local description can derive it — **in principle**, not merely in practice. The value is a holistic quantity; the substrate is a local description; asking the substrate to output the number is a category error of the temperature-of-one-molecule kind.
 
-So value-inherited is not ED falling short of a derivation it ought to have. It is ED *correctly drawing the line* between what is local-and-structural (the *form* of a law — derivable, hence form-FORCED) and what is global-and-relational (the *value* — holistic, hence value-INHERITED). **Value-inherited is not a weakness; it is the epistemology of a relational world.** A theory that claimed to grind every number out of a substrate would, on this view, be making a category error — and, not incidentally, would be indistinguishable in form from numerological "derivations" of constants, which insert the target value and recover it dressed in new notation.
+So value-inherited is not ED falling short of a derivation it ought to have. It is ED *correctly drawing the line* between what is local-and-structural (the *form* of a law — derivable, hence form-FORCED) and what is global-and-relational (the *value* — holistic, hence value-INHERITED). **Value-inherited is not a weakness; it is the epistemology of a relational world.** A theory that claimed to grind every number out of a substrate would, in this view, be making a category error — and, not incidentally, would be indistinguishable in form from numerological "derivations" of constants, which insert the target value and recover it dressed in new notation.
 
 This reframe carries its own discipline, and the paper states it to avoid the obvious abuse. "It is relational, therefore inherited" is licensed *only* where a quantity is genuinely holistic. It must not become a reflex that forecloses every derivation. Where a quantity is local and structural, ED should still attempt to derive it; the *form* of a law remains fair game, and indeed is what ED claims to force. The relational reframe explains why certain *values* are inherited in principle; it is not a blanket exemption from doing physics. The honest division of labor is: structure is derivable, holistic values are inherited, and which side a given quantity falls on must be argued case by case.
 
@@ -123,7 +121,7 @@ This reframe carries its own discipline, and the paper states it to avoid the ob
 
 ## 7. The Honest Frontier
 
-The relational account meets its sharpest test at the *exactly universal* quantities. Electric charge is the same — to roughly one part in 10²¹ — for every electron, in every context, at every accessible energy. Spin is exactly one-half. A naive relationalism predicts that relational quantities should *vary* with context, the way a running coupling or a temperature does. The perfect invariance of charge looks exactly like an intrinsic, absolute, non-relational property — precisely what contrast-first denies.
+The relational account faces its hardest test where quantities are *perfectly universal*. Electric charge does not vary: every electron carries the same charge, in every context and at every accessible energy, to within about one part in 10²¹. Spin is exactly one-half. This is the sharp problem for contrast-first, because relational quantities are supposed to *vary* with context — a coupling runs with energy, a temperature depends on the gas. A quantity that never varies looks exactly like an intrinsic, absolute property — the very thing contrast-first denies. If charge is relational, why is it everywhere identical?
 
 The resolution requires splitting "relational property" into two flavors:
 
@@ -148,11 +146,11 @@ Contrast-first is not novel in being relational; it is novel in *how* it secures
 
 **Whitehead (process metaphysics).** ED's substrate is strikingly close to Whitehead's: micro-events map to "actual occasions" of becoming, and participation maps to "prehensions" — an occasion is constituted by its graspings-of other occasions, not a substance that subsequently relates. Whitehead even uses "contrast" as a technical category. What ED adds is a *sharp* mechanism of becoming-determinate. Whitehead's "concrescence" is notoriously hard to pin down; ED's commitment is discrete, irreversible, and already does derivational work.
 
-**Rovelli (relational quantum mechanics).** Relational QM holds that a system's state is defined only relative to another system — there are no absolute states. ED agrees at the level of the relational phase: participation is relative, and there is no observer-independent pre-commitment fact. What ED adds is the *transition* — commitment as a substrate event that yields the irreversible facts relational QM otherwise leaves as relative all the way down.
+**Rovelli (relational quantum mechanics).** Relational QM holds that a system's state is defined only relative to another system — there are no absolute states. ED agrees at the level of the relational phase: participation is relative, and there is no observer-independent pre-commitment fact. What ED adds is the *transition*. Relational QM leaves every fact relative to some system, with no point at which a fact becomes simply settled. ED's commitment is that point — the irreversible substrate event at which a relational potential becomes a fixed fact of the shared history, the same for all.
 
-**Ladyman and French (ontic structural realism).** OSR holds that structure is fundamental and "things" are secondary or thin. Contrast-first is a version of this, with the two teeth as its concrete content. What ED adds, again, is the determinateness mechanism: OSR asserts that facts obtain within structure but offers no operation by which a particular fact becomes fixed. ED's commitment is exactly such an operation — and it carries the "thisness" (individuation by irreversible position) that thin-relata structuralism is often accused of lacking.
+**Ladyman and French (ontic structural realism).** OSR holds that structure is fundamental and "things" are secondary or derivative. Contrast-first is a version of this, with the two teeth as its concrete content. What ED adds, again, is the determinateness mechanism: OSR holds that there are facts within structure but offers no operation by which a particular fact becomes fixed. ED's commitment is exactly such an operation — and it carries the "thisness" (individuation by irreversible position) that thin-relata structuralism is often accused of lacking.
 
-The common thread is that the relational tradition is rich on *what is fundamental* (relations, structure, process) and thin on *how determinacy arises*. That is the gap contrast-first fills. The distinctive ED claim is therefore narrow and defensible: **a relational ontology with a concrete, discrete, irreversible, already-load-bearing determinateness mechanism — commitment — as the operation that turns relational potential into irreversible fact.** ED's broader intellectual neighborhood — 't Hooft's cellular automata, Wolfram's hypergraph rewriting, the causal-set program — shares the discrete-substrate impulse; ED's specific addition to *that* neighborhood is the same: the commitment event as the hinge of determinateness, and the contrast-first reading of what the substrate's structure *is*.
+The common thread is that the relational tradition is rich with *what is fundamental* (relations, structure, process) and short on *how determinacy arises*. That is the gap contrast-first fills. The distinctive ED claim is therefore narrow and defensible: **a relational ontology with a concrete, discrete, irreversible, already-load-bearing determinateness mechanism — commitment — as the operation that turns relational potential into irreversible fact.** ED's broader intellectual neighborhood — 't Hooft's cellular automata, Wolfram's hypergraph rewriting, the causal-set program — shares the discrete-substrate impulse; ED's specific addition to *that* neighborhood is the same: the commitment event as the hinge of determinateness, and the contrast-first reading of what the substrate's structure *is*.
 
 ---
 
@@ -164,7 +162,7 @@ The proposal's debts are named rather than hidden. The arrow of determinacy ente
 
 What is **not** claimed should be equally clear. Nothing in this paper derives a physical constant; on the contrary, the account explains *why* certain values cannot be derived from the substrate alone. Nothing here is a result in physics; it is a statement of ontology — the kind of thing that clarifies what a framework is and what its honest commitments are. And the relational reading is not a license to stop doing physics: the *form* of a law remains derivable and is what ED claims to force; only genuinely holistic *values* are inherited in principle.
 
-The contribution, stated plainly: the relational and process traditions are rich on what is fundamental and thin on how determinacy arises; ED supplies the missing operation, commitment, and reads its substrate's structure as configurations of contrast. *An event only events when given something to event with* — and it becomes a fact when, and only when, a contrast commits.
+The contribution, stated plainly: ED supplies the missing operation — commitment — and reads its substrate's structure as configurations of contrast. *An event only events when given something to event with* — and it becomes a fact when, and only when, a contrast commits.
 
 ---
 
@@ -174,7 +172,3 @@ The contribution, stated plainly: the relational and process traditions are rich
 2. **The arrow (scope of P11).** Commitment's determinateness rests on posited irreversibility. Whether P11's arrow is fundamental or reducible (to time-homogeneity plus kernel retardation) is open; the present account requires only that it be named, not derived.
 3. **Thin-relata individuation at perfect symmetry.** Relational individuation by participation-history position is generic but fails for exactly symmetric configurations; the claim that accumulated commitment history generically breaks such symmetries should be made precise.
 4. **Minimality of "contrast."** Whether "contrast" is genuinely a single primitive or a working consolidation of distinct substrate notions (gradient, participation, polarity) parallels the open minimality questions about the thirteen primitives.
-
----
-
-*This is a foundational/ontological paper. It articulates the ontology implicit in the Event Density machinery; it derives no physical constant and makes no empirical prediction beyond the falsifiable structural hypothesis of §7. For the substrate's primitive enumeration see `paper_ED_Framework_13_Primitive_Generative_System.md`; for the program overview see `ED_WHITEPAPER.md`.*
