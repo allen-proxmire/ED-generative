@@ -1,2 +1,5 @@
 # Claude Code internal worktrees
 .claude/worktrees/
+
+# Contrast-first paper: track the PDF only, keep the .md local
+position-paper/paper_ED_Contrast_First_Ontology.md

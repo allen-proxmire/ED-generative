@@ -2,13 +2,23 @@
 
 **Maintained:** running record of all Zenodo uploads for the Event Density (ED) research program. Newest uploads first. Use this as the canonical inventory for which papers + which versions are publicly posted.
 
-**Last update:** 2026-05-18 (after DCGT Paper_073 Wave-3 refresh + Zenodo deposit). Inventory location moved to `internal notes/` 2026-05-17.
+**Last update:** 2026-05-18 (after Cosmology Arc curated standalone batch: Cos_02 BBN + GW_01 Ringdown + Cos_06 Inflationary Spectrum + Baryogenesis + Paper_038_5 v2 refresh). Inventory location moved to `internal notes/` 2026-05-17.
 
 ---
 
 ## §1 Upload inventory (newest first)
 
-### 2026-05-18 — DCGT foundational refresh
+### 2026-05-18 batch B — Cosmology Arc curated standalone deposits + Baryogenesis + Paper_038_5 v2
+
+| # | Title | Type | Version | Corpus source | Notes |
+|---|---|---|---|---|---|
+| 33 | Inflationary Fluctuation Spectrum as Substrate-Inherited Sub-Leading Perturbations on the Saturation Regime | Preprint | v1 | `physics-papers/cosmology/Paper_ED_Cos_06_InflationarySpectrum.md` | **New v1.** Cosmology Arc closer (M3 via Cos_01 saturation + Q-C3-2 + GW_00 saddle-Hessian-signature framework + Route A4). Empirical anchors: Planck + BICEP/Keck 2021 ($n_s$, $r$, $\alpha_s$, $A_s$); future B-mode targets (Simons Observatory, CMB-S4, LiteBIRD). Cross-arc unification: primordial tensor modes via same substrate-graph mechanism as post-recombination GW propagation (GW_00). |
+| 32 | Black-Hole Ringdown Spectroscopy as Time-Varying Saddle-Hessian-Signature Reconfiguration | Preprint | v1 | `physics-papers/dynamics/Paper_ED_GW_01_RingdownSpectroscopy.md` | **New v1.** M3 via Dyn_01 S2-mixed-signature framework + GW_00 NoetherFlux chain + Route A4. Empirical anchors: LIGO/Virgo/KAGRA BH-BH merger catalog (GW150914 and successors); GW170817 multi-messenger speed equality ($\|c_{GW}-c\|/c < 10^{-15}$). F2 substrate-side V5 finite-memory damping rate is sharp ED-distinctive prediction. |
+| 31 | Big Bang Nucleosynthesis as Substrate-Inherited Freeze-Out Sequence | Preprint | v1 | `physics-papers/cosmology/Paper_ED_Cos_02_BBN.md` | **New v1.** M3 via continuum-Friedmann inheritance + Route A4. Empirical anchors: 50+ years of BBN observational success at ~5% precision ($Y_p$, D/H, $\eta_b$ cross-consistency). Highest nuclear-physics surface area in corpus — weak-interaction freeze-out, deuterium bottleneck, He-4 synthesis chain. Substrate-parameter sensitivity channel $dY_p/d\ln\Theta_{\mathrm{ED}} \approx 0.05$ as ED-distinctive prediction. |
+| 30 | Chain-Arrow Chirality, Admission Filter, and Stability Selection in the Post-SCBU Ignition Regime (Baryogenesis) | Preprint | v1 | `physics-papers/cosmology/Paper_ED_Baryogenesis.md` | **New v1.** Upgraded 2026-05-17 from prior M2 → M3 via R4 single-template admissibility + IC-supply equivalence with Cos_01 Q-C3-3 (five-memo closure chain: Verification → Scoping → Construction → Audit → Update). Zero paper-specific postulates; zero load-bearing OPENs. Eighth Cosmology Arc paper at M3. ALPHA-g 2023 antimatter-fall anchor. |
+| #3 (v2) | Cosmological Constant Λ as V1 Cosmological-Scale Integral | Preprint | **v2** | `physics-papers/gravity/Paper_038_5_Lambda_V1_Cosmological.md` | **v2 refresh.** Verdict upgraded M2 → M3 retroactive via Route A4 substrate-parameter-INHERITED closure (Memo_ED_RouteA_MultiRouteConvergence_Audit option (ii); same path Cos_05 uses for M3 unconditional). Prior M2 verdict + §3.7 Λ-smallness reframing preserved as audit-history record. |
+
+### 2026-05-18 batch A — DCGT foundational refresh
 
 | # | Title | Type | Version | Corpus source | Notes |
 |---|---|---|---|---|---|
@@ -76,15 +86,19 @@
 
 ## §2 By corpus arc
 
-### Cosmology Arc (5 entries)
+### Cosmology Arc (8 entries)
 - #1 Whitepaper (front door)
 - #2 Dark Energy (Cos_05) — M3 unconditional
-- #3 Lambda V1 (Paper_038_5) — M3 retroactive
+- #3 Lambda V1 (Paper_038_5) — M3 retroactive (v2 as of 2026-05-18)
 - #5 Inflation (Cos_01) — M3 unconditional
 - #6 Conformal Cyclic Cosmology (CCC)
+- #30 Baryogenesis — M3 via R4 + IC-supply equivalence
+- #31 BBN (Cos_02) — M3 via continuum-Friedmann; strongest BBN empirical anchor
+- #33 Inflationary Spectrum (Cos_06) — M3; Cosmology Arc closer; B-mode discriminator
 
-### Dynamics Arc (1 entry)
+### Dynamics + GW Arc (2 entries)
 - #4 Gravitational Waves (GW_00) — M3 + row 12 partial closure
+- #32 Ringdown Spectroscopy (GW_01) — M3; LIGO/Virgo + GW170817 anchors; F2 V5-finite-memory ED-distinctive prediction
 
 ### Gravity Arc (5 entries)
 - #12 GR-Horizon Universalization
@@ -133,10 +147,9 @@ After this Zenodo posting set:
 
 | Corpus tier | Coverage on Zenodo |
 |---|---|
-| **Whitepaper + foundational** | ✓ Whitepaper, 13 Primitives, Form-FORCED/Value-INHERITED methodology, V5 Kernel |
-| **Cosmology Arc M3 Trinity** | ✓ Cos_01 (Inflation), Cos_05 (Dark Energy), Paper_038_5 (Lambda_V1) |
-| **CCC + cyclic-cosmology context** | ✓ Paper_ED_CCC |
-| **GW M3 + row 12 partial closure** | ✓ Paper_ED_GW_00 v2 |
+| **Whitepaper + foundational** | ✓ Whitepaper, 13 Primitives, Form-FORCED/Value-INHERITED methodology, V5 Kernel, **DCGT (Paper_073)** |
+| **Cosmology Arc — 8 entries (eight M3 papers complete)** | ✓ Cos_01 (Inflation), Cos_05 (Dark Energy), **Cos_02 (BBN)**, **Cos_06 (Inflationary Spectrum)**, Paper_038_5 v2 (Lambda_V1, M3 retroactive), **Baryogenesis (M3 via R4)**, CCC |
+| **GW + Dynamics Arc (2 entries)** | ✓ Paper_ED_GW_00 v2 (M3 + row 12 partial), **GW_01 (Ringdown, M3)** |
 | **Gravity arc anchors** | ✓ Newton's G, a₀ (T20), BTFR (Paper_031), GR-Newton-Recovery, GR-Horizon-Universalization |
 | **BH arc** | ✓ Hawking Spectrum, Cross-Domain Echo |
 | **QM kinematics + foundations** | ✓ Double-Slit, Anyon Prohibition (T3), Four-QM-Postulates Unification, Photonic Chern, ℏ-Origin |
@@ -145,7 +158,7 @@ After this Zenodo posting set:
 | **Software repositories** | ✓ event-density + ED-generative |
 | **Empirical Predictions outreach** | ✓ Predictions Bundle (BTFR-led, 13 predictions); Postdictions & Passed Tests (UDM-led, 2 passed + 4 postdictions); FRAP Template (pre-registered protocol; v2 pending experiment) |
 
-**Total: 29 entries on Zenodo as of 2026-05-18** (26 corpus-paper entries + 3 outreach predictions trio).
+**Total: 33 entries on Zenodo as of 2026-05-18** (30 corpus-paper entries + 3 outreach predictions trio). Paper_038_5 is now at v2 (M3 retroactive upgrade).
 
 ---
 
