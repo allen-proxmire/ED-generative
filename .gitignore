@@ -3,3 +3,7 @@
 
 # Internal working note — keep local, not tracked
 internal notes/ED_Zenodo_Uploads.md
+
+# Python build artifacts
+__pycache__/
+*.pyc
