@@ -15,9 +15,9 @@
 1. **The 13 substrate primitives are not derived** (position paper, Paper_087).
 2. **Clusters and the CMB are not discharged.** This paper's central claim is that the standing MOND-class debts are **addressable through a single, precisely-specified sector** — not that they are addressed. No regulator member is chosen, no CMB spectrum is computed, no cluster profile is fit.
 3. **No value of the cosmological constant is derived.** The one-Λ thesis (§7) is a *level identification* — the khronon's EFT vacuum constant as the encoding of Paper_038.5's substrate-level V1 integral — tiered as *structurally indicated with a named open computation*, not proven. The matter-sector cosmological-constant problem (why matter zero-point energy does not gravitate at `M_P^4`) stays exactly where Paper_038.5 honestly left it.
-4. **The class mechanisms cited are directions, not verifications.** Mimetic dark matter and the integration-constant dust of *projectable* Hořava gravity are quoted as the class's proofs-of-concept; the latter lives in a **neighboring branch**, not automatically ED's (GR-II identified the non-projectable/khronometric branch). ED's branch is *not* shown to contain a dust mechanism automatically.
-5. **The dark-matter abundance is not predicted.** In the class mechanisms it enters as an initial condition / integration constant — which this paper notes is *consonant* with ED's value-inherited stance (the channel would be form; the 5:1 ratio would be value), not a derivation of anything.
-6. **The regulator family is a family.** Its `Θ`-dependence is constrained (five filters, §5–§6) but unfixed; selecting a member is model-building, outside this paper. By the orthogonality theorem (§4) no choice within it can affect anything the companion papers tested.
+4. **The class mechanisms cited are directions, not verifications.** Mimetic dark matter and projectable Hořava's integration-constant dust are proofs-of-concept; the latter lives in a **neighboring branch** (GR-II identified the non-projectable one), and ED's branch is *not* shown to contain a dust mechanism automatically.
+5. **The dark-matter abundance is not predicted.** In the class mechanisms it is an initial condition — *consonant* with ED's value-inherited stance (value-inherited = the numerical value is taken from observation; only the structural role is derived), not a derivation.
+6. **The regulator family is a family.** Constrained by five filters (§5–§6) but unfixed; selecting a member is model-building, outside this paper, and by the Orthogonality Theorem (§4) no choice within it can affect anything the companion papers tested.
 7. **GR-I, GR-II, and KM-I are inherited**, not re-derived: the metric and lapse, the khronometric class and the khronon, and the galactic-side unification (the deep-IR matching, the lensing pass, the screening) are inputs.
 8. **Class-level cosmology results are inherited and labeled** (khronometric FRW behavior; the `G_{\rm cosmo}` renormalization and its BBN bound), as is Paper_038.5's Λ mechanism — read from source, quoted at its own verdict tier.
 
@@ -38,8 +38,8 @@ KM-I ended with the galactic half of the unification derived and passing, and th
 Three orienting statements, up front:
 
 - **No derivational hinge is exercised here.** KM-I's single hinge (the deep-IR matching to Paper_030) is inherited; this paper's results are a state-space observation, a kinematic theorem, a structural mapping, and a level identification. Where something is a family, it is labeled a family; where a computation is open, it is named.
-- **The headline results:** (i) ED's substrate forbids the configuration at which the theory would degenerate (*no Minkowski vacuum — the tick never halts*); (ii) the cosmological sector is **provably invisible** to every test the companion papers passed (the orthogonality theorem); (iii) the dust-clustering condition the CMB demands coincides with the flagged soft spot — **the degeneracy cure and the clusters/CMB debt are one dial**; (iv) the corpus has **one Λ, not two** — the khronon's vacuum term is the EFT face of Paper_038.5's substrate-level boundary integral.
-- **What the reader should *not* expect:** a chosen regulator member, a computed CMB spectrum, a derived Λ value, or a discharged cluster debt. The paper's product is the *exact specification* of the remaining model-building task: one function, five filters, data as judge.
+- **The headline results:** (i) ED's substrate forbids the configuration at which the theory would degenerate (*no Minkowski vacuum — the tick never halts*); (ii) the cosmological sector is **provably invisible** to every test the companion papers passed (the Orthogonality Theorem); (iii) the dust-clustering condition the CMB demands coincides with the flagged soft spot — **the degeneracy cure and the clusters/CMB debt are one dial**; (iv) the corpus has **one Λ, not two** — the two Λ faces are shown to be one constant *at two levels*: the substrate mechanism (Paper_038.5's boundary integral) and its EFT encoding (the khronon's vacuum term).
+- **The cosmological sector is a family — the regulator family — and KM-II's job is to specify its structure and constraints, not to choose a member.** Accordingly, the reader should *not* expect a chosen member, a computed CMB spectrum, a derived Λ value, or a discharged cluster debt. The paper's product is the *exact specification* of the remaining model-building task: one function, five filters, data as judge.
 
 ### 1.2 Why this matters
 
@@ -135,13 +135,13 @@ Both directions of the consequence matter:
 
 ## 5. The Cosmological Face: the Dark Fluid
 
-On FRW the aligned khronon is the comoving congruence (`a = 0`, `σ = 0`, `θ = 3H`), and the foliation sector's cosmological roles are:
+With the static sector sequestered (§4), we now turn to the FRW background — where the khronon's `Θ`-sector stops being invisible and becomes the physics. On FRW the aligned khronon is the comoving congruence (`a = 0`, `σ = 0`, `θ = 3H`), and the foliation sector's cosmological roles are:
 
 1. **`λθ² ∼ λH²`** — a renormalization of the effective cosmological Newton constant; the known khronometric effect, bounded by BBN's constraint on `G_{\rm cosmo}/G_N`. [I.] Inherited; nothing new.
 2. **`𝒲(0, Θ)` — a dark fluid.** A function of `Θ = H/H₀` enters the Friedmann equation as a fluid `ρ_𝒲(H)` with two automatic features: at late times (`H → H₀`) it tends to a **constant of order `a₀²c²/G ∼ H₀²c²/G`** — the Λ-order vacuum term (form-tier; §7) — and at early times its behavior is the regulator member's choice (a pure `Θ²` piece folds into the `G_{\rm cosmo}` renormalization; other dependencies give other effective equations of state). **The family lives here.**
 3. **The perturbation sector** `δ𝒲` — what the CMB and structure formation actually probe; §6.
 
-**The requirements map.** For the sector to discharge the inherited debts, qualitatively:
+**The requirements map — the five filters.** For the sector to discharge the inherited debts, qualitatively (this table *is* the filter set referenced throughout):
 
 | Probe | Requirement on the `Θ`-sector |
 |---|---|
@@ -157,9 +157,9 @@ The hard row is the CMB's: it is where MOND-class theories historically die.
 
 ## 6. The Clustering Dial: the Soft Spot Is the Doorway
 
-The paper's central structural result:
+The paper's central structural result, boxed:
 
-> **The condition for dust-like clustering is `c_s ≈ 0` — and a near-zero sound speed at small `A` is exactly the near-vacuum behavior flagged as the deep-IR soft spot.** The feature that looked like the theory's vulnerability (the slowing, weakly-propagating near-vacuum scalar) is precisely what a dark-matter-like cosmological component *requires*: a fluid that does not free-stream, does not oscillate acoustically, and falls into potential wells like dust. **The degeneracy cure and the clusters/CMB debt are the same dial.**
+> **The One-Dial Result.** The condition for dust-like clustering is `c_s ≈ 0` — and a near-zero sound speed at small `A` is exactly the near-vacuum behavior flagged as the deep-IR soft spot. **The same near-vacuum behavior that looked like a vulnerability is exactly what the CMB requires for dust-like clustering: one dial controls both.** What a dark-matter-like cosmological component requires — a fluid that does not free-stream, does not oscillate acoustically, and falls into potential wells like dust — is what the slowing, weakly-propagating near-vacuum scalar *is*. **The degeneracy cure and the clusters/CMB debt are the same dial.**
 
 The trade the regulator member must thread:
 
@@ -169,9 +169,13 @@ The trade the regulator member must thread:
 
 So "choosing the regulator member" is not bookkeeping: **it is the single choice that simultaneously sets the degeneracy cure, the Čerenkov compliance, and the theory's answer to clusters and the CMB.** One dial, three previously-separate ledger items.
 
-**The class realizes both ends of the dial** [I — directions, not verifications]: **mimetic dark matter** (a constrained unit-gradient scalar — structurally a constrained khronon — contributing *exact* pressureless dust at `c_s = 0`, with the known caustic issues that motivated imperfect-fluid refinements), and **dark matter as an integration constant** (projectable Hořava's global-only Hamiltonian constraint leaving a dust component — with the honesty flag repeated: this is the *neighboring* branch of the family, a proof-of-concept that foliation gravity can manufacture dust, not automatically ED's mechanism).
+### 6.1 Class mechanisms (directions, not verifications)
+
+**The class realizes both ends of the dial** [I]: **mimetic dark matter** — a constrained unit-gradient scalar, structurally a constrained khronon, contributing *exact* pressureless dust at `c_s = 0`, with the known caustic issues that motivated the imperfect-fluid refinements — and **dark matter as an integration constant**, projectable Hořava's global-only Hamiltonian constraint leaving a dust component. The honesty flag on the latter, repeated: that is the *neighboring* branch of the family — a proof-of-concept that foliation gravity can manufacture dust, not automatically ED's mechanism.
 
 **A consonance, noted carefully.** In both mechanisms the dust *abundance* is an initial condition or integration constant — not predicted. Under ED's own methodology this is not a defect but a classification: **the existence of the dust channel would be form-level structure; the observed abundance would be value-inherited** — the same form/value split the corpus applies to every constant. The class's "weakness" is ED's standing epistemic posture.
+
+The bridge to what follows: **the same single scale that governs the clustering dial also governs the vacuum term** — the cosmological face of the khronon has only one number to offer, and §7 follows that number to the cosmological constant.
 
 ---
 
@@ -200,14 +204,14 @@ With this paper the khronon's roles close into one shape:
 
 > **One field, one scale (`H₀`), five roles:** the **arrow of time** (GR-II — its origin), the **Einstein sector** at high accelerations (GR-I — enforced by commitment-linearity), the **MOND sector** below `a₀` (KM-I — the deep field), the **dark-fluid clustering dial** on FRW (§5–§6 — the clusters/CMB sector), and the **Λ-order vacuum term** (§7 — the boundary's imprint). Every role is anchored to the same number because the field has only one number to offer.
 
-Relations: this paper **completes the cosmological half** KM-I opened (its §7.4 flag is resolved; its soft spot is re-classified as the clustering dial); it **unifies with, and does not displace, Paper_038.5** (one Λ, two levels — 038.5 remains the substrate mechanism and keeps its verdict tier); and it gives **SCBU** its second dynamical statement: the boundary `R_H = c/H₀` now has both a carrier field (KM-I) and a vacuum imprint computed at one level and carried at the other.
+Relations: this paper **completes the cosmological half** KM-I opened (its §7.4 flag is resolved; its soft spot is re-classified as the clustering dial); it **unifies with, and does not displace, Paper_038.5** (one Λ, two levels — 038.5 remains the substrate mechanism and keeps its verdict tier); and it gives **SCBU** its second dynamical statement: the boundary `R_H = c/H₀` now has both a carrier field (KM-I) and a vacuum imprint computed at one level and carried at the other. Throughout, the **Orthogonality Theorem** (§4) is what licenses this portfolio reading: the five roles coexist in one field *because* the cosmological roles are sequestered from the tested galactic ones — the portfolio is unified at the level of the field, independent at the level of the tests.
 
 ---
 
 ## 9. The Wedge — Empirical Content
 
 1. **The CMB as the dial's judge.** The sharpest future test of the whole construction: the chosen regulator member must produce dust-like clustering of the right abundance at recombination, with the *same* function then fixed for clusters, Čerenkov, and BBN. A function with five filters has nowhere to hide.
-2. **The galactic sector is already locked.** By the orthogonality theorem, nothing the cosmological data select can retroactively adjust the tested galactic physics — so any future CMB success cannot be a retrofit of the MOND sector, and any failure cannot be repaired from it. The two sectors test each other's honesty.
+2. **The galactic sector is already locked.** By the Orthogonality Theorem (§4), nothing the cosmological data select can retroactively adjust the tested galactic physics — so any future CMB success cannot be a retrofit of the MOND sector, and any failure cannot be repaired from it. The two sectors test each other's honesty.
 3. **The Λ-matching computation** — a derivation with a falsifiable outcome (sign / `O(1)` consistency between the substrate integral and the EFT constant).
 4. **Standing wedges inherited:** wide binaries near `a₀` and the dynamical τ-sector (KM-I); the scalar GW polarization (GR-II).
 5. **Not claimed as wedges:** a Λ value; a CMB fit; the dark-matter abundance (value-inherited if the channel exists).
