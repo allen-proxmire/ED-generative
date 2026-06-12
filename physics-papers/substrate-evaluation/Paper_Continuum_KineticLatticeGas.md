@@ -6,7 +6,7 @@
 
 **Series:** Event Density (ED) Generative Papers — substrate-evaluation arc (the continuum-limit question)
 **Status:** Publication draft. Empirical substrate-evaluation with the certified Σ-rule simulator (`Bits/`). Standalone; cold-reader accessible. *A tested, came-back-no result.*
-**Repository target:** `physics-papers/dynamics/` (ED-Generative)
+**Repository target:** `physics-papers/substrate-evaluation/` (ED-Generative)
 
 ---
 

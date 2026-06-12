@@ -6,7 +6,7 @@
 
 **Series:** Event Density (ED) Generative Papers — substrate-evaluation arc (ceiling-location)
 **Status:** Publication draft. Empirical ceiling-location test, externally anchored. Standalone; cold-reader accessible. *A proven negative, calibrated against established mathematics.*
-**Repository target:** `physics-papers/dynamics/` (ED-Generative) — substrate-evaluation
+**Repository target:** `physics-papers/substrate-evaluation/` (ED-Generative) — substrate-evaluation
 
 ---
 

@@ -6,7 +6,7 @@
 
 **Series:** Event Density (ED) Generative Papers — substrate-evaluation arc (charge as topology)
 **Status:** Publication draft. Graph-first structural test with the certified substrate. Standalone; cold-reader accessible.
-**Repository target:** `physics-papers/dynamics/` (ED-Generative) — substrate-evaluation
+**Repository target:** `physics-papers/substrate-evaluation/` (ED-Generative) — substrate-evaluation
 
 ---
 

@@ -1,0 +1,202 @@
+"""Build .tex + .pdf for each Paper_*.md at the EDG root.
+Drops the preamble + Series/Status metadata; keeps title + author (Allen Proxmire)
++ date (June 2026) + Abstract onward. Pre-latexifies unicode BEFORE pandoc:
+- prose: maximal runs of math-class chars become ONE $...$ expression
+  (superscript/subscript runs merged: 'b⁻¹' -> b$^{-1}$, never $^{-}$$^{1}$)
+- $$/$ math: chars -> LaTeX commands with letter-guard spacing
+- code spans: ASCII transliteration (verbatim-safe)
+xelatex compiles; aux files cleaned."""
+import subprocess, glob, os, sys, re
+
+EDG = r"C:\Users\allen\GitHub\ED Generative"
+os.chdir(EDG)
+
+SUP = {'²': '2', '³': '3', '¹': '1', '⁶': '6', '⁻': '-', '⁰': '0', '⁵': '5',
+       '⁴': '4', '⁷': '7', '⁸': '8', '⁹': '9'}
+SUB = {'₀': '0', '₁': '1', '₂': '2'}
+CMD = {  # math-class char -> LaTeX (math mode, no $)
+ 'ρ': r'\rho', 'Σ': r'\Sigma', 'α': r'\alpha', 'μ': r'\mu', 'ν': r'\nu',
+ 'π': r'\pi', 'β': r'\beta', 'φ': r'\varphi', 'ε': r'\varepsilon',
+ 'Δ': r'\Delta', 'Γ': r'\Gamma', 'κ': r'\kappa', 'τ': r'\tau', 'ξ': r'\xi',
+ 'γ': r'\gamma', 'δ': r'\delta', 'Λ': r'\Lambda', 'Φ': r'\Phi',
+ 'λ': r'\lambda', 'σ': r'\sigma', 'Ω': r'\Omega', 'θ': r'\theta',
+ '∇': r'\nabla', '∂': r'\partial', '∼': r'\sim', '≈': r'\approx',
+ '→': r'\to', '∝': r'\propto', '·': r'\cdot', '∈': r'\in', '±': r'\pm',
+ '∓': r'\mp', '×': r'\times', '↔': r'\leftrightarrow', '∫': r'\int',
+ '∞': r'\infty', '≪': r'\ll', '≫': r'\gg', '≠': r'\neq', '⊥': r'\perp',
+ '⇒': r'\Rightarrow', '≲': r'\lesssim', '≳': r'\gtrsim', '≡': r'\equiv',
+ '⟺': r'\Longleftrightarrow', '⟹': r'\Longrightarrow', '∏': r'\prod',
+ '√': r'\surd', '−': '-', 'ℤ': r'\mathbb{Z}', 'ℝ': r'\mathbb{R}',
+ 'ℓ': r'\ell', 'ℏ': r'\hbar', '✓': r'\checkmark', '⅓': r'\tfrac{1}{3}',
+ '¼': r'\tfrac{1}{4}', '½': r'\tfrac{1}{2}', '⋉': r'\ltimes',
+ '≤': r'\le', '≥': r'\ge', '∘': r'\circ', '⊕': r'\oplus', 'ḃ': r'\dot{b}',
+}
+CODE = {  # transliteration for code spans / fenced code (verbatim-safe ASCII)
+ 'ρ': 'rho', 'Σ': 'Sigma', 'α': 'alpha', 'μ': 'mu', 'ν': 'nu', 'π': 'pi',
+ 'β': 'beta', 'φ': 'phi', 'ε': 'eps', 'Δ': 'Delta', 'Γ': 'Gamma',
+ 'κ': 'kappa', 'τ': 'tau', 'ξ': 'xi', 'γ': 'gamma', 'δ': 'delta',
+ 'Λ': 'Lambda', 'Φ': 'Phi', 'λ': 'lambda', 'σ': 'sigma', 'Ω': 'Omega',
+ 'θ': 'theta', '∇': 'grad ', '∂': 'd', '∼': '~', '≈': '~=', '→': '->',
+ '∝': '~', '·': '*', '∈': ' in ', '±': '+-', '∓': '-+', '×': 'x',
+ '↔': '<->', '∫': 'int ', '∞': 'inf', '≪': '<<', '≫': '>>', '≠': '!=',
+ '⊥': 'perp', '⇒': '=>', '≲': '<~', '≳': '>~', '≡': '==', '⟺': '<=>',
+ '⟹': '==>', '∏': 'prod ', '√': 'sqrt', '−': '-', 'ℤ': 'Z', 'ℝ': 'R',
+ 'ℓ': 'l', 'ℏ': 'hbar', '✓': 'OK', '⅓': '1/3', '¼': '1/4', '½': '1/2',
+ '⋉': 'x', '≤': '<=', '≥': '>=', '∘': 'o', '⊕': '(+)',
+ '—': '--', '–': '-', '§': 'sec.', '…': '...', 'ḃ': 'b-dot',
+}
+TEXT_OK = set('—–§…öřČéü')  # raw text chars Latin Modern handles
+
+MATHCLASS = set(SUP) | set(SUB) | set(CMD)
+
+def is_letter(c): return c.isalpha() and ord(c) < 128
+
+def run_to_math(seg):
+    """Convert a run of math-class chars to LaTeX (math mode, no $),
+    merging sup/sub runs and guarding command-letter collisions."""
+    out, i = [], 0
+    while i < len(seg):
+        c = seg[i]
+        if c in SUP:
+            j = i
+            while j < len(seg) and seg[j] in SUP: j += 1
+            out.append('^{' + ''.join(SUP[x] for x in seg[i:j]) + '}'); i = j
+        elif c in SUB:
+            j = i
+            while j < len(seg) and seg[j] in SUB: j += 1
+            out.append('_{' + ''.join(SUB[x] for x in seg[i:j]) + '}'); i = j
+        else:
+            out.append(CMD[c]); i += 1
+    return ''.join(out)
+
+def prose_repl(s):
+    """In prose: wrap maximal math-char runs as pandoc raw-latex inline spans.
+    Raw spans (`\\(...\\)`{=latex}) avoid pandoc's $-adjacency rules (e.g. a
+    closing $ followed by a digit is not parsed as math, which breaks tables).
+    A bare minus becomes a plain hyphen (no math span needed)."""
+    out, i = [], 0
+    while i < len(s):
+        c = s[i]
+        if c in MATHCLASS:
+            j = i
+            while j < len(s) and s[j] in MATHCLASS: j += 1
+            seg = s[i:j]
+            if set(seg) <= {'−'}:
+                out.append('-' * len(seg))          # plain text minus
+            else:
+                out.append('`\\(' + run_to_math(seg) + '\\)`{=latex}')
+            i = j
+        else:
+            out.append(c); i += 1
+    return ''.join(out)
+
+def math_repl(s):
+    """Inside $...$ / $$...$$: replace chars with commands, letter-guard spacing."""
+    out = []
+    for k, c in enumerate(s):
+        if c in MATHCLASS:
+            rep = run_to_math(c)
+            # if command ends in a letter and next source char is an ASCII letter, pad
+            if rep and rep[-1].isalpha() and k + 1 < len(s) and is_letter(s[k + 1]):
+                rep += ' '
+            out.append(rep)
+        else:
+            out.append(c)
+    return ''.join(out)
+
+def code_repl(s):
+    out, i = [], 0
+    while i < len(s):
+        c = s[i]
+        if c in SUP:  # merge sup runs: 10⁻¹⁶ -> 10^-16
+            j = i
+            while j < len(s) and s[j] in SUP: j += 1
+            out.append('^' + ''.join(SUP[x] for x in s[i:j])); i = j
+        elif c in SUB:
+            j = i
+            while j < len(s) and s[j] in SUB: j += 1
+            out.append('_' + ''.join(SUB[x] for x in s[i:j])); i = j
+        else:
+            out.append(CODE.get(c, c)); i += 1
+    return ''.join(out)
+
+TOKEN = re.compile(r'(```.*?```|\$\$.*?\$\$|`[^`\n]*`|\$[^$\n]+\$)', re.DOTALL)
+
+def latexify(text):
+    out, last = [], 0
+    for m in TOKEN.finditer(text):
+        out.append(prose_repl(text[last:m.start()]))
+        seg = m.group(0)
+        out.append(code_repl(seg) if seg.startswith('`') else math_repl(seg))
+        last = m.end()
+    out.append(prose_repl(text[last:]))
+    return ''.join(out)
+
+def coverage_check():
+    miss = set()
+    for f in glob.glob('Paper_*.md'):
+        for ch in open(f, encoding='utf-8').read():
+            if ord(ch) > 127 and ch not in MATHCLASS and ch not in TEXT_OK:
+                miss.add(ch)
+    if miss:
+        print('UNMAPPED:', ' '.join(f'U+{ord(c):04X}' for c in sorted(miss)))
+        sys.exit(2)
+
+def header():
+    open('header.tex', 'w', encoding='utf-8').write(
+        '\\usepackage{amsmath}\n\\usepackage{amssymb}\n'
+        '\\setcounter{secnumdepth}{-1}\n\\providecommand{\\tightlist}{}\n'
+        '\\usepackage{microtype}\n')
+
+def yesc(s): return s.replace('\\', '').replace('"', '\\"')
+
+def build(md):
+    base = md[:-3]
+    lines = open(md, encoding='utf-8').read().splitlines()
+    title = next(l[2:].strip() for l in lines if l.startswith('# '))
+    ai = next(i for i, l in enumerate(lines) if l.strip() == '## Abstract')
+    body = latexify('\n'.join(lines[ai:]))
+    front = (f'---\ntitle: "{yesc(title)}"\nauthor: "Allen Proxmire"\n'
+             f'date: "June 2026"\ngeometry: margin=1.1in\nfontsize: 11pt\n---\n\n')
+    open('_tmp.md', 'w', encoding='utf-8').write(front + body)
+    tex = base + '.tex'
+    r = subprocess.run(['pandoc', '_tmp.md', '-s', '--include-in-header=header.tex',
+                        '-o', tex], capture_output=True, text=True,
+                       encoding='utf-8', errors='replace')
+    if r.returncode != 0:
+        print(('  PANDOC FAIL ' + md + ': ' + (r.stderr or '')[-400:])
+              .encode('ascii', 'replace').decode())
+        return False
+    log = ''
+    for _ in range(2):
+        r = subprocess.run(['xelatex', '-interaction=nonstopmode', '-halt-on-error', tex],
+                           capture_output=True, text=True, encoding='utf-8', errors='replace')
+        log = r.stdout or ''
+    ok = os.path.exists(base + '.pdf') and r.returncode == 0
+    if not ok:
+        idx = log.find('\n!')
+        snip = log[idx:idx + 600] if idx >= 0 else log[-600:]
+        print(('  XELATEX FAIL ' + md + ':\n' + snip).encode('ascii', 'replace').decode())
+    return ok
+
+def clean():
+    for f in (glob.glob('*.aux') + glob.glob('*.out') + glob.glob('*.toc') +
+              ['header.tex', '_tmp.md'] +
+              [p[:-3] + '.log' for p in glob.glob('Paper_*.md')]):
+        if os.path.exists(f):
+            try: os.remove(f)
+            except OSError: pass
+
+if __name__ == '__main__':
+    flt = sys.argv[1] if len(sys.argv) > 1 else ''
+    coverage_check(); header()
+    res = {}
+    for md in sorted(p for p in glob.glob('Paper_*.md') if flt in p):
+        print('building', md, flush=True); res[md] = build(md)
+    clean()
+    print('\n=== SUMMARY ===')
+    for md, ok in res.items():
+        pdf = md[:-3] + '.pdf'
+        sz = os.path.getsize(pdf) if os.path.exists(pdf) else 0
+        print(f'  {"OK " if ok else "FAIL"}  {md[:-3]}  ({sz // 1024} KB)')
+    sys.exit(0 if all(res.values()) else 1)

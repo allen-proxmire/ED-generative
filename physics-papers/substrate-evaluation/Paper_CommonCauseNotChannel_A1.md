@@ -6,7 +6,7 @@
 
 **Series:** Event Density (ED) Generative Papers — substrate-evaluation arc (determinability-boundary robustness)
 **Status:** Publication draft (short). Empirical coding experiment with the certified substrate; companion to the determinability-boundary measurement. Standalone; cold-reader accessible.
-**Repository target:** `physics-papers/dynamics/` (ED-Generative) — substrate-evaluation
+**Repository target:** `physics-papers/substrate-evaluation/` (ED-Generative) — substrate-evaluation
 
 ---
 

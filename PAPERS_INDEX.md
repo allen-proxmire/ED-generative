@@ -239,6 +239,24 @@ All six papers sit at verdict tier M3 (FORM-FORCED + VALUE-INHERITED). Closing P
 
 ---
 
+## Substrate-Evaluation Wave + Post-Pivot Gravity (June 2026)
+
+Seven standalone papers from the substrate-evaluation program (build-and-run / theorem-anchored tests of the certified Σ-rule substrate) and the post-pivot Arc ED-10 curvature-emergence line. Distinct naming convention; no numbered slots consumed. Each paper carries a does-NOT-claim preamble, a P/D/I load-bearing audit, and falsifier sentences; `.pdf` builds accompany the `.md` sources.
+
+| Paper | Title | Sub-domain | Status | File |
+|---|---|---|---|---|
+| GR-I | The Bandwidth Lapse and the Factor of Two: The Weak-Field Einstein Metric | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_GR-I_WeakFieldEinsteinMetric.md` |
+| GR-II | The Arrow's Fingerprint: ED Gravity is Khronometric, GW-Clean, Lorentz-Safe | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_GR-II_KhronometricClass.md` |
+| SE-Continuum | The Continuum Limit of the Certified ED Substrate: a Kinetic Lattice-Gas, not a Diffusion PDE | substrate-evaluation | WRITTEN | `physics-papers/substrate-evaluation/Paper_Continuum_KineticLatticeGas.md` |
+| SE-Primes | Template, Not Escape: Primes as a Ruler for the Finite-Memory Ceiling | substrate-evaluation | WRITTEN | `physics-papers/substrate-evaluation/Paper_FiniteMemoryCeiling_Primes.md` |
+| SE-Charge | The Topological Skeleton of Charge: Quantized Winding and an Integral Gauss Law | substrate-evaluation | WRITTEN | `physics-papers/substrate-evaluation/Paper_ChargeAsTopology_B4.md` |
+| SE-Capacity | Common Cause, Not Channel: The Determinability Boundary as an Observational Structure | substrate-evaluation | WRITTEN | `physics-papers/substrate-evaluation/Paper_CommonCauseNotChannel_A1.md` |
+| Form-and-Flesh | Form and Flesh: The Two Walls of the Event-Density Substrate (synthesis capstone) | position / synthesis | WRITTEN | `position-paper/Paper_FormAndFlesh_TwoWalls.md` |
+
+Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (not superseding) the Arc-3 scalar-tensor/MOND papers — see GR-I §7 / GR-II §9 for the explicit reconciliation. Form-and-Flesh is the program reach-statement (the empirical successor to the Contrast-First ontology paper) and lives in `position-paper/` alongside it. Underlying simulation artifacts live in the working repo (`event-density/evaluation/` and `event-density/foundations/`).
+
+---
+
 ## Total counts (2026-05-14)
 
 - **Numbered Papers (001–101):** 101 WRITTEN
@@ -275,6 +293,7 @@ For migration purposes, the canonical arc structure maps to the domain partition
 | T-stubs | T19/T20/T21 | gravity / cross-domain | theorem-stubs |
 | Cross-arc synthesis | SCBU | cross-domain | substrate-cosmology |
 | ED-SC 4.x extensions | 4.1–4.6 | cross-domain | sc-arc |
+| Substrate-eval + post-pivot gravity | GR-I/II, SE-x, Form-and-Flesh | gravity / substrate-evaluation / position | curvature-emergence, substrate-evaluation, synthesis |
 
 ---
 

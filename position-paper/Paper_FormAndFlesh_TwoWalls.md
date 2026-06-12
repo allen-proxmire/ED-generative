@@ -6,7 +6,7 @@
 
 **Series:** Event Density (ED) Generative Papers — substrate-evaluation arc, **synthesis / capstone**
 **Status:** Publication draft (synthesis). A review tying five independent substrate-evaluation results into one structural thesis; cites the component papers rather than re-deriving them.
-**Repository target:** `physics-papers/wedges/` (ED-Generative)
+**Repository target:** `position-paper/` (ED-Generative)
 
 ---
 
