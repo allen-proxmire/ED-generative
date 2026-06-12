@@ -159,7 +159,9 @@ def build(md):
     base = name[:-3]
     lines = open(md, encoding='utf-8').read().splitlines()
     title = next(l[2:].strip() for l in lines if l.startswith('# '))
-    ai = next(i for i, l in enumerate(lines) if l.strip() == '## Abstract')
+    # body starts at '## Abstract' (house papers) or, failing that, the first '## ' section (letters)
+    ai = next((i for i, l in enumerate(lines) if l.strip() == '## Abstract'),
+              next(i for i, l in enumerate(lines) if l.startswith('## ')))
     body = latexify('\n'.join(lines[ai:]))
     front = (f'---\ntitle: "{yesc(title)}"\nauthor: "Allen Proxmire"\n'
              f'date: "June 2026"\ngeometry: margin=1.1in\nfontsize: 11pt\n---\n\n')
