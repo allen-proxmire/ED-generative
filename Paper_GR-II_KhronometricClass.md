@@ -50,6 +50,10 @@ The deepest question about an emergent-gravity program is not "does it recover N
 - **Paper GR-II (this paper):** field-equation form (Lovelock), gravitational class (mode count → khronometric), GW speed, Lorentz safety.
 - **Beyond:** the khronon parameters (`α₁, α₂`) and the MOND-sector relation — model-building, declared open (§8–§9).
 
+### 1.4 Conventions and regime of validity
+
+Metric signature `(−,+,+,+)`; `c = 1` where convenient. The structural results — the field-equation form, the mode count, `c_T = c`, universal Lorentz violation — are **`F`-independent**: they follow from the gauge structure and the single substrate, not from the coefficients of the dynamical-bandwidth rule. They are stated in the **continuum (DCGT) limit** and rest on Paper GR-I's **static, weak-field** background for the explicit checks; the mode count is a linearized statement about perturbations on that background. **No strong-field and no cosmological claim is made** — the cosmological constant `Λ` is inherited, not a cosmology result — and the `F`-dependent phenomenology (`α₁, α₂`, the scalar-mode speed) is explicitly deferred (§8).
+
 ---
 
 ## 2. Primitive Inputs
@@ -131,7 +135,7 @@ $$
 ∇_μ T^{μν} = 0 \;\Longleftrightarrow\; a^ν = 0 \;\Longleftrightarrow\; \text{the bandwidth-flux worldlines are geodesics of } g∼b^{-1}.
 $$
 
-Matter conservation *is* the geodesic equation — the standard relation, reached forward from ED's own current.
+Matter conservation *is* the geodesic equation — the standard relation, reached forward from ED's own current. **This equivalence is exact for *dust* (`T^{μν} = ρu^μu^ν`); a source with pressure or anisotropic stress adds `∇·(stress)` terms and requires the full dynamical rule's constitutive content, which is not supplied here.** Dust is the leading, lowest-derivative source the conserved current admits, and it suffices for the Lovelock argument (§4), which needs only *a* divergence-free rank-2 source, not the complete matter sector.
 
 ### 3.3 The geodesic identity holds for the null sector
 
@@ -150,7 +154,11 @@ Rather than computing `G^{μν}` from `b` by hand, use the uniqueness theorem th
 | second-order, linear in second derivatives | ✓ at Newtonian order (`∇²b ∼ ρ`); the dynamical-bandwidth rule introduces no higher metric derivatives |
 | built **solely from the metric** (no extra field) | **the open condition — §5** |
 
+On the **second-order** condition specifically (a reviewer's natural worry): ED's dynamical-bandwidth rule `ḃ = F(ρ, ∇ρ, b)` depends on the source through at most `∇ρ` and on the bandwidth field algebraically and through its Laplacian, so in the continuum (DCGT) limit it introduces **no higher-than-second derivative of the metric** — the Newtonian `∇²b ∼ ρ` is representative of the full order, not a special low-order case. The Lovelock second-order hypothesis is therefore met at the level the rule is specified.
+
 **If the fourth condition holds, the field equation is forced to be Einstein (with Λ).** The coefficient `κ = 8πG` is fixed by matching the Newtonian limit (`G` value-inherited, Paper_027); `Λ` is the V1-backreaction term. This is the legitimate route to `G = κT`: not deriving the tensor, but showing ED satisfies the hypotheses that make it the only possibility — *modulo* the fourth condition, which §5 resolves, and not in ED's favor for *pure* GR.
+
+*Why Lovelock is the right tool.* In four dimensions Lovelock's is the *unique* clean uniqueness theorem for a metric field equation: from general hypotheses (metric-built, second-order, divergence-free) it singles out `G^{μν} + Λg^{μν}` out of the infinite space of candidate tensors. For an *emergent*-gravity program this is exactly what is wanted — it establishes the field-equation *form* from structural facts already in hand (a metric, a conserved source, second-order dynamics) instead of computing `G^{μν}` from `b` by brute force, and it concentrates the entire remaining question into a single hinge: the "purely metric" condition (§5).
 
 ---
 
@@ -166,11 +174,15 @@ General Relativity's field equations are time-symmetric and fully diffeomorphism
 
 A preferred foliation in the law breaks full 4D diffeomorphism invariance down to **foliation-preserving diffeomorphisms** (spatial diffeomorphisms on each slice plus time reparametrization). This is exactly the gauge group of **khronometric gravity** — the hypersurface-orthogonal Einstein-aether theory, equivalently the infrared limit of Hořava gravity — in which a scalar field (the "khronon," whose gradient defines the preferred time) supplements the metric.
 
+Explicitly: a preferred foliation is equivalent to a hypersurface-orthogonal unit timelike vector field $u^\mu = \partial^\mu T/|\partial T|$, where the scalar $T$ (the khronon) labels the leaves; the gauge group reduces from the full $\mathrm{Diff}(M)$ to the foliation-preserving $\mathrm{Diff}(\Sigma)\ltimes\mathbb{R}$ — spatial diffeomorphisms on each leaf $\Sigma$ plus time reparametrization. This is the standard khronometric reduction, and it is the precise content of "a preferred time direction is a scalar whose level sets are the foliation": **in ED that scalar is the commitment arrow, so the khronon is not an added field but the arrow made geometric.** Unlike relativistic-MOND constructions such as TeVeS, ED adds **no vector field** — the preferred frame is not an independent dynamical aether but the substrate's own arrow, which is exactly why (§6–§7) it shares the matter cone instead of carrying separate kinetics.
+
 ### 5.3 The count: 2 tensor + 1 scalar
 
 With foliation-preserving rather than full diffeomorphism gauge, the standard counting gives **2 transverse-traceless tensor modes + 1 scalar mode**. The bandwidth field `b_ij` is a symmetric rank-2 tensor (P02 reciprocity), with the same component count as the metric, so the count is decided by gauge, not by components — and the reduced gauge leaves the extra scalar propagating. That scalar is the **khronon**: in ED it is the substrate's preferred foliation made dynamical, the arrow promoted to a field.
 
 So **the fourth Lovelock condition fails** — ED's gravity is *not* built solely from the metric; it carries the khronon. Lovelock therefore does *not* give pure Einstein; it places ED in the **khronometric** class: Einstein's tensor sector plus the preferred-foliation scalar. ED gravity is khronometric, and the single departure from pure General Relativity is the inevitable shadow of the primitive arrow.
+
+This extra scalar is a concrete, falsifiable prediction, stated here at the point it arises: khronometric gravity carries a **scalar gravitational-wave polarization** — the khronon "breathing" mode — that pure GR forbids, and ED inherits it (§10; falsifier §11.5).
 
 ### 5.4 Consistency with Paper GR-I
 
@@ -186,7 +198,9 @@ $$
 c_T = c_{\text{light}} \quad \text{structurally.}
 $$
 
-The constraint that fine-tunes generic Hořava/Einstein-aether is, for ED, an *identity* — its khronon is the substrate's own foliation, sharing the matter cone. This is `F`-independent. (It likely also pushes the scalar mode toward the same cone; whether that is a strength or an over-constraint against khronometric stability is flagged in §8.)
+The constraint that fine-tunes generic Hořava/Einstein-aether is, for ED, an *identity* — its khronon is the substrate's own foliation, sharing the matter cone. This is `F`-independent.
+
+One caveat, to avoid overclaiming: the argument above is for the massless **tensor** sector. The **scalar** (khronon) mode may, in principle, propagate at a different speed; whether ED's single-transport structure forces it onto the same cone as well is an internal-consistency question — a potential strength (maximal predictivity) or an over-constraint against khronometric stability — deferred to §8. The `c_T = c` result does not depend on how that resolves.
 
 ---
 
@@ -196,7 +210,11 @@ The constraint that *kills* most Lorentz-violating gravity is not the preferred-
 
 > ED has only one cone, shared by all species (light, electrons, gravitational waves, the khronon all propagate through the same P05 substrate, §6). So ED's Lorentz violation is **universal** — one deformed cone for everything — and universal violation is removable by a single coordinate/field rescaling, hence **unobservable at leading order**. The `10^{-20}` bounds constrain *differential* violation, which ED does not produce.
 
+Put dispersion-theoretically, so the distinction is not hand-waved: **universal** Lorentz violation is a *single* modified dispersion relation shared by all species, removable by one global rescaling and hence unobservable at leading order; **differential** violation is *species-dependent* dispersion — different cones for photon, electron, … — which is precisely what the `~10⁻²⁰` bounds constrain. ED forbids the differential case structurally, because every species *is* the same P05 substrate process and so inherits the same cone.
+
 **ED's unification is its shield.** Generic Hořava keeps the aether as a *separate* field, so matter and gravity can drift to different cones (differential violation, executed). ED's matter and geometry descend from the *same* bandwidth substrate, so there is one cone (universal violation, safe). The very feature that makes ED radical — geometry and matter from one substrate — is what makes its Lorentz violation survivable. This is the strongest viability result of the paper, because it disarms the tightest constraint.
+
+*Historical context.* Lorentz-violating gravity has a graveyard. Einstein-aether (Jacobson–Mattingly, 2001) and Hořava gravity (2009) introduced a preferred frame for UV or phenomenological gains; most variants were then constrained to death by two facts — **GW170817** (2017) fixed the tensor gravitational-wave speed to the light speed to `~10⁻¹⁵`, and matter-sector Lorentz tests bound *differential* violation to `~10⁻²⁰`. Generic theories survive only by fine-tuning both. ED meets the first as an identity (§6) and the second structurally (§7), for one reason: its preferred frame is the substrate's own arrow, not a separate aether with independent kinetics. ED is, in effect, the *maximally constrained* khronometric theory — which is why it survives where added-field versions do not.
 
 ---
 
@@ -286,6 +304,18 @@ Event-Density gravity is **Einstein-class but khronometric**. Given the postulat
 - **Single causal cone.** All ED propagation occurs through one transport (P05) at one maximal speed; hence `c_T = c` and universal Lorentz violation.
 - **Universal vs differential Lorentz violation.** Universal: one cone for all species (removable, safe). Differential: species-dependent cones (constrained to `~10^{-20}`). ED produces universal.
 - **Preferred-frame PPN parameters `α₁, α₂`.** Pure-gravity preferred-frame effects; `F`-dependent; the falsification target.
+- **Universal horizon.** In khronometric / Hořava gravity, a surface that traps even the instantaneously-propagating khronon (beyond GR's Killing horizon, which traps only light). In ED it is a candidate identity for the `b → 0` locus where the emergent metric degenerates (§10).
+- **Scalar (breathing) GW polarization.** The propagating khronon mode — a gravitational-wave polarization absent in pure GR's two tensor modes; a concrete ED prediction (§5.3, §10).
+
+### Reader map and open work
+
+**Where to look next.**
+- *The weak-field metric and the three classical tests:* GR-I.
+- *The MOND sector (`a₀`, BTFR):* Paper_033 + §9.
+- *The khronon parameters and scalar-mode speed (phenomenology):* future work (§8).
+- *Horizon structure (`b → 0`, universal horizons):* ED-10 / V5; §10.
+
+**Open work** (declared, §8–§9): compute `α₁, α₂` and the sub-leading differential Lorentz violation from the linearized rule; compute the scalar-mode speed and settle the §6 over-constraint; unify the khronon with the MOND scalar; extend to the strong-field regime and to cosmology.
 
 ---
 

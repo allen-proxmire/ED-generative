@@ -15,7 +15,7 @@
 1. **The 13 substrate primitives are not derived** (position paper, Paper_087).
 2. **ED does not generate, explain, or produce the prime numbers.** The integers — through their factorization structure (the "Factor Skyline," FS) — are used here as an **external ruler** to locate the substrate's information ceiling. This is a **structural / form** parallel only; there is **no content claim** about number theory and no claim that ED has anything to say about why the primes are as they are.
 3. **This is a ceiling-*location* test, not a generation test.** The substrate is independently in the finite-reach / finite-memory (zero-entropy) class by its own primitives; the test measures *where* that class's ceiling falls against the ruler. The expected outcome **confirms known hardness** — it is the allowed, predicted result, not a surprise.
-4. **The "no" is anchored to external mathematics, not to ED grading itself.** The escape layer's unreachability is read off two established results — **Sarnak's Möbius-disjointness conjecture/program** and the **sieve parity barrier** — not from any ED-internal verdict. ED's role is only to belong to the finite-memory class those theorems constrain.
+4. **The "no" is anchored to external mathematics, not to ED grading itself.** The escape layer's unreachability is read off established results — the **prime number theorem in arithmetic progressions** (the proven, periodic-case core of **Sarnak's Möbius-disjointness** program; §2) and the **sieve parity barrier** (Selberg's parity problem) — not from any ED-internal verdict. ED's role is only to belong to the finite-memory class those results constrain. The operative anchor for the sharp test (Test B, §4.3) is a *theorem*, not Sarnak's open conjecture.
 5. **No number theory is claimed or proven.** The paper measures a known computational class against known theorems; it advances no result in number theory. The one genuine experiment (Test B's falsifier) returned the expected negative.
 6. **The 1.700-bit template figure is the citable, scale-invariant invariant; the ~0.26-bit "escape" figure is a scale-dependent peak, not a universal constant.**
 7. **Finite-N measurement.** The sieve runs to `N = 5×10⁶` (twin primes to `N = 32{,}463`); the asymptotic statements (the best finite-memory Möbius correlator → 0) are read from the N-trend and anchored to the proven theorems, not separately proven at infinity here.
@@ -36,26 +36,34 @@ The standing question for a finite substrate ontology is sharp: *can ED's finite
 
 ### 1.2 Why this matters
 
-Most substrate-evaluation results are *located-but-open* — an obstruction is identified but not proven insurmountable. This one is different: the wall is a **theorem** (the parity barrier; Sarnak disjointness), so the "no" is not ED grading its own homework. That makes this the program's **sharpest, most defensible negative** — a clean, externally-certified statement of exactly which structures ED's finite-memory class can and cannot carry, and a concrete in-bits picture of where the ceiling sits.
+Most substrate-evaluation results are *located-but-open* — an obstruction is identified but not proven insurmountable. This one is different: the wall is a **theorem** (the parity barrier; Möbius orthogonality to periodic sequences), so the "no" is not ED grading its own homework. That makes this the program's **sharpest, most defensible negative** — a clean, externally-certified statement of exactly which structures ED's finite-memory class can and cannot carry, and a concrete in-bits picture of where the ceiling sits.
+
+*Why the primes, and a word of context.* The primes are the cleanest available external ruler for a finite-memory ceiling: their template/escape split is mathematically **sharp** (residue structure vs primality), and the finite-memory class coincides exactly with the **sieve** class whose limits a century of analytic number theory has charted — Eratosthenes' residue sieves, Selberg's parity problem (1949), the Hardy–Littlewood prime-pair heuristics, and the modern Möbius-randomness (Sarnak) program. ED's substrate falls in that class, so those results apply to it directly — which is why the ceiling can be *located by theorem* rather than merely measured.
 
 ### 1.3 Arc context
 
 This pairs with the **channel-capacity** result (A1), which found ED's controlled capacity is exactly zero — the same finite-reach ceiling, measured *internally*. Here the *same* ceiling is measured against an **external, math-certified ruler** (Möbius disjointness). Two readings of one property: ED's hard ceiling on long-range / global information, one internal, one externally calibrated.
 
+### 1.4 Regime of validity
+
+This is a **finite-N measurement** (`N ≤ 5×10⁶`; twin primes to `N = 32{,}463`) using **standard sieve data** — the integers' own factorization, **not an ED simulation**. No ED dynamics are run. The ED input is *class membership* (the substrate is finite-memory by primitives #2–#3); the result is therefore a statement about that **class**, not about any specific ED run or observable. The asymptotic statements (the Möbius correlator → 0; the √N horizon) are anchored to the proven theorems (§2) and read from the N-trend, not separately proven at infinity here.
+
 ---
 
 ## 2. The Substrate Class and the External Anchors
 
-**Substrate class (from primitives).** ED's substrate is finite-reach (primitive #2) and finite-memory / zero-entropy (primitive #3): every determination is a function of a bounded local state. The integers' template structure is exactly a finite-local residue state (`n mod M`), so the substrate class *can* represent it; the question is whether it can represent more.
+**Substrate class (from primitives).** ED's substrate is finite-reach (primitive #2) and finite-memory / zero-entropy (primitive #3): every determination is a function of a bounded local state. **Explicitly: finite reach + finite local state means every determination is a function of a bounded *residue* state `n mod M` (for some fixed `M`) — which is precisely a periodic, zero-entropy sequence, exactly the class the parity barrier and Sarnak's program constrain.** So the substrate's membership in the sieve / zero-entropy class is not an analogy but an identity. The integers' template structure is exactly such a residue state, so the class *can* represent it; the question is whether it can represent more.
 
 **External anchors (established mathematics — inherited, not ED-derived).**
 
-- **Sarnak's Möbius disjointness:** the Möbius function `μ(n)` does not correlate with any sequence produced by a low-complexity (zero-entropy) dynamical system. A finite-memory function of `n mod M` is exactly such a sequence.
-- **The sieve parity barrier:** sieve methods (finite-local, residue-based) cannot distinguish integers with an even number of prime factors from those with an odd number — they cannot, on their own, isolate the primes. This is the escape layer's irreducibility expressed sievetheoretically.
+- **Möbius orthogonality (the proven core of Sarnak's program):** the Möbius function `μ(n)` does not correlate with any sequence produced by a low-complexity (zero-entropy) dynamical system. A finite-memory function of `n mod M` is exactly such a sequence — and, crucially, **the special case this paper needs is not conjectural.** Functions of `n mod M` are *periodic*, and Möbius orthogonality to periodic sequences is a **classical theorem**: `Σ_{n≡r\,(M)} μ(n) = o(N)` for each fixed `M`, by the prime number theorem in arithmetic progressions (Siegel–Walfisz). Sarnak's *conjecture* is the vast generalization to **all** zero-entropy systems; this paper invokes only its already-proven, periodic base case. So the finite-memory negative rests on a **theorem**, not on the open conjecture.
+- **The sieve parity barrier (Selberg's parity problem):** sieve methods (finite-local, residue-based) cannot distinguish integers with an even number of prime factors from those with an odd number — they cannot, on their own, isolate the primes. This is the escape layer's irreducibility expressed sieve-theoretically.
 
-These two are the *rulers*. The substrate belongs to the class they constrain; the measurements below confirm the class hits the predicted ceiling.
+These are the *rulers*. The substrate belongs to the class they constrain; the measurements below confirm the class hits the predicted ceiling.
 
 **Ruler (the Factor Skyline).** The integers' factorization statistics, computed by a sieve to `N = 5×10⁶` (`primes_test.py`, numpy). No ED simulation is run; the substrate's *class membership* is the ED input, and the integers supply the external scale against which the class is measured.
+
+**Reproducibility.** The integers `1…N` (`N = 5×10⁶`) are sieved by a simple Eratosthenes sieve recording the least prime factor and the prime-factor count per integer (numpy). Entropies are plug-in (empirical-histogram) estimates of the gap distribution `dx` and the conditional `dx | n mod M`. The Test-B correlator is `C*(N,M) = (1/N)Σ_r |Σ_{n≡r\,(M)} μ(n)|`, the exact optimum over functions of `n mod M`, evaluated at `N/4, N/2, N` for `M ∈ {2, 6, 30, 2310, 30030}`. Twin primes `(p, p+2)` are counted directly and normalized by `N/ln²N`. No randomness and no fitting beyond the entropy histograms. Script: `primes_test.py`.
 
 **No primitive forcing is invoked.**
 
@@ -129,6 +137,8 @@ Conditioning primality on the template state `n mod M` (`M` = primorials):
 
 As `M` grows, finite memory **captures more of the template** (captured bits rise, conditional entropy falls) by resolving the *covered* positions (definitely composite → zero entropy). But it supplies **nothing beyond base rate** about which *open* position is prime — open residues are structurally identical, primes equidistribute among them (Dirichlet). The residual `H(prime | n mod M) ≈ 0.18–0.29` bits/integer (`H_b ≈ 0.58–0.95` bits per *open* position) is the **escape: the parity barrier in bits**, irreducible to any finite template state.
 
+Two clarifications. *On the figure:* the escape entropy is **not a universal constant** — it is the irreducible conditional entropy *at the tested `N` and `M`*, and the meaningful fact is its **persistence** (it does not fall toward zero as `M` and `N` grow), not its particular value. *On why it is irreducible:* **Dirichlet's theorem** guarantees the primes equidistribute among the open (coprime-to-`M`) residues, so those residues are statistically identical — which is exactly why a finite residue state `n mod M` cannot distinguish *which* open position is prime.
+
 ### 4.3 Test B — the Möbius correlation (the sharp experiment)
 
 The **optimal** finite-memory correlator with `μ` — the best over *all* functions of `n mod M`:
@@ -144,7 +154,7 @@ $$
 | 2310 | 0.03241 | 0.02225 | 0.01523 | 0.0215 |
 | 30030 | 0.10033 | 0.07101 | 0.05021 | 0.0775 |
 
-For **every fixed `M`**, the best finite-memory correlator **decays toward 0 as `N` grows** (≈ halving as `N` doubles; bounded by `~√(M/N)`). Even the *optimal* function of the template state cannot correlate with `μ` asymptotically — **Sarnak-in-this-class, confirmed.** This is the genuine experiment of the paper: a bounded-complexity, finite-memory function with `C*` bounded away from zero would be a real discovery (it would refute Sarnak in this class). **It was not seen.**
+For **every fixed `M`**, the best finite-memory correlator **decays toward 0 as `N` grows** (≈ halving as `N` doubles; bounded by `~√(M/N)`). Even the *optimal* function of the template state cannot correlate with `μ` asymptotically. For each fixed `M` this decay is a **classical theorem** — `Σ_{n≡r\,(M)} μ(n) = o(N)` by the prime number theorem in arithmetic progressions — so the experiment is *confirming a proven result and quantifying its `√(M/N)` rate*, not testing Sarnak's open conjecture. This is nonetheless the genuine experiment of the paper: a bounded-complexity, finite-memory function with `C*` bounded away from zero would be a real discovery (it would refute Möbius orthogonality in this class). **It was not seen.**
 
 ### 4.4 Test C — twin density needs a correlation the template does not supply
 
@@ -153,13 +163,13 @@ The template (lpf ladder, §4.1) is reproduced exactly. The **escape** — a cor
 - `π₂ / (N/ln²N) = 1.545` — pure independence/template predicts **1.000** and *misses*.
 - `π₂ / (2C₂ · N/ln²N) = 1.170` — the Hardy–Littlewood singular series **`2C₂ = 1.3203`** is the dominant correction (the residual 1.17 is the crude `N/ln²N` versus the integral `Li₂(N)`, ~+13% at this `N`).
 
-The twin density carries the **`2C₂` pair-correlation** — an escape structure a finite-local template generator does not supply.
+The twin density carries the **`2C₂` pair-correlation** — an escape structure a finite-local template generator does not supply. (`2C₂ = 1.3203` is **not derived here**; it is the known Hardy–Littlewood twin-prime singular-series constant, used as the external yardstick. The point is only that the measured twin density *needs* it — i.e. carries a pair-correlation the template lacks.)
 
 ---
 
 ## 5. The Mechanism: the √N Activation Horizon
 
-Why does no *fixed* finite memory ever reach the escape? Because the template state that would resolve more of the structure grows with the scale it must resolve. Test B makes this quantitative: a larger `M` *does* correlate with `μ` at small `N` (the `√(M/N)` envelope), but that correlation **washes out** as `N` grows — a *fixed* `M` with growing `N` goes to zero, and capturing more requires `M` to grow proportionally with `N`. The required memory grows like `√N`. So a finite-memory substrate is always, eventually, beneath the escape: it can chase the template arbitrarily far, but the escape recedes at exactly the rate that keeps it out of finite reach. This is the **activation horizon**, and it is the substrate-level shadow of the parity barrier.
+Why does no *fixed* finite memory ever reach the escape? Because the template state that would resolve more of the structure grows with the scale it must resolve. Test B makes this quantitative: a larger `M` *does* correlate with `μ` at small `N` (the `√(M/N)` envelope), but that correlation **washes out** as `N` grows — a *fixed* `M` with growing `N` goes to zero, and capturing more requires `M` to grow proportionally with `N`. The required memory grows like `√N`. So a finite-memory substrate is always, eventually, beneath the escape: it can chase the template arbitrarily far, but the escape recedes at exactly the rate that keeps it out of finite reach. This is the **activation horizon**, and it is the substrate-level shadow of the parity barrier. The `√N` scaling is not coincidental: it is the same square-root-cancellation scaling that governs the **large-sieve inequality** and the expected size of character sums — the quantitative form of "finite memory buys only `√N` of resolution."
 
 ---
 
@@ -227,6 +237,7 @@ Using the integers as an external ruler, ED's **finite-memory substrate class re
 
 ### Glossary
 
+- **Open residues.** The residue classes `r mod M` coprime to `M` — the positions a sieve to level `M` leaves *uncovered*, among which the primes above `M` must lie and (by Dirichlet) equidistribute.
 - **Template layer.** The finite-local residue structure of the integers (`n mod M`): coverage by small primes + equidistribution of primes among open residues. Within the finite-memory class.
 - **Escape layer.** Primality itself, the Möbius function, pair correlations — the structure no finite residue state determines. The parity barrier.
 - **Template information (1.700 bits).** The scale-invariant `H(dx) − H(dx | n mod 30)`; reproduced exactly. The citable invariant.
@@ -234,6 +245,17 @@ Using the integers as an external ruler, ED's **finite-memory substrate class re
 - **Sarnak disjointness.** Möbius does not correlate with any zero-entropy (low-complexity) sequence — including any finite-memory function of `n mod M`.
 - **Activation horizon (√N).** The required template memory grows like `√N`, so no fixed finite memory ever reaches the escape — the substrate-level mechanism of the ceiling.
 - **`2C₂ = 1.3203`.** The Hardy–Littlewood twin-prime singular series; the escape pair-correlation the template does not supply.
+
+### Reader map and open work
+
+*Intuition — the parity barrier in one line.* Finite memory can classify residue classes but cannot see the **parity of the number of prime factors**; isolating the primes requires exactly that parity, which no finite residue state encodes. That is the whole obstruction.
+
+**Where to look next.**
+- *The internal reading of the same ceiling (channel capacity = 0):* the A1 result.
+- *The coarse-graining wall (the continuum / PDE shadow):* the Continuum paper.
+- *The gravity arc (the same finite-reach character):* GR-II.
+
+**Open work** (declared): test other arithmetic rulers (the Liouville function `λ`, the divisor function `d(n)`) for the same template/escape split; test ED-*generated* sequences against the Möbius correlator directly (rather than via the class argument); push `N` higher; and test adaptive `M(N)` scaling against the √N horizon explicitly.
 
 ---
 

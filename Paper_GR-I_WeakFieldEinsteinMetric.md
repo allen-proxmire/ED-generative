@@ -60,6 +60,12 @@ The factor of two in light bending is the historical discriminator between Newto
 
 This is the first paper of the post-pivot curvature-emergence line: where Paper_033 *posited* a metric and got MOND, this paper *derives* a metric and gets the weak-field Einstein tests.
 
+### 1.4 Conventions and regime of validity
+
+**Conventions.** Metric signature `(−,+,+,+)`; static coordinates; `c = 1` where convenient. The weak-field metric is written in **isotropic gauge**: `ds² = −(1 + 2Φ)\,dt² + (1 − 2Φ)\,δ_{ij}\,dx^i dx^j`. The Schwarzschild-gauge form used in §5.3 (`g_{rr} = (1 − r_s/r)^{-1}`) is the same metric in a different radial coordinate and agrees with the isotropic form to the weak-field order computed; the relation `g_{00}\,g_{rr} ∼ −1` is the gauge-robust content that distinguishes the Einstein branch from the conformal one.
+
+**Regime of validity.** Every result here is **static**, **weak-field**, **spherically symmetric**, and lives in the **continuum (DCGT) limit** of the substrate (Paper_073). No strong-field, time-dependent, or non-spherical claim is made: the vacuum profile (§5.2) is the Newtonian-order `1/r`, the metric is its leading weak-field completion, and the full nonlinear / strong-field field equation is deferred to GR-II. The factor-of-two simulation (§6) is an imposed-profile validation of the propagation mechanism, not a strong-field solution.
+
 ---
 
 ## 2. Primitive Inputs
@@ -71,6 +77,8 @@ This is the first paper of the post-pivot curvature-emergence line: where Paper_
 **Paper-specific postulate (labeled per QC discipline):**
 
 - **P-Commitment-Linear (commitment rate linear in bandwidth):** *The substrate commitment rate `Γ_commit ∼ b_int/reserve` (commitment.md) is linear in the metric-relevant bandwidth, `Γ ∝ b`, to leading order.* This holds when the P04 commitment-reserve band does not co-scale with the internal band (P04 lists them as distinct bands). With `Γ ∝ b^α`, the lapse is `N² ∼ b^{2α-1}`: **α = 1 gives the Schwarzschild/Einstein relation; α = 0 gives the conformal/Nordström one.** P-Commitment-Linear selects α = 1. It is a substrate-level structural commitment, **not** derived from the four-band law alone, and labeled here for transparency. The exact reserve dynamics that would fix α are deferred to GR-II.
+
+**Why linearity is the natural choice (and the alternatives are not).** Three considerations select `α = 1`, none of which is a fit to a desired answer. *(i) The rate's own form.* `Γ_commit ∼ b_int/reserve` is the internal bandwidth divided by a reserve budget; treating the reserve as a roughly fixed budget (a *distinct* P04 band) makes `Γ` rise in direct proportion to the available internal bandwidth — linearity is the leading, unforced reading. *(ii) `α = 0` (conformal/Nordström) is physically implausible.* It requires the commitment rate to be *independent* of bandwidth — equivalently, the reserve to track the internal band exactly so their ratio is constant — i.e. a front that commits no faster where there is more capacity, contradicting the meaning of bandwidth as commitment capacity. It is also the branch that bends no light at all (conformally-flat metrics are non-lensing, §6.3). *(iii) `α ≠ 1` breaks the null-cone identification.* Any `α ≠ 1` gives `N² ∼ b^{2α-1} ≠ b`, so the front's coordinate speed (`∝ Γ ∝ b^α`) and the lapse no longer combine, through the null condition (§4), into a single `b`-controlled cone; the spatial and temporal curvatures cease to be locked to one field, and the Schwarzschild relation `g_{00}g_{rr} ∼ −1` is lost. Linearity is the unique exponent for which one field `b` controls one consistent causal cone — the structure §6 needs for the factor of two.
 
 **Upstream paper dependencies:**
 
@@ -131,13 +139,13 @@ Three properties hold by construction, and they are the genuineness conditions a
 
 - **Symmetric** — `b_uv = b_vu` (P02 reciprocal edge record), so `g` is symmetric.
 - **Local** — built from local adjacency/bandwidth (consistent with ED's no-nonlocal-influence).
-- **Positive in the bulk, degenerate at horizons** — `b > 0` gives a positive-definite spatial metric; where `b → 0` (a decoupling cut), `g → ∞` — the metric degenerates *exactly* at emergent horizons, the correct behavior, not a defect.
+- **Positive in the bulk, degenerate at horizons** — `b > 0` gives a positive-definite spatial metric; where `b → 0` (a decoupling cut), `g → ∞` — the metric degenerates *exactly* at emergent horizons, the correct behavior, not a defect. This `b → 0` locus is the same surface the ED horizon literature identifies as a decoupling/saturation boundary (the emergent-boundary A2 and finite-memory-horizon V5 results), so the metric degenerates precisely where ED already places its horizons; the identification (including khronometric "universal horizons") is developed in GR-II.
 
 `g_ij ∼ b⁻¹` is Riemannian (positive-definite) — the **spatial** sector. The Lorentzian (temporal) structure is the content of §4.
 
 ### 3.2 Consistency with the Newtonian limit
 
-Writing `g_{00} = -(1 + 2\Phi)` in the weak field, the inherited Newtonian recovery (Paper_027) is `∇²\Phi = 4πG\rho`. Identifying the bandwidth deviation with the potential, `b ∼ 1 + 2\Phi`, the Newtonian limit reads `∇²b ∼ \rho`. This is the one place Paper_033's postulated metric is constrained, and the bandwidth metric agrees there by construction. The new physics is in the *spatial* part and the *lapse*, which Paper_033 left open.
+Writing `g_{00} = -(1 + 2\Phi)` in the weak field, the inherited Newtonian recovery (Paper_027) is `∇²\Phi = 4πG\rho`. Identifying the bandwidth deviation with the potential, `b ∼ 1 + 2\Phi`, the Newtonian limit reads `∇²b ∼ \rho`. **This identification is the standard weak-field gauge choice (isotropic gauge, §1.4); it is a consistent labeling of the Newtonian potential, not a smuggled GR structure — any gauge-equivalent choice yields the same Poisson equation `∇²Φ = 4πGρ`.** This is the one place Paper_033's postulated metric is constrained, and the bandwidth metric agrees there by construction. The new physics is in the *spatial* part and the *lapse*, which Paper_033 left open.
 
 ---
 
@@ -145,7 +153,7 @@ Writing `g_{00} = -(1 + 2\Phi)` in the weak field, the inherited Newtonian recov
 
 ### 4.1 The front is the null cone
 
-The substrate front — the propagating locus of new commitments — is the **maximal signal** of the substrate: nothing propagates faster than the finite-width bandwidth-limit speed (V1 / Paper_089). In the emergent metric, the maximal signal travels on the **null cone**. So the front worldline satisfies `ds² = 0`. (That front propagation is specifically *geodesic* — the front follows the locally fastest channel, a discrete Fermat principle — is established for the null sector in the Phase-3 analysis and used in §6; here we need only that the front is null.)
+The substrate front — the propagating locus of new commitments — is the **maximal signal** of the substrate: nothing propagates faster than the finite-width bandwidth-limit speed (V1 / Paper_089). In the emergent metric, the maximal signal travels on the **null cone**. **In a Lorentzian metric the maximal signal speed *defines* the null cone, so identifying the substrate's maximal signal (the front) with the null cone is not an additional assumption but the definition of the emergent causal structure.** So the front worldline satisfies `ds² = 0`. (That front propagation is specifically *geodesic* — the front follows the locally fastest channel, a discrete Fermat principle — is established for the null sector in the Phase-3 analysis and used in §6; here we need only that the front is null.)
 
 ### 4.2 The null condition forces `N² ∼ b`
 
@@ -159,6 +167,10 @@ $$
 The lapse is **forced** — not posited — by the commitment-rate law plus the null identification. The general case `Γ ∝ b^α` gives `N² ∼ b^{2α-1}`, so the result is the single statement that the Einstein branch corresponds to **linear** commitment rate (§2): the physical reading of "commitment rate rises with available bandwidth" selects it; the conformal/Nordström branch would require the rate to *fall* with bandwidth.
 
 **Dimensional check.** `N` is dimensionless (a lapse / redshift factor); `b` enters as the dimensionless ratio to its asymptotic value. ✓
+
+### 4.3 Why the lapse matters
+
+The lapse `N` is not a bookkeeping factor — it carries the relativistic physics, and all three classical tests flow from the single derived relation `N² ∼ b`. (i) It *is* gravitational time dilation: clocks tick at rate `N ∼ b^{1/2}`, which is the redshift (§5.4). (ii) It controls null propagation: the optical metric that bends light is `g_{ij}/(-g_{00}) = g_{ij}/N²` (§6.1), so the lapse enters the deflection directly. (iii) It is the *entire* difference between Newtonian/scalar and Einstein gravity — a theory with the spatial metric alone gives half the bending; the lapse, fixed by the commitment rate to scale as `N² ∼ b` in step with `g_{rr} ∼ b⁻¹`, is what doubles it (§6.3). One field `b` sets both the spatial coupling and the temporal update rate, hence both spatial curvature and the lapse — which is why the two sectors are locked together.
 
 ---
 
@@ -199,7 +211,7 @@ This is the **weak-field Schwarzschild metric** — the metric of General Relati
 Two classical tests follow immediately:
 
 - **Gravitational redshift (free corollary).** Clocks run at rate `N ∼ b^{1/2}`. Near a source the bandwidth is depleted (`b < 1`), so `N < 1`: clocks run slow and light climbing out is redshifted, with the standard `\Delta\nu/\nu \approx \Phi`. Correct sign and law, from the same derived lapse.
-- **Perihelion precession (test particle).** Timelike geodesics of the derived metric (§5.3) precess by the standard GR amount `\Delta\varpi = 6\pi GM/(c^2 a(1-e^2))` per orbit. This follows by the textbook geometric calculation in the Schwarzschild metric; the residual assumption (that ED's massive-matter worldlines *are* these timelike geodesics, shown here only for null fronts) is flagged (preamble 9).
+- **Perihelion precession (test particle).** Timelike geodesics of the derived metric (§5.3) precess by the standard GR amount `\Delta\varpi = 6\pi GM/(c^2 a(1-e^2))` per orbit. This follows by the textbook geometric calculation in the Schwarzschild metric. **The identification of ED's massive-matter worldlines with these timelike geodesics is *assumed* here and is tested in GR-II** (where the geodesic identity is extended from the null front to the matter sector via the stress tensor). This paper derives the precession only as a property of the *metric* — established here for null fronts (§4) — not yet as a property of ED's massive-matter dynamics.
 
 The third and sharpest test — light bending — is §6.
 
@@ -231,9 +243,13 @@ A self-contained eikonal ray-tracer (front = ray in index field, `dT/ds = ∇_�
 
 The Einstein/Newtonian ratio is **2.09** (the ~4% excess is finite-`r_s` weak-field curvature, not a physical deviation); the conformal control is exactly zero; the deflection is `∝ r_s/\xi` and `∝ M`, the gravitational-lensing signature. **The simulation validates the propagation mechanism on the inherited-limit profile (§5.2); the profile itself is not re-derived here (preamble 7).**
 
+**Reproducibility.** The ray-tracer integrates the eikonal equation `dT/ds = (1/n)[∇n − (∇n·T)\,T]` (equivalently `dT/ds = ∇_⊥ \ln n`) by explicit first-order (Euler) steps in arc length `s`, renormalizing the unit tangent `T` after each step. Parameters: step `ds = 0.02`; source strength `r_s = 1` with softened profile `b(r) = 1 − r_s/r` (core regulator `10⁻³`); index `n(r) = b(r)^p` with `p ∈ {−1/2, −1, 0}` for the three classes; rays launched in the asymptotically flat region at `x = −400` (in units of `r_s`) with impact parameters `ξ ∈ {10, 15, 20, 30, 40, 60, 80}` and integrated to `x = +400`, where `b → 1`; the deflection is the asymptotic tangent angle. There is no spatial grid and no reflecting/periodic boundary — propagation is free in the imposed static index field. Scripts: `gr_lensing_test.py`, `gr_einstein_factor.py`.
+
 ### 6.3 Why the factor is two and not one
 
 Newtonian or pure-scalar gravity curves *time* (a `g_{00}` potential) but leaves space flat, giving half the deflection. Pure conformal (Nordström) gravity curves space and time *equally and oppositely*, so the optical effects cancel and light does not bend at all. Einstein gravity curves space as much as time *in the same sense*, doubling the deflection. ED lands on the Einstein case because **one field, `b`, sets both sectors** (`g_{rr} ∼ b⁻¹`, `N² ∼ b`), with the commitment-rate lapse fixing the sign that makes them reinforce rather than cancel. The factor of two is the fingerprint of that single-field origin.
+
+*Historical note.* The factor of two is the discipline's classic discriminator. Soldner (1801), and Einstein's first attempt (1911) using only the time potential `g_{00}`, gave the Newtonian value `2GM/c²ξ`; Einstein's 1915 result, adding the *equal spatial curvature*, doubled it to `4GM/c²ξ`, confirmed by Eddington in 1919. Relativistic-MOND covariantizations had to **add a vector field** (e.g. TeVeS) precisely to install the spatial curvature and recover the factor of two. ED reaches it from a single field because `b` sets both sectors at once — no added vector required.
 
 ---
 
@@ -241,7 +257,7 @@ Newtonian or pure-scalar gravity curves *time* (a `g_{00}` potential) but leaves
 
 This paper sharpens, and does not contradict, Paper_033. The relationship is precise:
 
-- **Paper_033 postulates the metric.** Its acoustic metric is introduced by P-AcousticMetric (labeled a postulate in its own audit), with unspecified form, and it never computes the spatial curvature or light bending. Its only metric-level constraint is the Newtonian limit.
+- **Paper_033 postulates the metric.** Its acoustic metric is introduced by P-AcousticMetric (labeled a postulate in its own audit), with unspecified form. **The key fact that dissolves any "two metrics" worry: Paper_033 never computes the spatial curvature or the light-bending coefficient at all** — its only metric-level constraint is the Newtonian limit, so there is no published value for this paper to contradict, only an unspecified slot for it to fill.
 - **This paper derives the metric.** `g ∼ b⁻¹` is explicit, agrees with Paper_033 at the Newtonian limit, and supplies what Paper_033 left open: the spatial part (Einstein factor of two) and the lapse (`N² ∼ b`). The bandwidth metric is the **explicit realization** of Paper_033's postulated background, sharpening "unspecified Lorentzian background" into "Einstein-class at weak field."
 - **The Lorentz status.** Because the lapse comes from the commitment-rate law, the metric carries a preferred-foliation (khronometric) structure — Einstein-class at weak field, but not pure GR. This is stated here and derived in GR-II. It revises Paper_033's implicit Lorentz-covariance into a khronometric structure that *coincides with GR in the regime this paper treats*.
 
@@ -323,7 +339,18 @@ The **weak-field Einstein metric** is a downstream structural derivation in the 
 - **Schwarzschild relation `g_{00} g_{rr} ∼ -1`.** The time–radial metric relation characteristic of the Einstein (not conformal) branch.
 - **Optical index `n_opt ∼ b⁻¹`.** The light-propagation index; the square of the spatial index, hence the factor of two.
 - **Factor of two.** The Einstein light-bending coefficient (`4GM/c²ξ`), twice the Newtonian value; arises because `b` sets both spatial and temporal sectors.
+- **Null front.** The substrate front — the propagating locus of new commitments — identified with the null cone of the emergent metric because it is the substrate's maximal signal (§4.1).
 - **Khronometric.** Einstein's tensor sector plus a preferred-foliation scalar; ED's gravitational class (GR-II), coinciding with GR at weak field.
+
+### Reader map and open work
+
+**Where to look next.**
+- *The field equation and gravitational class (khronometric):* GR-II.
+- *Lorentz safety, gravitational-wave speed, preferred-frame phenomenology:* GR-II.
+- *The MOND sector (`a₀`, BTFR) and its relation to the khronon:* Paper_033 + GR-II.
+- *The substrate-route identification (`b` ↔ strain/flow):* the reconciliation memo.
+
+**Open work** (declared, not hidden): (1) derive `b` from the P02/P03/P06 strain/flow content, closing the substrate-route gap (§7); (2) fix the reserve dynamics that pin `α = 1` in P-Commitment-Linear (§2); (3) the strong-field / nonlinear regime and the timelike-geodesic identity (GR-II); (4) the khronon ↔ MOND unification (§7).
 
 ---
 

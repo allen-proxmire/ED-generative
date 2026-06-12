@@ -38,9 +38,15 @@ ED's case is **generativity** — one small primitive set generating the *form* 
 
 A substrate ontology earns the right to call the continuum a "shadow" only if it can show, concretely, that its own dynamics produce the fact-level beneath the continuum rather than the continuum itself. A negative here — done honestly, with the mechanism named — is more informative than a hoped-for positive: it locates *exactly* where and why ED and the smooth equations of physics part company, and it converts a philosophical claim ("the PDE is a coarse-grained shadow") into a measured one.
 
+*Why diffusion is the right thing to test.* Diffusion (the heat / Fokker–Planck equation) is the **universal hydrodynamic limit**: almost any conservative, locally-equilibrating discrete system coarse-grains to it — the content of the Boltzmann-equation → Chapman–Enskog → diffusion story, reached even by *deterministic* chaotic systems (the Lorentz gas, hard-sphere molecular dynamics) through mixing. It is therefore the most generic PDE a substrate could produce, and the natural one to test. Its *absence* is correspondingly meaningful: a substrate that does not yield diffusion is not merely missing one equation but sits outside the entire hydrodynamic class.
+
 ### 1.3 Arc context
 
 This is the substrate-evaluation program's first **tested** (build-and-run, could-come-back-no) substrate result, distinct from the program's many *located-but-open* results. It pairs with the determinability-boundary measurement (same certified instrument) and connects structurally to the gravity arc (§8): the same thin, ballistic, single-speed character that makes ED gravitationally GW-clean is what makes it non-diffusive here.
+
+### 1.4 Regime of validity
+
+Every result is for the **certified Σ-rule on a fixed participation graph** — deterministic dynamics, no rule modification in the characterization (Rounds 1–6), a single explicitly-labeled regime knob in §7 — at **modest grid sizes** (`S = 64`–`121`), with **no thermodynamic / infinite-size limit** and **no long-time steady state** (committed ρ grows unboundedly; fronts extinguish). The conclusions are about *this* instantiation: **no claim is made about other ED instantiations** (the posited Q-C/UDM diffusion model is untested here, §5, §11), nor about observables beyond those measured. The **contrasts** (diffusion ≈ 0; UDM β ≈ 0; scale-unstable vs scale-stable `D`) are the result, not the absolute R².
 
 ---
 
@@ -53,6 +59,8 @@ This is the substrate-evaluation program's first **tested** (build-and-run, coul
 **Method.** Build an `S×S` grid substrate (`S = 121`); seed ρ-profiles (uniform/random, Gaussian, step, ring, gradient) and an ensemble of fronts; evolve; snapshot fields each step. Coarse-grain by block-averaging at multiple block sizes; estimate `∂_t ρ, ∂_t φ, ∇ρ, ∇²ρ, |∇ρ|, ∇·J` by finite differences; regress (least-squares R²) against candidate term-libraries. Instrument the commit log to recover the front-density `φ(x,t)`, front-current `J(x,t)`, merge sink `M(x,t)`, and directional persistence `p`. **No rule is modified** for the characterization (Rounds 1–6); the constructive tests (§7) introduce a single, explicitly-labeled regime knob and validate the Σ computation bit-for-bit against the certified `compute_sigma`.
 
 **No primitive forcing is invoked.** All constructive deviations (the ε knob, §7) are labeled regime changes, not rule changes.
+
+**Reproducibility.** Grids: `S = 121` (characterization, Rounds 1–6), `S = 96` (inject-noise, §7.1), `S = 64` (emerge-noise, §7.2). Coarse-grain block sizes `B ∈ {2, 4, 8, 16}`; spatial and temporal derivatives by central finite differences (`numpy.gradient` stencil). Ensembles: `N = 120` identical-IC runs (§4.3) and `N = 300` independent landscapes (5 families × 60, §7.2). The inject-noise sweep uses `ε ∈ {0, 0.25, 0.5, 0.75, 1.0}` at carrier densities `0.5` and `2.0` per node. The mode-decay coefficient is fit by linear regression of `ln|a_n(t)|` on `t` over the window where the amplitude is above the noise floor, giving `D_n = γ_n/k_n²` at wavenumbers `k_n = 2πn/S` (`n = 1…4` for the scale-stability test). Random seeds are fixed per run. Scripts are listed in the Appendix; the vectorised Σ used in §7 is validated bit-for-bit against the certified `compute_sigma`.
 
 ---
 
@@ -85,7 +93,7 @@ All steps are P, I, measured, structural, interpretation, or labeled measurement
 Two directly-verified facts reshape the question before any regression:
 
 - **The certified front does not branch.** One seed → exactly one active front after many steps, depositing ρ along a **1-D chain (a worldline)**. The Σ-rule is a *chain propagator, not a field-update rule* — so a "ρ-field PDE" is the wrong object for a single front.
-- **ρ only changes where a front commits.** ρ is monotone and grows by a fixed increment at each commit (P11), so `∂_t ρ` is the commit-deposition footprint: **ρ is a deposited field slaved to the fronts**, not an independent dynamical field.
+- **ρ only changes where a front commits.** ρ is monotone and grows by a fixed increment at each commit (P11), so `∂_t ρ` is the commit-deposition footprint: **ρ is a deposited field slaved to the fronts**, not an independent dynamical field. (To be precise: ρ *does* evolve deterministically — but only *through* front deposition; it has no independent evolution law of its own, which is exactly why no closed equation in ρ alone can exist.)
 
 These two facts already predict that no closed ρ-only PDE can exist; the measurements confirm it.
 
@@ -136,6 +144,8 @@ The Universal-Mobility hypothesis is that the strain rule (fronts avoid high ρ)
 
 **The one blocking mechanism — saturation/extinction — supplies the degeneracy but not the form.** Turning on the certified extinction threshold (fronts die where Σ falls below threshold, i.e. in dense regions): the extinction rate **rises with concentration** (`0.026 → 0.244` as `c` ≈ 0.1 → 1.1) — genuine concentration-dependent blocking, the qualitative UDM ingredient — but the effective mobility is **non-monotonic** and the UDM fit gives **β ≈ 0.05, R² 0.16**, not β ≈ 2. So **saturation supplies the blocking UDM needs, but the resulting transport does not have the UDM functional form** (sharp threshold not smooth reduction; unbounded committed-ρ so no fixed `c_max`). UDM is *qualitatively related* to the saturation regime but *not quantitatively generated* by it; it remains a separate posit.
 
+**This negative applies specifically to the certified Σ-rule.** A *different* ED instantiation — in particular the posited Q-C / UDM diffusion model (Canon P4) — could generate UDM by construction; that is **not tested here** and is explicitly left open (preamble 2, §11). The claim is "the certified Σ-dynamics do not generate UDM," not "ED cannot."
+
 ---
 
 ## 6. Conservation is Necessary but Not Sufficient
@@ -145,6 +155,8 @@ The natural diagnosis is that ρ does not close *because it is not conserved* (a
 - **Conservation is exact** (drift `1.6 × 10⁻¹⁶`).
 - **The current still does not close.** The constitutive test `J = a·m·∇d − D·∇m` gives R² ≈ **0.01** — no Fickian/advective closure.
 - **Continuity does not even verify** at the coarse level (R² ≈ 0.04) *despite exact microscopic conservation* — the residual measurement wall.
+
+**To be unambiguous: no claim is made that the substrate violates continuity.** Microscopic conservation is exact (drift `10⁻¹⁶`). The claim is only that the coarse-grained finite-difference estimator cannot *verify* a tight local balance on this sparse, deterministic field — the failure is in the measurement, not the physics (it is load-bearing for nothing; the clean results of §4, §5, §7 do not rely on it).
 
 **Conservation was the wrong suspect.** The conserved quantity is *transported kinetically*, along the same ballistic-plus-scattering worldlines, with no constitutive closure. A discrete system coarse-grains to a PDE when it has five ingredients; measured against the substrate:
 
@@ -156,7 +168,9 @@ The natural diagnosis is that ρ does not close *because it is not conserved* (a
 | **Isotropy** | absent — square lattice + tie-break |
 | **Steady regime** | absent — never steady (ρ → ∞, fronts die) |
 
-**The missing ingredient is not conservation — it is scale separation.** The substrate *has* a local equilibrium, but it relaxes on the timescale it transports, so there is no limit in which the current collapses to `J = −D∇`. A PDE-generating ED substrate would need the **thick, over-damped regime** (τ ≪ transport time) — structurally a lattice-Boltzmann fluid, the *opposite* end from the certified substrate's thin, ballistic, determinate character. **ED makes facts; fluids relax; those are opposite limits of one architecture.**
+**The missing ingredient is not conservation — it is scale separation.** The substrate *has* a local equilibrium, but it relaxes on the timescale it transports, so there is no limit in which the current collapses to `J = −D∇`. A PDE-generating ED substrate would need the **thick, over-damped regime** (τ ≪ transport time) — structurally a **lattice-Boltzmann fluid** (many collisions per transport step, the discrete scheme that *does* yield Navier–Stokes), the *opposite* end from the certified substrate's thin, ballistic, determinate character. **ED makes facts; fluids relax; those are opposite limits of one architecture.**
+
+(On isotropy specifically: the square lattice's anisotropy is **structural** — it cannot be removed without changing the substrate's graph — so it is a genuine limitation of *this* instantiation, not a measurement artifact. It is, however, not the load-bearing obstruction; scale separation is, and it fails even in the measured isotropic equilibrium, §4.3.)
 
 ---
 
@@ -168,7 +182,7 @@ A discrete system can become a diffusion PDE by exactly two routes: **injected**
 
 Force the thick regime (high density, isotropy, periodic steady arena, exact bandwidth conservation) with a single knob **ε** on the carrier-hop rule: ε = 0 is pure certified max-Σ selection; ε = 1 is a uniformly random hop (a conserved random walk — diffusion by construction). The local Fickian regression is shot-noise-limited (≈ 0 even at ε = 1, where the answer is known), so the verdict rests on a **global mode-decay** instrument (seed a cosine density mode, watch `a(t) = a₀ e^{−Dk²t}`), which self-validates: at ε = 1 it returns `D ≈ 0.23` — the analytic 2D random-walk value `1/(2·dim) = 0.25` — with decay-R² ≈ 0.99, α ≈ 1, p → 0.25.
 
-The result is monotone *against* ED: a clean, coefficient-correct diffusion PDE exists at **exactly one point, ε = 1**, where Σ-selection has been wholly replaced by scattering. For any ε < 1 with the certified rule still steering, transport moves *away* from diffusion — the intermediate regime is the worst (non-exponential decay, sub-diffusive α ≈ 0.1–0.33). Mechanistically, Σ funnels carriers to the coherence optimum and the monotone P11 footprint freezes them: **Σ-selection is a *trapping* operator, not a *collision* operator.** A diffusion PDE needs relaxation; the substrate supplies commitment. The thick regime that *does* give a PDE is reached only by deleting the selection rule. *The price of the PDE is the whole ED character.*
+The result is monotone *against* ED: a clean, coefficient-correct diffusion PDE exists at **exactly one point, ε = 1**, where Σ-selection has been wholly replaced by scattering. For any ε < 1 with the certified rule still steering, transport moves *away* from diffusion — the intermediate regime is the worst (non-exponential decay, sub-diffusive α ≈ 0.1–0.33). The mechanism is explicit: Σ always selects the **coherence optimum** — which tends to be a local minimum of disorder (the `ρ ≈ ρ*` basin) — and the monotone P11 footprint then **pins** the carrier there; repeated selection therefore *funnels* carriers into basins rather than *decorrelating* them, the precise opposite of a collision operator's randomizing action. **Σ-selection is a *trapping* operator, not a *collision* operator.** A diffusion PDE needs relaxation; the substrate supplies commitment. The thick regime that *does* give a PDE is reached only by deleting the selection rule. *The price of the PDE is the whole ED character.*
 
 ### 7.2 Emerge noise — pure ED never mixes
 
@@ -269,6 +283,18 @@ The **certified ED substrate is a kinetic lattice-gas**, not a diffusion PDE. It
 - **Trapping vs collision operator.** Σ-selection drives carriers to the coherence optimum and freezes them (trapping), the opposite of the decorrelating collisions a diffusion PDE integrates.
 - **Inject-noise / emerge-noise routes.** The two ways a discrete system can become a diffusion PDE — added randomness, or emergent chaotic mixing — both of which fail for the certified substrate.
 - **UDM.** The Universal (Degenerate-)Mobility law `M(ρ) = M₀(ρ_max − ρ)^β`, β ≈ 2; a separate ED posit, not generated by the certified Σ-dynamics.
+
+### Reader map and open work
+
+*Intuition — why ED is thin.* ED's determinism and single-speed transport make it **thin**: it produces *trajectories*, not *relaxation*. A fluid needs many speeds thermalized by collisions into a slow hydrodynamic mode; ED has one speed and committal selection. That is the whole reason it makes facts (worldlines) rather than fields (relaxed averages) — and §8's connection to gravity is the same fact wearing the opposite hat.
+
+**Where to look next.**
+- *The determinability-boundary measurement (same instrument):* the Bits determinability paper.
+- *The gravity connection (the same thinness → single causal cone):* GR-II §6–§8.
+- *The UDM / Q-C diffusion model:* Paper_033 and Canon P4.
+- *The substrate primitives:* Paper_087.
+
+**Open work** (declared): test other ED instantiations — especially the Q-C/UDM model — for diffusion; larger grids and the thermodynamic limit; alternative observables; multi-front interaction regimes; and whether *any* coarse-graining of this substrate closes into a local hydrodynamic equation.
 
 ---
 

@@ -42,15 +42,21 @@ The standing crank-safety rule is reached **graph-first**: let the participation
 
 This is the ontology's test on the **confirmation** axis: can ED *earn* "constants are global relational facts" for the one case where the claim is concrete? The honest answer — *the topological skeleton yes, the metric flesh as a coarse-grained limit, with one open question* — is more useful than either a triumphant "ED makes charge" (which it does not) or a flat "ED says nothing about charge" (which undersells a genuine structural realization).
 
+### 1.4 Regime of validity
+
+Every result is for the **certified Σ-rule substrate** on **minimal arenas** — single cycles (rings) for the holonomy/winding, small grids for the Gauss-law and fork tests. **No claim is made about large-scale networks, about multi-cycle interactions, or about coupling between several windings.** The continuum-limit behaviour (whether DCGT yields Maxwell/Coulomb) is **not** a result of this paper but its one declared open question (§7). The contrasts — quantized integer winding, loop-independent circulation, sweep-dependence with vs without P11 — are the result, not absolute magnitudes or large-system claims.
+
 ---
 
 ## 2. Primitive Inputs and Method
 
-**Substrate primitives (postulated, Paper_087), load-bearing here:** P05 (adjacency transport — the discrete connection), P09 (U(1) polarity — the angle), P11 (commitment irreversibility — single-valuedness and protection), P04 (four-band bandwidth — the weak coupling channel). The defining constraint is that the **Σ-selection is orientation-blind**: Σ reads ρ and graph structure, never the polarity.
+**Substrate primitives (postulated, Paper_087), load-bearing here:** P05 (adjacency transport — the discrete connection), P09 (U(1) polarity — the angle), P11 (commitment irreversibility — single-valuedness and protection), P04 (four-band bandwidth — the weak coupling channel). The defining constraint is that the **Σ-selection is orientation-blind**: Σ reads ρ and graph structure, never the polarity. Concretely: **orientation-blind Σ means the selection rule reads ρ and graph structure *only*; the U(1) phase is invisible to Σ, so the winding cannot influence front propagation *except indirectly*, through the P04 bandwidth tie-break (§4.2).** This single constraint is the reason behind every result below (§6).
 
 **Method (graph-first).** A reconnaissance step asks which topological invariants the participation graph admits at all (independent of charge). The candidate that survives — the U(1) holonomy on cycles — is then probed in four steps: **quantize** (does commitment make the winding integer?), **couple** (can the winding act, given orientation-blind Σ?), **source** (does it obey a Gauss law?), and the **ontology fork** (can a determined local field be forced, and at what cost to ED's invariants?). The certified substrate is used as-is; deviations in the fork (relaxing orientation-blindness; removing P11) are explicit and labeled. Scripts: `holonomy_test.py`, `coupling_test.py`, `sourcing_test.py`, `relaxation_test.py`.
 
 **No primitive forcing is invoked**, and no topology is fit to a charge value.
+
+**Reproducibility.** Step 1 (quantization) uses minimal U(1)-on-a-cycle arenas (rings): the holonomy is the summed per-edge phase difference `Σ_e Δφ_e` around the cycle, and the winding `w = (1/2π) Σ_e Δφ_e` is read after the polarity is committed single-valued (P11); quantization to `ℤ` is exact to machine precision. Step 3 (Gauss law) measures the same circulation on enclosing loops of varying length and shape on a grid, checking `Σ_{e∈L} Δφ_e = 2πw` independent of the loop. Step 4 (the fork) relaxes the per-edge phase on an `S×S` grid carrying a central winding: *sweep-dependence* is the variation of the converged per-edge configuration under different update orderings (0.76, with orientation-blindness relaxed and P11 kept), and the *isotropic-field* test fits the radial deficit, reporting `deficit·r²` (≈ 0.126, initialization-independent to 0.0005) — which appears only when P11 is *also* removed. Scripts: `holonomy_test.py`, `coupling_test.py`, `sourcing_test.py`, `relaxation_test.py`.
 
 ---
 
@@ -80,6 +86,8 @@ All steps P, D, measured, structural, interpretation, open, or explicitly not-cl
 
 Before any comparison to charge, the question is what topological invariants the participation graph carries. The event-density field ρ supports none of the right kind (it is a scalar deposit, not a connection). The graph's first Betti number `b₁` (independent cycles) is the arena for holonomy. A `Z₂` invariant is too coarse. What survives is the **continuous U(1) holonomy on cycles** — the holonomy of the discrete U(1) connection given by P05 transport carrying the P09 angle. This is the only candidate, and it was reached without reference to charge.
 
+*Why U(1)?* It is the simplest non-trivial continuous group, and `π₁(U(1)) = ℤ` makes its holonomy *automatically* integer-quantized — so it is the natural candidate for a discrete, conserved, charge-like invariant, and (on this graph) the only surviving one. Nothing about charge is assumed in choosing it; it is what the cycle structure of the participation graph supports.
+
 ---
 
 ## 4. The Topological Skeleton
@@ -94,7 +102,13 @@ Can the inert winding act at all? Only weakly, and only through the P04 bandwidt
 
 ### 4.3 Source — an integral Gauss law
 
-Does the winding source a field? It obeys the **integral content of Gauss's law**: the circulation of the connection around *any* enclosing loop equals `2πw`, **independent of the loop's size and shape**. This is the unscreenable, topological statement of charge-sourcing — the flux through any surface enclosing the winding is fixed by `w` alone. It is genuine and graph-native.
+Does the winding source a field? It obeys the **integral content of Gauss's law**: the circulation of the connection around *any* enclosing loop equals `2πw`, **independent of the loop's size and shape**. Explicitly, for any simple closed loop `L` on the graph the discrete holonomy satisfies
+
+$$
+\sum_{e \in L} \Delta\phi_e = 2\pi w,
+$$
+
+the *same* integer `w` for every enclosing `L`, regardless of its length or shape. This is the unscreenable, topological statement of charge-sourcing — the flux through any surface enclosing the winding is fixed by `w` alone. It is genuine and graph-native.
 
 What is **not** present is a *determined local field* — a per-edge `1/r²` configuration. The circulation is fixed (topological), but how it distributes over individual edges is undetermined at the substrate (§5).
 
@@ -106,6 +120,8 @@ Step 3 leaves the local field undetermined; can it be *forced*? We relax ED's in
 
 - **Relax orientation-blindness alone** (Σ now sees coherence; P11 kept): the result is a **sweep-dependent seam, not a field** — the local configuration depends on the order of evaluation (sweep-dependence 0.76). No determined field.
 - **Also remove P11 irreversibility:** a determined isotropic `1/r²` field appears (`deficit·r² ≈ 0.126`, initialization-independent to 0.0005) — but this is now ordinary XY/lattice-field relaxation. **It is no longer ED.**
+
+**To state the fork unambiguously: the isotropic `1/r²` deficit profile appears *only* when *both* orientation-blindness and P11 are removed; with *either* invariant intact, no determined local field appears.** And the sweep-dependence of the intermediate case is the discrete analogue of **gauge redundancy** — the per-edge values are not physical, only the loop holonomies are (developed in §7).
 
 So a determined local Coulomb field is blocked by **two** invariants — orientation-blind selection *and* irreversible commitment — and producing one requires abandoning both. At the discrete layer, the metric flesh is outside ED.
 
@@ -123,9 +139,11 @@ The single reason runs through every step: **the Σ-selection is orientation-bli
 
 **The holonomies are lattice gauge link variables.** The discrete U(1) holonomies, the Wilson loops, the integral Gauss law — that is exactly the **lattice layer of a U(1) gauge theory**. The continuous electromagnetic field (`A_μ`, `F_{μν}`, the Coulomb `1/r²`) is the **known continuum limit** of those link variables. So the Coulomb field was never a substrate object: it lives at the coarse-grained (DCGT) layer, and demanding it on the graph is the same mistake as demanding a smooth metric on a single event.
 
+*Disclaimer.* This paper does **not** claim ED *implements* lattice gauge theory, or that the substrate *is* a gauge theory. The correspondence is **structural** — used only to *locate* the continuum field one layer up and to recognize the per-edge ambiguity as ordinary gauge freedom. No gauge-theory dynamics are imputed to ED. (The lattice→continuum dictionary used here is the standard one — Wilson's lattice gauge theory, 1974 — with Dirac's 1931 charge-quantization-from-topology and the topological charge of XY/`O(2)` models as the conceptual lineage for "charge as winding.")
+
 **Step 3's "undetermined local field" is ordinary lattice gauge freedom.** Per-link configurations in lattice gauge theory are gauge-dependent (individually unphysical); the physical, *determined* object is the gauge-invariant, action-selected configuration. ED's "sweep/gauge-dependence" is exactly that redundancy — expected, not a failure.
 
-**The Maxwell-like action is already latent.** Why is the configuration undetermined *at the substrate*? Because the physical continuum field is selected by an **action**, and orientation-blind Σ supplies no action over the phase. But the relevant action is already present in P04's coherence structure: the coherence energy `b_e = cos²(Δφ_e/2)` (incoherence `sin²(Δφ_e/2)`) has the continuum form of an `∫(∇φ)²`-type (Maxwell/XY-like) action. **ED has the right action latent; orientation-blind Σ simply does not minimize it at the micro layer.**
+**The Maxwell-like action is already latent.** Why is the configuration undetermined *at the substrate*? Because the physical continuum field is selected by an **action**, and orientation-blind Σ supplies no action over the phase. But the relevant action is already present in P04's coherence structure: the coherence energy `b_e = cos²(Δφ_e/2)` (incoherence `sin²(Δφ_e/2)`) has the continuum form of an `∫(∇φ)²`-type (Maxwell/XY-like) action. Explicitly, in the continuum limit `cos²(Δφ_e/2) ≈ 1 − ¼(Δφ_e)²`, so the incoherence `sin²(Δφ_e/2) ≈ ¼(Δφ_e)² → ¼(∇φ)²` is exactly the standard `∫(∇φ)²` action density. **ED has the right action latent; orientation-blind Σ simply does not minimize it at the micro layer.**
 
 **The corrected open problem (unproven; no Maxwell derivation claimed).** In lattice gauge theory the action's selection happens at the **ensemble / coarse-grained** level: the determined field is the gauge-invariant expectation of the link variables, dominated by low-action (coherent) configurations. So the ED-native question is:
 
@@ -198,12 +216,24 @@ This is one instance of the program's single deepest open thread. The determined
 
 ### Glossary
 
+- **Holonomy.** The total phase a U(1) connection accumulates around a closed loop — here the summed per-edge phase difference `Σ_{e∈L} Δφ_e`; its `1/2π` multiple is the integer winding.
 - **Winding `w ∈ ℤ`.** The integer holonomy of the committed U(1) polarity around a cycle (`π₁(U(1)) = ℤ`); quantized, conserved, irreversibility-protected — the topological skeleton of charge.
 - **Integral Gauss law.** Circulation around any enclosing loop `= 2πw`, loop-independent — the topological/unscreenable content of charge-sourcing.
 - **Orientation-blind Σ.** The Σ-selection reads ρ and graph, never the polarity — the single invariant that realizes the skeleton and withholds the field.
 - **Metric flesh.** A determined continuous local field (Coulomb `1/r²`); a coarse-grained object, not a discrete-layer one.
 - **Latent Maxwell action.** The coherence term `cos²(Δφ/2)`, whose continuum form is the `∫(∇φ)²`-type Maxwell/XY action — present in P04 but not minimized by orientation-blind Σ at the micro layer.
 - **The open edge.** Whether ED's DCGT coarse-graining selects the Maxwell-action configuration as the continuum expectation of the holonomies — unproven; no Maxwell derivation claimed.
+
+### Reader map and open work
+
+*Intuition — why charge is topological here.* Charge is topological because the phase must return to itself after going around a loop; ED's irreversible commitment (P11) makes that return **single-valued**, and `π₁(U(1)) = ℤ` makes it **quantized**. The winding counts how many times the committed phase wraps — an integer that cannot change without uncommitting.
+
+**Where to look next.**
+- *The continuum-limit question in general (does coarse-graining supply the determined object?):* the Continuum paper and the gravity arc.
+- *The same coarse-graining wall for the metric:* GR-II.
+- *The internal determinability ceiling:* the A1 result.
+
+**Open work** (declared): the **DCGT → Maxwell test** — does the coherence-weighted continuum measure select the Maxwell-action configuration (§7)?; multi-cycle / multi-winding interactions; coupling of the winding to matter (ρ) fronts; and whether gauge *potentials* (`A_μ`) emerge alongside the field in the continuum limit.
 
 ---
 

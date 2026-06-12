@@ -29,9 +29,15 @@ Across five independent substrate-evaluation results, the Event-Density program 
 
 ## 1. The Recurring Shape
 
-The substrate-evaluation program has now produced enough results to see a pattern that none of them, alone, would establish. In every domain examined, ED supplies the **form** of the structure — the part expressible as a discrete, local, relational invariant — and withholds the **determined flesh** — the part that is a continuous, metric, or globally-determined object. The flesh, where it can be located at all, is the **coarse-grained shadow** of the form, not a substrate object.
+The substrate-evaluation program has now produced enough results to see a pattern that none of them, alone, would establish. In every domain examined, ED supplies the **form** of the structure and withholds the **determined flesh**. The terms are used precisely throughout: **form** = the discrete, local, relational structure ED supplies (a topological invariant, a statistical template, a kinetic equation, an emergent metric, an exact locality); **flesh** = the determined continuum or escape object — the part that requires either *coarse-graining* (a field, a metric, a PDE) or *unbounded memory* (the prime escape) to exist at all. The flesh, where it can be located, is the **coarse-grained shadow** of the form, not a substrate object.
 
 This is not a slogan applied after the fact; it is what five independent build-and-run results returned, each reached on its own terms and most of them by self-correction. The value of stating it as a synthesis is twofold: it makes the recurrence visible (a coincidence across five unrelated domains is not a coincidence), and — more importantly — it lets us see that the *withholdings are not all the same kind*, which is the result that actually advances understanding.
+
+### 1.1 Scope and regime of validity
+
+This synthesis covers **only the five substrate-evaluation results completed to date** — capacity (A1), charge (B4), primes, gravity (GR-I/II), and the continuum limit. It does **not** assert that the two-walls structure holds in all domains, only that it *recurs in these five*; a sixth domain could fit the pattern, refine it, or break it (§7 states the falsifier). The five were not chosen to flatter the thesis: each was selected because it is **falsifiable** (build-and-run, or theorem-anchored), each probes a **different aspect** of the substrate (information, topology, computability, geometry, hydrodynamics), and they are **mutually independent** — no result among them depends on another's holding.
+
+One positioning note. The gravity entries (GR-I/II) reflect the **post-pivot curvature-emergence arc**: the earlier scalar-tensor/MOND gravity papers (Paper_033 and companions) *postulated* an unspecified acoustic metric, which GR-I **realizes explicitly** as the bandwidth metric and GR-II classifies as khronometric. Those earlier papers are *sharpened, not discarded* — their MOND content (`a₀`, BTFR) remains live as the open khronon↔MOND question — but where this synthesis speaks of "gravity," it means the post-pivot results, and readers of the earlier arc should consult GR-I §7 / GR-II §9 for the explicit reconciliation.
 
 ---
 
@@ -45,7 +51,7 @@ This is not a slogan applied after the fact; it is what five independent build-a
 | **Gravity (GR-I/II)** | the weak-field Schwarzschild metric, the factor-of-two light bending, redshift; the field-equation *form* (Lovelock) | pure General Relativity — ED is khronometric, departing from GR at one preferred-foliation scalar (the arrow); the strong-field field equation and the khronon parameters remain to compute |
 | **Continuum limit** | a kinetic lattice-gas — ballistic worldlines, isotropic equilibrium, saturation degeneracy | the diffusion PDE — reachable only by deleting ED's determinate selection (inject-noise) or never (emerge-noise); the PDE is the shadow, not the substrate |
 
-Two things are visible at once. First, **the form is genuinely supplied** in every row — these are not vacuous "ED says nothing" outcomes; ED realizes real structure (a topological invariant, a template invariant, a derived metric, a kinetic equation, an exact locality). Second, **the flesh's status differs row to row** — absent-by-locality, one-layer-up-and-open, provably-unreachable, reachable-by-admissible-extension, reachable-only-by-leaving. That difference is §3.
+Two things are visible at once. First, **the form is genuinely supplied** in every row — these are not vacuous "ED says nothing" outcomes; ED realizes real structure (a topological invariant, a template invariant, a derived metric, a kinetic equation, an exact locality). Second, **the flesh's status differs row to row** — absent-by-locality, one-layer-up-and-open, provably-unreachable, reachable-by-admissible-extension, reachable-only-by-leaving. To state the modal accounting in one sentence: **only the primes result is a proven impossibility; every other withholding is open, or reachable by an admissible extension, or reachable only at the cost of leaving ED — none of the others is proven.** That difference is §3.
 
 ---
 
@@ -62,6 +68,8 @@ The 'no's look alike — "form yes, flesh no" — but they are not the same wall
 - *"Primality is provably unreachable, so the others are too."* No — the others are at a different wall, with no analogous impossibility theorem. There is no parity-barrier for "ED yields Maxwell" or "ED yields the diffusion PDE."
 - *"The continuum objects are reachable (e.g. GR's metric was derived), so primality is too."* No — attaining a coarse-grained shadow (Wall 1) says nothing about crossing the memory ceiling (Wall 2). They are different boundaries.
 
+The mathematical root of the non-transfer: **the coarse-graining wall concerns the continuum-of-points infinity; the finite-memory wall concerns the uncomputable / infinite-memory infinity. These are distinct mathematical obstructions — a limit-of-refinement versus a bound-on-computation — and no verdict at one carries any implication at the other.**
+
 The 'no's are heterogeneous. Treating them as one wall is the error this synthesis exists to prevent.
 
 ---
@@ -76,7 +84,7 @@ Within Wall 1, *how* the flesh is withheld varies, and the variation is itself i
 
 And A1 sits slightly apart: there the withheld "flesh" is a *positive intrinsic scalar*, and it is **provably absent by locality** (capacity exactly zero) — the boundary's content is observational/common-cause, not a transmittable quantity.
 
-This trichotomy maps onto the program's **three infinities**: the **continuum-of-points** (Wall 1 — field, metric, PDE; dischargeable by coarse-graining in principle), the **infinite-memory / uncomputable** (Wall 2 — the prime escape; proven-blocked), and the **continuous-to-continuous** map (e.g. GR → Newton). The flesh is a different *kind* of object in the primes case than in all the others, which is the deepest reason the walls do not transfer.
+This trichotomy maps onto the program's **three infinities**: the **continuum-of-points** (Wall 1 — field, metric, PDE; dischargeable by coarse-graining in principle), the **infinite-memory / uncomputable** (Wall 2 — the prime escape; proven-blocked), and the **continuous-to-continuous** map (e.g. GR → Newton, a limit between two already-continuous theories, which poses neither wall). These three are **distinct mathematical obstructions**, not three sizes of one obstruction — which is the deepest reason the walls do not transfer: the flesh is a different *kind* of object in the primes case than in all the others.
 
 ---
 
@@ -93,7 +101,9 @@ What the pattern is, and is not:
 
 ## 6. The Philosophical Reading
 
-The pattern grounds a specific ontological picture, and grounds it *empirically* rather than by assertion. ED is the **fact-level** — discrete, local, determinate commitments. The determined continuum — field, metric, PDE — is its **forgetful coarse summary**, as thermodynamics is to statistical mechanics. This is **monism with two description-scales, not two layers of reality**: there is one substrate of facts, and a smooth law that appears when you stop tracking them. The continuum-limit result makes this concrete and falsifiable — the determinate substrate does *not* relax into the continuum's smooth law from within (you reach the PDE only by leaving ED) — and the charge result makes it sharp — the Coulomb field is literally the standard lattice→continuum limit, living one DCGT layer up.
+The pattern grounds a specific ontological picture, and grounds it *empirically* rather than by assertion. ED is the **fact-level** — discrete, local, determinate commitments. The determined continuum — field, metric, PDE — is its **forgetful coarse summary**, as thermodynamics is to statistical mechanics. This is **monism with two description-scales, not two layers of reality** — to forestall the natural misreading: **this is not a two-layer ontology; it is one substrate with two descriptive regimes, fact-level and coarse-grained**, exactly as molecules-and-temperature is one reality under two descriptions. The continuum-limit result makes this concrete and falsifiable — the determinate substrate does *not* relax into the continuum's smooth law from within (you reach the PDE only by leaving ED) — and the charge result makes it sharp — the Coulomb field is literally the standard lattice→continuum limit, living one DCGT layer up.
+
+The picture has familiar ancestors, and the synthesis sits deliberately among them rather than apart: the **statistical-mechanics → thermodynamics** relation (the canonical fact-level/summary pair), the **renormalization-group** insight that coarse descriptions can gain symmetry and simplicity the substrate lacks, **lattice gauge theory** (the discrete-holonomy → continuum-field dictionary used in the charge result), and the **computability limits** tradition (the primes wall is a cousin of the classical undecidability boundaries). What the synthesis adds is not a new philosophy of emergence but a *measured instance* of it: one substrate, five domains, the same form/flesh split returned by experiment and theorem rather than argument.
 
 The reading also explains why ED's reach has the *shape* it does. ED's two signature commitments — orientation-blind (determinate) selection and irreversible commitment — are simultaneously what make it a **determinacy engine** (it produces definite facts) and what **foreclose the determined continuum at the substrate layer** (it makes facts, not relaxed averages). The same architecture does both. The form is what a determinacy engine generates; the flesh is what its coarse-graining leaves behind.
 
@@ -129,6 +139,8 @@ The pattern's own falsifier: a domain in which ED supplies the determined flesh 
 
 ### Component papers (authoritative for their results)
 
+**Reproducibility.** This synthesis contains no new experiments or derivations; **all empirical claims are inherited from the component papers below — see their Methods / reproducibility sections** for grids, ensembles, estimators, scripts, and the audit of each load-bearing step.
+
 - **A1 — "Common Cause, Not Channel":** channel capacity exactly zero; the boundary as a common-cause structure.
 - **B4 — "The Topological Skeleton of Charge":** quantized winding + integral Gauss law; Coulomb field one DCGT layer up.
 - **Primes — "Template, Not Escape":** the 1.700-bit template reproduced; the escape provably blocked (parity barrier).
@@ -140,10 +152,22 @@ The pattern's own falsifier: a domain in which ED supplies the determined flesh 
 
 - **Form.** The discrete, local, relational structure ED supplies — a topological invariant, a template, a kinetic equation, an exact locality.
 - **Flesh.** The determined continuum or escape object ED withholds — a field, a metric, a PDE, the prime escape.
+- **Escape (primes).** The layer of prime structure no finite residue state determines — primality itself, the sign of the Möbius function, pair correlations — as opposed to the *template* (the finite-local residue statistics, which ED's class reproduces exactly). The escape is the Wall-2 flesh.
 - **Coarse-graining wall (Wall 1).** The determined continuum (field/metric/PDE) as a shadow one layer up; mostly open; the continuum-of-points infinity.
 - **Finite-memory wall (Wall 2).** The uncomputable escape (primes) requiring unbounded memory; proven; the infinite-memory infinity.
 - **Trichotomy of withholding.** Reachable by an admissible extension (gravity) / only by leaving ED (continuum) / one DCGT layer up and open (charge).
 - **Two description-scales (monism).** ED is the fact-level; the determined continuum is its forgetful coarse summary — one reality, two descriptions.
+
+### Reader map
+
+- *Channel capacity / the common-cause boundary:* **A1 — "Common Cause, Not Channel."**
+- *Charge as topology / the skeleton:* **B4 — "The Topological Skeleton of Charge."**
+- *The finite-memory ceiling / the proven wall:* **Primes — "Template, Not Escape."**
+- *The weak-field Einstein metric:* **GR-I — "The Bandwidth Lapse and the Factor of Two."**
+- *The gravitational class, GW speed, Lorentz safety:* **GR-II — "The Arrow's Fingerprint."**
+- *The kinetic continuum / the PDE shadow:* **Continuum — "a Kinetic Lattice-Gas, not a Diffusion PDE."**
+
+(The per-domain open questions — the DCGT→Maxwell test, the khronon phenomenology and the strong field, alternative ED instantiations for diffusion, the formal common-cause decomposition — are collected in §7.)
 
 ---
 
