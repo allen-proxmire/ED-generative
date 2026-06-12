@@ -30,7 +30,7 @@ CMD = {  # math-class char -> LaTeX (math mode, no $)
  'ℓ': r'\ell', 'ℏ': r'\hbar', '✓': r'\checkmark', '⅓': r'\tfrac{1}{3}',
  '¼': r'\tfrac{1}{4}', '½': r'\tfrac{1}{2}', '⋉': r'\ltimes',
  '≤': r'\le', '≥': r'\ge', '∘': r'\circ', '⊕': r'\oplus', 'ḃ': r'\dot{b}',
- 'Θ': r'\Theta', '𝒲': r'\mathcal{W}', 'Ψ': r'\Psi',
+ 'Θ': r'\Theta', '𝒲': r'\mathcal{W}', 'Ψ': r'\Psi', 'ω': r'\omega',
 }
 CODE = {  # transliteration for code spans / fenced code (verbatim-safe ASCII)
  'ρ': 'rho', 'Σ': 'Sigma', 'α': 'alpha', 'μ': 'mu', 'ν': 'nu', 'π': 'pi',
@@ -45,7 +45,7 @@ CODE = {  # transliteration for code spans / fenced code (verbatim-safe ASCII)
  'ℓ': 'l', 'ℏ': 'hbar', '✓': 'OK', '⅓': '1/3', '¼': '1/4', '½': '1/2',
  '⋉': 'x', '≤': '<=', '≥': '>=', '∘': 'o', '⊕': '(+)',
  '—': '--', '–': '-', '§': 'sec.', '…': '...', 'ḃ': 'b-dot',
- 'Θ': 'Theta', '𝒲': 'Wcal', 'Ψ': 'Psi',
+ 'Θ': 'Theta', '𝒲': 'Wcal', 'Ψ': 'Psi', 'ω': 'omega',
 }
 TEXT_OK = set('—–§…öřČéüï')  # raw text chars Latin Modern handles
 
