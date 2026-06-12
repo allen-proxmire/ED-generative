@@ -252,6 +252,7 @@ Seven standalone papers from the substrate-evaluation program (build-and-run / t
 | SE-Charge | The Topological Skeleton of Charge: Quantized Winding and an Integral Gauss Law | substrate-evaluation | WRITTEN | `physics-papers/substrate-evaluation/Paper_ChargeAsTopology_B4.md` |
 | SE-Capacity | Common Cause, Not Channel: The Determinability Boundary as an Observational Structure | substrate-evaluation | WRITTEN | `physics-papers/substrate-evaluation/Paper_CommonCauseNotChannel_A1.md` |
 | Form-and-Flesh | Form and Flesh: The Two Walls of the Event-Density Substrate (synthesis capstone) | position / synthesis | WRITTEN | `position-paper/Paper_FormAndFlesh_TwoWalls.md` |
+| KM-I | The Arrow's Deep Field: Dark-Matter Phenomenology from the Khronon, and the Unification of ED Gravity | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_KM-I_KhrononMOND.md` |
 
 Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (not superseding) the Arc-3 scalar-tensor/MOND papers — see GR-I §7 / GR-II §9 for the explicit reconciliation. Form-and-Flesh is the program reach-statement (the empirical successor to the Contrast-First ontology paper) and lives in `position-paper/` alongside it. Underlying simulation artifacts live in the working repo (`event-density/evaluation/` and `event-density/foundations/`).
 
