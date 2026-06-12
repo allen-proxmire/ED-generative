@@ -36,9 +36,17 @@ GR-II identified Event Density's gravitational class as **khronometric**: Einste
 
 ED's gravity corpus contained two programs. The published arc (Papers 025–038) derived Newton, the transition acceleration `a₀ = cH₀/(2π)`, the Combination Rule, and BTFR — the dark-matter-free account of galactic dynamics — covariantized in Paper_033 on a *postulated* metric with a *postulated* scalar. The post-pivot arc (GR-I/II) *derived* the metric (the bandwidth metric, with the weak-field Einstein tests) and *derived* the scalar (the khronon: the arrow made dynamical). This paper supplies the one missing identification: **the postulated scalar of the MOND arc is the derived scalar of the curvature arc.** It proceeds in four steps: the mapping (§3), the static weak-field reduction with the GR and MOND limits (§4), the lensing and viability checks (§5–§6), and the cosmological regulator with the SCBU tie-in (§7).
 
+Three orienting statements, up front:
+
+- **The hinge.** The paper's only derivational hinge is the deep-infrared matching to Paper_030's geometric-mean law, which **uniquely fixes** the non-analytic term in `W'`. No other freedom is exercised anywhere in the construction; everything else is inherited, derived, or labeled a family.
+- **The economy.** No new primitive, field, or symmetry is introduced. The khronon was *counted* by GR-II's mode analysis before MOND was on the table; this paper spends a field the theory already had.
+- **What survives (preview).** The three historical kill-checks of relativistic MOND all pass structurally: **lensing** tracks the MOND potential with no added vector (§5); **no new ghost** arises (§6.1); **solar-system screening** is PPN-safe (§6.3). The one soft spot — the deep-vacuum degeneracy — is resolved at the level of ED's state space and EFT generality (§7). And the cosmological regulator is a *family, sequestered from every static test*: its role is to make the theory well-posed on FRW backgrounds, not to influence galactic phenomenology (§7.3).
+
 ### 1.2 Why this matters
 
 Three reasons. First, **unification**: the corpus's two gravity lines fuse into one theory with one extra field — and that field was not added for the purpose; it was *counted* by GR-II's mode analysis before MOND was on the table. Second, **the dark-matter claim sharpens**: "no dark matter; modified dynamics below `a₀`" becomes "the galactic phenomenology is the deep-infrared regime of the preferred-foliation scalar" — a specific field with an independent origin (the arrow), independent constraints (GW170817, PPN, pulsars), and independent predictions (a breathing GW mode; wide-binary deviations). Third, **the historical failure modes are addressed structurally, not by patches**: the constructions that killed earlier relativistic MOND (conformal couplings blind to lensing; added vectors; fine-tuned `a₀`) are each avoided by something ED already had.
+
+**Why the unification is nontrivial.** Four scales that have no business coinciding — the rate of the arrow's cosmological flow, the acceleration at which galactic dynamics turn non-Newtonian, the energy density of the vacuum, and the locus where horizons form — are here carried by **one scalar field with one background scale**. In any framework where these are independent sectors, their numerical coincidences (`a₀ ≈ cH₀/2π`; `ρ_Λ ∼ H₀²c²/G`) are unexplained accidents. In this construction they are the *same number wearing four hats*, because the khronon has only one number to offer.
 
 ### 1.3 How this fits the arc
 
@@ -78,6 +86,8 @@ Signature `(−,+,+,+)`; `c = 1` where convenient. The derivations are **static,
 ---
 
 ## 2.5 Load-Bearing Step Audit
+
+*Status legend:* **I** = inherited (from a cited paper or established external result); **D** = derived here; **D-structural** = derived from structure alone, no model details; **conditional** = derived given a labeled input; **family** = an honestly-unfixed functional freedom; **form-tier** = an order-of-magnitude/structural consistency, no value claimed; **open** = declared open.
 
 | Step | Status | Source / justification |
 |---|---|---|
@@ -135,18 +145,20 @@ with matter coupled to `g_{\mu\nu}` **only** (universal coupling — in ED, matt
 
 ## 4. The Static Weak-Field Reduction
 
-### 4.1 Alignment, isolation, and the ED identity
+With the typing fixed (§3.2), the reduction proceeds in three steps: **alignment** (the khronon locks to static time), **isolation** (statics switch off every foliation term except the MOND carrier), and **reduction** (the modified Poisson equation, with its two limits).
+
+### 4.1 Alignment, isolation, and the Bandwidth–Acceleration Lemma
 
 Static, time-reversal-symmetric sources align the khronon (`T = t`; the misalignment `τ` is odd under the symmetry), making its congruence the static observers', whose kinematics are textbook: `θ = 0`, `σ = 0`, `a_i = ∂_i\ln N`. Two consequences:
 
 1. **Statics isolate the MOND carrier.** The `λ` and `β` sectors are inert (`θ = σ = 0`); the acceleration function is the *unique* active foliation term in statics. The MOND modification and the static modification are the same term — by kinematics, not tuning. (The `β`-sector governs the tensor speed: `c_T = c` from GR-II is untouched by `W`.)
-2. **The ED identity.** GR-I derived `N² ∼ b`, so
+2. **The Bandwidth–Acceleration Lemma.** GR-I derived `N² ∼ b`, so
 
    $$
    a_i = \partial_i \ln N = \tfrac{1}{2}\,\partial_i \ln b :
    $$
 
-   **the khronon's acceleration is the logarithmic bandwidth gradient.** In substrate language, the deep field switches on *where bandwidth gradients fall below the cosmic rate.*
+   **the khronon's acceleration is the logarithmic bandwidth gradient.** This identity — referenced as such below — is the substrate reading of the entire MOND sector: the deep field switches on *where bandwidth gradients fall below the cosmic rate.*
 
 ### 4.2 The modified Poisson equation
 
@@ -158,7 +170,7 @@ $$
 \mu_{\rm tot}(x) = 1 + c_1\,W'(x^2)
 $$
 
-— the AQUAL form, **in the metric potential itself** (not an auxiliary scalar). The `Ψ`-equation receives the khronon's stress, whose anisotropic part is second order in the potentials (§5).
+— the AQUAL form, **in the metric potential itself** (not an auxiliary scalar). Here and throughout, `x ≡ |∇Φ|/a₀`. The `Ψ`-equation receives the khronon's stress, whose anisotropic part is second order in the potentials (§5).
 
 ### 4.3 The GR limit
 
@@ -172,7 +184,11 @@ $$
 W'(x^2) \;\xrightarrow{\,x \to 0\,}\; -\frac{1}{c_1} + \frac{x}{c_1} + \ldots
 $$
 
-Two pieces with two statuses. The non-analytic linear piece is the MOND carrier — the `X^{3/2}`-type term, forced-given-030. The constant `-1/c_1` is the **infrared cancellation**: in the convention where Einstein–Hilbert keeps its normalization, the khronon must cancel the Einstein gradient term in the static constraint below `a₀` and take it over. This is standard in the class (the negative-branch kinetic function of generalized-aether MOND) — but it is the construction's single most delicate requirement, surfaced here rather than hidden, and stress-tested in §6. With it, the Combination Rule and BTFR slope-4 (`v⁴ = GMa₀`) are **embedded relativistically** — the khronon carries Paper_030's law; it does not re-derive it.
+Two pieces with two statuses. The non-analytic linear piece is the MOND carrier — the `X^{3/2}`-type term, forced-given-030. The constant `-1/c_1` deserves its own box:
+
+> **The IR Cancellation Requirement.** In the convention where Einstein–Hilbert keeps its standard normalization, the khronon's kinetic slope must approach the constant `-1/c_1` in the deep infrared — **exactly cancelling the Einstein gradient term in the static constraint below `a₀` and taking it over.** Three facts about it: (i) it is **standard in this class** (the negative-branch kinetic function of generalized-aether MOND); (ii) it is the construction's **only delicate point** — everything else is inheritance, kinematics, or sequestered family; (iii) it is **stress-tested in §6**, where it is shown *not* to destabilize statics (the total operator stays healthy even where `W' < 0`) and *not* to introduce a ghost.
+
+With the requirement in place, the Combination Rule and BTFR slope-4 (`v⁴ = GMa₀`) are **embedded relativistically** — the khronon carries Paper_030's law; it does not re-derive it.
 
 ---
 
@@ -214,7 +230,7 @@ In unitary gauge the khronon perturbation is eaten: it **is** the breathing scal
 
 ### 7.1 The degenerate point is not in ED's state space
 
-The pure-`A²` sector degenerates as `A → 0` (vanishing stiffness, slowing modes) — but the configuration `(A, θ) = (0, 0)` at which the structure fails is **exact Minkowski vacuum, eternal and inert — and ED has no Minkowski vacuum.** The khronon's background is the Hubble flow; the tick does not halt and commitment does not cease (P13, P11). The degenerate point sits on the excluded boundary of the substrate's state space. This is a domain observation, not a modification of `W`.
+The pure-`A²` sector degenerates as `A → 0` (vanishing stiffness, slowing modes) — but the configuration `(A, θ) = (0, 0)` at which the structure fails is **exact Minkowski vacuum, eternal and inert — and ED's substrate forbids exact Minkowski vacuum: the tick never halts.** The khronon's background is the Hubble flow; commitment does not cease (P13, P11). The degenerate point sits on the excluded boundary of the substrate's state space. This is a domain observation, not a modification of `W` — and it is one of the construction's strongest structural facts: *the substrate's refusal to ever stop ticking is what protects its gravity theory.*
 
 ### 7.2 The truncation diagnosis and the regulator family
 
@@ -301,6 +317,8 @@ The regulator family carries its own constraints: **BBN** (the `λθ²` sector r
 
 **Series context.** Paper KM-I of the post-pivot curvature-emergence line, companion to GR-I and GR-II — and the fusion point with the published gravity arc (Papers 025–038). The remaining work is phenomenology (pin the rule; pin the families; compute the dynamical MOND sector) and the guarded origin question.
 
+KM-I completes the unification GR-I and GR-II opened: **one scalar, one scale, one gravity.**
+
 ---
 
 ## Appendix: Cross-References, Glossary, Reader Map
@@ -317,7 +335,8 @@ The regulator family carries its own constraints: **BBN** (the `λθ²` sector r
 ### Glossary
 
 - **Khronon.** The preferred-foliation scalar (GR-II): ED's arrow made dynamical; background = cosmic time.
-- **Congruence acceleration `a_μ`.** `⊥∇_μ\ln\sqrt{X}`; in statics `a_i = ∂_i\ln N = ½∂_i\ln b` — the log-bandwidth gradient. The kinetic invariant of the MOND sector.
+- **Congruence acceleration `a_μ`.** `⊥∇_μ\ln\sqrt{X}`; the kinetic invariant of the MOND sector.
+- **Bandwidth–Acceleration Lemma.** In statics, `a_i = ∂_i\ln N = ½∂_i\ln b` — the khronon's acceleration *is* the logarithmic bandwidth gradient (via GR-I's `N² ∼ b`). The substrate reading of the MOND sector.
 - **`W(A²)` / `𝒲(A², Θ)`.** The acceleration kinetic function and its regulated completion; `μ_{\rm tot} = 1 + c_1W'`.
 - **Forced-given-030.** The deep-IR form is uniquely fixed by matching the corpus's independently-derived Combination Rule — an embedding, not a primitives derivation.
 - **The infrared cancellation.** `W' → -1/c_1` as `A → 0`: the khronon takes over the static constraint below `a₀`; standard-in-class, the construction's delicate piece.
