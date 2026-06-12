@@ -30,6 +30,7 @@ CMD = {  # math-class char -> LaTeX (math mode, no $)
  'ℓ': r'\ell', 'ℏ': r'\hbar', '✓': r'\checkmark', '⅓': r'\tfrac{1}{3}',
  '¼': r'\tfrac{1}{4}', '½': r'\tfrac{1}{2}', '⋉': r'\ltimes',
  '≤': r'\le', '≥': r'\ge', '∘': r'\circ', '⊕': r'\oplus', 'ḃ': r'\dot{b}',
+ 'Θ': r'\Theta', '𝒲': r'\mathcal{W}', 'Ψ': r'\Psi',
 }
 CODE = {  # transliteration for code spans / fenced code (verbatim-safe ASCII)
  'ρ': 'rho', 'Σ': 'Sigma', 'α': 'alpha', 'μ': 'mu', 'ν': 'nu', 'π': 'pi',
@@ -44,6 +45,7 @@ CODE = {  # transliteration for code spans / fenced code (verbatim-safe ASCII)
  'ℓ': 'l', 'ℏ': 'hbar', '✓': 'OK', '⅓': '1/3', '¼': '1/4', '½': '1/2',
  '⋉': 'x', '≤': '<=', '≥': '>=', '∘': 'o', '⊕': '(+)',
  '—': '--', '–': '-', '§': 'sec.', '…': '...', 'ḃ': 'b-dot',
+ 'Θ': 'Theta', '𝒲': 'Wcal', 'Ψ': 'Psi',
 }
 TEXT_OK = set('—–§…öřČéü')  # raw text chars Latin Modern handles
 
@@ -132,9 +134,9 @@ def latexify(text):
     out.append(prose_repl(text[last:]))
     return ''.join(out)
 
-def coverage_check():
+def coverage_check(targets):
     miss = set()
-    for f in glob.glob('Paper_*.md'):
+    for f in targets:
         for ch in open(f, encoding='utf-8').read():
             if ord(ch) > 127 and ch not in MATHCLASS and ch not in TEXT_OK:
                 miss.add(ch)
@@ -142,8 +144,8 @@ def coverage_check():
         print('UNMAPPED:', ' '.join(f'U+{ord(c):04X}' for c in sorted(miss)))
         sys.exit(2)
 
-def header():
-    open('header.tex', 'w', encoding='utf-8').write(
+def header(workdir):
+    open(os.path.join(workdir, 'header.tex'), 'w', encoding='utf-8').write(
         '\\usepackage{amsmath}\n\\usepackage{amssymb}\n'
         '\\setcounter{secnumdepth}{-1}\n\\providecommand{\\tightlist}{}\n'
         '\\usepackage{microtype}\n')
@@ -151,49 +153,58 @@ def header():
 def yesc(s): return s.replace('\\', '').replace('"', '\\"')
 
 def build(md):
-    base = md[:-3]
+    """Build tex+pdf BESIDE the source md (in its own directory)."""
+    workdir = os.path.dirname(os.path.abspath(md)) or '.'
+    name = os.path.basename(md)
+    base = name[:-3]
     lines = open(md, encoding='utf-8').read().splitlines()
     title = next(l[2:].strip() for l in lines if l.startswith('# '))
     ai = next(i for i, l in enumerate(lines) if l.strip() == '## Abstract')
     body = latexify('\n'.join(lines[ai:]))
     front = (f'---\ntitle: "{yesc(title)}"\nauthor: "Allen Proxmire"\n'
              f'date: "June 2026"\ngeometry: margin=1.1in\nfontsize: 11pt\n---\n\n')
-    open('_tmp.md', 'w', encoding='utf-8').write(front + body)
-    tex = base + '.tex'
+    header(workdir)
+    open(os.path.join(workdir, '_tmp.md'), 'w', encoding='utf-8').write(front + body)
     r = subprocess.run(['pandoc', '_tmp.md', '-s', '--include-in-header=header.tex',
-                        '-o', tex], capture_output=True, text=True,
-                       encoding='utf-8', errors='replace')
+                        '-o', base + '.tex'], capture_output=True, text=True,
+                       encoding='utf-8', errors='replace', cwd=workdir)
     if r.returncode != 0:
         print(('  PANDOC FAIL ' + md + ': ' + (r.stderr or '')[-400:])
               .encode('ascii', 'replace').decode())
         return False
     log = ''
     for _ in range(2):
-        r = subprocess.run(['xelatex', '-interaction=nonstopmode', '-halt-on-error', tex],
-                           capture_output=True, text=True, encoding='utf-8', errors='replace')
+        r = subprocess.run(['xelatex', '-interaction=nonstopmode', '-halt-on-error',
+                            base + '.tex'], capture_output=True, text=True,
+                           encoding='utf-8', errors='replace', cwd=workdir)
         log = r.stdout or ''
-    ok = os.path.exists(base + '.pdf') and r.returncode == 0
+    ok = os.path.exists(os.path.join(workdir, base + '.pdf')) and r.returncode == 0
     if not ok:
         idx = log.find('\n!')
         snip = log[idx:idx + 600] if idx >= 0 else log[-600:]
         print(('  XELATEX FAIL ' + md + ':\n' + snip).encode('ascii', 'replace').decode())
+    clean(workdir, base)
     return ok
 
-def clean():
-    for f in (glob.glob('*.aux') + glob.glob('*.out') + glob.glob('*.toc') +
-              ['header.tex', '_tmp.md'] +
-              [p[:-3] + '.log' for p in glob.glob('Paper_*.md')]):
-        if os.path.exists(f):
-            try: os.remove(f)
+def clean(workdir, base):
+    for f in [base + '.aux', base + '.out', base + '.toc', base + '.log',
+              'header.tex', '_tmp.md']:
+        p = os.path.join(workdir, f)
+        if os.path.exists(p):
+            try: os.remove(p)
             except OSError: pass
 
 if __name__ == '__main__':
-    flt = sys.argv[1] if len(sys.argv) > 1 else ''
-    coverage_check(); header()
+    # argument: a glob (may include a path), e.g. "physics-papers/gravity/Paper_KM*.md";
+    # default: Paper_*.md at the repo root (legacy behavior).
+    pattern = sys.argv[1] if len(sys.argv) > 1 else 'Paper_*.md'
+    targets = sorted(glob.glob(pattern))
+    if not targets:
+        print('no targets match', pattern); sys.exit(2)
+    coverage_check(targets)
     res = {}
-    for md in sorted(p for p in glob.glob('Paper_*.md') if flt in p):
+    for md in targets:
         print('building', md, flush=True); res[md] = build(md)
-    clean()
     print('\n=== SUMMARY ===')
     for md, ok in res.items():
         pdf = md[:-3] + '.pdf'
