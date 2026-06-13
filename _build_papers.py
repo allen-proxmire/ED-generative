@@ -13,7 +13,7 @@ os.chdir(EDG)
 
 SUP = {'²': '2', '³': '3', '¹': '1', '⁶': '6', '⁻': '-', '⁰': '0', '⁵': '5',
        '⁴': '4', '⁷': '7', '⁸': '8', '⁹': '9'}
-SUB = {'₀': '0', '₁': '1', '₂': '2'}
+SUB = {'₀': '0', '₁': '1', '₂': '2', 'ₜ': 't'}
 CMD = {  # math-class char -> LaTeX (math mode, no $)
  'ρ': r'\rho', 'Σ': r'\Sigma', 'α': r'\alpha', 'μ': r'\mu', 'ν': r'\nu',
  'π': r'\pi', 'β': r'\beta', 'φ': r'\varphi', 'ε': r'\varepsilon',
@@ -152,6 +152,30 @@ def header(workdir):
 
 def yesc(s): return s.replace('\\', '').replace('"', '\\"')
 
+_META = ('series:', 'status:', 'repository:', 'companions:', 'allen proxmire')
+_DATE = re.compile(r'(january|february|march|april|may|june|july|august|september'
+                   r'|october|november|december)\s+\d{4}$')
+
+def body_start(lines):
+    """Index where the rendered body begins.
+    House papers: jump to '## Abstract' (drops the does-not-claim preamble + metadata).
+    Letters / maps (no Abstract): keep everything after the title's front-matter block
+    (author/date/Series/Status/Repository lines + the '---' rule) — so intro content
+    that sits ABOVE the first '## ' heading is NOT dropped."""
+    for i, l in enumerate(lines):
+        if l.strip() == '## Abstract':
+            return i
+    ti = next(i for i, l in enumerate(lines) if l.startswith('# '))
+    i = ti + 1
+    while i < len(lines):
+        bare = lines[i].strip().replace('*', '').strip()
+        low = bare.lower()
+        if bare == '' or bare == '---' or low.startswith(_META) or _DATE.match(low):
+            i += 1
+        else:
+            break
+    return i
+
 def build(md):
     """Build tex+pdf BESIDE the source md (in its own directory)."""
     workdir = os.path.dirname(os.path.abspath(md)) or '.'
@@ -159,9 +183,7 @@ def build(md):
     base = name[:-3]
     lines = open(md, encoding='utf-8').read().splitlines()
     title = next(l[2:].strip() for l in lines if l.startswith('# '))
-    # body starts at '## Abstract' (house papers) or, failing that, the first '## ' section (letters)
-    ai = next((i for i, l in enumerate(lines) if l.strip() == '## Abstract'),
-              next(i for i, l in enumerate(lines) if l.startswith('## ')))
+    ai = body_start(lines)
     body = latexify('\n'.join(lines[ai:]))
     front = (f'---\ntitle: "{yesc(title)}"\nauthor: "Allen Proxmire"\n'
              f'date: "June 2026"\ngeometry: margin=1.1in\nfontsize: 11pt\n---\n\n')
