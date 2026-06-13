@@ -1,14 +1,14 @@
 # A Reader's Map to the Event-Density Gravity Line
 
-**Five documents:**
+**Five documents** (openly archived on Zenodo — each link opens that record):
 
-| Shorthand | Title | |
+| Shorthand | Title | Archived |
 |---|---|---|
-| **GR-I** | The Bandwidth Lapse and the Factor of Two | *(General Relativity I)* |
-| **GR-II** | The Arrow's Fingerprint | *(General Relativity II)* |
-| **KM-I** | The Arrow's Deep Field | *(Khronon–MOND I)* |
-| **KM-II** | The Arrow's Horizon | *(Khronon–MOND II)* |
-| **One Field** | the Capstone Letter | *(1–4 summarized)* |
+| **GR-I** *(General Relativity I)* | The Bandwidth Lapse and the Factor of Two | [zenodo.org/records/20665981](https://zenodo.org/records/20665981) |
+| **GR-II** *(General Relativity II)* | The Arrow's Fingerprint | [zenodo.org/records/20666023](https://zenodo.org/records/20666023) |
+| **KM-I** *(Khronon–MOND I)* | The Arrow's Deep Field | [zenodo.org/records/20672818](https://zenodo.org/records/20672818) |
+| **KM-II** *(Khronon–MOND II)* | The Arrow's Horizon | [zenodo.org/records/20672870](https://zenodo.org/records/20672870) |
+| **One Field** *(the capstone letter; 1–4 summarized)* | Gravity, Dark Matter, Dark Energy, and the Arrow of Time in Event Density | [zenodo.org/records/20678990](https://zenodo.org/records/20678990) |
 
 Together they are the mechanism by which Event Density (ED) — a discrete, relational substrate with no fundamental spacetime — climbs to a theory that looks and behaves like General Relativity.
 
@@ -125,4 +125,4 @@ This is why the capstone letter says:
 
 ---
 
-*The One-Field paper is the natural place to start in reviewing the ED–GR connection. The whole claim is there in five pages.*
+*The [One-Field paper](https://zenodo.org/records/20678990) is the natural place to start in reviewing the ED–GR connection. The whole claim is there in five pages.*
