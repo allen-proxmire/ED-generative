@@ -254,6 +254,7 @@ Seven standalone papers from the substrate-evaluation program (build-and-run / t
 | Form-and-Flesh | Form and Flesh: The Two Walls of the Event-Density Substrate (synthesis capstone) | position / synthesis | WRITTEN | `position-paper/Paper_FormAndFlesh_TwoWalls.md` |
 | KM-I | The Arrow's Deep Field: Dark-Matter Phenomenology from the Khronon, and the Unification of ED Gravity | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_KM-I_KhrononMOND.md` |
 | KM-II | The Arrow's Horizon: The Khronon's Cosmological Face — the Dark Fluid, the Clustering Dial, and One Λ | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_KM-II_KhrononCosmology.md` |
+| GR-III | The Arrow's Engine: The Dynamical Rule of ED Gravity, and the Closing of Its Weak-Field Assumptions | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_GR-III_DynamicalRule.md` |
 | One-Field | One Field: Gravity, Dark Matter, Dark Energy, and the Arrow of Time in ED (capstone letter) | gravity / synthesis-letter | WRITTEN | `physics-papers/gravity/Paper_OneField_Letter.md` |
 
 Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (not superseding) the Arc-3 scalar-tensor/MOND papers — see GR-I §7 / GR-II §9 for the explicit reconciliation. Form-and-Flesh is the program reach-statement (the empirical successor to the Contrast-First ontology paper) and lives in `position-paper/` alongside it. Underlying simulation artifacts live in the working repo (`event-density/evaluation/` and `event-density/foundations/`).
@@ -266,9 +267,10 @@ Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (no
 - **Theorem stubs (T19, T20, T21):** 3 WRITTEN
 - **Cross-arc synthesis (SCBU):** 1 WRITTEN
 - **ED-SC 4.x arc extensions (4.1–4.6):** 6 WRITTEN
+- **Substrate-evaluation wave + post-pivot gravity (June 2026):** 11 WRITTEN — GR-I, GR-II, GR-III, KM-I, KM-II, the One-Field letter, the four substrate-evaluation papers (Continuum, Primes, Charge/B4, Capacity/A1), and the Form-and-Flesh synthesis. *(see the dedicated section above)*
 - **ARCHIVED legacy file:** 1 (`Paper_008_KernelArrow.md` — kernel-arrow content migrated to Paper_093 T18)
 
-**Grand total: 111 distinct corpus entities (110 WRITTEN + 1 ARCHIVED).**
+**Grand total: 122 distinct corpus entities (121 WRITTEN + 1 ARCHIVED).**
 
 **Registry state (per Round-3 final rebuild, 2026-05-14):**
 - Paper-specific postulates: 125 (zero WARN-dup name collisions)
