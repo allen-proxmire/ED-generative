@@ -47,7 +47,7 @@ CODE = {  # transliteration for code spans / fenced code (verbatim-safe ASCII)
  '—': '--', '–': '-', '§': 'sec.', '…': '...', 'ḃ': 'b-dot',
  'Θ': 'Theta', '𝒲': 'Wcal', 'Ψ': 'Psi', 'ω': 'omega', 'ḧ': 'h_tt',
 }
-TEXT_OK = set('—–§…öřČéüï')  # raw text chars Latin Modern handles
+TEXT_OK = set('—–§…öřČéüïàá')  # raw text chars Latin Modern handles
 
 MATHCLASS = set(SUP) | set(SUB) | set(CMD)
 
