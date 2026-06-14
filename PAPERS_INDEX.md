@@ -255,6 +255,7 @@ Seven standalone papers from the substrate-evaluation program (build-and-run / t
 | KM-I | The Arrow's Deep Field: Dark-Matter Phenomenology from the Khronon, and the Unification of ED Gravity | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_KM-I_KhrononMOND.md` |
 | KM-II | The Arrow's Horizon: The Khronon's Cosmological Face — the Dark Fluid, the Clustering Dial, and One Λ | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_KM-II_KhrononCosmology.md` |
 | GR-III | The Arrow's Engine: The Dynamical Rule of ED Gravity, and the Closing of Its Weak-Field Assumptions | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_GR-III_DynamicalRule.md` |
+| GR-IV | The Arrow's Alibi: Preferred-Frame Safety and Quantum Coherence from Sparse Becoming (closes the α₁ front) | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_GR-IV_ArrowsAlibi.md` |
 | ED-Gravity (PhilPapers) | The Arrow in the Law: Emergent Gravity from a Discrete, Irreversible Substrate (program synthesis, public-facing) | gravity / synthesis-paper | WRITTEN | `physics-papers/gravity/Paper_ED_Gravity_Program_PhilPapers.md` |
 | One-Field | One Field: Gravity, Dark Matter, Dark Energy, and the Arrow of Time in ED (capstone letter) | gravity / synthesis-letter | WRITTEN | `physics-papers/gravity/Paper_OneField_Letter.md` |
 
@@ -268,10 +269,10 @@ Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (no
 - **Theorem stubs (T19, T20, T21):** 3 WRITTEN
 - **Cross-arc synthesis (SCBU):** 1 WRITTEN
 - **ED-SC 4.x arc extensions (4.1–4.6):** 6 WRITTEN
-- **Substrate-evaluation wave + post-pivot gravity (June 2026):** 12 WRITTEN — GR-I, GR-II, GR-III, the PhilPapers program synthesis ("The Arrow in the Law"), KM-I, KM-II, the One-Field letter, the four substrate-evaluation papers (Continuum, Primes, Charge/B4, Capacity/A1), and the Form-and-Flesh synthesis. *(see the dedicated section above)*
+- **Substrate-evaluation wave + post-pivot gravity (June 2026):** 13 WRITTEN — GR-I, GR-II, GR-III, GR-IV ("The Arrow's Alibi" — closes the preferred-frame α₁ front via density-suppressed/sparse-commitment screening), the PhilPapers program synthesis ("The Arrow in the Law"), KM-I, KM-II, the One-Field letter, the four substrate-evaluation papers (Continuum, Primes, Charge/B4, Capacity/A1), and the Form-and-Flesh synthesis. *(see the dedicated section above)*
 - **ARCHIVED legacy file:** 1 (`Paper_008_KernelArrow.md` — kernel-arrow content migrated to Paper_093 T18)
 
-**Grand total: 123 distinct corpus entities (122 WRITTEN + 1 ARCHIVED).**
+**Grand total: 124 distinct corpus entities (123 WRITTEN + 1 ARCHIVED).**
 
 **Registry state (per Round-3 final rebuild, 2026-05-14):**
 - Paper-specific postulates: 125 (zero WARN-dup name collisions)
