@@ -26,13 +26,13 @@ Below is the structural map of how the five documents assemble the bridge:
 
 ## 1. GR-I: The Metric Emerges (and it's Einstein's)
 
-**Takeaway:** ED's bandwidth field `b` is the spatial metric, and the commitment rate fixes the lapse.
+**Takeaway:** ED's bandwidth field $b$ is the spatial metric, and the commitment rate fixes the lapse.
 
 **Result:**
 
-- `g_ij ∼ b⁻¹`
-- `N² ∼ b`
-- ⇒ `g₀₀ g_rr = –1` (the Schwarzschild relation)
+- $g_{ij} ∼ b⁻¹$
+- $N² ∼ b$
+- ⇒ $g₀₀ g_{rr} = –1$ (the Schwarzschild relation)
 - ⇒ Einstein's weak-field metric, including the factor-of-two light bending.
 
 This is the reason ED can become a metric theory at all. The arrow is already present here — the lapse is fixed by the commitment rate (primitive P11, irreversibility) — but it does not yet show up as a deviation from Einstein, because khronometric gravity coincides with GR in the static weak field. The fingerprint surfaces in GR-II.
@@ -51,8 +51,8 @@ This is the reason ED can become a metric theory at all. The arrow is already pr
 
 **Structural passes:**
 
-- `cₜ = c` (GW170817 satisfied as an identity)
-- universal Lorentz violation (safe from `10⁻²⁰` bounds)
+- $cₜ = c$ (GW170817 satisfied as an identity)
+- universal Lorentz violation (safe from $10⁻²⁰$ bounds)
 
 This is where ED becomes Einstein + one scalar — the scalar is the arrow made dynamical.
 
@@ -64,11 +64,11 @@ This is where ED becomes Einstein + one scalar — the scalar is the arrow made 
 
 **Result:**
 
-- `a₀ = cH₀/2π` inherited from ED cosmology
-- Deep-field law: `a = √(a_N a₀)` (matched to the already-derived Combination Rule — forced-given-Paper_030, an embedding, not a derivation from primitives)
+- $a₀ = cH₀/2π$ inherited from ED cosmology
+- Deep-field law: $a = √(a_N a₀)$ (matched to the already-derived Combination Rule — forced-given-Paper_030, an embedding, not a derivation from primitives)
 - Lensing passes with no vector field
 - Solar system screened
-- No ghosts (`W`-sector adds no time derivatives)
+- No ghosts ($W$-sector adds no time derivatives)
 
 This is how ED unifies GR's weak field with MOND's deep field using one scalar field.
 
@@ -80,11 +80,11 @@ This is how ED unifies GR's weak field with MOND's deep field using one scalar f
 
 **Result:**
 
-- Regulator family `𝒲(A²,Θ)`
+- Regulator family $𝒲(A²,Θ)$
 - Orthogonality theorem: cosmology is sequestered from statics
-- Dust-like clustering requires `c_s ≈ 0`
+- Dust-like clustering requires $c_s ≈ 0$
 - The near-vacuum soft spot = the CMB/cluster dial
-- Late-time constant automatically `∼ H₀²c²/G`
+- Late-time constant automatically $∼ H₀²c²/G$
 
 This is the moment ED's scalar is positioned to serve as a dark-matter analogue on cosmological scales — addressable, not discharged: no dial member is chosen and no CMB spectrum is computed.
 
@@ -98,14 +98,14 @@ This is the moment ED's scalar is positioned to serve as a dark-matter analogue 
 
 **Result:**
 
-- Both faces scale as `H₀²c²/G`
+- Both faces scale as $H₀²c²/G$
 - Sign check passes
-- EFT constant pinned: `𝒲₀ = –24π² Ω_Λ ≈ –162`
+- EFT constant pinned: $𝒲₀ = –24π² Ω_Λ ≈ –162$
 - Substrate integral must hit that number → falsifiable
 
 This is when ED's cosmology closes: Λ is not two things; it is one boundary seen two ways.
 
-*(The `𝒲₀` derivation is carried in KM-II, and the letter restates it.)*
+*(The $𝒲₀$ derivation is carried in KM-II, and the letter restates it.)*
 
 ---
 

@@ -93,17 +93,28 @@ def prose_repl(s):
     return ''.join(out)
 
 def math_repl(s):
-    """Inside $...$ / $$...$$: replace chars with commands, letter-guard spacing."""
-    out = []
-    for k, c in enumerate(s):
+    """Inside $...$ / $$...$$: replace maximal math-char runs with commands,
+    merging sup/sub runs (so 'b⁻¹' -> b^{-1}, never b^{-}^{1}); letter-guard spacing."""
+    out, i = [], 0
+    while i < len(s):
+        c = s[i]
         if c in MATHCLASS:
-            rep = run_to_math(c)
+            j = i
+            while j < len(s) and s[j] in MATHCLASS:
+                j += 1
+            rep = run_to_math(s[i:j])   # merges consecutive SUP/SUB into one ^{}/_{}
+            # a sub/superscript operand that is a brace-bearing macro (e.g. 𝒲 -> \mathcal{W})
+            # must be wrapped, so '_𝒲' -> '_{\mathcal{W}}' not the invalid '_\mathcal{W}'
+            if i > 0 and s[i - 1] in '_^' and '{' in rep:
+                rep = '{' + rep + '}'
             # if command ends in a letter and next source char is an ASCII letter, pad
-            if rep and rep[-1].isalpha() and k + 1 < len(s) and is_letter(s[k + 1]):
+            if rep and rep[-1].isalpha() and j < len(s) and is_letter(s[j]):
                 rep += ' '
             out.append(rep)
+            i = j
         else:
             out.append(c)
+            i += 1
     return ''.join(out)
 
 def code_repl(s):
