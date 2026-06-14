@@ -25,12 +25,12 @@ This one-page note states, without hedging, exactly what remains open in the Eve
 
 **`α₁, α₂` — the preferred-frame PPN parameters.** Bounds: `|α₁| ≲ 10⁻⁴`, `|α₂| ≲ 10⁻⁷`.
 
-Status, as of the Route-A map (June 2026):
+Status, after the direct (Route-B) analysis and the vector-sector build (June 2026):
 
-- The verified khronometric formulas give `α₁ = 4(α−2β)/(β−1)`, with both `α₁, α₂ ∝ (α−2β)`, so **`α₁ = α₂ = 0 ⟺ α = 2β`** (couplings `λ=c₂, β=c₁+c₃, α=c₁+c₄`).
-- ED's derived facts impose `c_T = c ⟹ β = 0` and `c_s = c ⟹ λ = α/(1−2α)`, which collapses the open number to **one coupling**: `α₁ = −4 c₁₄` exactly, safety `⟺ c₁₄ = 0`.
-- **Honest correction:** putting both cones at light speed is *necessary but not sufficient* — a conservative reading of ED's propagating khronon sits at `c₁₄ ≠ 0`, hence `α₁ ≠ 0`. ED's escape is its **non-conservative dissipative near-field** (the overdamped khronon around matter), which the conservative PPN formulas cannot evaluate.
-- **Therefore the number is OPEN**, now pinned to one coupling `c₁₄` and one mechanism. Closing it requires **Route B**: a direct post-Newtonian expansion of the dynamical rule `F` around a source moving through the cosmic frame, reading off the effective `α₁, α₂` (conservative part + dissipative correction), then comparing to the bounds. **The values are not computed here and are not fabricated.**
+- **Verified khronometric formulas** give `α₁ ∝ (α−2β)`, so `α₁ = α₂ = 0 ⟺ α = 2β`; ED's `c_T=c, c_s=c` reduce the problem to the **directed-flux (vector) sector** of the rule, which was then built and simulated.
+- **The covariance escape is closed.** The boost-covariant `g_{0i}` of a moving mass is `4 w_i U`, so `α₁ = 0` would require ED to be boost-covariant. It is **not**: the rule is first-order in cosmic time, and a moving source produces a dipolar `O(w)` wake (sim-confirmed) that cannot be coordinate-removed because the cosmic frame is physical. So `α₁` is **not protected to zero by symmetry** — and it is the arrow (P11, the preferred frame) that forecloses the protection. ED must rely on a suppression mechanism, not a symmetry.
+- **The mechanism is the dissipative reserve** (the `ε=0` overdamped khronon near matter), giving `α₁ ∝ (λ_J − 4)\,𝒮(Γ)`. Estimating the reserve-drain range from the pinned substrate scales gives `ℓ_scr ~ ℓ_P` (Planck-scale), hence `𝒮 ~ exp(−R/ℓ_P) ≈ 0` and `α₁ ≈ 0` — while the standard frame-dragging (boost of the *conserved* scalar) stays unscreened and MOND (vacuum, `Γ→0`) is preserved.
+- **Standing: leans PPN-safe, assumptions flagged — not closed.** The favorable estimate rests on two motivated-but-unproven assumptions: that the near-matter drain is substrate-fast (`Γ ~ κ`), and that the screening spares the covariant frame-dragging (the conserved-scalar / dissipative-khronon split). Both are grounded in established ED structure (the rate law; the `ε=0` asymmetry) and in consistency with observed frame-dragging, but neither is a rigorous derivation. **The values are not computed and not fabricated.** Closing the front means firming those two assumptions (a clean `Γ` derivation + a proof the covariant sector is spared) or, decisively, a moving-binary `F`-simulation measuring `α₁` directly.
 
 ## Other honest debts (named, not gravity-proper, or hardening)
 
