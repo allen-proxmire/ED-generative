@@ -268,10 +268,10 @@ Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (no
 - **Theorem stubs (T19, T20, T21):** 3 WRITTEN
 - **Cross-arc synthesis (SCBU):** 1 WRITTEN
 - **ED-SC 4.x arc extensions (4.1–4.6):** 6 WRITTEN
-- **Substrate-evaluation wave + post-pivot gravity (June 2026):** 11 WRITTEN — GR-I, GR-II, GR-III, KM-I, KM-II, the One-Field letter, the four substrate-evaluation papers (Continuum, Primes, Charge/B4, Capacity/A1), and the Form-and-Flesh synthesis. *(see the dedicated section above)*
+- **Substrate-evaluation wave + post-pivot gravity (June 2026):** 12 WRITTEN — GR-I, GR-II, GR-III, the PhilPapers program synthesis ("The Arrow in the Law"), KM-I, KM-II, the One-Field letter, the four substrate-evaluation papers (Continuum, Primes, Charge/B4, Capacity/A1), and the Form-and-Flesh synthesis. *(see the dedicated section above)*
 - **ARCHIVED legacy file:** 1 (`Paper_008_KernelArrow.md` — kernel-arrow content migrated to Paper_093 T18)
 
-**Grand total: 122 distinct corpus entities (121 WRITTEN + 1 ARCHIVED).**
+**Grand total: 123 distinct corpus entities (122 WRITTEN + 1 ARCHIVED).**
 
 **Registry state (per Round-3 final rebuild, 2026-05-14):**
 - Paper-specific postulates: 125 (zero WARN-dup name collisions)
