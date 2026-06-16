@@ -5,14 +5,14 @@
 **June 2026**
 
 **Series:** Event Density (ED) Generative Papers — the gravity line's capstone letter
-**Status:** Publication letter. A claim-forward synthesis of four component papers (GR-I, GR-II, KM-I, KM-II), which carry the derivations, the load-bearing audits, and the full honesty apparatus. This letter states the result in one breath and points to the proofs.
+**Status:** Publication letter. A claim-forward synthesis of six component papers (GR-I, GR-II, GR-III, GR-IV, KM-I, KM-II), which carry the derivations, the load-bearing audits, and the full honesty apparatus. This letter states the result in one breath and points to the proofs.
 **Repository target:** `physics-papers/gravity/` (ED-Generative)
 
 ---
 
 ## Status, in one honest paragraph
 
-Everything below is a **conditional structural result**: conditional on thirteen postulated substrate primitives, on two scales taken from observation — the Planck scale and the cosmic expansion rate, with $c$ and $\hbar$ — on one labeled postulate (the linearity of the commitment rate), and on one matching to a previously derived law. Newton's constant is *not* a third input: the program derives its form, $G = c^3\ell_P^2/\hbar$ (Paper 027 / T19), so $G$ and the Planck scale are *one* inherited scale, not two — $G$ is a downstream coefficient, not a fundamental constant. Nothing below is claimed as confirmed physics. Every condition, inheritance, and open front is itemized in the four component papers, each of which opens with what it does *not* claim. What this letter asserts is narrower and stronger than a confirmation: **a falsifiable unification** — four sectors of gravitational physics carried by one field with one scale, with named tests and, in one case, a specific number to miss.
+Everything below is a **conditional structural result**: conditional on thirteen postulated substrate primitives, on two scales taken from observation — the Planck scale and the cosmic expansion rate, with $c$ and $\hbar$ — on one labeled postulate (the linearity of the commitment rate), and on one matching to a previously derived law. Newton's constant is *not* a third input: the program derives its form, $G = c^3\ell_P^2/\hbar$ (Paper 027 / T19), so $G$ and the Planck scale are *one* inherited scale, not two — $G$ is a downstream coefficient, not a fundamental constant. Nothing below is claimed as confirmed physics. Every condition, inheritance, and open front is itemized in the six component papers, each of which opens with what it does *not* claim. What this letter asserts is narrower and stronger than a confirmation: **a falsifiable unification** — four sectors of gravitational physics carried by one field with one scale, with named tests and, in one case, a specific number to miss.
 
 ---
 
@@ -70,6 +70,7 @@ This unification is falsifiable on three independent fronts, and says so:
 |---|---|---|
 | The metric and the factor of two | **GR-I** — *The Bandwidth Lapse and the Factor of Two* | the lapse derivation; the Schwarzschild relation; the three classical tests; the ray-tracing simulation |
 | The class and the arrow | **GR-II** — *The Arrow's Fingerprint* | Lovelock; the mode count; $c_T = c$; universal Lorentz violation; the $α₁, α₂$ front |
+| The dynamical rule and the weak-field closure | **GR-III** — *The Arrow's Engine* | the commitment-rate law; the dynamical field equation; the closure of GR-I's labeled weak-field assumptions |
 | Dark matter as the deep field | **KM-I** — *The Arrow's Deep Field* | the kinetic matching; the lensing pass; screening; the Bandwidth–Acceleration Lemma |
 | The cosmological face and Λ | **KM-II** — *The Arrow's Horizon* | the Orthogonality Theorem; the clustering dial; the one-Λ matching and the pinned $𝒲₀$ |
 | The preferred-frame front, closed | **GR-IV** — *The Arrow's Alibi* | $α₁ = −4λ_{local}$; $λ_{local} ∼ ρ_{event}/ρ_{Planck}$; sparse commitment forced by the quantum sector (Zeno); $α₁$ safe by ≥70 orders; MOND on the cosmic boundary |
@@ -88,4 +89,4 @@ The ordinary reading of physics puts time-symmetry at the bottom and lets the ar
 
 **End of Letter.**
 
-*Capstone letter for the post-pivot gravity line (GR-I, GR-II, KM-I, KM-II). All derivations, audits, inheritances, postulates, and open fronts live in the component papers; this letter adds no new result and softens no stated limit.*
+*Capstone letter for the post-pivot gravity line (GR-I, GR-II, GR-III, GR-IV, KM-I, KM-II). All derivations, audits, inheritances, postulates, and open fronts live in the component papers; this letter adds no new result and softens no stated limit.*
