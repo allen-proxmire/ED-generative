@@ -50,7 +50,7 @@ Status, after the direct (Route-B) analysis and the vector-sector build (June 20
 
 ## The honest standing
 
-The theory can lose, and the place it can lose is marked: `α₁, α₂`. The structural pressure is toward viability, but a structural lean is not a number — and the Route-A map shows the easy route does not by itself certify safety. The verdict awaits Route B. That is the program's edge, stated plainly.
+The theory could have lost, and the place it could lose was marked: `α₁, α₂`. That front is now **closed favorably** — and not by a structural lean alone (a lean is not a number), but on ED's own primitives: commitment is *sparse* (forced — dense commitment is the quantum Zeno limit, and ED has a quantum sector), so the local khronon coupling is density-suppressed and `α₁ = −4λ_local ≲ 4×10⁻⁹³`, below the bound by ≥70 orders. The Route-A/Route-B distinction now sets the *residual*, not the verdict: the direct PPN expansion (Route B) would tighten the order-of-magnitude of a number whose safety is already robust by ≥70 orders — a hardening, not a jeopardy. The live debts have moved off the falsification front onto the named items above (cosmological-constant magnitude, clusters/CMB, full unitarity, strong-field). That is the program's edge, stated plainly: the sharp front held.
 
 ---
 
