@@ -7,7 +7,12 @@
       "Read(//c/Users/allen/GitHub/event-density/papers/U4_Hamiltonian_Form/**)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(ls -la \"C:\\\\Users\\\\allen\\\\GitHub\\\\event-density\" | head -30)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\allen\\\\Desktop\\\\Book_Ideas\\\\Chapters\" -Recurse -File | Sort-Object FullName | Select-Object @{n='Rel';e={$_.FullName.Replace\\('C:\\\\Users\\\\allen\\\\Desktop\\\\Book_Ideas\\\\Chapters\\\\',''\\)}}, @{n='KB';e={[math]::Round\\($_.Length/1KB,1\\)}}, LastWriteTime | Format-Table -AutoSize)",
+      "WebFetch(domain:arxiv.org)",
+      "WebSearch",
+      "Bash(cd \"C:/Users/allen/GitHub\" && ls -d */ | sort && echo \"===primitives===\" && ls \"ED Generative/primitives/\" && echo \"===concepts===\" && ls \"ED Generative/primitives/concepts/\" 2>/dev/null)"
     ]
   }
 }
