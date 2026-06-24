@@ -86,7 +86,7 @@ Signature $(−,+,+,+)$; $c = 1$ where convenient. The derivations are **weak-fi
 | finite-radius $b→0$ horizon = frozen A2 cut | **measured (emergent)** | §7 |
 | $S ∝ A$ (area-law / holographic) on the emergent horizon | **measured** | §7 |
 | 2 tensor + 1 scalar, from $F$ | **D** | §7 |
-| $α₁, α₂$ values | **open here** — structural suppression only, not computed; **closed favorably in GR-IV** (≥70 orders safe) | §8 |
+| $α₁, α₂$ values | **deferred to GR-IV**, which closes them favorably: $α₂ = 0$ exactly (both cones luminal; literature-verified) and $α₁ = −4λ_{local}$ safe by ≥70 orders | §8 |
 | Hawking $T ∝ 1/r_h$ ($κ = 1/(2r_s)$) | **derived** (vacuum solution + GR-I; $r_s∝M$ measured); direct sim resolution-limited | §8 |
 | full EFE / strong field / pure GR | **NOT CLAIMED** | preamble 2 |
 
@@ -222,9 +222,9 @@ GR-III is falsifiable at every closed step and at each open number: break the la
 
 **Falsifier sentence:** *A demonstration that the forced rule's steady state is **not** $∇²b ∼ ρ$, or that strong coupling does **not** form a finite-radius $b → 0$ horizon / the severed entropy scales as the bulk ($r_h²$) not the surface ($r_h$), would falsify §7.*
 
-### 11.5 The preferred-frame front (when computed)
+### 11.5 The preferred-frame front (resolved in GR-IV)
 
-**Falsifier sentence:** *Computed $α₁$ or $α₂$ outside the lunar-laser-ranging / pulsar bounds ($~10⁻⁴$, $~10⁻⁷$), once $κ, D$ are pinned and the PPN expansion performed, would falsify ED-gravity-as-viable — the front this paper leaves open.*
+**Falsifier sentence:** *A measured $α₁$ above the lunar-laser-ranging bound ($~10⁻⁴$), or **any** nonzero $α₂$ (GR-IV derives $α₂ = 0$ exactly from the two luminal cones $c_T = c$, $c_s = c$), would falsify ED-gravity-as-viable.* This paper's role on the front was to build the rule and derive the $c_s = c$ that GR-IV's PPN reduction consumes; GR-IV then closes the front favorably — $α₂ = 0$ structurally, $α₁ = −4λ_{local} ≲ 4×10⁻⁹³$ — so what GR-III left open by design is now closed.
 
 ---
 
@@ -234,9 +234,9 @@ GR-III is falsifiable at every closed step and at each open number: break the la
 
 **What this paper claims.** The dynamical rule is built and Newtonian-consistent; $α = 1$ is forced (Nordström excluded); the timelike geodesic identity is limit-forced; $c_s = c$ is derived; the emergent horizon, frozen A2 cut, and area law are measured; the mode count is from $F$; and the arrow's three structural selections are one unification.
 
-**What this paper does not claim.** The full EFE is not derived; the class is khronometric, not pure GR; $α = 1$ rests on a band-accounting premise; the geodesic identity is reduced, not proven; $c_s = c$ is leading-order; the rule's coefficients are unpinned; **$α₁, α₂$ are not computed (and not faked)**; the Hawking scaling is **derived** ($κ = 1/(2r_s) ∝ 1/r_h$) but its **direct** simulation is resolution-limited and its coefficient value-inherited; and Einstein is not derived.
+**What this paper does not claim.** The full EFE is not derived; the class is khronometric, not pure GR; $α = 1$ rests on a band-accounting premise; the geodesic identity is reduced, not proven; $c_s = c$ is leading-order; the rule's coefficients are unpinned; **$α₁, α₂$ are not computed *in this paper*** (GR-IV computes them: $α₂ = 0$ exactly, $α₁$ safe by ≥70 orders); the Hawking scaling is **derived** ($κ = 1/(2r_s) ∝ 1/r_h$) but its **direct** simulation is resolution-limited and its coefficient value-inherited; and Einstein is not derived.
 
-**Series context.** Paper GR-III of the post-pivot curvature-emergence line — the engine of the quartet (GR-I, GR-II, KM-I, KM-II): the rule they reduce to, built; the assumptions they carried, closed; the scalar speed they left open, derived. Two falsification numbers remain open, stated as such.
+**Series context.** Paper GR-III of the post-pivot curvature-emergence line — the engine of the quartet (GR-I, GR-II, KM-I, KM-II): the rule they reduce to, built; the assumptions they carried, closed; the scalar speed they left open, derived. The preferred-frame numbers ($α₁, α₂$) it set up are resolved in GR-IV — $α₂ = 0$ exactly, $α₁$ safe by ≥70 orders.
 
 ---
 

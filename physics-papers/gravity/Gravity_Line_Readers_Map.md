@@ -1,14 +1,16 @@
 # A Reader's Map to the Event-Density Gravity Line
 
-**Five documents** (openly archived on Zenodo — each link opens that record):
+**Seven documents** (the first five openly archived on Zenodo — each link opens that record; GR-III and GR-IV are in the repository, archive pending):
 
 | Shorthand | Title | Archived |
 |---|---|---|
 | **GR-I** *(General Relativity I)* | The Bandwidth Lapse and the Factor of Two | [zenodo.org/records/20665981](https://zenodo.org/records/20665981) |
 | **GR-II** *(General Relativity II)* | The Arrow's Fingerprint | [zenodo.org/records/20666023](https://zenodo.org/records/20666023) |
+| **GR-III** *(General Relativity III)* | The Arrow's Engine — the dynamical rule built | in the repository (archive pending) |
+| **GR-IV** *(General Relativity IV)* | The Arrow's Alibi — the preferred-frame front, closed | in the repository (archive pending) |
 | **KM-I** *(Khronon–MOND I)* | The Arrow's Deep Field | [zenodo.org/records/20672818](https://zenodo.org/records/20672818) |
 | **KM-II** *(Khronon–MOND II)* | The Arrow's Horizon | [zenodo.org/records/20672870](https://zenodo.org/records/20672870) |
-| **One Field** *(the capstone letter; 1–4 summarized)* | Gravity, Dark Matter, Dark Energy, and the Arrow of Time in Event Density | [zenodo.org/records/20678990](https://zenodo.org/records/20678990) |
+| **One Field** *(the capstone letter; the others summarized)* | Gravity, Dark Matter, Dark Energy, and the Arrow of Time in Event Density | [zenodo.org/records/20678990](https://zenodo.org/records/20678990) |
 
 Together they are the mechanism by which Event Density (ED) — a discrete, relational substrate with no fundamental spacetime — climbs to a theory that looks and behaves like General Relativity.
 
@@ -18,7 +20,7 @@ The gravitational class it lands in is called khronometric gravity (the infrared
 
 What ED adds is not standard: the khronon is not postulated but counted, it is precisely the arrow of time made dynamical, and the same single field goes on to carry the dark-matter phenomenology and the dark-energy scale. **One field, one scale, five roles.**
 
-Below is the structural map of how the five documents assemble the bridge:
+Below is the structural map of how the seven documents assemble the bridge:
 
 > **ED → Einstein weak field → khronometric gravity → MOND → cosmology → Λ.**
 
@@ -54,11 +56,41 @@ This is the reason ED can become a metric theory at all. The arrow is already pr
 - $cₜ = c$ (GW170817 satisfied as an identity)
 - universal Lorentz violation (safe from $10⁻²⁰$ bounds)
 
-This is where ED becomes Einstein + one scalar — the scalar is the arrow made dynamical.
+This is where ED becomes Einstein + one scalar — the scalar is the arrow made dynamical. GR-II names the preferred-frame parameters $α₁, α₂$ as the falsification target and defers them; GR-III/GR-IV resolve them.
 
 ---
 
-## 3. KM-I: The Deep Field = MOND
+## 3. GR-III: The Engine — the Dynamical Rule Built
+
+**Takeaway:** The rule the field equation reduces to is built and runs; the weak-field assumptions GR-I/II carried are closed.
+
+**Result:**
+
+- Dynamical rule $ḃ = D∇²b − κρ$; steady state = the Newtonian field equation (corr. 0.999); $r_s ∝ M$.
+- A spontaneously forming $b→0$ horizon (a frozen decoupling cut) carrying area-law entropy $S ∝ A$ and Hawking scaling $κ ∝ 1/r_h$.
+- $α = 1$ forced (Einstein, not Nordström — the reserve cannot replenish, so the arrow selects the branch).
+- The khronon speed pinned: $c_s = c$ (the reserve sector is dissipative, not kinetic).
+
+This is the engine: one irreversibility (the arrow, P11) selects the Einstein branch, makes the khronon physical, and keeps it on the light cone. It builds the $c_s = c$ that GR-IV's preferred-frame reduction consumes.
+
+---
+
+## 4. GR-IV: The Alibi — the Preferred-Frame Front, Closed
+
+**Takeaway:** The preferred-frame parameters that generically *kill* khronometric theories are, for ED, suppressed — by the same sparseness of becoming that gives ED quantum mechanics.
+
+**Result:**
+
+- $α₂ = 0$ **exactly** — a structural consequence of both gravitational cones being luminal ($c_T = c$, $c_s = c$); the published khronometric formula vanishes identically on that surface (literature-verified). The *tighter* preferred-frame bound is met for free.
+- $α₁ = −4λ_{local}$, with $λ_{local} ∼ ρ_{event}/ρ_{Planck}$ — the commitment sparsity, because the metric stiffness is the always-on sharing while the khronon stiffness is the sparse act of commitment.
+- Commitment is *forced* sparse: dense commitment is the quantum Zeno limit (continuous measurement freezes all evolution → no quantum mechanics), and ED has a quantum sector. So $α₁ ≲ 4×10⁻⁹³$ — safe below the bound by ≥70 orders.
+- MOND is untouched: $a₀ = cH₀/2π$ is the khronon's *cosmological* face, not the local stiffness.
+
+So the front is closed *favorably* — and stays a live test: a measured $α₁ ≳ 10⁻⁵$, or *any* nonzero $α₂$, still kills the theory. **One structure, three faces:** sparse becoming gives ED quantum coherence, gravitational time dilation, and preferred-frame safety.
+
+---
+
+## 5. KM-I: The Deep Field = MOND
 
 **Takeaway:** The khronon's deep-infrared regime is the MOND sector.
 
@@ -74,7 +106,7 @@ This is how ED unifies GR's weak field with MOND's deep field using one scalar f
 
 ---
 
-## 4. KM-II: The Cosmological Sector and the Dark Fluid
+## 6. KM-II: The Cosmological Sector and the Dark Fluid
 
 **Takeaway:** The same scalar has a cosmological face — a dark fluid whose sound speed is the free dial.
 
@@ -90,7 +122,7 @@ This is the moment ED's scalar is positioned to serve as a dark-matter analogue 
 
 ---
 
-## 5. One Field, One Scale, One Λ
+## 7. One Field, One Scale, One Λ
 
 *(the capstone letter; the Λ result itself lives in KM-II §7.1)*
 
@@ -109,7 +141,7 @@ This is when ED's cosmology closes: Λ is not two things; it is one boundary see
 
 ---
 
-## 6. The Big Picture: How ED Reaches GR
+## 8. The Big Picture: How ED Reaches GR
 
 ED starts with a discrete substrate whose only special structure is an irreversible arrow of time.
 

@@ -262,7 +262,7 @@ Relations: this paper **completes the cosmological half** KM-I opened (its §7.4
 
 ### 10.6 Standing fronts (inherited)
 
-**Falsifier sentence:** *KM-I's falsification criteria (lensing slip; the Combination-Rule embedding; wide binaries; the interpolation family; $α₁, α₂$) carry over unchanged; this paper adds no protection against any of them.*
+**Falsifier sentence:** *KM-I's falsification criteria (lensing slip; the Combination-Rule embedding; wide binaries; the interpolation family; $α₁, α₂$ — the last now resolved favorably in GR-IV, $α₂ = 0$ exactly and $α₁$ safe by ≥70 orders) carry over unchanged; this paper adds no protection against any of them.*
 
 ---
 

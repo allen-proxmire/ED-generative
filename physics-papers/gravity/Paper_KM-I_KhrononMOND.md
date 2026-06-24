@@ -303,7 +303,7 @@ The regulator family carries its own constraints: **BBN** (the $λθ²$ sector r
 
 ### 10.7 Preferred-frame parameters (standing)
 
-**Falsifier sentence:** *The GR-II falsification front ($α₁, α₂$ above bounds once the rule is pinned) carries over unchanged: the unification adds no protection against it.*
+**Falsifier sentence:** *The GR-II preferred-frame front is resolved in companion work GR-IV — $α₂ = 0$ exactly (both cones luminal) and $α₁ = −4λ_{local}$ density-suppressed (safe by ≥70 orders). This unification adds no protection of its own and needs none; the front stays live as a test — a measured $α₁ ≳ 10⁻⁵$, or any nonzero $α₂$, kills the theory.*
 
 ---
 
