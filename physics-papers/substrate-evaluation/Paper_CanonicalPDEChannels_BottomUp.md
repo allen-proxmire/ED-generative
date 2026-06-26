@@ -10,9 +10,9 @@
 
 ---
 
-## Preamble: What This Paper Does NOT Claim *(written first per QC discipline; abstract reconciled against this)*
+## Preamble: What This Paper Does NOT Claim
 
-1. **It does not re-derive or re-validate the canonical ED PDE / Universal Mobility Law (UDM).** The UDM is an independently, empirically validated top-down law (eleven soft-matter systems, R² > 0.986; Paper_085 / ED Foundational Paper §5.8). Nothing here adds to or subtracts from that validation. This paper is the *discrete-origin* question, run separately.
+1. **It does not re-derive or re-validate the canonical ED PDE / Universal Mobility Law (UDM).** The UDM is an independently, empirically validated top-down law (eleven soft-matter systems, R² > 0.986; Paper_085 / ED Foundational Paper §5.8). Nothing here adds to or subtracts from that validation. This paper is the *discrete-origin* question, addressed separately.
 
 2. **"Channel" here means the three *constitutive* terms of the canonical PDE** — mobility, penalty, participation — in the sense of the UDM/foundational PDE papers. **This is a different use of the word from the participation-graph "channels" of the matter-sector / gauge work** (Paper_MS-I, *Gauge from Channels*), where a "channel" is a directional substrate structure (P07) whose multiplicity gives gauge groups. The two senses are unrelated; we keep the established PDE-channel terminology and flag the collision here so no reader conflates the constitutive PDE channels with the gauge-theoretic graph channels.
 
@@ -56,7 +56,7 @@ with degenerate mobility $M(\rho)=M_0(\rho_{\max}-\rho)^\beta$ and linear penalt
 | **Penalty** | $-P(\rho)$ | RC / Debye relaxation (0.00%) |
 | **Participation** | $+Hv$ | RLC / telegraph oscillation (0.00%) |
 
-(*Terminology note, cf. Preamble item 2: "channel" throughout this paper is a constitutive PDE term, **not** a participation-graph channel in the gauge sense of Paper_MS-I.*) The UDM mobility's defining feature is **degeneracy** — $M\to 0$ as $\rho\to\rho_{\max}$ — which encodes capacity / maximum packing and is the physical reason the law fits jammed soft matter.
+(*Terminology: "channel" throughout this paper is a constitutive PDE term, **not** a participation-graph channel in the gauge sense of Paper_MS-I.*) The UDM mobility's defining feature is **degeneracy** — $M\to 0$ as $\rho\to\rho_{\max}$ — which encodes capacity / maximum packing and is the physical reason the law fits jammed soft matter.
 
 ### 2.2 The certified worldline substrate
 
@@ -71,7 +71,7 @@ We coarse-grain the substrate and test each PDE channel against a falsification 
 - **Penalty (RC):** $\langle\rho\rangle(t)$ relaxation toward $\rho^*$ from initial conditions both above and below $\rho^*$, with and without extinction.
 - **Participation (RLC):** $\langle\rho\rangle(t)$ ringing — sign-crossings of $\langle\rho\rangle-\rho^*$ — as a function of global-feedback strength $H$.
 
-A crucial distinction (Preamble item 5): the **walkers** (worldline positions) are a Lagrangian observable; the **deposited field** is Eulerian. Diffusion below concerns the walkers.
+A crucial distinction: the **walkers** (worldline positions) are a Lagrangian observable; the **deposited field** is Eulerian. Diffusion below concerns the walkers.
 
 ## 4. Results
 
@@ -79,7 +79,7 @@ A crucial distinction (Preamble item 5): the **walkers** (worldline positions) a
 
 A single worldline in a disordered (uniform-random) medium **diffuses**: its mean-squared displacement grows as $t^{1.18}$, and its velocity autocorrelation collapses within ~2 steps (1.00, 0.18, 0.05, 0.03, …; tail ≈ 0.02). The direction forgets itself — the operational signature of a random walk. A localized **front packet** spreads with radius $R\propto t^{0.51}$ — Fickian diffusion ($\mathrm{MSD}=R^2\propto t$) — robustly and amplitude-independently (Table 1).
 
-This **refines, not contradicts**, the kinetic-lattice-gas result (Preamble item 5): the *deposited field* evolves by transport (Eulerian; that paper's d_tρ regression), while the *walkers* disperse diffusively (Lagrangian; here). The reconciliation is the standard one — eikonal/ballistic motion in a smooth medium, diffusive scattering in a disordered one.
+This **refines, not contradicts**, the kinetic-lattice-gas result: the *deposited field* evolves by transport (Eulerian; that paper's d_tρ regression), while the *walkers* disperse diffusively (Lagrangian; here). The reconciliation is the standard one — eikonal/ballistic motion in a smooth medium, diffusive scattering in a disordered one.
 
 > **[FIGURE 1 — diffusion]** Tracer MSD on log-log axes (slope 1.18) with the velocity autocorrelation inset decaying to zero; packet radius $R(t)$ (slope 0.51).
 
@@ -139,16 +139,12 @@ The capacity that is missing here is not idle elsewhere. The UDM's degeneracy ($
 
 ## 6. Discussion
 
-**What "the UDM is ED coarse-grained" precisely means.** Two senses, both honest. *Axiomatically*, yes: the canonical PDE's seven axioms are Event-Density principles, and the UDM is their unique dissipative realization (ED-Math-01), validated by data. *Bottom-up*, the substrate supplies the **generative core** (diffusion, up-relaxation), and Event Density's other primitives (extinction, capacity, participation) supply the dissipative and non-local channels. The original derivation path was top-down (ED principles → axioms → UDM → physics, validated); this is the same physics reached from the discrete side, with a channel-by-channel ledger of which content is generative-native and which primitive supplies the rest.
+**What "the UDM is ED coarse-grained" precisely means.** Two senses. *Axiomatically*, yes: the canonical PDE's seven axioms are Event-Density principles, and the UDM is their unique dissipative realization (ED-Math-01), validated by data. *Bottom-up*, the substrate supplies the **generative core** (diffusion, up-relaxation), and Event Density's other primitives (extinction, capacity, participation) supply the dissipative and non-local channels. The original derivation path was top-down (ED principles → axioms → UDM → physics, validated); this is the same physics reached from the discrete side, with a channel-by-channel ledger of which content is generative-native and which primitive supplies the rest.
 
 **Relation to the validated UDM paper.** Complementary, not duplicative. The empirical validation (eleven materials) lives in Paper_085 and the Foundational Paper and is untouched here; this paper is the discrete-origin story. A negative on any single channel's *bare-rule* reproduction (e.g. the missing capacity) is a statement about the minimal substrate, never about the UDM, which stands on its measurements.
 
-**Honest limits.** The ingredients are switched on by hand, one at a time (Preamble item 4) — we do not exhibit a single master rule that turns them on together and yields the full coupled PDE in one shot; that unification is the natural next target. The participation feedback is implemented as the minimal coupling, not shown to self-organize from the bare dynamics. Results are single-instantiation and modest in size; the contrasts (diffusive vs ballistic exponents, flat vs degenerate mobility, monotone vs ringing, up vs down relaxation) carry the conclusions, not the absolute values. The diffusion result is Lagrangian and is reconciled with — not a reversal of — the Eulerian kinetic-lattice-gas finding.
+**Limitations.** The ingredients are switched on by hand, one at a time — we do not exhibit a single master rule that turns them on together and yields the full coupled PDE in one shot; that unification is the natural next target. The participation feedback is implemented as the minimal coupling, not shown to self-organize from the bare dynamics. Results are single-instantiation and modest in size; the contrasts (diffusive vs ballistic exponents, flat vs degenerate mobility, monotone vs ringing, up vs down relaxation) carry the conclusions, not the absolute values. The diffusion result is Lagrangian and is reconciled with — not a reversal of — the Eulerian kinetic-lattice-gas finding.
 
 ## 7. Conclusion
 
 The three constitutive channels of the canonical Event-Density PDE have a discrete origin: a generative worldline substrate, plus Event Density's own dissipative and non-local primitives. The substrate is the engine — it diffuses and relaxes-upward on its own — and the full PDE is what that engine, with its switched-on ingredients (extinction, capacity, participation), coarse-grains to. The picture is a ledger, not a blanket reconstruction, and it is complementary to the UDM's independent empirical validation: where the UDM paper shows the law is *true*, this paper shows *which part of it the substrate already is*. The companion shadow-machine paper asks the broader version of the same question — which continuum laws the same substrate casts — and the capacity-across-scales identification (gel jamming = gravitational b→0) is offered as the sharpest cross-scale consequence.
-
----
-
-*Substrate-evaluation, channel-resolved. The certified ED worldline substrate is the generative core of the canonical PDE: diffusion (mobility) is native (walkers diffuse, MSD $\propto t^{1.18}$; Fickian packet, $R \propto t^{0.51}$ — Lagrangian, refining the Eulerian kinetic-lattice-gas transport result); the dissipative channels (RC down-decay, degenerate-mobility capacity) and the non-local channel (RLC oscillation) each need a real ED primitive switched off in the minimal rule (extinction; b→0 capacity; participation feedback), and each restores its channel when turned on (RC up-relaxation via extinction, k=1.32; RLC ring via feedback; capacity absent → linear diffusion). Ledger, not blanket reconstruction; complementary to the UDM's independent eleven-material validation, not a re-claim of it. "Channel" = constitutive PDE term, NOT the gauge-graph channels of Paper_MS-I. Capacity across scales: gel jamming = gravitational b→0, one primitive. Notebook/draft.*
