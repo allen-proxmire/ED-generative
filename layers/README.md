@@ -50,4 +50,4 @@ Going layer 1 → layer 2 always adds **decorrelation** — molecular chaos, ind
 
 - Framing note: `event-density/foundations/TwoLayer_CoarseGraining_Hierarchy.md`.
 - Sims: `event-density/evaluation/CoarseGrain_Arc/`.
-- The three substrate-evaluation papers (`physics-papers/substrate-evaluation/Paper_ContinuumShadows_Decomposition`, `…_CanonicalPDEChannels_BottomUp`, `…_OneCapacityTwoScales`) are **on hold** — written under the flat "walls" framing, to be revised under this layer view (diffusion is layer 2, not a wall — now demonstrated).
+- The three early substrate-evaluation CG papers (ContinuumShadows_Decomposition, CanonicalPDEChannels_BottomUp, OneCapacityTwoScales) — written under the flat "walls" framing — are **superseded and retired**, absorbed into the forthcoming paper *The Arrow Sorts the Continuum*. Relocated out of the repo for archiving.
