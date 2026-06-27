@@ -26,7 +26,7 @@ A layer-N law counts as *reached* only under discipline:
 | **Diffusion** | 2 | ✓ **RECOVERED** — ED-transport + intrinsic scattering, Green–Kubo-consistent D (see `layer_2/`) |
 | **Gaussianity** | 1 & 2 | ✓ **resolved** — layer-1 deposit field non-Gaussian (door #2; stays non-Gaussian even at 8× its correlation length — the structure is in the phases); layer-2 walker density Gaussian (door #1). Observable-and-layer-dependent (see `layer_2/Gaussianity_TwoLayers.md`) |
 | **Hydrodynamics / Navier–Stokes** | 2–3 | not yet tested (the big swing) |
-| **Yang–Mills dynamics (F²)** | 2–3? | not yet tested |
+| **Yang–Mills action (F²)** | 2 | ✓ **derived (analytic)** — the substrate coherence-deficit on the U(N) plaquette holonomy = the Wilson action → −¼Tr(F²); the non-abelian lift of the grounded abelian Maxwell case. Closes the YM-2 open item O-YM2-2 (postulate P→D). Rests on the coherence = Re Tr U_□ assumption (`event-density/foundations/Gauge_06_YangMillsAction_FromCoherenceDeficit.md`) |
 | **Primality (escape/parity)** | — | **edge — proven unreachable** (Wall 2, finite-memory ceiling) |
 
 ## The gap between layers is always the same thing
