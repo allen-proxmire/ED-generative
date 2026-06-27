@@ -8,7 +8,7 @@ Nobody coarse-grains atoms straight to the heat equation; the chain is atoms →
 
 This folder maps **which continuum law ED reaches at which layer — and, just as importantly, which it cannot.** The boundaries are the content. A theory that could reach *any* law via enough coarse-grainings would predict nothing; ED's value is the specific map, edges included.
 
-**The thesis** — *the layer divide is the arrow* — is in [`Synthesis_TheDivideIsTheArrow.md`](Synthesis_TheDivideIsTheArrow.md): structure-preserving / reversible laws (hyperbolic shocks **and** dispersive solitons) are layer-1-native; structure-erasing / dissipative laws are layer-2 with an added decorrelation or constraint. The sort is *forced* by ED's defining primitive (P11, the arrow) — the layers map is that primitive's shadow across the continuum, the inverted stack made concrete.
+**The thesis** — *the layer divide is the arrow* — is in [`Synthesis_TheDivideIsTheArrow.md`](Synthesis_TheDivideIsTheArrow.md): **committal structure-MAKING** laws (hyperbolic shocks, coherent fields, aggregation) are layer-1-native; **dissipative structure-erasing** laws are layer-2 with an added decorrelation or constraint. The sort is *forced* by ED's defining primitive (P11, the arrow). **Corrected by the soliton test:** reversible structure-*preservation* (dispersive solitons, KdV/NLS) is **not** ED-native — ED disperses what it does not commit, so the dispersive pole is an **edge** (`layer_1/Soliton_Test_NegativeResult.md`).
 
 ## The method (the rail)
 
@@ -32,7 +32,7 @@ A layer-N law counts as *reached* only under discipline:
 | **Yang–Mills mass gap** | — | ✓ **mechanism** — the gap = the signature of *non-abelian channel structure*: the same coherence-deficit that gives F² carries the [A,A] self-interaction for U(N≥2) that abelian Maxwell lacks → Maxwell layer-1 massless, YM gapped. Candidate for YM-4's coercivity (O-MG-1) + strong-coupling area law (O-MG-4). Physics, not a Clay proof; continuum survival conditional (`event-density/foundations/Gauge_07_YangMillsGap_FromCoherenceDeficit.md`) |
 | **Primality (escape/parity)** | — | **edge — proven unreachable** (Wall 2, finite-memory ceiling) |
 
-**Full Atlas sweep + the refined rule:** see [`Atlas_Sweep.md`](Atlas_Sweep.md) — all fourteen AD-Atlas PDEs mapped. The sweep sharpens the rule: the layer divide is **the arrow**, not the derivative order. *Structure-preserving / reversible* laws (hyperbolic shocks **and** dispersive solitons — KdV, NLS) are **layer-1-native**; *structure-erasing / dissipative* laws (the parabolic/diffusive pole) are **layer-2** with an added decorrelation or constraint. The dispersive pole is the proof — parabolic *order* but layer-1 *character*.
+**Full Atlas sweep + the corrected rule:** see [`Atlas_Sweep.md`](Atlas_Sweep.md) — all fourteen AD-Atlas PDEs mapped. The divide is **commitment**: *committal structure-making* (hyperbolic shocks, coherent fields, aggregation) is **layer-1-native**; *dissipative structure-erasing* (the parabolic/diffusive pole) is **layer-2** with an added decorrelation or constraint; *reversible structure-preservation* (dispersive solitons) is an **edge** — the soliton test refuted the earlier layer-1 placement of KdV/NLS (ED disperses, defocusing + dissipative).
 
 ## The gap between layers is always the same thing
 

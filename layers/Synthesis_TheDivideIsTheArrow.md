@@ -1,5 +1,13 @@
 # The Divide Is the Arrow — the Layers Program's Thesis
 
+> **CORRECTION (soliton test, 2026-06-27).** The dispersive pole (KdV/NLS) was tested and the
+> placement **failed**: ED *disperses* a packet (defocusing nonlinearity + intrinsic dissipation),
+> it does not self-trap one — see `layer_1/Soliton_Test_NegativeResult.md`. So the slogan below,
+> "structure-preserving (reversible or not) = layer-1," is **corrected to "committal structure-MAKING
+> = layer-1."** Reversible structure-*preservation* (solitons) is **not** ED-native. The
+> hyperbolic→layer-1 and diffusive→layer-2 halves stand; the dispersive→layer-1 claim — which this
+> document had called the "decisive proof" — does **not**. Read the thesis below with that swap in mind.
+
 ## The thesis
 
 Coarse-graining the Event-Density substrate produces the continuum laws of physics in a **hierarchy of layers**, each one more coarse-graining than the last. Sorting the laws across that hierarchy, one criterion does all the work — and it is not the derivative order, not the pole, not the domain. It is **the arrow**.
@@ -20,7 +28,7 @@ Across the fourteen AD-Atlas PDEs (`Atlas_Sweep.md`), the laws sort by this one 
 - **Arrow-preserving → layer-1-native.** Hamilton–Jacobi (= the eikonal ED casts directly), inviscid Burgers (shocks = ballistic worldlines converging), **and** KdV / NLS (solitons — structure-preserving and reversible). ED makes these by building.
 - **Arrow-erasing → layer-2 + an added ingredient.** Fokker–Planck, porous-medium (= the UDM, + capacity), reaction–diffusion (+ a penalty), Allen–Cahn (+ a bistable well), Cahn–Hilliard (+ conservation), thin-film (+ capacity), Navier–Stokes (+ incompressibility). Each is diffusion/dissipation plus a specific add the committal substrate lacks.
 
-**The decisive case is the dispersive pole.** KdV and NLS are *second/third order* — parabolic *order*, like diffusion — yet they land on **layer 1**, because their solitons are reversible and structure-preserving. If the divide were the derivative order, they would be layer-2. They are not. **The divide is the arrow, and the dispersive pole proves it:** parabolic order, layer-1 character.
+**The dispersive pole — tested, and it failed (see correction at top).** I had argued KdV/NLS land on layer 1 because solitons are reversible and structure-preserving, and called this the decisive proof. The soliton sim refutes it: ED *disperses* a packet (defocusing nonlinearity, intrinsic dissipation), it does not self-trap one. So the dispersive pole is **not** a layer-1 confirmation — it is an **edge / open case**. What survives is the *committal* reading: ED makes structure by **concentrating and committing** (shocks, deposition, coherent fields, aggregation), not by **reversibly preserving** it (solitons). The clean test of "the arrow, not the derivative order" is therefore the hyperbolic pole (shocks = committal) against the diffusive pole (dissipative), **not** the dispersive pole, which ED does not reach.
 
 ## The two kinds of layer-2 add
 
@@ -50,7 +58,7 @@ A framework that could reach *any* law via enough coarse-grainings would predict
 ## Honest tiers and the live tests
 
 - **Grounded (measured):** the hyperbolic and diffusive placements — transport/eikonal (#3), the diffusion recovery (Green–Kubo-consistent), the capacity/UDM finding, the Gaussianity correlation-length result. The core of the thesis rests on these.
-- **Structural (the decisive refinement, not yet sim-tested):** the dispersive placement (KdV/NLS as layer-1). It is the case most able to be wrong and the next test — *does ED's transport, with its finite-kernel-width dispersion, support a stable traveling structure (a soliton)?* NLS being Schrödinger, this also bridges to ED's QM/Madelung sector.
+- **Tested and FAILED:** the dispersive placement (KdV/NLS as layer-1). The soliton sim (`layer_1/Soliton_Test_NegativeResult.md`) shows ED disperses a packet — defocusing nonlinearity + dissipation, dense spreads faster. The placement is refuted; the dispersive pole is an **edge/open case**, and the corrected thesis is "committal structure-making = layer-1," with solitons explicitly *not* ED-native.
 - **Flagged, not claimed:** the geometric pole (Ricci, mean-curvature) — parabolic-smoothing in character (layer-2-like) but living on the metric, i.e. ED's gravity sector; the open test is whether the b→0/khronometric machinery gives Ricci-flow-like smoothing. Keller–Segel straddles (committal aggregation = layer-1, diffusion = layer-2).
 
 ## Status
