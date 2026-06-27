@@ -29,6 +29,8 @@ A layer-N law counts as *reached* only under discipline:
 | **Yang–Mills action (F²)** | 2 | ✓ **derived (analytic)** — the substrate coherence-deficit on the U(N) plaquette holonomy = the Wilson action → −¼Tr(F²); the non-abelian lift of the grounded abelian Maxwell case. Closes the YM-2 open item O-YM2-2 (postulate P→D). Rests on the coherence = Re Tr U_□ assumption (`event-density/foundations/Gauge_06_YangMillsAction_FromCoherenceDeficit.md`) |
 | **Primality (escape/parity)** | — | **edge — proven unreachable** (Wall 2, finite-memory ceiling) |
 
+**Full Atlas sweep + the refined rule:** see [`Atlas_Sweep.md`](Atlas_Sweep.md) — all fourteen AD-Atlas PDEs mapped. The sweep sharpens the rule: the layer divide is **the arrow**, not the derivative order. *Structure-preserving / reversible* laws (hyperbolic shocks **and** dispersive solitons — KdV, NLS) are **layer-1-native**; *structure-erasing / dissipative* laws (the parabolic/diffusive pole) are **layer-2** with an added decorrelation or constraint. The dispersive pole is the proof — parabolic *order* but layer-1 *character*.
+
 ## The gap between layers is always the same thing
 
 Going layer 1 → layer 2 always adds **decorrelation** — molecular chaos, independence, mixing, scattering. It is the step where the arrow is averaged out and the symmetry is manufactured. The "missing ingredients" found across the CoarseGrain arc were one gap, three faces: RC needed **extinction**, diffusion needed **collisions/scattering**, Gaussianity needs **independence**. **Reversibility and Gaussianity are layer-2 phenomena** — layer-1 shadows still carry the arrow.
