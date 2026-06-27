@@ -61,6 +61,20 @@ A framework that could reach *any* law via enough coarse-grainings would predict
 - **Tested and FAILED:** the dispersive placement (KdV/NLS as layer-1). The soliton sim (`layer_1/Soliton_Test_NegativeResult.md`) shows ED disperses a packet — defocusing nonlinearity + dissipation, dense spreads faster. The placement is refuted; the dispersive pole is an **edge/open case**, and the corrected thesis is "committal structure-making = layer-1," with solitons explicitly *not* ED-native.
 - **Flagged, not claimed:** the geometric pole (Ricci, mean-curvature) — parabolic-smoothing in character (layer-2-like) but living on the metric, i.e. ED's gravity sector; the open test is whether the b→0/khronometric machinery gives Ricci-flow-like smoothing. Keller–Segel straddles (committal aggregation = layer-1, diffusion = layer-2).
 
+## The third corner: commitment predicts what ED *cannot* do
+
+The soliton test looked like a dent and is actually the keystone. Ask *why* ED fails to make a soliton: because it **commits**. The measured defocusing nonlinearity — the packet's own field driving ρ back toward ρ\* — *is* the arrow showing up as a restoring force. ED concentrates and commits; it does not hold a reversible balance. So the same single primitive, P11, predicts all three corners of the map:
+
+- **Committal structure-MAKING → layer-1-native.** ED makes structure by *concentrating and committing*: shocks, the coherent Maxwell field, aggregation. This is the arrow building.
+- **Dissipative structure-ERASING → layer-2 + an add.** Diffusion, viscosity: the arrow *averaged away* by a second coarse-graining.
+- **Reversible structure-PRESERVING → an edge.** Solitons: a reversible balance the committal substrate *will not strike*. **Commitment forbids it.**
+
+This is stronger than the original thesis, not weaker. The first version sorted layers 1 and 2 and left the dispersive pole as a *confirmation*. The corrected version has commitment sorting **all three** — including predicting, in advance, the one place ED comes up empty. A primitive that only says what a theory *can* do is cheap; one that says what it *cannot*, and is then proven right by a failed test, is doing real work. **The divide is the arrow — and the arrow draws the coastline as well as the land.**
+
+## A stone worth turning: the layers map and the gravity/information arc are one program
+
+If **commitment** is what organizes the entire layers map, then the layers map is not a standalone result — it is the *continuum-PDE face* of the same primitive that runs ED's gravity and information work. That arc hangs off exactly commitment: the b→0 bandwidth collapse (the gravitational horizon), the A1 controlled-capacity-**zero** severance (the determinability boundary), the Page-curve structure — all are commitment/measurement drawing a boundary. The layers map draws the *same* boundary in the *continuum*: ED commits (layer-1 structure), the arrow can be averaged out (layer-2), and what commitment forbids is an edge. **Same primitive, two faces — PDE shadows here, horizons and information boundaries there.** The bridge between them is the **geometric corner** (Ricci / mean-curvature), which the sweep already flagged as living in the gravity sector: it is precisely where the continuum map should hand off to the b→0 machinery. That hand-off is the highest-value open connection on the board — it would make the layers program and the gravity/information program one thing, unified by commitment. (Pursue next; tier honestly when we do.)
+
 ## Status
 
 **The organizing law of the layers program is the arrow.** Structure-preserving / reversible laws are layer-1-native to ED; structure-erasing / dissipative laws are layer-2, reached only with an added decorrelation or constraint. The sort is forced by ED's defining primitive (P11), tested across the whole Atlas, grounded on the measured layer-1 and diffusive results, and falsifiable at the two edges named above. It is the continuum-wide form of ED's inverted stack: the arrow is what ED has and what the smooth, reversible laws of standard physics quietly average away.
