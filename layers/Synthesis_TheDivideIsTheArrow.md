@@ -35,7 +35,9 @@ Across the fourteen AD-Atlas PDEs (`Atlas_Sweep.md`), the laws sort by this one 
 What the bare generative rule lacks comes in two flavors, both of which the substrate does not manufacture by building:
 
 - **Decorrelations** — the scattering that turns transport into diffusion, the velocity decorrelation that is viscosity, the independence that makes a field Gaussian. These *erase the arrow* (the move to smooth/reversible).
-- **Constraints** — the capacity bound (ρ_max) that makes the UDM degenerate, the incompressibility (∇·u = 0) that makes Navier–Stokes elliptic, the conservation law in Cahn–Hilliard. These impose a global or boundary condition the *local* generative rule does not enforce.
+- **Constraints** — the incompressibility (∇·u = 0) that makes Navier–Stokes elliptic, the conservation law in Cahn–Hilliard. These impose a global or kinematic condition the *local* generative rule does not enforce.
+
+**Sharpened (`layer_2/OneOperator_TheLaplacian.md`):** the *decorrelation* add is not a family — it is **one forced operator**, the gradient-flux Laplacian ∇·(M∇φ). Diffusion, viscosity, and Ricci/gravity-smoothing are its instances (all measured); Gaussianity is its heat-kernel; capacity (ρ_max) is its degenerate mobility M(ρ). It is forced because the second CG imposes isotropy + locality + conservation, and ∇·(M∇φ) is the unique operator with those. The *constraint* add (incompressibility, conservation) is genuinely separate and is **not** this operator. So the two kinds of add are now exact: **one operator, or one constraint.**
 
 Dispersion (KdV/NLS) belongs to **neither** bucket — it is a *coherent, reversible* finite-kernel-width effect, which is precisely why those laws are layer-1, not layer-2.
 
