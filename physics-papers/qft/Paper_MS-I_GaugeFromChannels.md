@@ -10,7 +10,7 @@
 
 ---
 
-## Preamble: What This Paper Does NOT Claim *(written first per QC discipline; abstract reconciled against this)*
+## Preamble: What This Paper Does NOT Claim
 
 1. **The 13 substrate primitives are not derived** (position paper, Paper_087).
 2. **The Standard-Model gauge group $U(1)\times SU(2)\times SU(3)$ is not derived.** This paper derives that gauge groups are $SU(N)$ from channel multiplicity, and that the SM groups *correspond* to multiplicities $\{1,2,3\}$. It does **not** derive *why* the stable multiplicities stop at 3 (the uniqueness question, §7).
@@ -25,7 +25,7 @@
 
 ## Abstract
 
-Event Density's substrate is a participation graph on which chains propagate along **channels** (P07), each carrying a $U(1)$ **polarity** phase (P09), transported by the connection primitive **P05**. This paper asks what gauge structure that substrate carries, and answers with three structural results and one unifying account. **(1) The gauge group is the channel count.** A rule-type family of $N$ indistinguishable channels, under bandwidth conservation (P04), has structure group $U(N) = SU(N)\times U(1)$ — so non-abelian $SU(N)$ is *forced by channel multiplicity* (P08), grounding what the prior gauge-vocabulary paper (T17) obtained only by analogy; the Standard-Model groups correspond to multiplicities $\{1,2,3\}$. **(2) The substrate is a lattice gauge theory.** P05-transport of the $N$ channels — bandwidth-conserving, and invertible between commitments — is a $U(N)$ link variable; the gauge field is the per-edge generator, the field strength is the plaquette holonomy. ED's matter sector is a non-abelian lattice gauge theory on the *relational* graph (no Brillouin torus) carrying the *retarded* arrow — exactly the structure that escapes the Nielsen–Ninomiya doubling no-go that powers the "the universe cannot be discrete" objection. **(3) Parity violation is a non-abelian phenomenon.** The abelian (single-channel) coupling is chirality-blind — vector, parity-conserving (electromagnetism); only the non-abelian (cross-channel) coupling is chirality-sensitive and can violate parity. ED therefore *forbids* a parity-violating abelian force — a falsifiable prediction, since chiral abelian $U(1)$s are allowed in general gauge theory. The vector/chiral split of the forces is the single-channel/cross-channel split of the substrate's two propagation kernels. **(Payoff) All chirality originates in the arrow.** A commitment is a handed event — it carries both a P09 phase and a channel-topology "screw" orientation — and the universe's *first* commitment imprints both a matter/antimatter reference (the phase) and a parity reference (the screw), locked globally and made maximal by their quantized, topological character. Parity violation and the matter/antimatter asymmetry are then two attributes of one first-arrival imprint, correlated but distinct, reproducing C and P violated separately with CP only partial — unifying the chiral-gauge structure with baryogenesis under the substrate's signature commitment, the arrow. The paper does **not** derive the SM gauge group, the weak force's specific chirality, or the Yang–Mills dynamics; the payoff is an account, not a proof. What ED's *structure* forces — gauge group from multiplicity, lattice-gauge-theory form, parity-violation-is-non-abelian — is independent of those open quantities.
+Event Density's substrate is a participation graph on which chains propagate along **channels** (P07), each carrying a $U(1)$ **polarity** phase (P09), transported by the connection primitive **P05**. This paper asks what gauge structure that substrate carries, and answers with three structural results and one unifying account. **(1) The gauge group is the channel count.** A rule-type family of $N$ indistinguishable channels, under bandwidth conservation (P04), has structure group $U(N) = SU(N)\times U(1)$ — so non-abelian $SU(N)$ is *forced by channel multiplicity* (P08), grounding what the prior gauge-vocabulary paper (T17) obtained only by analogy; the Standard-Model groups correspond to multiplicities $\{1,2,3\}$. **(2) The substrate is a lattice gauge theory.** P05-transport of the $N$ channels — bandwidth-conserving, and invertible between commitments — is a $U(N)$ link variable; the gauge field is the per-edge generator, the field strength is the plaquette holonomy. ED's matter sector is a non-abelian lattice gauge theory on the *relational* graph (no Brillouin torus) carrying the *retarded* arrow — exactly the structure that escapes the Nielsen–Ninomiya doubling no-go that powers the "the universe cannot be discrete" objection. **(3) Parity violation is a non-abelian phenomenon.** The abelian (single-channel) coupling is chirality-blind — vector, parity-conserving (electromagnetism); only the non-abelian (cross-channel) coupling is chirality-sensitive and can violate parity. ED therefore *forbids* a parity-violating abelian force — a falsifiable prediction, since chiral abelian $U(1)$s are allowed in general gauge theory. The vector/chiral split of the forces is the single-channel/cross-channel split of the substrate's two propagation kernels. **(4) All chirality originates in the arrow.** A commitment is a handed event — it carries both a P09 phase and a channel-topology "screw" orientation — and the universe's *first* commitment imprints both a matter/antimatter reference (the phase) and a parity reference (the screw), locked globally and made maximal by their quantized, topological character. Parity violation and the matter/antimatter asymmetry are then two attributes of one first-arrival imprint, correlated but distinct, reproducing C and P violated separately with CP only partial — unifying the chiral-gauge structure with baryogenesis under the substrate's signature commitment, the arrow. The paper does **not** derive the SM gauge group, the weak force's specific chirality, or the Yang–Mills dynamics; the chirality result is an account, not a proof. What ED's *structure* forces — gauge group from multiplicity, lattice-gauge-theory form, parity-violation-is-non-abelian — is independent of those open quantities.
 
 ---
 
@@ -38,7 +38,7 @@ The prior gauge paper in this program (T17, Paper_015) was explicit that it perf
 1. **The gauge group is $SU(N)$ from channel multiplicity** (§3) — derived from bandwidth conservation on the $N$-channel amplitude.
 2. **The substrate is a lattice gauge theory** (§4) — P05-transport is a $U(N)$ link variable; on the relational graph with the arrow, it escapes Nielsen–Ninomiya.
 3. **Parity violation is confined to the non-abelian sector** (§5) — the abelian force is necessarily vector.
-4. **All chirality originates in the arrow's first commitment** (§6, the closing payoff) — an account unifying parity violation with the matter/antimatter asymmetry.
+4. **All chirality originates in the arrow's first commitment** (§6) — an account unifying parity violation with the matter/antimatter asymmetry.
 
 The hard structural results (1–3) lead; the chirality account (4) closes. The frontier — why the multiplicities stop at $\{1,2,3\}$, and why the weak force in particular is chiral — is left open and honestly marked (§7).
 
@@ -72,33 +72,6 @@ Channels and their multiplicity are substrate-level objects; the gauge fields ar
 **Inherited mathematical input (standard):** $U(N)$ as the group of bandwidth-(norm-)preserving transformations of $\mathbb{C}^N$; lattice-gauge-theory link variables, plaquette holonomy, and the Wilson-loop; the Nielsen–Ninomiya theorem and its premises (a compact Brillouin torus and hermiticity).
 
 **Value-layer inputs (inherited):** particle masses, mixing angles, and the specific multiplicities $\{1,2,3\}$.
-
-**No primitive forcing is invoked.**
-
----
-
-## 2.5 Load-Bearing Step Audit
-
-| Step | Status | Source / justification |
-|---|---|---|
-| Channel fiber carries $U(1)$ polarity; P05 named "connection" | I | T17 (named); grounded in §4 |
-| $N$ indistinguishable channels + P04 conservation $\Rightarrow$ structure group $U(N)=SU(N)\times U(1)$ | **D** | §3.2 — isometries of $\mathbb{C}^N$ |
-| Non-abelian $SU(N)$ from multiplicity (P08) | **D** | §3.2 — beyond T17's A→analogy |
-| SM groups $\leftrightarrow$ multiplicities $\{1,2,3\}$ | I (correspondence) | §3.3 |
-| P05-transport of $N$ channels $=$ $U(N)$ link variable | **D-structural** | §4.2 — "re-routes unitarily" a structural reading (preamble 6) |
-| Gauge field $=$ per-edge generator; field strength $=$ plaquette holonomy | D | §4.3 |
-| Substrate $=$ lattice gauge theory on relational graph $+$ retarded arrow $\Rightarrow$ escapes N–N | **D-structural** | §4.4 |
-| Single-chain kernel V1 chirality-blind (vector); cross-chain kernel V5 chirality-sensitive | I | Paper_090 + R4 coherence-functional analysis |
-| Parity violation $\Leftrightarrow$ non-abelian (abelian $=$ vector; chiral abelian forbidden) | **D-structural** | §5.2 |
-| Spin/chirality $=$ channel topology; P09 $=$ vector $U(1)$ | **D-structural** | §5.3 |
-| A commitment is a handed event; the first commitment imprints C and P references | **account** | §6.2 — new synthesis, not closed proof (preamble 4) |
-| Both references topological $\Rightarrow$ maximal; C and P correlated-but-distinct | D-via-account | §6.3 |
-| Parity violation $+$ matter/antimatter $=$ one first-arrival imprint | **account** | §6.4 |
-| Uniqueness $\{1,2,3\}$ | **OPEN** | §7.1 — likely an internal channel-family stability bound |
-| Weak-specific chirality (why left-handed doublets) | **OPEN** | §7.2 — the matter handedness-assignment |
-| Yang–Mills action; electroweak/Higgs; anomaly cancellation | **deferred** | §7.3 |
-
-All steps P, D, I, account, structural, open, or deferred. *The three structural pillars (§3–§5) are derivations from bandwidth conservation, the lattice-gauge form, and the two-kernel split; the chirality result (§6) is explicitly an account; the named uniqueness and weak-assignment questions are open.*
 
 ---
 
@@ -151,7 +124,7 @@ Transport one locus to the next maps the amplitude $\psi(u)\in\mathbb{C}^N$ to $
 
 An invertible isometry of $\mathbb{C}^N$ is unitary, so
 $$U_{uu'}\in U(N),\qquad \psi(u') = U_{uu'}\,\psi(u).$$
-A $U(N)$ matrix on each edge **is** a lattice gauge link variable. P05-transport of multiplicity-$N$ channels is a $U(N)$ lattice connection — not by analogy, but because bandwidth-conserving invertible re-routing of $N$ indistinguishable channels is exactly a unitary link map. *(The structural reading flagged in preamble 6: that P05 re-routes channels rather than acting diagonally is read from P07 composition; it is defensible, not a closed proof.)*
+A $U(N)$ matrix on each edge **is** a lattice gauge link variable. P05-transport of multiplicity-$N$ channels is a $U(N)$ lattice connection — not by analogy, but because bandwidth-conserving invertible re-routing of $N$ indistinguishable channels is exactly a unitary link map. *(The structural reading: that P05 re-routes channels rather than acting diagonally is read from P07 composition; it is defensible, not a closed proof.)*
 
 ### 4.3 Gauge field and field strength
 
@@ -193,9 +166,9 @@ This also resolves a puzzle in the substrate→Dirac chain (T4, Paper_106 §3.7)
 
 ---
 
-## 6. The Arrow is the Origin of Chirality *(the payoff — an account)*
+## 6. The Arrow is the Origin of Chirality
 
-The structural results (§3–§5) place *where* chirality can live (the non-abelian/V5 sector, the channel topology). This section accounts for *where it comes from*. It is an account built on established pieces plus one synthesis, not a closed proof (preamble 4).
+The structural results (§3–§5) place *where* chirality can live (the non-abelian/V5 sector, the channel topology). This section accounts for *where it comes from*. It is an account built on established pieces plus one synthesis, not a closed proof.
 
 ### 6.1 A commitment is a handed event
 
@@ -297,9 +270,3 @@ The Yang–Mills *action* (why the gauge-field dynamics are $\propto F^2$) — b
 ### Reader map and open work
 **Where to look next.** Spin/Dirac structure: T2/T4. The V5 kernel: Paper_090. The first-arrival lock: the baryogenesis arc (R4). The arrow's gravitational fingerprint: GR-II.
 **Open work (declared, §7).** The multiplicity uniqueness $\{1,2,3\}$ via channel-family stability; the weak matter-assignment; the Yang–Mills action (lattice → continuum); the electroweak/Higgs sector; anomaly cancellation.
-
----
-
-**End of Paper MS-I.**
-
-*Matter-sector line. ED's matter sector is a lattice gauge theory on the relational participation graph — gauge groups $SU(N)$ from channel multiplicity, the Nielsen–Ninomiya doubling no-go escaped by the relational graph and the retarded arrow, parity violation confined to the non-abelian (cross-channel) sector, and all chirality traced to the arrow's first commitment (unifying parity violation with baryogenesis). The Standard-Model gauge group, the weak force's specific chirality, and the Yang–Mills dynamics are open; the chirality origin is an account, not a proof. Companion to GR-II: the arrow's fingerprint in matter is chirality, as in gravity it is the khronon.*
