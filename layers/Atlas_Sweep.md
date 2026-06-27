@@ -18,8 +18,8 @@ The two-layer program predicted: **hyperbolic / structure-making PDEs → layer-
 | **Thin-Film** | diffusive | **2 + capacity + surface-tension** | degenerate fourth-order diffusion |
 | **Navier–Stokes** | fluid | **1 + 2; edge = incompressibility** | inertia (1) + viscosity (2); incompressibility = the added elliptic constraint |
 | **Keller–Segel** | aggregation | **straddles** | the aggregation/blowup is committal/structure-making (**layer-1-native**); the diffusion is layer 2 |
-| **Ricci Flow** | geometric | **2-character, gravity sector** | metric-smoothing (parabolic) = layer-2-like; geometric → connects to ED's gravity arc, not the density layers |
-| **Mean-Curvature Flow** | geometric | **2-character, gravity sector** | curvature-smoothing = layer-2-like; geometric |
+| **Ricci Flow** | geometric | **1 + 2, MEASURED** | *is* GR-III's measured bandwidth rule ḃ=D∇²b−κρ: the D∇²b metric-smoothing = layer-2 (weak-field Ricci flow), the −κρ commitment-concentration = layer-1 (horizon-forming). Same layer-1-makes/layer-2-smooths structure as NS. Bridges to the gravity/info arc (`Geometric_Gravity_Bridge.md`) |
+| **Mean-Curvature Flow** | geometric | **1 + 2 (extrinsic sibling)** | same parabolic-smoothing layer-2 character; consistent with the Ricci reading, not separately simulated |
 
 ## The rule, corrected: committal-making vs dissipative-erasing
 
@@ -47,7 +47,7 @@ Both are the *same kind of thing* in the program's sense: the structure the comm
 - **Confirmed structurally:** Burgers (inviscid shocks = converging worldlines) — the structure-making character is ED-native, not yet a dedicated sim.
 - **Tested and FAILED — dispersive (KdV, NLS):** the soliton sim shows ED disperses a packet (defocusing nonlinearity + dissipation, dense spreads faster), so the layer-1 placement is **refuted**; the dispersive pole is an **edge/open**. The QM/Madelung thread would have to start from this negative.
 - **Straddles — Keller–Segel:** its defining feature (aggregation/blowup) is committal/structure-making (layer-1-native — ED concentrates), with diffusion as the layer-2 counterweight. A genuine mix, not a clean placement.
-- **Geometric (Ricci, Mean-Curvature):** parabolic/smoothing → layer-2-*character*, but they live on the **metric**, i.e. ED's gravity sector. Tentatively layer-2 (they smooth curvature as diffusion smooths density), but they connect to the separate gravity arc (b→0, khronometric), not the density layers — flagged, not claimed.
+- **Geometric (Ricci, Mean-Curvature) — now MEASURED, not flagged.** The Ricci-flow smoothing *is* the D∇²b layer-2 term of GR-III's measured bandwidth rule (ḃ=D∇²b−κρ); the −κρ commitment-concentration is the layer-1 horizon-forming term. Same layer-1-makes / layer-2-smooths structure as Navier–Stokes, run in 2D/3D. This is the **bridge** that unifies the layers map with the gravity/information arc (the b→0 horizon = the geometric corner's layer-1 = the determinability boundary, one commitment primitive). Honest bound: weak-field, khronometric — the full nonlinear Ricci/Einstein flow is the strong-field completion ED gives only at khronometric level, not full GR. See `Geometric_Gravity_Bridge.md`.
 
 ## Status
 
