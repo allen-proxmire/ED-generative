@@ -8,6 +8,8 @@ Nobody coarse-grains atoms straight to the heat equation; the chain is atoms →
 
 This folder maps **which continuum law ED reaches at which layer — and, just as importantly, which it cannot.** The boundaries are the content. A theory that could reach *any* law via enough coarse-grainings would predict nothing; ED's value is the specific map, edges included.
 
+**The thesis** — *the layer divide is the arrow* — is in [`Synthesis_TheDivideIsTheArrow.md`](Synthesis_TheDivideIsTheArrow.md): structure-preserving / reversible laws (hyperbolic shocks **and** dispersive solitons) are layer-1-native; structure-erasing / dissipative laws are layer-2 with an added decorrelation or constraint. The sort is *forced* by ED's defining primitive (P11, the arrow) — the layers map is that primitive's shadow across the continuum, the inverted stack made concrete.
+
 ## The method (the rail)
 
 A layer-N law counts as *reached* only under discipline:
