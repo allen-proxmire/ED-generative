@@ -24,7 +24,7 @@ A layer-N law counts as *reached* only under discipline:
 | **Coherent Maxwell / Coulomb field** | 1 | ✓ coherent part tracks the Coulomb minimizer |
 | **Committal (non-Gaussian) field statistics** | 1 | ✓ deposit field is non-Gaussian (100% in the phases) |
 | **Diffusion** | 2 | ✓ **RECOVERED** — ED-transport + intrinsic scattering, Green–Kubo-consistent D (see `layer_2/`) |
-| **Gaussianity** | 2? | open — the *layer-2 walker density* looks Gaussian (door #1); the *layer-1 deposit field* is not. Observable-and-layer-dependent; correlation-length test pending |
+| **Gaussianity** | 1 & 2 | ✓ **resolved** — layer-1 deposit field non-Gaussian (door #2; stays non-Gaussian even at 8× its correlation length — the structure is in the phases); layer-2 walker density Gaussian (door #1). Observable-and-layer-dependent (see `layer_2/Gaussianity_TwoLayers.md`) |
 | **Hydrodynamics / Navier–Stokes** | 2–3 | not yet tested (the big swing) |
 | **Yang–Mills dynamics (F²)** | 2–3? | not yet tested |
 | **Primality (escape/parity)** | — | **edge — proven unreachable** (Wall 2, finite-memory ceiling) |
