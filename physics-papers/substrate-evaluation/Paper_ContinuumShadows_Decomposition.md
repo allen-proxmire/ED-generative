@@ -10,6 +10,10 @@
 
 ---
 
+> **ON HOLD — UNDER REVISION (2026-06-27).** The framing here — treating diffusion, Gaussianity, and the "diffusive pole" as walls or *different objects* ED cannot reach — is **superseded** by the two-layer coarse-graining view: those are *a layer up* (a second coarse-graining of ED's kinetic/transport shadow), not walls, and the gap to them is decorrelation, added at layer 2. Held pending the reframe and the correlation-length / second-CG test; **not to be cited as final.** See `event-density/foundations/TwoLayer_CoarseGraining_Hierarchy.md`.
+
+---
+
 ## Preamble: What This Paper Does NOT Claim
 
 1. **It does not prove Event Density.** The result is consilience evidence — one discrete substrate reproducing, or failing to reproduce, several known continuum laws under coarse-graining. Consilience accumulates; it is not a single decisive experiment, and the paper is explicit about what is recovered, what is recovered as a *different* object, and what is not recovered at all.

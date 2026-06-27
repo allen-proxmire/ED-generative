@@ -10,6 +10,10 @@
 
 ---
 
+> **ON HOLD — UNDER REVISION (2026-06-27).** The "ED gives only linear diffusion / the dissipative channels need ingredients ED lacks" framing is being **reframed** under the two-layer coarse-graining view: diffusion and the dissipative channels are *a layer up* (a second coarse-graining), and the "missing ingredient" is the decorrelation added at layer 2. Held pending the reframe and the correlation-length / second-CG test; **not to be cited as final.** See `event-density/foundations/TwoLayer_CoarseGraining_Hierarchy.md`.
+
+---
+
 ## Preamble: What This Paper Does NOT Claim
 
 1. **It does not re-derive or re-validate the canonical ED PDE / Universal Mobility Law (UDM).** The UDM is an independently, empirically validated top-down law (eleven soft-matter systems, R² > 0.986; Paper_085 / ED Foundational Paper §5.8). Nothing here adds to or subtracts from that validation. This paper is the *discrete-origin* question, addressed separately.

@@ -10,6 +10,10 @@
 
 ---
 
+> **ON HOLD — UNDER REVISION (2026-06-27).** Being reworked into an EDSC cross-scale *overlay* paper: adding a second worked example — the Local-Group mass sheet ↔ Golden-Casimir cavity competing-gradient saddle (ED-SC-01) — alongside the capacity ceiling, and reframed under the two-layer coarse-graining view. Held; **not to be cited as final.** See `event-density/foundations/TwoLayer_CoarseGraining_Hierarchy.md`.
+
+---
+
 ## Preamble: What This Paper Does NOT Claim
 
 1. **It does not derive a number bridging the gel and the black hole.** The two phenomena live ~40 orders of magnitude apart. The claim is that they are governed by the *same primitive in the same form*, not that one is computed from the other.
