@@ -1,0 +1,47 @@
+# The Layers — ED's Continuum Laws as a Hierarchy of Coarse-Grainings
+
+Continuum laws are not all the same distance from the Event-Density substrate. They sit at different **layers**, where each layer is **one more coarse-graining (CG) applied to the layer below** — not to the substrate. This is how physics is already organized:
+
+> **substrate** → *(1st CG)* → **layer 1: kinetic** (transport / Boltzmann) → *(2nd CG)* → **layer 2: hydrodynamic** (diffusion / Navier–Stokes) → *(3rd CG)* → **layer 3: thermodynamic**
+
+Nobody coarse-grains atoms straight to the heat equation; the chain is atoms → Boltzmann → Navier–Stokes — *two* steps. "A layer up" means literally one more CG.
+
+This folder maps **which continuum law ED reaches at which layer — and, just as importantly, which it cannot.** The boundaries are the content. A theory that could reach *any* law via enough coarse-grainings would predict nothing; ED's value is the specific map, edges included.
+
+## The method (the rail)
+
+A layer-N law counts as *reached* only under discipline:
+
+1. **The ingredient added at the CG step is specified in advance, independently justified, and ideally intrinsic or measurable** — never tuned to hit the target. (If you add whatever is needed to land on the law you wanted, you reverse-engineered it.)
+2. **Tested by coefficients, not form** — does ED-plus-that-ingredient reproduce the law's *constants* (a validated D, a Green–Kubo consistency), not just its shape?
+3. **The no's are recorded with equal weight.** They are the coastline of the map. ED already has a proven edge — *primality* (finite-memory ED provably cannot reach the parity/escape layer, graded against Sarnak's barrier, an external ruler).
+
+## The map so far
+
+| Law | Layer | Status |
+|---|---|---|
+| **Transport / eikonal** (coarse density field) | 1 | ✓ direct CG of the substrate (ballistic worldlines) |
+| **Coherent Maxwell / Coulomb field** | 1 | ✓ coherent part tracks the Coulomb minimizer |
+| **Committal (non-Gaussian) field statistics** | 1 | ✓ deposit field is non-Gaussian (100% in the phases) |
+| **Diffusion** | 2 | ✓ **RECOVERED** — ED-transport + intrinsic scattering, Green–Kubo-consistent D (see `layer_2/`) |
+| **Gaussianity** | 2? | open — the *layer-2 walker density* looks Gaussian (door #1); the *layer-1 deposit field* is not. Observable-and-layer-dependent; correlation-length test pending |
+| **Hydrodynamics / Navier–Stokes** | 2–3 | not yet tested (the big swing) |
+| **Yang–Mills dynamics (F²)** | 2–3? | not yet tested |
+| **Primality (escape/parity)** | — | **edge — proven unreachable** (Wall 2, finite-memory ceiling) |
+
+## The gap between layers is always the same thing
+
+Going layer 1 → layer 2 always adds **decorrelation** — molecular chaos, independence, mixing, scattering. It is the step where the arrow is averaged out and the symmetry is manufactured. The "missing ingredients" found across the CoarseGrain arc were one gap, three faces: RC needed **extinction**, diffusion needed **collisions/scattering**, Gaussianity needs **independence**. **Reversibility and Gaussianity are layer-2 phenomena** — layer-1 shadows still carry the arrow.
+
+## Honest tiers
+
+- **Textbook-solid:** the multi-layer CG hierarchy itself (kinetic theory).
+- **Measured:** ED's *direct* CG lands on layer 1 (transport, non-Gaussian, coherent Coulomb).
+- **First layer-2 win:** diffusion, recovered with a passing coefficient (Green–Kubo) test.
+- **Open / testable:** Gaussianity (which layer/observable), Navier–Stokes, Yang–Mills.
+
+## Pointers
+
+- Framing note: `event-density/foundations/TwoLayer_CoarseGraining_Hierarchy.md`.
+- Sims: `event-density/evaluation/CoarseGrain_Arc/`.
+- The three substrate-evaluation papers (`physics-papers/substrate-evaluation/Paper_ContinuumShadows_Decomposition`, `…_CanonicalPDEChannels_BottomUp`, `…_OneCapacityTwoScales`) are **on hold** — written under the flat "walls" framing, to be revised under this layer view (diffusion is layer 2, not a wall — now demonstrated).
