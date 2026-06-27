@@ -25,7 +25,7 @@ A layer-N law counts as *reached* only under discipline:
 | **Committal (non-Gaussian) field statistics** | 1 | ✓ deposit field is non-Gaussian (100% in the phases) |
 | **Diffusion** | 2 | ✓ **RECOVERED** — ED-transport + intrinsic scattering, Green–Kubo-consistent D (see `layer_2/`) |
 | **Gaussianity** | 1 & 2 | ✓ **resolved** — layer-1 deposit field non-Gaussian (door #2; stays non-Gaussian even at 8× its correlation length — the structure is in the phases); layer-2 walker density Gaussian (door #1). Observable-and-layer-dependent (see `layer_2/Gaussianity_TwoLayers.md`) |
-| **Hydrodynamics / Navier–Stokes** | 2–3 | not yet tested (the big swing) |
+| **Navier–Stokes** | 1 & 2 | ✓ **compressible NS reached** — inertia/convective (layer 1) + viscosity (layer 2, same velocity decorrelation as the diffusion recovery); **incompressibility ∇·u=0 is the added elliptic pressure constraint = the edge** (ED is hyperbolic/generative). Upgrades NS-2: ν grounded in the substrate decorrelation, not inherited (`layer_2/NavierStokes_LayerTwo.md`) |
 | **Yang–Mills action (F²)** | 2 | ✓ **derived (analytic)** — the substrate coherence-deficit on the U(N) plaquette holonomy = the Wilson action → −¼Tr(F²); the non-abelian lift of the grounded abelian Maxwell case. Closes the YM-2 open item O-YM2-2 (postulate P→D). Rests on the coherence = Re Tr U_□ assumption (`event-density/foundations/Gauge_06_YangMillsAction_FromCoherenceDeficit.md`) |
 | **Primality (escape/parity)** | — | **edge — proven unreachable** (Wall 2, finite-memory ceiling) |
 
