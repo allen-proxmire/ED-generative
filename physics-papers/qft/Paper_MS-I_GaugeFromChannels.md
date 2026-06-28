@@ -1,3 +1,5 @@
+> **SUPERSEDED (2026-06-28) by MS-II — *The Matter Sector from the Arrow* (`Paper_MS-II_MatterSectorFromTheArrow`).** MS-II absorbs this paper's four results (gauge groups from multiplicity, lattice-gauge form / Nielsen–Ninomiya escape, parity-violation-is-non-abelian, chirality-from-the-arrow) and adds spin-½ from relationality, the uniqueness reduction ({1,2,3} ⟺ internal d=3), and the dimensional argument (why 3 spatial dimensions). Read MS-II.
+
 # Forces from Channels: Event-Density's Matter Sector is a Lattice Gauge Theory — Gauge Groups from Multiplicity, Parity Violation from the Non-Abelian Sector, and Chirality from the Arrow
 
 **Allen Proxmire**
