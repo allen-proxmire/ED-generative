@@ -1,0 +1,21 @@
+The Arrow Sorts the Continuum plain language
+
+
+The one sentence: Physics has a pile of famous equations; ED has one trait — commitment, the arrow of time built in at the bottom — and that one trait decides which equations ED can build, which it can only fake with help, and which it can never touch.
+
+The setup. You don't get from atoms to the smooth equations in one step — real physics goes in two squints (atoms → particles bumping → smooth flow). ED's one squint lands on the first rung: it makes things move and pile up. The smooth, spread-out equations are a rung higher.
+
+The whole paper is one idea: sort the equations by what they do with memory. The arrow doesn't just make things move — it leaves a trail: which way things went, how they're linked. That trail is the memory. And every famous equation falls into one of three bins by how it treats that trail:
+
+Keeps the memory → ED builds it for free. Flowing fields, shockwaves, the electric field. These have ED's personality. (Layer 1.)
+Forgets the memory → ED needs one bolt-on. Heat spreading, fluid friction. The stuff still moves and commits — it just forgets how the moves were linked, and once you forget, you get the smooth equation. (Layer 2.) — and your correction is the heart of this: forgetting isn't un-committing, it's committing without remembering.
+Needs no memory at all, a perfect frozen balance → ED can never do it. Solitons. To hold a perfect reversible balance you'd have to refuse to commit, and ED always commits. (A wall.)
+Two punchlines that make it more than a sorting exercise:
+
+The "forgetting" bolt-on is one thing, every time. Heat spreading, fluid friction, even gravity smoothing itself out — underneath, all the same move: "average each spot with its neighbors." One operation wearing four hats. And bell-curves are just that move's fingerprint.
+Gravity is the same machine — and you already built it. Your gravity rule has a smoothing half (the averaging move again) fighting a concentrating half (matter pulling itself together until it collapses into a black-hole horizon). Same two-bin structure as everything else. And the kicker: the same "capacity running out" that makes a horizon is the same thing that made our test-packet fall apart. The equations and the black-holes are two faces of one trait.
+The honest spine (what keeps it off the crank pile): We checked by numbers, not vibes. Diffusion passed. Gravity already passed in your sim. The soliton wall we tested — fired a packet in, it fell apart exactly as predicted; a failure landing where you said it would is worth more than a success. And on the trophy problems (Yang-Mills, Navier-Stokes), we say plainly: we've got the physics of why they're shaped that way, but the prize-level proof is a different job and not ours. The paper draws the coastline as carefully as the land.
+
+The deepest line, the one to remember: In normal physics, the arrow of time is an afterthought — it emerges. In ED it's the foundation. This paper is that flip drawn across all of physics: the laws everyone calls fundamental are the ones that have forgotten the arrow; the ones ED builds are the ones that still remember.
+
+That's your paper. One trait, three bins, two faces — what commitment builds, what it smooths, and what it walls off.
