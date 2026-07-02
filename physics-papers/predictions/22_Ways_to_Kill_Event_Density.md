@@ -1,16 +1,16 @@
-# 21 Ways to Kill Event Density
+# 22 Ways to Kill Event Density
 
 **Allen Proxmire**
 
 ---
 
-Event Density (ED) is a physics research program built on one idea: the arrow of time is not something that emerges from deeper, reversible laws. It is built into the world from the start. Quantum mechanics, gravity, and the particle spectrum are derived downstream of that one commitment, each result tiered honestly by how much is actually forced versus how much is inherited from measurement.
+Event Density (ED) is a contrast-first substrate ontology for physics. Its primitive is neither the event nor the relation but contrast (a difference, a gradient, a participation pattern) from which both co-arise, together with commitment (P11), the substrate's irreversible act that converts relational potential into determinate fact. From this base, the framework derives quantum mechanics, gauge structure, gravity, and black-hole thermodynamics as downstream structural consequences, each tiered explicitly by how much of a given result is forced from the primitives and how much is inherited from measurement.
 
-This is independent, outsider work. It has not gone through traditional peer review, and it does not carry an institution's name. What it does carry is a public, timestamped, falsifiable record: the full corpus, several hundred pages of derivations, sits at the link below.
+The full corpus, currently more than 125 papers, is public and version-controlled.
 
 **Full corpus:** https://github.com/allen-proxmire/ED-generative
 
-This document is not an argument for why ED is right. It is the opposite: a list of specific, numeric ways it could be shown wrong. Twenty-one are live bets today, checkable against data that already exists or experiments already running. Two more are real predictions without a clean kill condition built yet. Three have already been checked and passed, listed here so the bar for the rest is clear.
+This document is not an argument for why ED is right. It is the opposite: a list of specific, numeric ways it could be shown wrong. Twenty-two are live bets today, checkable against data that already exists or experiments already running. Two more are real predictions without a clean kill condition built yet. Three have already been checked and passed, listed here so the bar for the rest is clear.
 
 Try to kill it.
 
@@ -18,9 +18,9 @@ Try to kill it.
 
 ## Gravity, Dark Matter, Dark Energy
 
-**1. MOND transition acceleration.** $a_0 = cH_0/(2\pi) \approx 1.08\times10^{-10}\,\mathrm{m/s^2}$ — the acceleration scale where galaxy rotation curves depart from plain Newtonian gravity, derived here from the cosmic expansion rate rather than fit to galaxy data. *Kill it:* $a_0$ tracks $H_0$ wrong as the Hubble tension resolves, or wide binary stars at this acceleration obey plain Newton with no anomaly.
+**1. MOND transition acceleration.** $a_0 = cH_0/(2\pi) \approx 1.08\times10^{-10}\,\mathrm{m/s^2}$: the acceleration scale where galaxy rotation curves depart from plain Newtonian gravity, derived here from the cosmic expansion rate rather than fit to galaxy data. *Kill it:* $a_0$ tracks $H_0$ wrong as the Hubble tension resolves, or wide binary stars at this acceleration obey plain Newton with no anomaly.
 
-**2. Baryonic Tully-Fisher slope.** $v^4 = GMa_0$, slope exactly 4, zero intrinsic scatter — the deep-MOND asymptote of the galaxy mass-velocity relation. *Kill it:* any measured slope other than 4, or scatter beyond observational uncertainty, checkable now against the public SPARC catalog.
+**2. Baryonic Tully-Fisher slope.** $v^4 = GMa_0$, slope exactly 4, zero intrinsic scatter: the deep-MOND asymptote of the galaxy mass-velocity relation. *Kill it:* any measured slope other than 4, or scatter beyond observational uncertainty, checkable now against the public SPARC catalog.
 
 **3. Preferred-frame parameters.** $\alpha_2 = 0$ exactly; $\alpha_1$ suppressed at least 70 orders of magnitude below the experimental bound. *Kill it:* any measured $\alpha_1 \gtrsim 10^{-5}$, or any nonzero $\alpha_2$, from lunar laser ranging or pulsar timing.
 
@@ -34,7 +34,7 @@ Try to kill it.
 
 ## Black Holes and Information
 
-**8. Non-thermal Hawking correction.** $n_H(\omega) = n_H^{\mathrm{Planck}}(\omega)[1-c_1(\omega/\omega_c)^2+\ldots]$ — a sign-definite, mass-dependent deviation from an exactly thermal Hawking spectrum. *Kill it:* analog-gravity horizons (BEC, fluid) come out exactly thermal, with no deviation of this sign and scaling.
+**8. Non-thermal Hawking correction.** $n_H(\omega) = n_H^{\mathrm{Planck}}(\omega)[1-c_1(\omega/\omega_c)^2+\ldots]$: a sign-definite, mass-dependent deviation from an exactly thermal Hawking spectrum. *Kill it:* analog-gravity horizons (BEC, fluid) come out exactly thermal, with no deviation of this sign and scaling.
 
 **9. Planck-mass remnant.** Evaporation halts rather than completing to $M\to0$. *Kill it:* late-stage evaporation observed to complete, or a remnant found at a mass other than the Planck mass.
 
@@ -44,7 +44,7 @@ Try to kill it.
 
 ## Matter Sector: Gauge Groups, Forces, Dimensions
 
-**12. No chiral abelian force.** The single-channel (abelian) coupling is chirality-blind by construction — there is no way to get a parity-violating $U(1)$ force out of this substrate. *Kill it:* discovery of a chiral (parity-violating) $U(1)$ gauge force.
+**12. No chiral abelian force.** The single-channel (abelian) coupling is chirality-blind by construction: there is no way to get a parity-violating $U(1)$ force out of this substrate. *Kill it:* discovery of a chiral (parity-violating) $U(1)$ gauge force.
 
 **13. No stable $SU(N{\geq}4)$.** Stable gauge groups are capped by an internal channel-stability count; nothing larger than $SU(3)$ should be stable. *Kill it:* discovery of a stable fundamental $SU(N{\geq}4)$ sector.
 
@@ -54,7 +54,7 @@ Try to kill it.
 
 ## Quantum Foundations and Soft Matter
 
-**16. Quantum-to-classical decoherence wall.** A sharp, architecture-independent decoherence boundary in matter-wave interferometry, extrapolated to 140-250 kDa — directly in the territory of groups already pushing large-molecule interferometry to higher masses. *Kill it:* interference succeeding cleanly at 250 kDa or above with no wall, or no sharp wall at any mass.
+**16. Quantum-to-classical decoherence wall.** A sharp, architecture-independent decoherence boundary in matter-wave interferometry, extrapolated to 140-250 kDa, directly in the territory of groups already pushing large-molecule interferometry to higher masses. *Kill it:* interference succeeding cleanly at 250 kDa or above with no wall, or no sharp wall at any mass.
 
 **17. Second-harmonic decoherence signature.** Alongside #16: 3-6% second-harmonic content in interference fringe residuals near the quantum-classical crossing. *Kill it:* pure first-harmonic decay observed near the crossing, the standard decoherence prediction.
 
@@ -65,6 +65,8 @@ Try to kill it.
 **20. Envelope modulation at bifurcation.** A slow envelope modulation at a specific frequency ratio ($\omega_v \approx 8\gamma_{\mathrm{dec}}$), predicted to hold across ten or more orders of magnitude in decoherence rate, from optomechanics to protein-diffusion residuals. *Kill it:* no envelope detected at the predicted frequency band in any of three or more independent datasets.
 
 **21. Synchronized cosmic-boundary covariation.** Six independent physical projections (from black-hole horizons to galactic acceleration to lab-scale correlation budgets) trace to one boundary and should co-vary as Hubble-tension-class measurements shift. *Kill it:* any two of the six projections moving out of sync.
+
+**22. Electrical-circuit consistency test.** ED's canonical governing PDE, in its spatially-uniform limit, is exactly isomorphic to a parallel RLC circuit: a capacitor (the density channel) parallel to a resistor (dissipation) and to a series inductor-resistor branch (the participation channel). Four breadboard configurations (pure RC, pure LR, overdamped RLC, underdamped RLC) extract the same four substrate parameters two independent ways. *Kill it:* the parameters extracted from the RC and LR runs, plugged into the RLC prediction with no free adjustment, disagree with the measured RLC waveform by more than component tolerance (about 1%). Benchtop test, under $50 in parts, one afternoon.
 
 ---
 
