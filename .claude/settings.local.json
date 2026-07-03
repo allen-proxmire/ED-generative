@@ -115,7 +115,10 @@
       "Bash(timeout 300 python3 examples/a3_topology_sigma_sweep.py)",
       "Bash(timeout 300 python3 examples/a3b_graded_sigma_experiment.py)",
       "Bash(find \"C:/Users/allen/GitHub/ED Generative\" -iname \"*Gauge_07*\")",
-      "Bash(find \"C:/Users/allen/GitHub/event-density\" -iname \"*Gauge_07*\")"
+      "Bash(find \"C:/Users/allen/GitHub/event-density\" -iname \"*Gauge_07*\")",
+      "Bash(mv \"C:/Users/allen/GitHub/event-density/some todos.txt\" \"C:/Users/allen/Desktop/some todos.txt\" && echo \"moved todos.txt to Desktop\" && ls \"C:/Users/allen/GitHub/event-density/some todos.txt\" 2>&1)",
+      "Bash(find predictions *)",
+      "Bash(find physics-papers/predictions -type f)"
     ]
   }
 }
