@@ -110,7 +110,12 @@
       "Bash(grep -n \"ell_{V5}\\\\|\\\\\\\\\\\\\\\\ell_{V5}\\\\|ℓ_V5\\\\|coordination\\\\|coupling density\\\\|entanglement density\\\\|entangle.*per chain\\\\|neighbors\\\\|coordination number\" \"papers/Generative Papers/Paper_090_V5Kernel.md\")",
       "Bash(python3 multichain_v5_local_minor_check.py)",
       "Bash(python3 order_undo_operational_test.py)",
-      "Bash(python3 order_undo_v2_realcycles.py)"
+      "Bash(python3 order_undo_v2_realcycles.py)",
+      "Read(//c/Users/allen/Desktop/**)",
+      "Bash(timeout 300 python3 examples/a3_topology_sigma_sweep.py)",
+      "Bash(timeout 300 python3 examples/a3b_graded_sigma_experiment.py)",
+      "Bash(find \"C:/Users/allen/GitHub/ED Generative\" -iname \"*Gauge_07*\")",
+      "Bash(find \"C:/Users/allen/GitHub/event-density\" -iname \"*Gauge_07*\")"
     ]
   }
 }
