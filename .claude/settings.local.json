@@ -118,7 +118,8 @@
       "Bash(find \"C:/Users/allen/GitHub/event-density\" -iname \"*Gauge_07*\")",
       "Bash(mv \"C:/Users/allen/GitHub/event-density/some todos.txt\" \"C:/Users/allen/Desktop/some todos.txt\" && echo \"moved todos.txt to Desktop\" && ls \"C:/Users/allen/GitHub/event-density/some todos.txt\" 2>&1)",
       "Bash(find predictions *)",
-      "Bash(find physics-papers/predictions -type f)"
+      "Bash(find physics-papers/predictions -type f)",
+      "Bash(git commit -q -m 'repo hygiene: consolidate predictions/ into physics-papers/predictions/, remove the stray nested event-density copy *)"
     ]
   }
 }
