@@ -415,6 +415,7 @@ Foundational/ontological framing documents distinct from the per-domain derivati
 
 | Title | Status | File |
 |---|---|---|
+| Event Density: A Program Review (14-section map of the ~125-paper corpus, tiered; own Zenodo DOI) | WRITTEN | `position-paper/ED_Program_Review.md` (+ `.pdf`) |
 | Event Density (front-door whitepaper) | WRITTEN | `position-paper/ED_WHITEPAPER.md` |
 | When Contrast Becomes Fact — the Contrast-First Ontology ("the Facts paper") | WRITTEN | `position-paper/paper_ED_Contrast_First_Ontology.md` (**hygiene flag**: this file has no H1 heading, opens directly at `## Abstract` — a real source-file gap, not fixed as part of this index-only pass) |
 | The Event Density Framework: A 13-Primitive Generative System and Its Cross-Domain Reach | WRITTEN | `position-paper/paper_ED_Framework_13_Primitive_Generative_System.md` |
