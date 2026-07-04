@@ -403,6 +403,7 @@ Ten standalone papers from the substrate-evaluation program (build-and-run / the
 | GR-IV | The Arrow's Alibi: Preferred-Frame Safety and Quantum Coherence from Sparse Becoming (closes the α₁ front) | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_GR-IV_ArrowsAlibi.md` |
 | ED-Gravity (PhilPapers) | The Arrow in the Law: Emergent Gravity from a Discrete, Irreversible Substrate (program synthesis, public-facing) | gravity / synthesis-paper | WRITTEN | `physics-papers/gravity/Paper_ED_Gravity_Program_PhilPapers.md` |
 | One-Field | One Field: Gravity, Dark Matter, Dark Energy, and the Arrow of Time in ED (capstone letter) | gravity / synthesis-letter | WRITTEN | `physics-papers/gravity/Paper_OneField_Letter.md` |
+| Metric-From-Graph | The Metric Comes Out of the Graph: Curvature, g ~ 1/b, and Why Only Three Dimensions (curvature-emergence foothold; reach law forced by the holographic count, GR-I metric unique to 3D, no new scale, isotropy emergent under CG) | gravity / curvature-emergence | WRITTEN | `physics-papers/gravity/Paper_MetricFromTheGraph_ForcedTo3D.md` |
 
 Notes: GR-I/GR-II are the post-pivot curvature-emergence results, sharpening (not superseding) the Arc-3 scalar-tensor/MOND papers — see GR-I §7 / GR-II §9 for the explicit reconciliation. Form-and-Flesh is the program reach-statement (the empirical successor to the Contrast-First ontology paper) and lives in `position-paper/` alongside it. Underlying simulation artifacts live in the working repo (`event-density/evaluation/` and `event-density/foundations/`). **The Hawking-2π addendum lives with Arc 4 (Black Holes) above, not here, since its file path is `physics-papers/black-hole/`.**
 
@@ -434,7 +435,7 @@ Note: this third entry is a distinct document from `Paper_087_13Primitives.md` (
 - **Cosmology arc:** 9 WRITTEN
 - **Layers program:** 12 WRITTEN
 - **Predictions / Falsification:** 5 WRITTEN
-- **Substrate-evaluation wave + post-pivot gravity:** 16 WRITTEN
+- **Substrate-evaluation wave + post-pivot gravity:** 17 WRITTEN
 - **Position papers:** 3 WRITTEN
 
 **Grand total: 209 distinct corpus entities** (203 WRITTEN + 1 MISSING slot + 2 ARCHIVED + 1 doubly-occupied slot counted once above, net of the 105/112 irregularity). This is a large jump from the 2026-05-14 count of 124 — three entire arcs (Relativistic QM, Dynamics, Cosmology) plus the decimal-slot layer, the Layers program, five more scale-correspondence papers, three position papers, and a handful of loose files had simply never been added to this index, not newly written in the interim (most of these files carry May 2026 dates).
