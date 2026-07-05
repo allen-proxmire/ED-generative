@@ -10,7 +10,7 @@ The full corpus, currently more than 125 papers, is public and version-controlle
 
 **Full corpus:** https://github.com/allen-proxmire/ED-generative
 
-This document is not an argument for why ED is right. It is the opposite: a list of specific, numeric ways it could be shown wrong. Twenty-two are live bets today, checkable against data that already exists or experiments already running. Two more are real predictions without a clean kill condition built yet. Three have already been checked and passed, listed here so the bar for the rest is clear.
+This document is not an argument for why ED is right. It is the opposite: a list of specific, numeric ways it could be shown wrong. Twenty-two are live bets today, checkable against data that already exists or experiments already running, plus eight more added in July 2026, gathered from source papers that had never been folded into this list. Two more are real predictions without a clean kill condition built yet. Three have already been checked and passed, listed here so the bar for the rest is clear.
 
 Try to kill it.
 
@@ -67,6 +67,28 @@ Try to kill it.
 **21. Synchronized cosmic-boundary covariation.** Six independent physical projections (from black-hole horizons to galactic acceleration to lab-scale correlation budgets) trace to one boundary and should co-vary as Hubble-tension-class measurements shift. *Kill it:* any two of the six projections moving out of sync.
 
 **22. Electrical-circuit consistency test.** ED's canonical governing PDE, in its spatially-uniform limit, is exactly isomorphic to a parallel RLC circuit: a capacitor (the density channel) parallel to a resistor (dissipation) and to a series inductor-resistor branch (the participation channel). Four breadboard configurations (pure RC, pure LR, overdamped RLC, underdamped RLC) extract the same four substrate parameters two independent ways. *Kill it:* the parameters extracted from the RC and LR runs, plugged into the RLC prediction with no free adjustment, disagree with the measured RLC waveform by more than component tolerance (about 1%). Benchtop test, under $50 in parts, one afternoon.
+
+---
+
+## Eight More, Added July 2026
+
+A corpus sweep found live bets sitting in source papers that never made it into the original list. Same rules: specific, checkable, and any one coming back wrong does real damage.
+
+**23. The merging-cluster knee.** When galaxy clusters collide, the dark-mass peak and the hot gas separate. Plot that offset against collision speed across many mergers and the three frameworks disagree on the *shape*: ED predicts a sharp knee (flat at zero below a threshold speed, rising above it), ΛCDM predicts scatter with no speed correlation, MOND predicts a smooth ramp. *Kill it:* assemble the offset-velocity table and find scatter or a ramp instead of a step. One leg is testable now: the fastest mergers should show an offset ceiling and multiple mass peaks, checkable against El Gordo-class systems.
+
+**24. The group-embedded galaxy knee.** Low-acceleration galaxies sitting inside groups (like NGC 1052-DF2 and DF4) should have their "missing mass" behavior suppressed by the group's external field, with a transition *sharper* than MOND's: a knee, not a roll-off. *Kill it:* a group-embedded low-acceleration galaxy showing full deep-MOND enhancement where ED predicts suppression, or the transition measured smooth in the diagnostic range.
+
+**25. Dark energy is exactly $w=-1$, forever.** No quintessence, no phantom, no drift. ED's dark energy is a saturation regime, not a field, so its equation of state is $-1$ exactly with no time variation. More broadly, the admitted cosmological set is $\{-1, 0, 1/3\}$. *Kill it:* any confirmed $w \neq -1$, any confirmed drift $\dot w \neq 0$, a phantom epoch, or a stiff $w=1$ epoch.
+
+**26. No monopole or dipole gravitational radiation, no scalar or longitudinal electromagnetic radiation.** Two transverse modes each, nothing else at leading order. *Kill it:* polarization-content analysis of gravitational-wave catalogs finding non-tensor radiation modes, or scalar/longitudinal EM radiation anywhere.
+
+**27. Black-hole ringdown discipline.** Ringdown frequencies scale as $1/M$ at leading order, and damping is capped by the substrate's finite memory. *Kill it:* high-signal ringdowns (Einstein Telescope era) deviating from the $1/M$ scaling, or ringing significantly longer than the finite-memory bound allows.
+
+**28. No anyons in genuine 3+1D.** Only fermions and bosons at substrate level. Surface anyons in flatland systems (fractional quantum Hall) are fine; they're effective 2D physics. *Kill it:* anyonic or parastatistical behavior in a genuinely three-dimensional system.
+
+**29. Topologically-protected qubits improve exponentially.** Platforms protected by geometric rigidity (Majorana, surface codes) should show error suppression exponential in the protection strength, with the same exponential form across architectures. *Kill it:* a rigidity-protected platform showing polynomial or flat suppression.
+
+**30. Error correction hits a floor.** Standard fault-tolerance theory says more redundancy keeps driving errors toward zero. ED says the substrate has a finite cross-correlation budget, so error suppression *plateaus* at high code distance instead of continuing down. *Kill it:* error rates continuing to fall monotonically with no plateau onset as code distances climb. This one is heading toward a test on its own: the industry is scaling code distance right now, for its own reasons.
 
 ---
 
