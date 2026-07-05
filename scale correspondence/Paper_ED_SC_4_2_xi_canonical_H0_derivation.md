@@ -29,7 +29,9 @@ The paper supplies the structural setup; Route A4 closure (post-2026-05-17) supp
 
 ## §1.5 Route A4 Closure Summary (Added 2026-05-17)
 
-Post-write-time Route A audit cascade delivers the substrate-derived $\ell_{V_5}(H_0)$ closure as **Route A4 chain** at substrate-parameter-INHERITED level (Paper_027-analog). The chain:
+> **Reconciliation note (2026-07-05).** This §1.5 patch and the paper's body (§3.5, §3.7, §6, written pre-A4) must be read with the correct TIER labels; they are not in conflict once tiered. **(a) First-principles / VALUE-FORCED (M2) level:** the derivation does NOT close — $\Theta_{\mathrm{ED}} \approx 10^{-122}$ is *inherited*, not derived (the body's "did not close" is correct at this tier). **(b) Substrate-parameter-INHERITED (M3, Paper_027-analog) level:** Route A4 supplies the $\ell_{V_5}(H_0)$ structure the body called "absent" — **but this closure is CONDITIONAL** on the $\tau_{V_5} \to \Theta_{\mathrm{ED}}$ reduction (A-A4-4), which `Memo_ED_RouteA_A4_Audit` (headline verdict) flags as **load-bearing for full closure** and which is **not proved**. Net verdict: **M3, conditional.** Anywhere this paper, `ED_WHITEPAPER`, or the ED-SC 4.x arc says "Route A closed," read it as **"closed at substrate-parameter-INHERITED level, conditional on the unproved A-A4-4 reduction; first-principles (M2) closure — deriving $\Theta_{\mathrm{ED}}$ from sub-primitives via Routes B/C — remains OPEN."**
+
+Post-write-time Route A audit cascade delivers the substrate-derived $\ell_{V_5}(H_0)$ closure as **Route A4 chain** at substrate-parameter-INHERITED level (Paper_027-analog), **conditional on A-A4-4 (see reconciliation note above)**. The chain:
 
 | Step | Substance | Source |
 |---|---|---|
@@ -40,7 +42,7 @@ Post-write-time Route A audit cascade delivers the substrate-derived $\ell_{V_5}
 | **5** | Resulting form: $H_0 = (8\pi/3)^{1/2} \ell_P c^{1/2} \Theta_{\mathrm{ED}}^{1/2}$; in Planck units $H_0 = (8\pi/3)^{1/2} \Theta_{\mathrm{ED}}^{\mathrm{Planck-units}, 1/2}$. Substrate-parameter $\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}} \approx 10^{-122}$ matches observation | Memo_ED_RouteA_A4_Construct §5 + audit §6.1 |
 | **6** | $\xi_{\mathrm{canonical}}$ identification: $\xi_{\mathrm{canonical}} \sim \sqrt{\Theta_{\mathrm{ED}}^{\mathrm{Planck-units}}} \cdot M_P$ via this paper's fixed-point setup + Route A4 chain | This paper + Route A4 |
 
-**Multi-route convergence:** Route A2 (Hessian asymptotics) reduces to Route A1 ($\tau_{V_5}$) at leading-order linearity per Memo_ED_RouteA_A2_Construct; multi-route convergence audit verdict (ii) — both A4 ($\Theta_{\mathrm{ED}}$) and A2/A1 ($\tau_{V_5}$) close at the same Paper_027-analog level. Corpus carries both $\Theta_{\mathrm{ED}}$ and $\tau_{V_5}$ as independent primitive substrate-parameters. Substrate-graph multi-route convergence relation $\ell_{V_5}^2 \sim c/(\ell_P^2 \Theta_{\mathrm{ED}})$ is plausible but not derived — substrate-research-frontier tightening (RA-OPEN-4c-explicit), not load-bearing.
+**Multi-route convergence:** Route A2 (Hessian asymptotics) reduces to Route A1 ($\tau_{V_5}$) at leading-order linearity per Memo_ED_RouteA_A2_Construct; multi-route convergence audit verdict (ii) — both A4 ($\Theta_{\mathrm{ED}}$) and A2/A1 ($\tau_{V_5}$) close at the same Paper_027-analog level. Corpus carries both $\Theta_{\mathrm{ED}}$ and $\tau_{V_5}$ as independent primitive substrate-parameters. Substrate-graph multi-route convergence relation $\ell_{V_5}^2 \sim c/(\ell_P^2 \Theta_{\mathrm{ED}})$ is plausible but **not derived**. **Correction (2026-07-05):** per `Memo_ED_RouteA_A4_Audit` this $\tau_{V_5} \to \Theta_{\mathrm{ED}}$ reduction (A-A4-4 / RA-OPEN-4c) is **load-bearing for full closure**, so the substrate-parameter-INHERITED closure above is CONDITIONAL on it — not the "not load-bearing" framing originally written here.
 
 **Cross-arc consequences delivered:** Cosmology Arc M3 Trinity (Cos_01 + Cos_05 + Paper_038_5) + ED-SC 4.x arc-wide M3 upgrade (six projections). Per Update_ED_SC_4x_Arc_M3.
 
@@ -258,7 +260,7 @@ The derivation does **not** close, but supplies the following partial results:
 
 **Derivation outcome.** The derivation **did not close** at the first-principles level. The structural setup is established — $\xi_{\mathrm{canonical}}$ is a fixed point of substrate RG flow anchored at the substrate-cosmology boundary $R_H = c/H_0$ — but three substrate-derived inputs are missing (Routes A, B, C in §3.5). Without these, the canon-internal value 1.7575 lu remains INHERITED, not derived.
 
-**Implications for SCBU verdict.** The SCBU synthesis (Paper_SCBU) remains at **M3** (FORM-FORCED + VALUE-INHERITED). This paper does not upgrade to M2 because it does not close the substrate-cosmology coupling parameter (Route A) or the $\beta(K)$ functional form (Route B) or the boundary value $K_{\mathrm{boundary}}$ (Route C).
+**Implications for SCBU verdict.** The SCBU synthesis (Paper_SCBU) remains at **M3** (FORM-FORCED + VALUE-INHERITED). This paper does not upgrade to **M2** because it does not close, at the **first-principles / VALUE-FORCED** level, the substrate-cosmology coupling parameter (Route A) or the $\beta(K)$ functional form (Route B) or the boundary value $K_{\mathrm{boundary}}$ (Route C). *(Tier note, 2026-07-05: Route A **is** closed at the weaker substrate-parameter-INHERITED (M3) level via the A4 chain of §1.5, conditional on the unproved A-A4-4 reduction. "Does not close Route A" here means does not reach the M2 first-principles tier, which requires deriving $\Theta_{\mathrm{ED}}$ from sub-primitives.)*
 
 **Closing one of Routes A, B, C upgrades the verdict** (standardized convention):
 
