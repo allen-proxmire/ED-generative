@@ -1,4 +1,4 @@
-# Crystals, Not Knots: What Correlation a Substrate Can Carry, and Why Topological Defects Are a Different Question
+# Knots, Not Crystals: The Order Event Density Does Not Have, and the Order That Matters
 
 **Allen Proxmire**
 
