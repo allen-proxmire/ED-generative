@@ -85,6 +85,18 @@ $k$ inherits: $k = 1$ (information-theory), $k = k_B$ (thermodynamics).
 
 ---
 
+## §3.5 Open Structural Questions
+
+*(Backfilled 2026-07-05 from `Paper_067_VonNeumannEntropy.md` at merge — this file's canonical §5 slot did not previously carry the full list.)*
+
+- **O-vN-1:** Substrate derivation of P-Additivity from P04 bandwidth-additivity at quantitative level.
+- **O-vN-2:** Substrate derivation of P-Maximality from P11 commitment-irreversibility. Scoped 2026-07-05 as a Landauer-bound candidate — see §2.3 update above; stays OPEN, now with a sharper reason why (no substrate temperature, no fixed channel count).
+- **O-vN-3:** Rényi-entropy substrate audit (relax P-Additivity to $\alpha$-additivity).
+- **O-vN-4:** Connection to Bekenstein–Hawking entropy (Arc BH, Paper_043 area-law).
+- **O-vN-5:** Substrate derivation of thermodynamic $k_B$ normalization.
+
+---
+
 ## §4 Falsification Criteria
 
 - **F1:** Substrate evidence that P02 + P04 + P11 do NOT support continuity + additivity + maximality — refutes substrate origin.

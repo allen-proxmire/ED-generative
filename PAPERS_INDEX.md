@@ -155,7 +155,7 @@ Bipartite entanglement architecture substrate-derived. Tensor product, Schmidt, 
 | 064 | E-3: Schmidt Decomposition | foundations | WRITTEN | `Paper_064_SchmidtDecomposition.md` |
 | 065 | E-4: Monogamy via V5 Cross-Chain Bandwidth | foundations | WRITTEN | `Paper_065_Monogamy.md` |
 | 066 | E-5: No-Signaling Three-Lock | foundations | WRITTEN | `Paper_066_NoSignaling.md` |
-| 067 | von Neumann Entropy (folder slot-shifted; see Paper_068) | foundations | WRITTEN | `Paper_067_VonNeumannEntropy.md` |
+| 067 | von Neumann Entropy — **MERGED into Paper_068 2026-07-05** (kept for provenance, do not cite) | foundations | SUPERSEDED | `Paper_067_VonNeumannEntropy.md` |
 | 068 | E-6: von Neumann Entropy (canonical slot per Paper_087) | foundations | WRITTEN | `Paper_068_VonNeumannEntropy.md` |
 | 069 | Bell–Tsirelson Polytope Reconstruction | foundations | WRITTEN | `Paper_069_TsirelsonReconstruction.md` |
 | 070 | E-7: Bipartite Synthesis (Capstone) | capstone | WRITTEN | `Paper_070_BipartiteSynthesis.md` |
