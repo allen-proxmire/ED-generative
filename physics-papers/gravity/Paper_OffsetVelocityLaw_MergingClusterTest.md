@@ -14,9 +14,9 @@
 
 1. **The 13 substrate primitives are not derived** (position paper, Paper_087).
 2. **This paper reports no measurement.** It is a protocol: it states an existing ED prediction in executable form, names the dataset, and specifies the statistic. It does not claim the test has been run, nor that the data currently favor any framework.
-3. **It does not derive the knee's location.** The companion mechanism paper leaves two substrate ingredients open, which float the transition velocity across roughly $15$–$1500$ km/s. This paper deliberately tests the *shape* (the existence and sharpness of a knee), which is robust to that, not the numerical value, which is not.
+3. **It does not derive the knee's location.** A companion theory note reduces the mechanism's open ingredients to a single one: the dynamic exponent $z\approx 2$ is fixed (Model A, from the derived GR-III relaxational rule), leaving only the static exponent $\nu$. Under a flagged $\nu\approx 0.70$ assumption (3D $O(3)$; Path C, §2.6) the knee is pinned near $v_{\rm crit}\sim 150$ km/s; without that assumption it floats across roughly $15$–$1500$ km/s. This paper deliberately tests the *shape* (the existence and sharpness of a knee), which is robust either way, not the numerical value.
 4. **It does not refute particle dark matter or MOND.** It specifies the population-level measurement that would *distinguish* the three accounts, and states honestly what each outcome would mean, including outcomes that disfavor ED.
-5. **The mechanism it tests is an account with two open ingredients** (`Bullet_TopologicalDefect` §7.1), not a closed derivation. The observational test does not depend on those being closed; that is the point of targeting the shape.
+5. **The mechanism's ordered $S^2$ field is an explicit coarse-grained (layer-2) assumption, not derived from the certified substrate primitives.** Probes of the certified microrule find no emergent long-range *correlation*-order in any sector (`Paper_BlindnessInvariant_CrystalsNotKnots`). But a topological defect is a *knot*, not a *crystal*: it is a protected winding on a target space with nontrivial homotopy ($\pi_2(S^2)=\mathbb{Z}$), categorically different from correlation-order and living in a different layer, so those correlation-negatives do not bear on it. The observational test does not depend on grounding the ordered field in the microrule; the experiment is its arbiter.
 
 ---
 
@@ -49,14 +49,23 @@ a flat stretch, a sharp knee at $v_{\rm crit}$, a near-linear rise, and a ceilin
 | Step | Status | Source |
 |---|---|---|
 | 13 primitives postulated | P | Paper_087 |
-| Topological-defect mechanism (the $\Delta r(v_{\rm rel})$ law) | account, two open ingredients | `Bullet_TopologicalDefect` §7.1 |
-| Knee *location* ($v_{\rm crit}$) | **not pinned** ($\sim 15$–$1500$ km/s) | companion §7.1 |
+| Topological-defect mechanism (the $\Delta r(v_{\rm rel})$ law) | account; ordered $S^2$ field is a layer-2 assumption | `Bullet_TopologicalDefect` §7.1; `Paper_BlindnessInvariant_CrystalsNotKnots` |
+| Dynamic exponent $z\approx 2$ (Model A) | **derived** (from GR-III) | Pinning-the-Knee note |
+| Knee *location* ($v_{\rm crit}$) | **one residual $\nu$**; $\sim 150$ km/s under flagged $\nu\approx 0.70$ (Path C), else $\sim 15$–$1500$ | §2.6 |
 | Knee *existence + sharpness* (F1, F2) | **ingredient-robust** prediction | this paper §1, companion §7.1 |
 | Correct observable = mass–gas offset (not DM–galaxy) | **specified here** | §3 |
 | Discriminating statistic (segmented regression) | **specified here** | §5 |
 | Real dataset named and pairing corrected | **assembled here (protocol)** | §6 |
 | Velocity-selection puts the sample in the ceiling regime | **feasibility finding** | §7 |
 | The measurement itself | **not performed** | — |
+
+## 2.6 The Knee Location Under a Flagged Assumption (Path C)
+
+The shape test above needs no numerical knee. But an observer designing a survey wants a target velocity, and the mechanism now supplies one under a single, clearly-flagged assumption. A companion theory note reduces the two Phase-2 open ingredients to one: the dynamic exponent is fixed at $z\approx 2$ (Model A, inherited from the derived GR-III relaxational rule ${\dot b}=D\nabla^2 b-\kappa\rho$), and the two-timescale core/dressing structure is resolved structurally (the defect is an externally-pinned texture, so its core and relaxation clocks are independent by construction). What remains is the static correlation-length exponent $\nu$ of the organizational transition.
+
+Its value is not measured (the certified substrate carries no ordering transition to measure it on; §Preamble.5). The natural target, adopted here as an explicit assumption and not a derivation, is the 3D $O(3)$ (Heisenberg) class, $\nu\approx 0.70$, motivated by the $S^2$ order parameter. With $z\approx 2$ fixed and $\nu\approx 0.70$ assumed, the Kibble–Zurek estimate pins the knee near
+$$v_{\rm crit}\sim 150\ \mathrm{km/s},$$
+the arc's working value, collapsing the ingredient-driven band ($\sim 15$–$1500$ km/s) to a specific target. **Tier: inherited assumption, not measurement.** This is the working knee an observer should center the near-threshold sampling on; if the $O(3)$ class is wrong (the organizational free energy is not in that universality class), the value moves, but the *shape* test (F1, F2) is unaffected, which is why the paper does not rest on it.
 
 ## 3. The Observable, Fixed So It Cannot Be Run Wrong
 
