@@ -42,7 +42,7 @@ Von Neumann entropy is FORM-FORCED in ED via the Shannon–Khinchin axioms appli
 
 - **P-Continuity:** Substrate-participation-measure entropy is continuous in the probability distribution.
 - **P-Additivity:** For independent substrate subsystems (P04 bandwidth-additive), entropy is additive: $S(\rho_A \otimes \rho_B) = S(\rho_A) + S(\rho_B)$.
-- **P-Maximality:** Entropy maximized on uniform distributions for fixed dimension. Declared as substrate-level analog of second-law-like P11 content; quantitative derivation from P11 is O-vN-2 OPEN.
+- **P-Maximality:** Entropy maximized on uniform distributions for fixed dimension. Declared as substrate-level analog of second-law-like P11 content; quantitative derivation from P11 is O-vN-2 OPEN. **Update (2026-07-05, `primitives/concepts/multiplicity.md` items 4-5):** scoped as a Landauer-bound candidate and found structurally blocked, not just unattempted — ED has no substrate-level temperature, and cannot, since Gibbs/equilibrium symmetry is precisely what the P11 arrow forbids; separately, the channel count P11 collapses is confirmed distinct from the gauge-family multiplicity {1,2,3}, so there is no single fixed `M` to plug in even if a substrate `T` existed. O-vN-2 stays OPEN with a sharper reason why.
 
 ---
 
