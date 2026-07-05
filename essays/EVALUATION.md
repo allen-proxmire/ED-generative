@@ -1,8 +1,8 @@
 # Essays — Evaluation Against the Standard
 
-Each essay evaluated against the seven-point standard in `README.md`, with its key claims cross-checked against the actual source papers. Status: **KEEP** (in good standing), **AMEND** (keep the essay, fix listed items), **FLAG** (substantive accuracy/tiering problem). Last run: 2026-07-04.
+Each essay evaluated against the seven-point standard in `README.md`, with its key claims cross-checked against the actual source papers. Status: **KEEP** (in good standing), **AMEND** (keep the essay, fix listed items), **FLAG** (substantive accuracy/tiering problem). Last run: 2026-07-05.
 
-Headline: initial pass **8 KEEP, 3 AMEND, 0 FLAG**; the 3 AMENDs were fixed the same day, so all **11 are now KEEP**. No hard accuracy breaks were ever found. Every essay is *more* conservative than its own source papers in two ways worth noting: all of them scrubbed the "Wolfram / Ruliad" lineage lines the papers themselves carry (satisfying the no-Wolfram-in-public rule), and the highest-risk essays self-label their weakest results ("promissory note," "borrowed numbers," "account with a named gap").
+Headline: first pass (2026-07-04) **8 KEEP, 3 AMEND, 0 FLAG**; the 3 AMENDs were fixed the same day. Second pass (2026-07-05) added the three series-finale essays (9 The Early Universe, 10 The Arrow Sorts the Continuum, 11 Here Is the Knife), all **KEEP, 0 AMEND, 0 FLAG** on an independent cross-check against their papers. So all **13 essays are KEEP**. No hard accuracy breaks were ever found. Every essay is *more* conservative than its own source papers in two ways worth noting: all of them scrubbed the "Wolfram / Ruliad" lineage lines the papers themselves carry (satisfying the no-Wolfram-in-public rule), and the highest-risk essays self-label their weakest results ("promissory note," "borrowed numbers," "account with a named gap"). The three finale essays were the highest tiering-risk of the set and passed the sharpest checks: essay 9 refuses to claim ED *derives* the CMB (the cosmology arc is inherited, tier M3) and flags the CMB-Gaussianity debt as open; essay 10 disclaims the Clay problems and tiers the soliton wall as a measured negative; essay 11 states the decoherence wall's *sharp architecture-independent* form as the structural prediction while marking the 140–250 kDa mass an extrapolation, and flags the 3D-from-linking open premise.
 
 ## Status Table
 
@@ -16,6 +16,9 @@ Headline: initial pass **8 KEEP, 3 AMEND, 0 FLAG**; the 3 AMENDs were fixed the 
 | 6 — Yang-Mills and the Mass Gap | **KEEP** | Paper_019_YM2, Paper_021_YM4_MassGap, Paper_023_YM6_ClaySynthesis |
 | 7 — Gravity, Dark Matter, Dark Energy | **KEEP** | Paper_OneField_Letter, Paper_GR-III, Paper_029_a0, Paper_038_5_Lambda, Paper_GR-IV |
 | 8 — Black Holes and Information | **KEEP** | Paper_039_HorizonDecoupling, Paper_047_HawkingSpectrum, Paper_050_PageCurve, Paper_052_BH_ParadoxSynthesis, BH_Thermal2Pi |
+| 9 — The Early Universe | **KEEP** | Paper_SCBU_SubstrateCosmologyBoundary, Paper_ED_Cos_03_CMBAcoustic, Paper_ED_Cos_04_StructureFormation, Paper_ED_Cos_06_InflationarySpectrum |
+| 10 — The Arrow Sorts the Continuum | **KEEP** | Paper_TheArrowSortsTheContinuum |
+| 11 — Here Is the Knife | **KEEP** | 22_Ways_to_Kill_Event_Density, Predictions_and_Falsifiers, Paper_056_ClassA_Wall |
 | Dark Matter — The Case Without a Particle | **KEEP** | Paper_029_a0, Paper_ED_DF2_DF4_GroupSuppression, Bullet_TopologicalDefect |
 | The Universe Doesn't Happen All At Once | **KEEP** *(amended)* | Paper_GR-IV_ArrowsAlibi |
 
