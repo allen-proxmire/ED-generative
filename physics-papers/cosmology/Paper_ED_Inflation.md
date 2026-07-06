@@ -51,7 +51,7 @@ Cosmic inflation in ED is the substrate-graph **saturation regime** of the post-
 
 ## §2 Primitive Inputs + Upstream Dependencies
 
-**Primitives (Paper_087):** P02 (participation), P03 (translation invariance, Noether source), P04 (bandwidth), P07, P09 (polarity), P11 (commitment), P12 (ED-threshold), P13 (translation arrow).
+**Primitives (Paper_087):** P02 (participation), P03 (translation invariance, Noether source), P04 (bandwidth), P07, P09 (polarity), P11 (commitment), P12 (stability landscape), P13 (translation arrow).
 
 **Upstream:**
 - Paper_012 (P-RB-1 substrate-c)

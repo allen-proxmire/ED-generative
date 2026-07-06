@@ -51,7 +51,7 @@ BBN is the substrate-graph **freeze-out competition** between nuclear-reaction r
 
 ## §2 Primitive Inputs + Upstream Dependencies
 
-**Primitives (Paper_087):** P02 (participation), P03 (translation invariance), P09 (polarity), P10 (multiple rule-types), P11 (commitment / time arrow), P12 (ED-threshold + stability landscape), P13 (translation arrow).
+**Primitives (Paper_087):** P02 (participation), P03 (translation invariance), P09 (polarity), P10 (multiple rule-types), P11 (commitment / time arrow), P12 (stability landscape), P13 (translation arrow).
 
 **Upstream papers:**
 - Paper_012 (P-RB-1 substrate-c bound)

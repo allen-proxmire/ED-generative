@@ -49,7 +49,7 @@ Dark energy in ED is the substrate-graph **late-universe saturation regime** —
 
 ## §2 Primitive Inputs + Upstream Dependencies
 
-**Primitives (Paper_087):** P02 (participation), P03 (translation invariance, Noether source), P04 (bandwidth), P09 (polarity), P11 (commitment), P12 (ED-threshold), P13 (translation arrow).
+**Primitives (Paper_087):** P02 (participation), P03 (translation invariance, Noether source), P04 (bandwidth), P09 (polarity), P11 (commitment), P12 (stability landscape), P13 (translation arrow).
 
 **Upstream papers:**
 - Paper_012 (P-RB-1 substrate-c) — supplies $c$

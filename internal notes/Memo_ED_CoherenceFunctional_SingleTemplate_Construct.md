@@ -6,6 +6,8 @@
 
 **Anchors:** Paper_ED_Inflation (Cos_01, M3 — Q-C3 cascade; uniform-Ψ saturation biconditional); Paper_ED_Cos_05 (M3 — saturation-regime inheritance template); Paper_ED_Baryogenesis_Open (M2 current — P-BinaryAdmission + asymmetric-admission-cost OPEN; §3.5 candidate mechanisms); Paper_ED_SC_4_9 (substrate-action functional $S_{\mathrm{sub}}[\Psi]$ + saddle-Hessian framework — load-bearing for the coherence-functional reconstruction below); Paper_087 (13 primitives — P02 participation, P04 bandwidth, P07 channel multiplicity, P09 polarity, P12 ED-threshold); Paper_072 (individuation regime); Paper_089 / Paper_090 / Paper_093 (V1 / V5 / T18 kernel structure); `Memo_ED_ChainClass_C3_Audit` (Q-C3-2 subleading fluctuation admissibility, accessed via Cos_01 Preamble item 5 in-line citation); `Memo_ED_CCC_Realizability_SubConstruct` (Q-C3-3 framework-neutral IC supply); `Memo_ED_BinaryChirality` (R1/R2/R3 failure record); `Memo_ED_Baryogenesis_SingleTemplate_Scoping` (R4 definition); `Memo_ED_Baryogenesis_QC3_SaturationVerification` (Case 3 determination).
 
+> ⚠️ **Correction (2026-07-06):** This memo cites Θ_ED as "Paper_087 P12 (ED-threshold)" and reconstructs its coherence functional partly on that label (§2). That attribution is incorrect — canonical `Paper_087` P12 is a stability-landscape functional unrelated to an event-density threshold. Θ_ED's actual (uncritically-inherited) origin is `Paper_ED_CCC_ConformalCyclicCosmology.md` §3.2/§3.7, itself now flagged. This does not change this memo's tier verdicts (Θ_ED remains substrate-parameter-INHERITED throughout) — it only corrects the primitive citation. See `event-density/docs/Scoping_ThetaED_FirstPrinciples_2026-07-06.md`.
+
 ---
 
 ## 0. Honest scope caveats (read before §1)

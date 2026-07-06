@@ -57,7 +57,7 @@ Under (1)–(4): one chain-class template (identified with matter) tiles the pos
 
 ### 2.1 Primitives invoked (Paper_087)
 
-P02 (participation), P04 (bandwidth), P05 (polarity-transport), P07 (channel structure), P09 ($U(1)$-valued polarity), P11 (commitment-irreversibility), P12 (ED-threshold / stability landscape), P13 (kernel-driven dynamics).
+P02 (participation), P04 (bandwidth), P05 (polarity-transport), P07 (channel structure), P09 ($U(1)$-valued polarity), P11 (commitment-irreversibility), P12 (stability landscape), P13 (kernel-driven dynamics).
 
 ### 2.2 Upstream
 

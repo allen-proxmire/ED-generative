@@ -15,6 +15,8 @@
 4. It does **not** override Paper_095's three-tier verdict grammar. Verdict for this paper is **M3 (form-IDENTIFIED + value-INHERITED)** as stated in §1; the audit table contains zero pure-D rows. The structural substrate composition is identified, not forced; the language "form-IDENTIFIED" rather than "form-FORCED" is the §1 / §4 / §6 default.
 5. It does **not** introduce new substrate primitives. P-EDThreshold-Collapse is a naming convenience (P12 + P11 + Paper_005 conjunction), not a new postulate. The earlier-draft P-MultiChannel-Capacity and P-WhichPath-as-EDInjection are absorbed into upstream content (Paper_072 individuation; V5 + P12 conjunction respectively).
 
+> ⚠️ **Correction (2026-07-06):** Throughout this paper, "P12 (ED-threshold)" is a mislabel — canonical `Paper_087` P12 is a stability-landscape functional unrelated to an event-density threshold. Θ_ED, and the P-EDThreshold-Collapse naming convention built on it, have no canonical primitive-level grounding under this label; the actual (uncritically-inherited) origin is `Paper_ED_CCC_ConformalCyclicCosmology.md` §3.2/§3.7, itself now flagged. This does not change this paper's tier verdicts (Θ_ED remains substrate-parameter-INHERITED throughout, M3 verdict unaffected) — it only corrects the primitive citation. See `event-density/docs/Scoping_ThetaED_FirstPrinciples_2026-07-06.md`.
+
 ---
 
 ## Abstract

@@ -46,7 +46,7 @@ The substrate-graph horizon-motion law applies the substrate-side Noether templa
 
 ## §2 Primitive Inputs + Upstream Dependencies
 
-**Primitives (Paper_087):** P02 (participation), P03 (translation invariance, source of Noether), P04 (bandwidth), P09 (polarity), P10 (multiple rule-types — supports chain-class distinction in principle, candidate for Q1 closure), P11 (commitment / time arrow), P12 (ED-threshold), P13 (translation arrow).
+**Primitives (Paper_087):** P02 (participation), P03 (translation invariance, source of Noether), P04 (bandwidth), P09 (polarity), P10 (multiple rule-types — supports chain-class distinction in principle, candidate for Q1 closure), P11 (commitment / time arrow), P12 (stability landscape), P13 (translation arrow).
 
 **Upstream papers:**
 - Paper_012 (substrate-c bound, P-RB-1)

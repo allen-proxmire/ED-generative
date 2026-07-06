@@ -8,6 +8,8 @@
 
 **Purpose:** Define R4 formally. Identify the closure condition. Prepare the ground for the eventual M2 → M3 upgrade of the Baryogenesis paper without prematurely modifying it.
 
+> ⚠️ **Correction (2026-07-06):** §"Property R4-B" below refers to "the P12 ED-threshold" as the crossing event that seeds first-arrival. That attribution is incorrect — canonical `Paper_087` P12 is a stability-landscape functional unrelated to an event-density threshold. Θ_ED's actual (uncritically-inherited) origin is `Paper_ED_CCC_ConformalCyclicCosmology.md` §3.2/§3.7, itself now flagged. This does not change this memo's tier reasoning — it only corrects the primitive citation. See `event-density/docs/Scoping_ThetaED_FirstPrinciples_2026-07-06.md`.
+
 ---
 
 ## §1 Problem restatement

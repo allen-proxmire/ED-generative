@@ -57,7 +57,7 @@ BH ringdown is the substrate-graph **decay of time-varying mixed-signature saddl
 
 ## §2 Primitive Inputs + Upstream Dependencies
 
-**Primitives (Paper_087):** P02 (participation), P03 (translation invariance — Noether source), P09 (polarity), P10 (multiple rule-types — V1, V5 kernel structure), P11 (commitment / time arrow), P12 (ED-threshold + stability landscape — Hessian-signature relevance), P13 (translation arrow).
+**Primitives (Paper_087):** P02 (participation), P03 (translation invariance — Noether source), P09 (polarity), P10 (multiple rule-types — V1, V5 kernel structure), P11 (commitment / time arrow), P12 (stability landscape — Hessian-signature relevance), P13 (translation arrow).
 
 **Upstream papers:**
 - Paper_012 (P-RB-1 substrate-c bound)

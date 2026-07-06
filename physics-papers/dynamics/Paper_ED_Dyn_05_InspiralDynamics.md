@@ -50,7 +50,7 @@ Compact-binary inspiral is the substrate-graph **coupled evolution of two mixed-
 
 ## §2 Primitive Inputs + Upstream Dependencies
 
-**Primitives (Paper_087):** P02 (participation), P03 (translation invariance — Noether source for quadrupole-flux content), P09 (polarity), P10 (multiple rule-types — V1, V5 kernel structure), P11 (commitment / time arrow), P12 (ED-threshold + stability landscape), P13 (translation arrow).
+**Primitives (Paper_087):** P02 (participation), P03 (translation invariance — Noether source for quadrupole-flux content), P09 (polarity), P10 (multiple rule-types — V1, V5 kernel structure), P11 (commitment / time arrow), P12 (stability landscape), P13 (translation arrow).
 
 **Upstream papers:**
 - Paper_012 (P-RB-1 substrate-c bound)
