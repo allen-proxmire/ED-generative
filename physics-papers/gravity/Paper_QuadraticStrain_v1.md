@@ -1,0 +1,267 @@
+# Interference Gravity: How ED's Amplitude Structure Unifies Newton and MOND
+
+*One quadratic strain form, whose diagonal is Newton and whose off-diagonal is MOND, discharging two postulates in the ED gravity line.*
+
+**Draft v1, 2026-07-07.** Standalone paper, ED gravity arc (post-pivot); sharpens Paper_030. Cold-reader oriented; corpus facts inlined; cross-references minimal. Genre: conditional structural derivation within the 13-Primitive Generative System. It recasts one postulated strain-reading and, on that reading, discharges two postulates the MOND line currently carries; it reproduces the existing ECR / BTFR results rather than making a new empirical claim.
+
+---
+
+## Preamble: what this paper does NOT claim
+
+Written first, per house discipline; the abstract is reconciled against it.
+
+1. **The 13 primitives are not derived** (Paper_087).
+2. **This is not a new empirical prediction.** It reproduces Paper_030's combination rule $a=\sqrt{a_N a_0}$ and Paper_031's baryonic Tully-Fisher slope-4 on a cleaner foundation; the empirical content and falsifiers are unchanged.
+3. **It does not derive $a_0$.** The transition acceleration $a_0=cH_0/(2\pi)$ is inherited from Paper_029, value-inherited via $H_0$, with an O(1) substrate-normalization uncertainty and a ~10% empirical match.
+4. **It replaces two postulates with one, not with zero.** The quadratic strain reading (P-Quadratic-Strain, "Model C") is itself a substrate-level *choice*, in the same genre as Paper_026's P-Potential-Reading. The net movement is two postulates to one, plus the removal of one latent inconsistency.
+5. **It does not derive the interference phase.** The off-diagonal contributes only if the local-source and horizon amplitudes share a *definite, constructive* relative phase. The coherence (a definite phase) is largely inherited from Paper_029 (within-$R_H$ coherence); the *constructive sign* is flagged as an assumption, not derived, the same open "attractive coherence" question that appears for the V5 kernel (Paper_090) and in the RelationalTick result.
+6. **No new transition mechanism is claimed.** The Newton-to-MOND crossover is a ratio effect ($\sqrt{a_N a_0}$ against $a_N$), not a decoherence dynamics. A decoherence-driven crossover was considered during development and found unnecessary; it is not part of this paper.
+7. **Not full General Relativity or curvature emergence.** Newtonian and weak-field only. Not a specific MOND interpolation function $\mu(x)$ beyond the ratio profile the construction produces.
+
+---
+
+## Abstract
+
+The ED gravity line derives Newton's law from a *linear* reading of the P12 stability landscape (Paper_026): gravitational strain is a cumulative sum of per-channel potentials, additive across sources. The MOND sector (Paper_030) then adds two things by hand: a postulate that bilocal-channel strain combines as the *geometric mean* of two source contributions (P14, Bilocal Strain Coupling), and a regime assumption that this cross-term dominates in the deep-MOND regime. This paper shows that a single change to the strain reading discharges both. Reading per-channel strain as **quadratic in the participation amplitude**, $\mathrm{Str}_K=\big|\sum_a P_K^{(a)}\big|^2$ with $P_K^{(a)}=\sqrt{b_K^{(a)}}\,e^{i\pi_K^{(a)}}$ (a substrate-level choice we label P-Quadratic-Strain, "Model C"), splits the strain into a **diagonal** term and an **off-diagonal** term. The diagonal is the sum of source self-potentials: it *is* Paper_026's Newtonian result, reproduced unchanged. The off-diagonal is the source-source interference cross-term, whose modulus is exactly the geometric mean $\sqrt{b^{(L)} b^{(H)}}$: because a channel is a single carrier with one bandwidth (P04) and one polarity (P09), two source contributions to the same channel superpose as amplitudes, and their cross-term is forced, not chosen. This **discharges P14**: the geometric mean is the interference modulus. We then show, using Paper_029's own derivation, that the cosmic-horizon contribution is intrinsically a **dipole** (proportional to the chain's acceleration, existing only because the chain accelerates), not an isotropic monopole; Paper_030's diagonal horizon potential $\Sigma_0=-a_0 R$ mis-treats that dipole as a monopole. Removing it leaves $a=a_N+\sqrt{a_N a_0}$, in which the cross-term dominates below $a_0$ and is negligible above it by ratio alone. This **discharges Paper_030's regime assumption**. The construction reproduces Newton, the deep-MOND scaling $\sqrt{a_N a_0}$, and BTFR slope-4, recovers Newtonian dynamics at solar accelerations to a part in $10^{4}$, and rests on one strain-reading choice in place of two postulates. Its one undischarged element, named explicitly, is the constructive sign of the interference. Tier: STRUCTURAL, conditional on the quadratic strain reading.
+
+---
+
+## 1. Introduction
+
+### 1.1 What this paper does
+
+The ED gravity arc reaches MOND phenomenology through three papers: Paper_027/026 (Newton's law from the cumulative-strain reading of P12), Paper_029 (the transition acceleration $a_0=cH_0/(2\pi)$ from a dipole projection of the cosmic decoupling surface), and Paper_030 (the combination rule $a=\sqrt{a_N a_0}$). Paper_030 obtains the combination rule from a new postulate, **P14 (Bilocal Strain Coupling)**, which asserts that a substrate channel carrying content from two source regions carries strain proportional to the *geometric mean* of the two per-channel contributions, plus a *regime assumption* that this cross-term dominates in the deep-MOND regime. Paper_030's own §8.4 and §8.9 flag P14 as postulated and not unique; its §5.3 states the regime assumption rather than deriving it.
+
+This paper makes one change and derives both. We read the per-channel gravitational strain as **quadratic in the participation amplitude** rather than linear in the source content. Under that reading:
+
+1. the strain splits into a diagonal (self) term and an off-diagonal (cross-source) term;
+2. the diagonal reproduces Newton exactly (it is Paper_026 unchanged);
+3. the off-diagonal is the interference cross-term, whose modulus is *forced* to be the geometric mean by the single-carrier structure of channels, discharging P14; and
+4. once the horizon contribution is correctly treated as a dipole rather than a monopole (removing Paper_030's inconsistent diagonal term), the Newton-to-MOND crossover is a plain ratio effect, discharging the regime assumption.
+
+### 1.2 Why it matters
+
+The MOND line is load-bearing for the corpus's sharpest currently-clean falsifier: BTFR slope-4 with zero intrinsic scatter (Paper_031), inherited by T21, weak-field prerequisite WF-3 (Paper_032), and the khronon-MOND unification (KM-I). Every result in that sector inherits the provisional status of P14. Removing P14 and the regime assumption, at the cost of one strain-reading choice, shrinks what the falsifier is conditional on. That is the paper's purpose: not a new prediction, but a firmer foundation under an existing one.
+
+### 1.3 How this fits the arc, and what it sharpens
+
+This paper *sharpens* Paper_030; it does not contradict it, in the same way GR-I sharpened Paper_033 by supplying the explicit metric Paper_033 postulated. Paper_030's final result, $a=\sqrt{a_N a_0}$ in the deep-MOND regime, is reproduced here on a foundation with two fewer postulates. The one place this paper *corrects* Paper_030 is its diagonal horizon term $\Sigma_0=-a_0 R$ (§6), and the correction is justified by Paper_029's own derivation of $a_0$ as a dipole.
+
+- **Paper_026:** Newton's law from the linear (Model A) strain reading. *(diagonal, reproduced)*
+- **Paper_029:** $a_0=cH_0/(2\pi)$ from the horizon dipole projection. *(the horizon amplitude; §6)*
+- **Paper_030:** combination rule via P14 + regime assumption. *(this paper discharges both)*
+- **This paper:** the quadratic (Model C) strain reading; two discharges.
+- **Paper_031:** BTFR slope-4. *(reproduced unchanged, §7)*
+
+---
+
+## 2. Primitive Inputs and the One New Postulate
+
+**Substrate primitives (postulated, Paper_087):**
+
+- **P02 (Participation).** Chain-channel relation.
+- **P04 (Bandwidth as non-negative additive scalar).** One $b_K\ge 0$ per channel; additive under channel decomposition.
+- **P05 (Polarity-transport).** The connection along which polarity moves between loci; supplies the gauge-invariant relative phase (§3.2).
+- **P07 (Channel structure).** A channel is a single, structurally distinguishable carrier.
+- **P09 ($U(1)$-valued polarity).** One phase $\pi_K$ per channel.
+
+**Inherited upstream content:**
+
+- The participation amplitude $P_K=\sqrt{b_K}\,e^{i\pi_K}$, with $|P_K|^2=b_K$ (Paper_001, from P04 + P09).
+- The Newtonian per-channel strain and holographic source resolution (Paper_026).
+- The horizon dipole and $a_0=cH_0/(2\pi)$ (Paper_029).
+- The per-channel bandwidth-as-potential conventions $b^{(L)}\propto GM/R$, $b^{(H)}\propto a_0 R$ (Paper_030 §4.2).
+
+**The one new postulate (labeled per QC discipline):**
+
+> **P-Quadratic-Strain ("Model C").** *The per-channel gravitational strain is the squared modulus of the total participation amplitude on that channel,*
+> $$\mathrm{Str}_K=\Big|\sum_a P_K^{(a)}\Big|^2,\qquad P_K^{(a)}=\sqrt{b_K^{(a)}}\,e^{i\pi_K^{(a)}},$$
+> *where $a$ indexes the source regions contributing to channel $K$. This is a substrate-level reading of the P12 strain content, in the same genre as Paper_026's P-Potential-Reading: Model A reads strain as linear in source content; Model C reads it as quadratic in participation amplitude.*
+
+**What is postulated versus what is forced.** P-Quadratic-Strain is the postulate. *Given* it, the geometric-mean form of the cross-term is **forced**, not separately assumed: a channel carries one bandwidth $b_K$ (P04) and one polarity $\pi_K$ (P09), so two source contributions to the same channel have nowhere to reside but the single amplitude $P_K$, and superpose. This is the content of §3 and §5, and it is why P14 is not an independent postulate under Model C.
+
+---
+
+## 2.5 Load-Bearing Step Audit
+
+| # | Step | Tier | Basis |
+|---|---|---|---|
+| 1 | 13 primitives postulated | P | Paper_087 |
+| 2 | $P_K=\sqrt{b_K}\,e^{i\pi_K}$, $|P_K|^2=b_K$ | I | Paper_001 (P04 + P09) |
+| 3 | Per-channel strain read as $|\sum_a P_K^{(a)}|^2$ | **P (P-Quadratic-Strain / Model C)** | §2 substrate-level choice, genre of P-Potential-Reading |
+| 4 | Two sources on one channel superpose (one $b_K$, one $\pi_K$) | D | P04 + P07 + P09 single-carrier structure |
+| 5 | Diagonal term $=\sum_a b_K^{(a)}$; local self-term $=-GM/R$ | D | §4, = Paper_026 verbatim |
+| 6 | Off-diagonal modulus $=\sqrt{b^{(L)}b^{(H)}}$ (geometric mean forced) | **D given P-Quadratic-Strain** | §5, interference cross-term of step 4 |
+| 7 | $a_0$ is a dipole, not a monopole; $\Sigma_0=-a_0R$ removed | D | §6, from Paper_029 §5.1 |
+| 8 | Transition by ratio: $a=a_N+\sqrt{a_N a_0}$ | D | §6.3 |
+| 9 | BTFR $v^4=GMa_0$, slope 4, zero scatter | D | §7, = Paper_031 |
+| 10 | $a_0=cH_0/(2\pi)$ numerical value | I | Paper_029 (value-inherited via $H_0$) |
+| 11 | Definite, constructive relative phase $\Theta_{LH}$ (coherence inherited from Paper_029; sign not derived) | **A / OPEN** | §9 residual; ties to V5 / RelationalTick attractive-coherence |
+
+All rows are P, D, I, or the one flagged A/OPEN row (11). No hidden assertions.
+
+---
+
+## 3. The Quadratic Strain Form
+
+### 3.1 The participation amplitude and single-carrier channels
+
+By Paper_001, substrate participation content is carried by the complex amplitude $P_K=\sqrt{b_K}\,e^{i\pi_K}$, with bandwidth $b_K\ge 0$ (P04) as its squared modulus and polarity $\pi_K\in U(1)$ (P09) as its phase. A channel is a single carrier (P07): it holds one bandwidth value and one phase, hence one amplitude $P_K$. When contributions from more than one source region reach the same channel $K$, they cannot be stored as separate bandwidths on that channel, since the channel has only one $b_K$. They combine into the channel's single amplitude:
+$$P_K=\sum_a P_K^{(a)}=\sum_a \sqrt{b_K^{(a)}}\,e^{i\pi_K^{(a)}}.$$
+
+### 3.2 The strain, split into diagonal and off-diagonal
+
+Under P-Quadratic-Strain the per-channel strain is
+$$\mathrm{Str}_K=\Big|\sum_a P_K^{(a)}\Big|^2=\underbrace{\sum_a b_K^{(a)}}_{\text{diagonal}}+\underbrace{2\sum_{a<b}\sqrt{b_K^{(a)}\,b_K^{(b)}}\,\cos\Theta_{ab}}_{\text{off-diagonal}},$$
+where $\Theta_{ab}$ is the gauge-invariant relative phase between the two source contributions. Bare $\pi^{(b)}-\pi^{(a)}$ is gauge-covariant under $U(1)$; the physical, gauge-invariant object is the **P05-holonomy-corrected** difference, $\Theta_{ab}=(\pi^{(b)}-\pi^{(a)})-\oint A$, the same Aharonov-Bohm / Berry-phase structure that appears in the corpus for polarity transport (Papers 009, 010) and in the V5 gauge law $K\to e^{i(\alpha_A-\alpha_B)}K$ (Paper_090 §4.3). The modulus $\sqrt{b^{(a)}b^{(b)}}$ is gauge-invariant on its own.
+
+The total strain the chain experiences is the across-channel sum (P04 additivity across distinct channels, with Paper_026's holographic source resolution applied to the diagonal):
+$$\Phi=\sum_K \mathrm{Str}_K.$$
+
+The two source regions relevant to a chain in the joint regime are the local mass ($L$) and the cosmic horizon ($H$). The diagonal contributes the two self-potentials; the off-diagonal contributes the single $L\!-\!H$ cross-term.
+
+---
+
+## 4. The Diagonal: Newton, Recovered Exactly
+
+The local self-term is the diagonal contribution from the mass $M$:
+$$\Phi_N=\sum_K b_K^{(L)}=-\frac{GM}{R},\qquad a_N=-\frac{d\Phi_N}{dR}=\frac{GM}{R^2}.$$
+This is Paper_026's cumulative-strain result verbatim: the per-channel content $b_K^{(L)}\propto GM/(R\,N(R))$ with holographic source resolution $\sigma_{ch}=\sigma(M)/N(R)$, summed over $N(R)=4\pi R^2/\ell_{\mathrm{ED}}^2$ channels, gives $-GM/R$ after the $N(R)$ factors cancel. The recast changes nothing on the diagonal. Newton is preserved by construction, not re-derived, and any correct linear-strain result of Paper_026 survives intact as the $a=b$ part of the quadratic form.
+
+**A short guard on powers of $R$.** One might worry that a strain read as $|P|^2$ with $P\propto V1$-Green $\propto 1/R$ would give $|P|^2\propto 1/R^2$, the force rather than the potential. It does not, because in ED the per-channel *bandwidth* $b_K$ already *is* the potential content ($b^{(L)}\propto GM/R$, Paper_030 §4.2), and the amplitude is $P_K=\sqrt{b_K}$. Hence $|P_K|^2=b_K\propto 1/R$ is the potential, with the correct power. The diagonal is a potential, not a force.
+
+---
+
+## 5. The Off-Diagonal: MOND, with the Geometric Mean Forced
+
+### 5.1 The cross-term
+
+The single $L\!-\!H$ off-diagonal term is
+$$\Phi_{\mathrm{cross}}=2\cos\Theta_{LH}\sum_K \sqrt{b_K^{(L)}\,b_K^{(H)}}.$$
+With the per-channel conventions $b_K^{(L)}\propto GM/R$ and $b_K^{(H)}\propto a_0 R$ (Paper_030 §4.2), the per-channel geometric mean is
+$$\sqrt{b_K^{(L)}\,b_K^{(H)}}\propto \sqrt{\frac{GM}{R}\cdot a_0 R}=\sqrt{GM a_0},$$
+independent of $R$. With the bilocal-channel density $\propto 1/R$ along the radial direction (Paper_030 §4.3), the radial integral gives the logarithmic cross-term
+$$\Phi_{\mathrm{cross}}=\cos\Theta_{LH}\,\sqrt{GM a_0}\,\log\!\left(\frac{R}{R_0}\right),$$
+whose gradient is
+$$a_{\mathrm{cross}}=-\frac{d\Phi_{\mathrm{cross}}}{dR}=\cos\Theta_{LH}\,\frac{\sqrt{GM a_0}}{R}=\cos\Theta_{LH}\,\sqrt{a_N a_0}.$$
+Taking the interference constructive, $\cos\Theta_{LH}\approx 1$ (the residual of §9), this is exactly Paper_030's deep-MOND result $\sqrt{a_N a_0}$.
+
+### 5.2 P14 discharged
+
+Paper_030 §8.9 states plainly that the geometric-mean form is "specified by P14, not derived," and not unique among substrate-consistent alternatives. Under Model C it is neither postulated nor arbitrary: it is the modulus of the interference cross-term $2\sqrt{b^{(L)}b^{(H)}}\cos\Theta_{LH}$, which is the unavoidable off-diagonal of $|P^{(L)}+P^{(H)}|^2$. The competitors Paper_030 could not exclude, arithmetic mean and the rest, are the *diagonal* self-terms ($b^{(L)}+b^{(H)}$); the geometric mean is the *off-diagonal* cross-term. They are different parts of one expansion, and "bilocal strain," being cross-source content by definition, is the off-diagonal part. This is the same substrate interference that appears in the double-slit account (Paper_005.5 §3.3, $\rho=b_A+b_B+2\sqrt{b_A b_B}\cos\Delta\pi$). P14 is therefore not an independent postulate under Model C; it is a consequence of the single-carrier channel structure and the quadratic strain reading.
+
+---
+
+## 6. Removing $\Sigma_0$: the Horizon Is a Dipole, Not a Monopole
+
+### 6.1 What Paper_029 actually derives
+
+Paper_029 derives $a_0$ from the horizon's effect on an *accelerating* chain. Its §3.3 and §5.1 are explicit: for a non-accelerating chain the cosmic decoupling surface is isotropic and contributes no net anisotropy; for a chain with acceleration $\vec a$, the horizon content is
+$$\rho_{\mathrm{cosmic}}(\theta)\propto \frac{|\vec a|}{c}\,\cos\theta,$$
+a **dipole** ($l=1$, $\cos\theta$), proportional to the chain's own acceleration, existing only because the chain accelerates. The scale $a_0=cH_0/(2\pi)$ is the magnitude of this dipole response, with the $1/(2\pi)$ from the azimuthal-Fourier normalization on the chain's residual $SO(2)$ symmetry.
+
+### 6.2 Why Paper_030's $\Sigma_0=-a_0 R$ is inconsistent
+
+Paper_030 §3.2 forms a diagonal horizon potential by "integrating the constant cosmic-anisotropy acceleration $a_0$ along the radial direction," giving $\Sigma_0=-a_0 R$, an isotropic linear potential whose gradient is a constant radial $a_0$ everywhere. But Paper_029 derives $a_0$ as the magnitude of an anisotropic, acceleration-induced *dipole* ($\propto |\vec a|\cos\theta$), not as a constant isotropic acceleration. It exists only for an accelerating chain and only along its acceleration axis; there is no static, source-independent, isotropic field of strength $a_0$ from which a radial integration could build a potential $-a_0 R$. The horizon's effect is directional and acceleration-induced, which is precisely the off-diagonal (interference) structure, not a diagonal potential. Paper_030's $\Sigma_0$ is therefore inconsistent with Paper_029's own derivation of $a_0$, and it is precisely the term that then had to be suppressed by the regime assumption in Paper_030 §5.3.
+
+### 6.3 Removing it: the transition becomes a ratio effect
+
+The horizon does not contribute a diagonal monopole; it contributes only the off-diagonal interference (the dipole is inherently a cross-source, anisotropic effect, aligned with the chain's own acceleration axis). The strain is then
+$$\Phi=\Phi_N+\Phi_{\mathrm{cross}},\qquad a=a_N+\sqrt{a_N a_0}\quad(\cos\Theta_{LH}\approx 1).$$
+The crossover is now automatic, by ratio:
+- **Deep-MOND ($a_N\ll a_0$):** $\sqrt{a_N a_0}\gg a_N$, so $a\approx\sqrt{a_N a_0}$.
+- **Newtonian ($a_N\gg a_0$):** $\sqrt{a_N a_0}\ll a_N$, so $a\approx a_N$.
+- **Transition at $a_N\sim a_0$.**
+
+No regime assumption is needed. Paper_030 §5.3's postulate that the cross-term dominates is now a derived consequence of the ratio structure, once the inconsistent diagonal $\Sigma_0$ is removed. This is the second discharge.
+
+---
+
+## 7. BTFR Slope-4 and Newtonian Recovery
+
+### 7.1 BTFR, unchanged
+
+In the deep-MOND regime, $a=\sqrt{a_N a_0}=\sqrt{GM a_0}/R$. For a circular orbit $a=v^2/R$, so
+$$\frac{v^2}{R}=\frac{\sqrt{GM a_0}}{R}\;\Longrightarrow\; v^4=GM a_0\propto M,$$
+the baryonic Tully-Fisher relation with slope exactly 4 and zero intrinsic scatter (since $a_0$ and $G$ are universal). This is Paper_031 unchanged; the recast only re-grounds the $\sqrt{a_N a_0}$ it rests on.
+
+### 7.2 Newtonian recovery at strong field
+
+At solar-system accelerations the cross-term is a small ratio correction:
+$$\frac{a_{\mathrm{cross}}}{a_N}=\frac{\sqrt{a_N a_0}}{a_N}=\sqrt{\frac{a_0}{a_N}}.$$
+For $a_N\sim 6\times10^{-3}\,\mathrm{m/s^2}$ (the Sun's field at Earth) and $a_0\approx 1.2\times10^{-10}\,\mathrm{m/s^2}$, this is $\sim 1.4\times10^{-4}$; at the Sun's limb, where light bending is measured ($a_N\sim 270\,\mathrm{m/s^2}$), it is $\sim 2\times10^{-7}$, far smaller still. Newtonian dynamics, and hence GR-I's weak-field metric and factor-of-two light bending, are recovered with room to spare. This is the same small deep-MOND residual that standard MOND carries, subject to the same solar-system ephemeris bounds; it is not a new problem introduced by the recast.
+
+---
+
+## 8. The Two Discharges
+
+The paper's core is an accounting, stated plainly.
+
+| | Paper_030 (before) | This paper (after) |
+|---|---|---|
+| Geometric-mean bilocal coupling | **P14 (postulated, §8.9 non-unique)** | Forced interference modulus under Model C (§5) |
+| Cross-term dominates in deep-MOND | **Regime assumption (postulated, §5.3)** | Ratio effect after $\Sigma_0$ removed (§6.3) |
+| Horizon diagonal $\Sigma_0=-a_0R$ | Present (inconsistent with Paper_029 dipole) | Removed (§6.2) |
+| Strain reading | Linear (Model A) | **Quadratic (Model C), one new postulate** |
+
+The net movement is **two postulates to one**, plus the removal of one latent inconsistency. The single new postulate, P-Quadratic-Strain, is arguably more principled than the two it replaces: it is the same amplitude structure ($\sqrt{b}\,e^{i\pi}$) that already underwrites the Born rule and the inner product in the QM arc, applied to the strain reading; and it is a strain-reading choice on equal footing with the already-accepted P-Potential-Reading, differing only in reading the strain as quadratic in amplitude rather than linear in source. What it buys is Newton on the diagonal, MOND on the off-diagonal, and BTFR slope-4, with the geometric mean forced rather than chosen.
+
+---
+
+## 9. What This Paper Does Not Claim, and the One Residual
+
+Beyond the preamble: the construction commits within-channel composition to **interference** (sublinear) rather than strict additivity. This resolves, in the gravitational sector, the "additivity versus sublinearity" question the participation-bandwidth treatment flags as open: P04's additivity holds *across distinct channels*, while contributions to a *single* channel superpose as amplitudes and interfere. The commitment is named here, not hidden; it is the same interference the QM arc already uses in the Born rule.
+
+**The undischarged element is the phase.** The off-diagonal is $2\sqrt{b^{(L)}b^{(H)}}\cos\Theta_{LH}$, and it contributes only if the local-source and horizon amplitudes hold a *definite* relative phase $\Theta_{LH}$ (coherence: a random relative phase averages the cross-term to zero, leaving pure Newton) and that phase is *constructive* ($\cos\Theta_{LH}>0$, gravity-enhancing). The coherence half is largely inherited: Paper_029 §3.2 already establishes that horizon content reaches a chain coherently within $R_H$. The constructive-sign half is the genuine residual, not derived here. It is the same open "attractive coherence" question that appears for the V5 kernel (whose synchronizing sign is a necessity condition, not a derivation, in the RelationalTick result) and that traces to whether the P12 coherence term rewards phase alignment. This paper flags it and does not claim it.
+
+**Update 2026-07-08 (constructive sign supplied).** The constructive-sign residual is now supplied. The standalone result *Phase Coherence in ED: Attractive Sign, Finite Reach, and Substrate Disorder* (`physics-papers/substrate-evaluation/Paper_PhaseCoherence_P12Coh.md`) build-verifies, on the certified $\Sigma$-rule in 2D and 3D, that P12's coherence term rewards phase alignment: it enters $\Sigma$ with a positive coefficient and is maximal in phase, so the dynamics favor the aligned configuration, at which $\cos\Theta_{LH}>0$ (constructive). The resulting phase-order stays finite-reach rather than crystalline, because the P05 connection carries the substrate's own disorder and commitment is irreversible (P11). So the constructive sign is supplied, at MEASURED tier, conditional on the operationalization of P12-Coh (form-forced, not a theorem from the primitives) and on the connection strength lying in the physical window. The coherence half (a definite $\Theta_{LH}$) is inherited from Paper_029 as noted above.
+
+---
+
+## 10. Falsification Criteria
+
+1. **Shared with Paper_030/031.** BTFR slope measured $\neq 4$ at the deep-MOND asymptote, or a tight $a_0$ measurement inconsistent with $cH_0/(2\pi)$, falsifies the reproduced results.
+2. **Strain-reading falsifier.** A substrate-level demonstration that gravitational strain is provably linear-only (Model C excluded, e.g. that per-channel strain cannot be read as $|P|^2$) would fail the discharge and revert P14 to an irreducible postulate.
+3. **Sign falsifier.** A demonstration that the local-horizon interference is *destructive* would make the off-diagonal weaken rather than enhance gravity, falsifying the MOND identification of §5.
+4. **Monopole falsifier.** A demonstration that the cosmic horizon does exert a net isotropic monopole strain on a local chain (contra §6.1's dipole) would reinstate $\Sigma_0$ and the regime assumption.
+
+---
+
+## 11. Position Statement
+
+Reading the P12 gravitational strain as quadratic in participation amplitude ("Model C") rather than linear in source ("Model A") splits it into a diagonal term that is Newton (Paper_026 unchanged) and an off-diagonal term that is the source-source interference. The interference modulus is the geometric mean, forced by the single-carrier structure of channels, which **discharges P14**. Treating the cosmic-horizon contribution as the dipole it is (Paper_029), rather than an isotropic monopole, removes Paper_030's inconsistent $\Sigma_0$ and makes the Newton-to-MOND crossover a ratio effect, which **discharges Paper_030's regime assumption**. The construction reproduces Newton, the deep-MOND scaling $\sqrt{a_N a_0}$, and BTFR slope-4, recovers Newtonian dynamics at solar accelerations to a part in $10^4$, and rests on one strain-reading choice in place of two postulates.
+
+What this paper claims: two postulates discharged, one inconsistency fixed, and the MOND-line results reproduced on that cleaner foundation, at tier STRUCTURAL, conditional on P-Quadratic-Strain.
+
+What it does not claim: a new empirical prediction, a derivation of $a_0$, a new transition mechanism, or the constructive sign of the interference. It sharpens Paper_030; it does not contradict it, except in correcting the $\Sigma_0$ term, and there on Paper_029's own authority.
+
+**Series context.** ED gravity arc (post-pivot). Sharpens Paper_030; reproduces Paper_031. The one residual (the interference sign) is shared with the V5 / RelationalTick attractive-coherence thread.
+
+---
+
+## Appendix: Cross-References and Glossary
+
+### Cross-references
+
+- **Paper_087:** the 13 primitives.
+- **Paper_001:** participation amplitude $P_K=\sqrt{b_K}\,e^{i\pi_K}$.
+- **Paper_026:** Newtonian cumulative-strain reading (the diagonal; Model A).
+- **Paper_029:** $a_0=cH_0/(2\pi)$ and the horizon dipole (§6).
+- **Paper_030:** the combination rule, P14, and the regime assumption (both discharged here).
+- **Paper_031:** BTFR slope-4 (reproduced).
+- **Paper_005.5:** the double-slit interference cross-term $2\sqrt{b_A b_B}\cos\Delta\pi$ (precedent).
+- **Paper_090 §4.3:** the $U(1)$ gauge law of the cross-chain kernel (holonomy phase).
+
+### Glossary
+
+- **Model A / Model C.** Two substrate-level readings of the P12 strain: Model A (P-Potential-Reading, Paper_026) reads strain as linear in source content; Model C (P-Quadratic-Strain, this paper) reads it as quadratic in participation amplitude.
+- **Diagonal / off-diagonal.** The self ($a=b$) and cross-source ($a\neq b$) parts of $|\sum_a P^{(a)}|^2$; Newton and MOND respectively.
+- **Interference modulus.** $\sqrt{b^{(L)}b^{(H)}}$, the magnitude of the off-diagonal cross-term; the forced geometric mean.
+- **Holonomy phase $\Theta_{ab}$.** The gauge-invariant P05-holonomy-corrected relative phase; Aharonov-Bohm / Berry structure.
+- **The two discharges.** P14's geometric-mean postulate (now forced) and Paper_030's regime assumption (now a ratio effect after $\Sigma_0$ removal).
+
+---
+
+**End of draft (Quadratic Strain).**
+
+*Gravity arc, post-pivot. One strain-reading choice (quadratic in amplitude) splits gravitational strain into Newton (diagonal) and MOND (off-diagonal, the forced interference modulus), discharging two MOND-line postulates and fixing one inconsistency. Reproduces Newton, $\sqrt{a_N a_0}$, and BTFR slope-4. Tier STRUCTURAL, conditional on P-Quadratic-Strain; the one residual is the constructive interference sign.*
