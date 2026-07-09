@@ -306,7 +306,8 @@
       "Bash(python quadratic_strain_recast_probe.py)",
       "Bash(python sigma_alignment_qm_gauge_consistency_probe.py)",
       "Bash(python q1_bornrule_grounding_probe.py)",
-      "Bash(python a0_horizon_scale_probe.py)"
+      "Bash(python a0_horizon_scale_probe.py)",
+      "Bash(python bandwidth_acceleration_bridge_probe.py)"
     ]
   }
 }

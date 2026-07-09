@@ -1,3 +1,7 @@
+> **STATUS BANNER (2026-07-09): THE CENTRAL MECHANISM OF THIS PAPER IS FALSIFIED.** Working the bandwidth↔acceleration bridge (the many-body Newton tension, §4/§8) shows that the coherence `σ` giving MOND unavoidably gives an `O(σ²)` inter-mass Newton violation, and no consistent bandwidth counting makes `σ` both MOND-sized and Newton-safe (consistent counting → `σ ~ 10⁻⁶`, galaxy Newton fails; acceleration picture → `σ ~ O(1)`, two-body Newton fails; the Newton-safe `σ ~ 10⁻³⁷` was a units artifact that also breaks the single-carrier premise). See `event-density/foundations/CurvatureEmergence_InterferenceMOND_FalsifiedByTheBridge.md`. **The source-horizon interference recast of MOND is dead as formulated.** This paper must be reframed as a NEGATIVE result (a clean falsification of a natural idea) or retracted; the decision is pending. The surviving ED-MOND route is the companion khronometric SCALAR mode, a different mechanism this result does not touch. Read the body below as the falsified proposal.**
+
+---
+
 # The MOND Sector of ED Gravity: Interference-Sourced Off-Diagonal Strain on a Shared Channel, and a₀ as a Cosmic-Horizon Scale
 
 **Allen Proxmire**
