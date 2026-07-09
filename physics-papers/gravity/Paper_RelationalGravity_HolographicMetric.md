@@ -1,3 +1,7 @@
+> **CORRECTION (2026-07-09): the "MOND nonlinearity" of this paper is NOT delivered.** The nonlinearity was characterized as the P14 interference cross-term and deferred to that route; that route (source-horizon interference) was falsified today on the many-body Newton test (`event-density/foundations/CurvatureEmergence_InterferenceMOND_FalsifiedByTheBridge.md`), and the alternative khronometric-scalar route does not deliver MOND either (scale-free action, no `a₀`). So ED has no working MOND derivation. This paper's SOLID content is unaffected: the emergent metric `g~1/b` (3D-unique, holographic), the Gauss's-law Newtonian limit, and the relational character. But every "MOND" claim (§6, abstract, position statement) should be read as "an interference-resembling nonlinear term exists in the strain; that it yields MOND phenomenology is unshown and, via the interference mechanism, false." ED's positive gravity content is GR-like emergent gravity; MOND is unachieved.**
+
+---
+
 # Relational Gravity: The Emergent Metric Is Fixed to g~1/b in 3D by the Holographic Count, with a Gauss's-Law Newtonian Limit and a MOND Nonlinearity
 
 **Allen Proxmire**

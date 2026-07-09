@@ -1,3 +1,7 @@
+> **CORRECTION (2026-07-09): the "MOND lives in the scalar sector" claim of this paper is NOT ESTABLISHED and must be downgraded.** ED's derived khronometric action is the standard 2-derivative form, which is scale-free (`G` + dimensionless `λ, ξ, η`) and linear in the weak field, giving rescaled-Newton with Keplerian rotation curves, NOT MOND. A scale-free action cannot produce the MOND scale `a₀`; MOND from the aether class requires a nonlinear free function `F(K)` with a built-in `a₀` (generalized Einstein-aether), which is MOND inserted by hand and which ED does not derive. See `event-density/foundations/CurvatureEmergence_KhronometricScalar_DoesNotDeliverMOND.md`. The paper's SOLID content is unaffected: the khronometric placement, GR-like tensor radiation, `c_T=c`, and the healthy `λ ∈ [0,1/3)`. But every "MOND"/"low-acceleration" claim should be read as "an extra healthy scalar mode exists; that it delivers MOND is unshown and, as the action stands, false." Both ED MOND routes (this scalar, and the source-horizon interference recast) are now negative; ED has no working MOND derivation.**
+
+---
+
 # ED Gravity Is a Healthy One-Parameter Khronometric Deformation of General Relativity: the Arrow as Preferred Frame, GR-Like Tensor Radiation, a MOND Scalar, and λ ∈ [0, 1/3)
 
 **Allen Proxmire**
