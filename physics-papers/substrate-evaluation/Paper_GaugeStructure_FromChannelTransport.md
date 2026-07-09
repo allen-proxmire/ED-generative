@@ -85,7 +85,7 @@ Having the group *form* is not yet having a *gauge theory* — that requires the
 
 **Non-abelian is generic.** For position-dependent transport, the plaquette holonomies have a non-trivial `SU(N)` part in 2000/2000 trials and commute in 0/2000, while the abelian case requires every link diagonal in one fixed channel basis. Stated honestly: *that generic U(N) links don't commute is a measure-theoretic triviality* — commuting pairs are measure-zero for any random draw, so the simulation confirms only that abelianness would require fine-tuning. The substantive claim — that ED's *actual* transport is not fine-tuned to a common eigenbasis — rests on the einselection-compatibility argument below (an account-tier argument, not the simulation). Given that, **ED's channel-lattice is generically a genuine non-abelian gauge theory** rather than a disguised `U(1)^N`.
 
-**Reconciliation with einselection (the crank-critical point).** A companion result establishes that channels are the primitive pointer basis (einselection). Taken naively, a fixed basis preserved by every transport would force diagonal links and kill the non-abelian structure. The resolution: einselection acts on *observable commitment* at the inter-family level, **not within an SU(N) multiplet**. The N channels of one family are *indistinguishable* — there is no fixed labeling to preserve within the multiplet, and no commitment resolves *which* of the N. So transport is free to `SU(N)`-mix them, while einselection pins the basis for the SU(N)-*invariant* observables across families. No contradiction. (Suggestively — flagged, not claimed — "SU(N)-charged individual channels are never individually committed" is structurally the confinement pattern.)
+**Reconciliation with einselection (the crank-critical point).** A companion result establishes that channels are the primitive pointer basis (einselection). Taken naively, a fixed basis preserved by every transport would force diagonal links and kill the non-abelian structure. The resolution: einselection acts on *observable commitment* at the inter-family level, **not within an SU(N) multiplet**. The N channels of one family are *dynamically indistinguishable* (no accessible intra-family label, §2) — there is no fixed labeling to preserve within the multiplet, and no commitment resolves *which* of the N. So transport is free to `SU(N)`-mix them, while einselection pins the basis for the SU(N)-*invariant* observables across families. No contradiction. (Suggestively — flagged, not claimed — "SU(N)-charged individual channels are never individually committed" is structurally the confinement pattern.)
 
 **One correction, stated for the record.** An earlier gauge-program note read "V5 (the cross-chain kernel) is the SU(N) mixer." That conflated cross-*chain* with cross-*channel*. The SU(N) connection is **P05 re-routing** — a matrix on the N-channel fiber. V5 is a scalar cross-*chain* coherence, a different object (correlation/dynamics, not the intra-fiber connection). The gauge connection is P05; the "V1/V5 ↔ U(1)/SU(N)" mapping is a loose analogy, not the mechanism.
 
@@ -107,7 +107,7 @@ so summing over plaquettes gives `S → −¼∫ F^a_{μν}F^{a μν} d⁴x`, th
 
 ---
 
-## 5. The Mass-Gap Mechanism: Gap ⟺ Non-Commuting Channels
+## 5. The Mass-Gap Mechanism: Gap ⟺ Non-Commuting Channels (Pure Yang–Mills)
 
 Maxwell is massless and long-range; Yang–Mills has a mass gap. The gap is not a generic feature of "a gauge field" — it is precisely what changes when the channel structure stops commuting, and ED locates it exactly.
 
@@ -124,7 +124,7 @@ From the same coherence-deficit `S = Σ_□ (1 − (1/N)Re Tr U_□)` with `F = 
 
 ---
 
-## 6. The Single Hypercharge U(1) Is the One Global Phase Against the One Arrow
+## 6. The Single Hypercharge U(1) Is Grounded in the One Arrow
 
 The `U(N) = SU(N) × U(1)` decomposition gives a `U(1)` per family, but the SM has *one* hypercharge `U(1)`. The grounding is P09's single-primitive status: P09 polarity is *one* primitive with one reference — the phase of the whole rule against the one external flow, the commitment/arrow flow (P11). Because there is one P09 phase measured against the same arrow-reference, the per-family common phases are *identified* with the one global P09-vs-arrow phase, and a global phase rotation is **one** `U(1)`, under which each channel advances by its own charge. That single `U(1)` is hypercharge:
 $$\text{gauge group} = \prod_i SU(N_i) \times U(1)_{\text{P09}} = SU(3)_c \times SU(2)_L \times U(1)_Y.$$
@@ -162,7 +162,7 @@ So the derived content is the *shape*: `SU(N)` form, genuine non-abelian gauging
 
 ### 9.1 The channel fiber is not U(N)-symmetric
 
-**Falsifier sentence:** *A demonstration that transport among N indistinguishable channels does not preserve `Σ|ψ_i|²`, or that a substrate fact distinguishes channels within a family, would break the `U(N) = SU(N)×U(1)` derivation (§2).*
+**Falsifier sentence:** *A demonstration that transport among the N channels does not preserve `Σ|ψ_i|²`, or that an *observable* distinguishes channels within a family (a dynamically-accessible intra-family label, which would break the dynamical-indistinguishability premise), would break the derived-conditional `U(N)` result (§2).*
 
 ### 9.2 The gauging is secretly abelian
 
@@ -207,9 +207,9 @@ So the derived content is the *shape*: `SU(N)` form, genuine non-abelian gauging
 
 ### Reader map
 
-*Intuition.* Give a locus N interchangeable channels and insist the total participation is conserved, and the only freedom is a unitary rotation among them — that is `SU(N)×U(1)`, the gauge group, with no choice involved. Ask what a loop costs, and the substrate's coherence bookkeeping hands back the Wilson `F²` action. Ask when the force gets a mass, and the answer is exactly when the rotations stop commuting. The whole *shape* of a gauge theory falls out of "N interchangeable channels, participation conserved." What does not fall out is the count (why 3), the strengths (the couplings), or the breaking (the Higgs).
+*Intuition.* Give a locus N channels with no accessible way to tell them apart, insist the total participation is conserved, and grant them a complex amplitude — then the freedom is a unitary rotation among them, `SU(N)×U(1)`, the gauge group. (Without the complex amplitude, indistinguishability alone would give only permutations.) Ask what a loop costs, and the substrate's coherence bookkeeping hands back the Wilson `F²` action. Ask when the force gets a mass, and the answer is exactly when the rotations stop commuting. The whole *shape* of a gauge theory falls out of "N interchangeable channels, participation conserved." What does not fall out is the count (why 3), the strengths (the couplings), or the breaking (the Higgs).
 
-*The pattern.* This is the ED signature: the substrate fixes the form of the physics and inherits its numbers. The gauge sector is a clean instance — group form, gauging, action, gap-mechanism, and single hypercharge all derived; multiplicities, couplings, charges, and breaking all walled or inherited.
+*The pattern.* This is the ED signature: the substrate fixes the form of the physics (given its amplitude structure) and inherits its numbers. The gauge sector is a clean instance — group form (derived-conditional), gauging, action (given inputs), gap-mechanism, and single hypercharge (grounded identification) all accounted for; multiplicities, couplings, charges, and breaking all walled or inherited.
 
 **Where to look next.**
 - *The ℂ-amplitude the channels carry:* the quantum-logic keystone.

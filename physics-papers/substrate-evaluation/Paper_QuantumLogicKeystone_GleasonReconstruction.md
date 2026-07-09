@@ -38,7 +38,7 @@ This paper reports the reconstruction that broke the stall, by a change of quest
 - **Solèr (1995):** if `V` has an infinite orthonormal sequence of equal norm, then `K ∈ {ℝ, ℂ, ℍ}` and `V` is a genuine Hilbert space.
 - **Field discriminator:** a physics input selects one field.
 
-ED's lattice `L` is the set of propositions "the commitment resolves in channel-set `S ⊆ 𝒦`" — the P11 commitment outcomes. Section 3 maps each axiom to a primitive with a tier; Sections 4–6 give the three headline results (orthogonality derived, ℂ selected, covering law grounded); Sections 7–8 resolve the two structural questions (preferred basis, non-contextuality) in ED's distinctive way; Sections 9–11 give the honest status, limitations, and falsifiers.
+ED's lattice `L` is the set of propositions "the commitment resolves in channel-set `S ⊆ 𝒦`" — the P11 commitment outcomes. Section 3 maps each axiom to a primitive with a tier; Sections 4–6 give the three headline results (orthogonality reduced to distinctness given the representation, ℂ selected, covering law candidate-grounded on the channel basis); Sections 7–8 resolve the two structural questions (preferred basis, non-contextuality) in ED's distinctive way; Sections 9–11 give the honest status, limitations, and falsifiers.
 
 ---
 
@@ -96,7 +96,7 @@ This equals 1 (perfect detection) **iff `c = 0`**. So non-orthogonal states are 
 
 **Conclusion.** (A) ED's channels are perfectly distinguishable; (B) perfectly distinguishable ⟺ orthogonal; therefore `⟨K|L⟩ = 0` is **not an independent postulate** — it reduces to channel-distinctness. The only representation-independent input is (A) — P07 distinctness gives `p(K|L)=0`; step (B) is a standard Hilbert-space fact contributing nothing ED-specific, and the bridge from the operational frequency `p(K|L)` to the represented `⟨L|E|L⟩` is itself the Born-rule half of the representation. So P-Channel-Orthogonality collapses into {operational perfect distinguishability (P07)} + {the inner-product representation exists}. This is a *reduction* (orthogonality is not a separate axiom beyond distinctness), not a from-primitives *derivation* of the metric.
 
-**The honest boundary (preamble 3).** Step (B) is proven *within* the inner-product representation (it uses POVMs and vectors). So the derivation assumes the *representation exists* — the Solèr package — but not orthogonality within it. The honest statement: **given the Solèr embedding, orthogonality is forced by operational distinguishability, not independently postulated.** This removes the blocking postulate that stalled three attempts; it does not remove the embedding's own technical residual (§9).
+**The honest boundary (preamble 3).** Step (B) is proven *within* the inner-product representation (it uses POVMs and vectors). So the reduction assumes the *representation exists* — the Solèr package — but not orthogonality within it. The honest statement: **given the Solèr embedding, orthogonality follows from operational distinguishability, not from an independent postulate.** This removes the blocking postulate that stalled three attempts; it does not remove the embedding's own technical residual (§9).
 
 ---
 
@@ -172,8 +172,8 @@ What is genuinely new and solid is the **reframe**, independent of the residual 
 ## 10. Limitations (honest)
 
 - **The Solèr technical package is not closed here.** The exchange-property geometry and infinite-dimensional subtleties are assumed at the rigor level of the standard theorem, not re-derived; everything downstream inherits that.
-- **ℂ is selected, not derived.** The discriminators (no U(1) over ℝ; no well-defined `⊗` over ℍ) are standard and grounded in ED's primitives, but they are a selection from Solèr's menu, not a from-scratch derivation.
-- **Two joints are account-tier.** Emergent basis-democracy and emergent multi-context are standard measurement theory applied to ED; if they fail to *fully* recover observed QM, a substrate-scale signature would remain — which is the distinctive prediction, and its observability is unclear.
+- **ℂ is selected, not derived.** The discriminators (ℝ excluded by the central-scalar argument — P09's phase cannot be a *field scalar* over ℝ; ℍ by the tensor-product obstruction) are standard and grounded in ED's primitives, but they are a selection from Solèr's menu, not a from-scratch derivation.
+- **Two joints are account-tier.** Emergent basis-democracy and emergent multi-context are standard measurement theory applied to ED; if they fail to *fully* recover observed QM, a substrate-scale signature would remain — which is the distinctive *interpretive* claim, its observability open.
 - **The metric is emergent.** Orthogonality and the covering law are exact-as-logic; the inner-product *values* are Born-statistical, so the "Hilbert space" is exact only at the lattice level.
 - **Move 1's optimum is analytic; the brute-force grid is coarse.** The `1−c²` result is rigorous analytically; the numerical check confirms at `c=0` and is grid-limited for `c>0` (reported, not load-bearing).
 
@@ -185,7 +185,7 @@ Most of what follows are **internal consistency conditions** — they falsify th
 
 ### 11.1 Non-orthogonal channels are perfectly distinguishable *(internal consistency)*
 
-**Falsifier sentence:** *A demonstration that two distinct ED channels with non-zero overlap can be perfectly distinguished by commitment frequencies would falsify the operational-orthogonality derivation (§4).*
+**Falsifier sentence:** *A demonstration that two distinct ED channels with non-zero overlap can be perfectly distinguished by commitment frequencies would falsify the operational-orthogonality reduction (§4).*
 
 ### 11.2 The field is not ℂ
 
@@ -223,7 +223,7 @@ Most of what follows are **internal consistency conditions** — they falsify th
 
 - **Commitment-lattice.** The propositions "the commitment resolves in channel-set `S`" — the P11 outcomes; ED's quantum logic.
 - **Perfect distinguishability.** `p(K|K)=1`, `p(K|L)=0` from commitment frequencies; shown (§4) to be equivalent to orthogonality.
-- **Covering law.** The lattice form of the ideal first-kind (repeatable, projective) measurement; grounded via P11 (§6).
+- **Covering law.** The lattice form of the ideal first-kind (repeatable, projective) measurement; candidate-grounded via P11 for the channel basis (§6).
 - **Einselection (primitive, in ED).** The arrow selects the channel basis as the unique pointer basis; not decoherence-emergent (§7).
 - **Exact-as-logic, emergent-as-metric.** The proposition lattice is substrate-exact; the inner-product metric is Born-statistical (emergent).
 - **Selected (field).** ℂ chosen from Solèr's `{ℝ,ℂ,ℍ}` by ED-grounded discriminators — an account-tier selection, not a derivation.
@@ -232,7 +232,7 @@ Most of what follows are **internal consistency conditions** — they falsify th
 
 *Intuition.* The quantum formalism has a few load-bearing assumptions — orthogonal alternatives, a complex amplitude, a repeatable measurement. This paper shows that in ED these are not free assumptions: orthogonality is what "perfectly distinguishable by commitment" *means*, the complex field is forced by ED having a real phase and genuine composites, and the repeatable measurement is exactly what an irreversible commitment gives you. The one thing that stays technical is the deep lattice theorem that stitches these into a Hilbert space.
 
-*The distinctive picture.* ED comes out as a **preferred-basis quantum theory**: the arrow fundamentally picks the classical pointer basis (einselection is primitive), and the familiar basis-free, multi-context QM is what emerges at the apparatus level. That is a feature, not a bug — and, if it leaves a substrate-scale signature, a prediction.
+*The distinctive picture.* ED comes out as a **preferred-basis quantum theory**: the arrow fundamentally picks the classical pointer basis (einselection is primitive), and the familiar basis-free, multi-context QM is what emerges at the apparatus level. That is a feature, not a bug — and, if it leaves a substrate-scale signature, an interpretive claim with a candidate (currently unobservable) test.
 
 **Where to look next.**
 - *The postulated inner product this reconstructs:* Paper_004.
