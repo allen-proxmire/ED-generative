@@ -301,7 +301,12 @@
       "Bash(rm -f C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/kpg*.png)",
       "Bash(pdftoppm -f 1 -l 1 -r 135 -png C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/khrono_test.pdf C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/kp1)",
       "Bash(pdftoppm -f 2 -l 2 -r 135 -png C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/khrono_test.pdf C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/kp2)",
-      "Bash(pdftotext C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/khrono_test.pdf -)"
+      "Bash(pdftotext C:/Users/allen/AppData/Local/Temp/claude/C--Users-allen-GitHub-ED-Generative/31dbc787-f39b-4065-9e34-5076e63bebaf/scratchpad/khrono_test.pdf -)",
+      "Bash(python p14_interference_to_mond_mu_probe.py)",
+      "Bash(python quadratic_strain_recast_probe.py)",
+      "Bash(python sigma_alignment_qm_gauge_consistency_probe.py)",
+      "Bash(python q1_bornrule_grounding_probe.py)",
+      "Bash(python a0_horizon_scale_probe.py)"
     ]
   }
 }
