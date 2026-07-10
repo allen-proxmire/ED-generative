@@ -213,7 +213,7 @@ The projections share a common foundational dependency: the substrate-derived $\
 This paper does **not** claim:
 - That postdictions are equivalent in evidential weight to passed tests. The distinction is explicit throughout; only §2 + §3 are passed tests in the strict sense.
 - That ED is the *unique* framework consistent with these data. Many predictions listed (BTFR slope-4; $a_0$; $\rho_\Lambda$) are *also* consistent with MOND-as-phenomenology, ΛCDM, or other frameworks at observational level. ED's claim is that it *derives* these from substrate primitives whereas other approaches fit or postulate them.
-- That every postdiction here is sole-validation of ED. ED is one of several substrate-ontology research programs ('t Hooft cellular-automaton; Wolfram Ruliad; causal-set program); these postdictions don't distinguish ED uniquely from the broader lineage.
+- That every postdiction here is sole-validation of ED. ED is one of several substrate-ontology research programs ('t Hooft cellular-automaton; causal-set program); these postdictions don't distinguish ED uniquely from the broader lineage.
 
 This paper does claim:
 - ED's substrate-level framework has produced one peer-reviewed external-validation (UDM) and one observationally-confirmed prediction (GW170817 speed equality).

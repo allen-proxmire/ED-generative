@@ -42,6 +42,45 @@ The register is the **operational guide** for the ED empirical-test program. The
 
 ---
 
+## 0. Sharpened Update 2026-07-10 — the weapons-first inventory
+
+*The §3 register and §5 priorities below were written 2026-05-13 (38 papers) and are STALE: they predate the gravity-keystone closure (GR-I..IV, KM-I/II), the whole chiral-gauge / matter sector, the Gleason reconstruction, and the scale-correspondence program. The current superset enumeration is `ED_Master_Predictions_List.md` (updated 2026-07-05, entries 1.1–5.6). This section adds what neither doc had: a **ranked separation of the genuinely novel, sharp, near-term "weapons" from the postdictions and internal-consistency checks** — the distinction that actually matters for the goal (a confirmed, novel, falsifiable prediction that ends arguments). Every value-layer number here is INHERITED (per Paper_095); it is the **form/sign/shape** that is forced and failable.*
+
+### 0.1 What counts as a weapon
+A weapon is **novel** (standard physics does not make the claim), **sharp** (a number, sign, or shape — not a direction), **near-term testable**, and **distinctive** (ED and ΛCDM / standard QM / GR diverge *at a measurable point*). A postdiction (reproducing a known value) is *consilience* — supporting, never argument-ending — and is kept in a separate column. An internal-consistency check (does ED's own PDE map to a circuit) is not an empirical discriminator at all.
+
+### 0.2 Tier-1 — ED's sharpest falsifiable bets (ranked)
+
+| # | Prediction (source) | ED signature | Standard physics predicts instead | Test / timeframe | Status |
+|---|---|---|---|---|---|
+| 1 | **Participation-envelope modulation** (Bundle §10 / ML 4.6) | one universal ratio `ω_v ≈ 8·γ_dec` (N_osc≈1.3), same across 10+ orders of magnitude in decoherence rate | no theory predicts a universal ratio spanning optomechanics→FRAP; decoherence is monotonic, no slow envelope | FRAP Lomb–Scargle **Track B ≈ $0, ~1 week** on existing data; optomechanics Track A (~16 mHz) | **cheapest new result in the corpus; run first** |
+| 2 | **Merging-cluster offset–velocity KNEE** (OffsetVelocityLaw; ML 1.13) + **group-embedded DF2/DF4 knee** (ML 1.14) | sharp *step-like* knee: flat → knee → linear → ceiling; fast mergers show >2 lensing peaks | ΛCDM → velocity-*independent* scatter (no knee); MOND → *smooth* roll-off (no knee) | ceiling + >2-peak leg testable **now** on El Gordo-class mergers; full knee = Rubin/Euclid | **experiment-ready** (shape robust; knee *location* inherited) |
+| 3 | **Class-A decoherence wall** (Paper_056; ML 4.1–4.2) | sharp architecture-*independent* mass wall at 140–250 kDa + 3–6% second-harmonic fringe near crossing | smooth, environment/architecture-dependent decoherence; no universal wall | matter-wave interferometry (Arndt/Vienna, LUMI); now at ~25 kDa | pre-registered; 5–10 yr (the **form** is the claim; kDa value is anchored extrapolation) |
+| 4 | **Class-C error-correction plateau** (Paper_058; ML 4.10) + **Class-B exponential rigidity** (4.9) | logical error floors at `Γ_plateau > 0`; Class-B suppression `∝ e^{−ξ/ξ₀}` | fault tolerance → error → 0 exponentially with code distance | surface-code / topological-qubit scaling — **industry is climbing code distance now** | near-term; a test arriving *for free* |
+| 5 | **BTFR zero intrinsic scatter** (Paper_031; ML 1.4) | *exactly zero* intrinsic scatter in the deep-MOND asymptote (the slope-4 is a postdiction; the zero-scatter is the bet) | ΛCDM halo models → nonzero scatter from formation-history variance | SPARC public data, improving precision | consistent so far; **the cleanest single number to miss** |
+| 6 | **Dark energy strict `w=−1, ẇ=0`** (ML 5.1) | saturation, not quintessence — `w` pinned to −1, no evolution | quintessence/phantom allow `w≠−1`, `w_a≠0` | DESI / Euclid `w₀–w_a` | **live** — if DESI evolution firms up, a near-term kill (a real risk = a real weapon) |
+| 7 | **Non-thermal Hawking correction** (Paper_047; ML 2.1) + **Planck-mass remnant** (2.2) | sign-definite `n_H[1 − c₁(ω/ω_c)²]`; evaporation halts at `M_⋆ = M_P` | exact thermal spectrum; complete evaporation | analog gravity (BEC/EIT/optical) | near-term in labs (`c₁~O(1)` inherited; conditional on P-V5-Even) |
+| 8 | **PPN `α₂ = 0` exactly** (GR-IV; ML 1.5) | `α₂` identically zero (both cones luminal); `α₁` nonzero but ≥70 orders below bound | generic khronometric / Lorentz-violating class → `α₂ ~ O(1)` (GR also = 0) | LLR, pulsar timing, `|α₂|<10⁻⁷` | inside bounds — a clean **kill-switch ED passes** (not a positive vs GR) |
+| 9 | **Matter-sector prohibitions** (ML 3.1/3.2/3.5) | no parity-violating (chiral) `U(1)` force; no stable gauge group beyond `SU(3)`; no anyons in genuine 3+1D | general gauge theory allows all three | any counterexample = one-line kill | standing prohibitions; distinctive (competitors don't make these) |
+| 10 | **FRAP `α_R = 1/6`** (ML 4.4) + **AFM dewetting invariant −1.30** (4.5) | porous-medium front `R∼t^{1/6}`, not Fickian `t^{1/2}`; motif-ratio median −1.30 | Fickian diffusion `t^{1/2}`; no invariant | benchtop, ~$500–1500, weeks | protocol-ready; independent re-confirmations of the (peer-reviewed) UDM law |
+
+### 0.3 The postdiction column — consilience, NOT weapons (keep separate)
+Reproductions of already-known values; supporting evidence, but they cannot end an argument and several are shared with ΛCDM/MOND/GR: **`a₀ = cH₀/2π`** (value known since 1983; only its *co-tracking of H₀* is a forward leg), **BTFR slope-4** (data `3.95±0.08` predates the paper), **Λ-smallness `Θ_ED≈10⁻¹²²`** (inherited + reframing; the naive first-principles attempt failed by ~60 orders), **`S=A/4`**, **`c_GW=c`** (structurally *inherited* — a survival, not a risked bet), **`n_T=−r/8`** (tests standard inflation), **spin-statistics `(−1)^{2s}`**, **stochastic GW `Ω∝f^{2/3}`** (self-labeled "model-degenerate postdiction"). Internal-consistency checks (e.g. the RLC-circuit isomorphism) are not empirical discriminators at all.
+
+### 0.4 Genuinely confirmed so far (the floor)
+- **Universal Degenerate-Mobility law** `D(c)=D₀(1−c/c_max)^β` — peer-reviewed May 2026, 10 materials, `R²>0.986`. The corpus's one genuine *confirmed forward* prediction.
+- **`c_GW=c`** (GW170817, `<10⁻¹⁵`) — a survival that killed many rival modified-gravity theories; ED inherits it structurally, so it is consilience, not a distinctive win.
+
+### 0.5 Distinctive but NOT yet weapons (honest flags)
+- **Primitive einselection / emergent multi-context** (the 2026-07-08 Gleason reconstruction, Gate 1): genuinely distinctive claims (the arrow selects the pointer basis fundamentally; Gleason/KS multi-context is emergent), but the source doc states plainly they have **no concrete near-term observable** — a falsifier frontier, not a weapon yet.
+- **Gauge-handedness ↔ cosmic-matter-sign correlation** (#2b): **retired to a wall.** The July hardening (ParityWall) makes ED's fermion vector-by-default and weak parity violation *inherited*; the "one lock imprints both C and P" correlation is superseded and flagged "not testable with current data." Do not list as a positive prediction.
+- **Honest note on the recent foundational work:** Gate 1 (QM-foundations reconstruction) and Gate 2 (chiral gauge) closed structure and mapped walls but produced **no new near-term weapon**. The highest-leverage move toward the goal is therefore **executing the Tier-1 bets above — especially the two that could yield a new result with no new funding (#1 envelope Track B; #2 cluster-knee ceiling leg on existing mergers)** — not further derivation.
+
+### 0.6 Where these are being tested (active experiments)
+The in-process experiment folders (`predictions/*_InProcess/`) already hold protocols for several Tier-1 bets: the participation envelope (`ED-09-5-Envelope_InProcess`), FRAP mobility (`FRAP-High-BSA_InProcess`), analog-Hawking (`ED-Acoustic-*_InProcess`), AFM dewetting, QC mass extrapolation, triad coupling, and the RLC analogue. Growing this from protocols to *run results* on bets #1, #2, #4 is the operational north-star path.
+
+---
+
 ## 1. Introduction
 
 ### 1.1 What this paper does
