@@ -12,6 +12,17 @@ Before you derive, compute, falsify, or make any claim on a topic:
 2. **Read the actual papers, not the memory summaries.** Memory (`MEMORY.md` + topic files) is an **index and pointer set** — it is *not* ground truth. The papers are ground truth. A memory note that says "X is established" is a pointer to a paper you must open, not a substitute for reading it.
 3. **Build on what exists. Never reinvent.** Re-deriving a result the corpus already has is not "independent confirmation" — it produces a cruder duplicate that then looks like it conflicts with the corpus. If you find yourself deriving something from scratch, stop and find the paper that already did it.
 
+## HARD RULE — close the loop: write findings back to the authoritative lists (non-negotiable)
+
+A finding that lives only in a working note is a **future drift bug**. The read-first rule fails if the lists you read first are stale. So whenever an arc closes, a postulate is discharged, a theorem's status changes, or a paper lands, **update the authoritative lists in the same session**, before ending the task:
+
+1. **`event-density/docs/ED_Research_Targets.md`** — the open/closed map. Append the new state to the relevant `#N` item (don't silently overwrite the audit trail; add a dated update).
+2. **`event-density/docs/ED_Road_To_Unification.md`** — the strategic finish-line overlay, if a gate's status moved.
+3. **The relevant folder `README.md`** (physics-papers/* or the companion folders) and **`theorems/T*.md`** — if a paper's or theorem's status changed.
+4. **`MEMORY.md` + the topic memory file** — update the pointer; correct or delete any note the finding supersedes.
+
+Cross-check for **staleness before you trust a list**: a target doc's wording may predate later work (e.g. #8b read "blocking / three routes fail" on 2026-07-10 while the keystone had actually been reconstructed 2026-07-08 — the finding never got written back). When a memory note and a doc disagree, open the papers and reconcile, then fix whichever is stale. Treat leaving a known-stale status in place as the same class of error as reinventing work.
+
 ## When a new result seems to contradict the corpus
 
 **Assume YOU misframed it, not that the corpus is wrong.** Re-read the relevant papers before concluding anything is falsified or missing. A probe you write tests *your model* of ED, not ED itself — before treating a probe as falsifying an ED result, verify it is testing the corpus's actual construction, not a self-made stand-in. Hold negatives (including negatives about ED's own results) to the same bar as positives.
