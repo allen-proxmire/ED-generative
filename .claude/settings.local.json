@@ -312,7 +312,19 @@
       "Bash(git commit -q -m 'README: add '\\\\''The physics-papers map'\\\\'' navigation section \\(13 folder guides + state-of-program\\) *)",
       "Bash(git mv *)",
       "Bash(grep -rln \"physics-papers/wedges\\\\|/wedges/\" --include=*.md .)",
-      "Bash(git commit -q -m 'Rename wedges -> foundations; give Bullet the Paper_117 prefix; fix all references *)"
+      "Bash(git commit -q -m 'Rename wedges -> foundations; give Bullet the Paper_117 prefix; fix all references *)",
+      "Bash(xargs -n1 basename)",
+      "Bash(git commit -m ' *)",
+      "Bash(grep -nE \"^#{1,3} \" README.md)",
+      "Bash(python -c \"import numpy, scipy; from scipy import optimize, signal; print\\('py OK  numpy', numpy.__version__, 'scipy', scipy.__version__\\)\")",
+      "Bash(python -c \"import astropy; print\\('astropy', astropy.__version__\\)\")",
+      "Bash(python synthetic_envelope_validation.py)",
+      "Bash(grep -nE \"^#{1,4} |Section 15|## 15|### 15|omega_v|ω_v|N_osc|envelope freq\" ED-09-5-Observable-Sharpening.md)",
+      "Bash(python ed_pde_envelope_drive.py)",
+      "Bash(python ed_pde_spatial_harmonic.py)",
+      "Bash(python rep_spectrum_casting_winding.py)",
+      "Bash(awk 'NR>=26 && NR<=60' ED_Research_Targets.md)",
+      "Bash(awk 'NR==26' ED_Research_Targets.md)"
     ]
   }
 }

@@ -6,7 +6,8 @@
 - **Most are consolidations of CLOSED results** — A1 (channel-capacity zero), A2 (emergent boundary), B4 (charge topological skeleton), Primes (finite-memory ceiling), the CoarseGrain trilogy (Maxwell/transport/non-Gaussianity), the layers capstone.
 - **Two honest edges to read carefully** (the map overrides the paper's framing):
   - **The Quantum-Logic Keystone (Gleason)** — the ℂ-field selection and Born non-contextuality are grounded, but the **inner-product / channel-orthogonality step is NOT closed** (#8b: three derivation routes fail). Read it as *partial*, not a completed reconstruction.
-  - **The Parity Wall** — this is the *honest verdict*: ED gives the matter/antimatter reference (C) natively but **does not derive the weak force's chirality** (P). That is consistent with the open matter frontier (#2b); it is a "what ED does not have" result, correctly stated.
+  - **The Parity Wall** — this is the *honest verdict*: ED gives the matter/antimatter reference (C) natively but **does not derive the weak force's chirality** (P). That is consistent with the open matter frontier (#2b); it is a "what ED does not have" result, correctly stated. **Its verdict is now superseded (in tier, not direction) by *The Clean Substrate Is Vector*.**
+  - **The Clean Substrate Is Vector** (successor to *The Parity Wall*) — hardens the conditional "vector by default" into a **theorem**: the parity-clean commitment map has an even determinant, so its point-gap winding is zero for **every** channel-count, hence the clean transport is vector and any parity violation is **necessarily spontaneous**. Grounds the chirality operator (`γ⁵ = arrow × spontaneous orientation`) and names the casting (which force is chiral) as inherited representation-theory (`SU(2)` pseudoreal). Same direction as the Wall (P inherited), one tier firmer.
 - **The Gauge Structure** paper carries the #2b open frontier (SU(N) form + non-abelian + F² + mass-gap grounded; the `{1,2,3}` multiplicities and anomalies open).
 
 **Tier key:** `Derived` · `Grounded` (conditional/structural) · `Measured` (simulation-backed) · `Wall` (a proven / honest limit — the order ED does not reach) · `Synthesis` · `Partial / Open` (grounded but with a named unclosed step).
@@ -47,7 +48,8 @@
 | Paper | Result | Tier |
 |---|---|---|
 | [The Gauge Structure of ED](Paper_GaugeStructure_FromChannelTransport.md) | SU(N) form, non-abelian gauging, the F² action, the mass-gap mechanism from channel transport | Grounded (`{1,2,3}` / anomalies Open, #2b) |
-| [The Parity Wall](Paper_ParityWall_ChiralityVerdict.md) | ED gives matter/antimatter (C) natively but **not** the weak force's chirality (P) — the honest verdict | **Wall** (chirality not derived, #2b) |
+| [The Parity Wall](Paper_ParityWall_ChiralityVerdict.md) | ED gives matter/antimatter (C) natively but **not** the weak force's chirality (P) — the honest verdict | **Wall** (chirality not derived, #2b); *verdict superseded by the Clean-Substrate paper below* |
+| [The Clean Substrate Is Vector](Paper_CleanSubstrateVector_ParitySpontaneous.md) | grounds `γ⁵ = arrow × spontaneous orientation`; **theorem:** the parity-clean transport is vector for every channel-count, so parity violation is necessarily spontaneous; casting inherited (rep-theory) | **Wall + theorem** (supersedes The Parity Wall's verdict tier, #2b) |
 
 ### QM keystone & coherence
 | Paper | Result | Tier |
