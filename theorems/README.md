@@ -4,13 +4,13 @@
 
 **State** *(authoritative source: `event-density/docs/ED_Research_Targets.md`, esp. #8b; each theorem's own status line)*:
 - **Most theorems are FORCED-ratified and solid** — the spinor/frame results (T1–T4), the vacuum kernels (T8/T9), the Hamiltonian/Schrödinger line (T15/T16), and the arrow (T18).
-- **Three are DOWNGRADED** and no longer "unconditional": **T10** (Born rule) and **T11** (inner-product / Bell–Tsirelson), both corrected 2026-07-02 for citing a retired primitive vintage + a circular closure step; and **T14** (participation-measure / complex Hilbert space), corrected 2026-07-06 (the same claim is treated as an open *postulate*, `P-Motif-Algebra`, by the later canonical `Paper_007`).
-- **A cascade caveat is open.** T14's downgrade flagged that four results it promoted on 2026-04-26 (U2, U5, Bell, Heisenberg) "cite T14/U1 as their unblocking event and have not yet been re-audited." Within this registry that touches **T11, T12, T13** — treat their "unconditional" labels as *pending re-audit*, not confirmed.
+- **Four are DOWNGRADED** and no longer "unconditional": **T10** (Born rule) and **T11** (inner-product / Bell–Tsirelson), both corrected 2026-07-02 for citing a retired primitive vintage + a circular closure step; **T14** (participation-measure / complex Hilbert space), corrected 2026-07-06 (the same claim is treated as an open *postulate*, `P-Motif-Algebra`, by the later canonical `Paper_007`); and **T12** (continuum inner-product), corrected 2026-07-10 — it is a coarse-graining of T11 and inherits T11's open `P-Channel-Orthogonality` foundation.
+- **The T14 cascade re-audit is DONE (2026-07-10) and toppled nothing new.** T14's downgrade had flagged four promotions (U2, U5, Bell, Heisenberg) as un-re-audited. Re-audited against their actual papers with the test *"needs ℂ-uniqueness, or just ℂ-existence?"*: all use ℂ-existence only (the granted `P-Motif-Algebra` postulate), never T14's retracted ℝ/ℍ exclusion. **T13** (U5) and **Heisenberg** (Paper_012_6) SURVIVE; the only downgrade (**T12**) was for inheriting T11, not T14. T13's own "unconditional" label was independently stale and was corrected to M3/conditional.
 - **Three are stubs** — **T19/T20/T21** (Newton's G, a₀, BTFR) are structural-role statements, conditional on the primitives + upstream gravity content, not standalone derivations.
 - **One is subsumed** — **T5** (Gauge-as-Rule-Type / GRH) was folded into **T17** (2026-04-27).
 
 **Status key** *(the theorem's own epistemic standing)*:
-`FORCED` = ratified structural result, conditional on the 13 primitives · `Downgraded` = the "unconditional" claim did not survive audit; see the file's correction banner · `Re-audit pending` = leaned on now-downgraded T14/U1, not yet re-checked · `Subsumed` = folded into another theorem · `Stub` = structural-role statement, conditional on upstream content, not a full derivation.
+`FORCED` = ratified structural result, conditional on the 13 primitives · `FORCED (form) · M3` = the form is forced/identified but the value is inherited and it rests on a named postulate · `Downgraded` = the "unconditional" claim did not survive audit; see the file's correction banner · `Subsumed` = folded into another theorem · `Stub` = structural-role statement, conditional on upstream content, not a full derivation.
 
 > **Provenance note.** These files are the *theory-side index entries*, not the proofs. Several point to the primitives repo (`arcs/…`, `ED-primitives/…`) for the constitutional registration. Where a physics-papers exposition exists, it is linked below and is the better read.
 
@@ -23,8 +23,9 @@
 |---|---|---|---|
 | T10 | Born rule `Prob(K)=b_K/Σb` from participation-graph structure (Gleason–Busch) | [Paper_003 Born Rule](../physics-papers/qm-kinematics/Paper_003_BornRule.md) · [Paper_004 Gleason](../physics-papers/qm-kinematics/Paper_004_GleasonUniqueness.md) | **Downgraded 2026-07-02** |
 | T11 | Discrete inner-product structure → Bell–Tsirelson `|S|≤2√2` | [Paper_004.5 Tsirelson (discrete)](../physics-papers/qm-kinematics/Paper_004_5_Tsirelson_Discrete.md) | **Downgraded 2026-07-02** |
-| T12 | Inner-product extension to continuous configurations | [Paper_004.6 Tsirelson (continuum)](../physics-papers/qm-kinematics/Paper_004_6_Tsirelson_Continuum.md) | FORCED · *re-audit pending* (built on T11) |
-| T13 | U5 translation / momentum operator | [Paper_012.5 Momentum Operator](../physics-papers/qm-kinematics/Paper_012_5_MomentumOperator.md) | FORCED · *re-audit pending* (= "U5", flagged by T14) |
+| T12 | Inner-product extension to continuous configurations | [Paper_004.6 Tsirelson (continuum)](../physics-papers/qm-kinematics/Paper_004_6_Tsirelson_Continuum.md) | **Downgraded 2026-07-10** (inherits T11's open foundation) |
+| T13 | U5 translation / momentum operator | [Paper_012.5 Momentum Operator](../physics-papers/qm-kinematics/Paper_012_5_MomentumOperator.md) | FORCED (form) · conditional · M3 *(survived T14 re-audit; "unconditional" was stale)* |
+| — | Heisenberg uncertainty (no dedicated Tn) | [Paper_012.6 Heisenberg](../physics-papers/qm-kinematics/Paper_012_6_Heisenberg.md) | FORCED (form) · M3 *(survived T14 re-audit; ℂ-existence only)* |
 | T14 | U1 participation-measure `P_K=√b·e^{iπ}` as the unique complex amplitude carrier | [Paper_003.5 Participation Measure](../physics-papers/qm-kinematics/Paper_003_5_ParticipationMeasure.md) · [Paper_007 Hilbert Space](../physics-papers/qm-kinematics/Paper_007_HilbertSpace.md) | **Downgraded 2026-07-06** |
 | T15 | U4 Hamiltonian form (kinetic operator + factor of 2) | [Paper_006.6 Hamiltonian Form](../physics-papers/qm-kinematics/Paper_006_6_HamiltonianForm.md) | FORCED |
 | T16 | U3 time-translation generator → Schrödinger evolution (Stone) | [Paper_006.5 Schrödinger / Stone](../physics-papers/qm-kinematics/Paper_006_5_Schrodinger_Stone.md) | FORCED |
@@ -68,7 +69,7 @@
 ## How to use this registry
 
 - **When a paper cites `Tn`,** come here first for the *current* status — a paper written 2026-04 may still speak of T10/T11/T14 as "unconditional"; this registry carries the later corrections. The theorem file wins on status; the paper wins on derivation.
-- **The three downgrades (T10, T11, T14) are the corpus's live QM-foundations debt** — target #8b. The Born-rule *value* and the inner-product *form* are inherited/partially-derived, not FORCED from the canonical 13. Don't quote them as closed.
-- **The cascade re-audit (T12, T13, and the Bell/Heisenberg promotions)** is open follow-on work flagged by T14's downgrade, not yet done.
+- **The four downgrades (T10, T11, T12, T14) are the corpus's live QM-foundations debt** — target #8b. The Born-rule *value*, the inner-product *form* (discrete T11 and continuum T12), and the complex-carrier *uniqueness* (T14) are inherited/postulated/partially-derived, not FORCED from the canonical 13. Don't quote them as closed. They share one root: the open `P-Channel-Orthogonality` and `P-Motif-Algebra` postulates.
+- **The T14 cascade re-audit is closed (2026-07-10).** It confirmed the ℂ-uniqueness failure does not propagate — the downstream QM kinematics (T13 momentum, T15/T16 Hamiltonian/Schrödinger, Heisenberg) run on the complex Hilbert space *existing*, which is a granted postulate, not on ℂ being *forced*. The genuine open debt is orthogonality (T11→T12), not the complex-carrier question.
 
-*(This guide was built 2026-07-10; building it is what surfaced the T10/T11 banner drift, now fixed.)*
+*(This guide was built 2026-07-10; building it surfaced the T10/T11 banner drift — now fixed — and the T14 cascade re-audit — now done, with T12 downgraded and T13 corrected.)*
