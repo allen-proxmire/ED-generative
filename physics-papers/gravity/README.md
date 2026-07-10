@@ -24,8 +24,6 @@ The modern (post-pivot) core of the line, cleanest path in:
 6. **[KM-II](Paper_KM-II_KhrononCosmology.md)** — the khronon's cosmological face: dark fluid, clustering dial, one Λ.
 7. **[One Field (letter)](Paper_OneField_Letter.md)** — the capstone: gravity, dark matter, dark energy, and the arrow, in one field.
 
-New reader who wants orientation first: **[Gravity_Line_Readers_Map.md](Gravity_Line_Readers_Map.md)**.
-
 ---
 
 ## Papers by sub-arc
@@ -86,10 +84,8 @@ New reader who wants orientation first: **[Gravity_Line_Readers_Map.md](Gravity_
 
 ---
 
-## Non-paper docs (guides & status, not papers)
+## Reference & status docs
 
-- **[Gravity_Line_Readers_Map.md](Gravity_Line_Readers_Map.md)** — a reader's map to the whole line (start here for orientation).
-- **[GR_Keystone_Status.md](GR_Keystone_Status.md)** — precisely what is open on the keystone (mostly bookkeeping now).
-- **[Predictions_and_Falsifiers.md](Predictions_and_Falsifiers.md)** — the gravity line's predictions and falsification criteria.
+- **[Predictions_and_Falsifiers.md](Predictions_and_Falsifiers.md)** — the gravity line's predictions and falsification criteria (reader-facing; kept here).
 
-*(These three are guides/status, not standalone papers; kept here for convenience. If the folder is later split, they belong in a `_guides/` subfolder.)*
+*(Two internal/meta docs that used to live here — the reader's map and the keystone-status note — were moved to `event-density/foundations/relocated_from_EDG_2026-07-09/` as working notes; this README now serves the navigation role. `Bullet_TopologicalDefect.md` is a synthesis paper that is simply missing the `Paper_` prefix — a rename candidate, listed under Synthesis above.)*

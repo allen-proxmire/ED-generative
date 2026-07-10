@@ -307,7 +307,8 @@
       "Bash(python sigma_alignment_qm_gauge_consistency_probe.py)",
       "Bash(python q1_bornrule_grounding_probe.py)",
       "Bash(python a0_horizon_scale_probe.py)",
-      "Bash(python bandwidth_acceleration_bridge_probe.py)"
+      "Bash(python bandwidth_acceleration_bridge_probe.py)",
+      "Bash(git commit -q -m 'gravity: move build artifacts \\(19 pdf + 19 tex\\) out of the repo to Desktop/ED_pdf_files *)"
     ]
   }
 }
