@@ -80,7 +80,7 @@ The modern (post-pivot) core of the line, cleanest path in:
 | — | [One Field (letter)](Paper_OneField_Letter.md) | gravity + dark matter + dark energy + the arrow, unified in one field | Synthesis |
 | — | [The Arrow in the Law (program synthesis)](Paper_ED_Gravity_Program_PhilPapers.md) | the whole gravity line as one program (PhilPapers-facing) | Synthesis |
 | — | [Interference Gravity (Quadratic Strain v1)](Paper_QuadraticStrain_v1.md) | ED's amplitude structure unifies Newton and MOND; sharpens Paper_030 | Grounded (interference-sign residual Open) |
-| — | [The Bullet Cluster as a Substrate Topological Defect](Bullet_TopologicalDefect.md) | a substrate-topology reading of the Bullet Cluster | Synthesis (partial draft) |
+| 117 | [The Bullet Cluster as a Substrate Topological Defect](Paper_117_Bullet_TopologicalDefect.md) | a substrate-topology reading of the Bullet Cluster | Synthesis (partial draft) |
 
 ---
 
@@ -88,4 +88,4 @@ The modern (post-pivot) core of the line, cleanest path in:
 
 - **[Predictions_and_Falsifiers.md](Predictions_and_Falsifiers.md)** — the gravity line's predictions and falsification criteria (reader-facing; kept here).
 
-*(Two internal/meta docs that used to live here — the reader's map and the keystone-status note — were moved to `event-density/foundations/relocated_from_EDG_2026-07-09/` as working notes; this README now serves the navigation role. `Bullet_TopologicalDefect.md` is a synthesis paper that is simply missing the `Paper_` prefix — a rename candidate, listed under Synthesis above.)*
+*(Two internal/meta docs that used to live here — the reader's map and the keystone-status note — were moved to `event-density/foundations/relocated_from_EDG_2026-07-09/` as working notes; this README now serves the navigation role.)*

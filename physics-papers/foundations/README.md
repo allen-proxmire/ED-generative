@@ -1,8 +1,6 @@
-# Wedges — Folder Guide *(the substrate foundation)*
+# Foundations — Folder Guide *(the substrate)*
 
-**What this folder is.** The **root of the corpus**: the substrate itself. It holds the 13 primitives (the postulated axioms everything else is conditional on), the memory kernels that carry propagation and correlation (**V1** single-chain retarded, **V5** cross-chain), the kernel-level **arrow of time** (theorem T18), the **methodology** that defines the honesty tiers used across every ED paper (Paper_095, *form-forced / value-inherited*), and the program-overview syntheses. Read this folder to understand what ED *is* before reading what it derives.
-
-*(Folder-name note: "wedges" is a legacy label; by content this is the substrate-core / foundations folder — a rename candidate for a later pass.)*
+**What this folder is.** The **root of the corpus**: the substrate itself. It holds the 13 primitives (the postulated axioms everything else is conditional on), the memory kernels that carry propagation and correlation (**V1** single-chain retarded, **V5** cross-chain), the kernel-level **arrow of time** (theorem T18), the **methodology** that defines the honesty tiers used across every ED paper (Paper_095, *form-forced / value-inherited*), and the program-overview syntheses. Read this folder to understand what ED *is* before reading what it derives. *(This folder was previously named `wedges`.)*
 
 **State** *(authoritative source: `Paper_087` + `event-density/docs/ED_Research_Targets.md`)*:
 - **The 13 primitives (Paper_087) are POSTULATED, not derived** — they are the axioms. Every "Derived" or "Grounded" result elsewhere in the corpus is conditional on them. (The reduction program asks whether they compress; that work lives in `event-density/foundations/`, not here.)

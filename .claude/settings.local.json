@@ -308,7 +308,11 @@
       "Bash(python q1_bornrule_grounding_probe.py)",
       "Bash(python a0_horizon_scale_probe.py)",
       "Bash(python bandwidth_acceleration_bridge_probe.py)",
-      "Bash(git commit -q -m 'gravity: move build artifacts \\(19 pdf + 19 tex\\) out of the repo to Desktop/ED_pdf_files *)"
+      "Bash(git commit -q -m 'gravity: move build artifacts \\(19 pdf + 19 tex\\) out of the repo to Desktop/ED_pdf_files *)",
+      "Bash(git commit -q -m 'README: add '\\\\''The physics-papers map'\\\\'' navigation section \\(13 folder guides + state-of-program\\) *)",
+      "Bash(git mv *)",
+      "Bash(grep -rln \"physics-papers/wedges\\\\|/wedges/\" --include=*.md .)",
+      "Bash(git commit -q -m 'Rename wedges -> foundations; give Bullet the Paper_117 prefix; fix all references *)"
     ]
   }
 }

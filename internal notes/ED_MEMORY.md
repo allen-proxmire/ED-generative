@@ -8,7 +8,7 @@ This file is the **durable program-state anchor** for the ED-Generative reposito
 
 ## Durable facts (canonical as of 2026-05-14)
 
-1. **ED is a 13-Primitive Generative Substrate Ontology.** The 13 primitives (P01–P13) are **posited**, not derived. Canonical enumeration lives in `position-paper/paper_ED_Framework_13_Primitive_Generative_System.md` §1 and is mirrored in `physics-papers/wedges/Paper_087_13Primitives.md` §4 (the publication-grade Paper 087) and per-primitive reference cards in `primitives/P01_*.md` through `P13_*.md`.
+1. **ED is a 13-Primitive Generative Substrate Ontology.** The 13 primitives (P01–P13) are **posited**, not derived. Canonical enumeration lives in `position-paper/paper_ED_Framework_13_Primitive_Generative_System.md` §1 and is mirrored in `physics-papers/foundations/Paper_087_13Primitives.md` §4 (the publication-grade Paper 087) and per-primitive reference cards in `primitives/P01_*.md` through `P13_*.md`.
 
 2. **The canonical enumeration is P01 = Event-density layer existence (NOT "Chains").** Chains are derived composite structures introduced in P02 (participation), not a canonical primitive. This was the single load-bearing fix from the reviewer's first round.
 
@@ -80,9 +80,9 @@ These items don't block tonight's Zenodo posting but are worth queueing for futu
 The repo has TWO files functioning as "the 13-primitive position paper":
 
 1. `position-paper/paper_ED_Framework_13_Primitive_Generative_System.md`
-2. `physics-papers/wedges/Paper_087_13Primitives.md`
+2. `physics-papers/foundations/Paper_087_13Primitives.md`
 
-Both are currently synced (post-2026-05-14 sync session) on the canonical enumeration + tradition placement + minimality caveats. But two parallel sources is a divergence risk for any future edit. **Action:** Decide which is canonical; delete or alias the other. The `physics-papers/wedges/Paper_087_13Primitives.md` is the version referenced as "Paper 087" in the Whitepaper §10 reading list and downstream papers' I-rows; that's probably the survivor.
+Both are currently synced (post-2026-05-14 sync session) on the canonical enumeration + tradition placement + minimality caveats. But two parallel sources is a divergence risk for any future edit. **Action:** Decide which is canonical; delete or alias the other. The `physics-papers/foundations/Paper_087_13Primitives.md` is the version referenced as "Paper 087" in the Whitepaper §10 reading list and downstream papers' I-rows; that's probably the survivor.
 
 ### Cleanup 2: Full audit of remaining PDFs for untracked drift
 
@@ -226,7 +226,7 @@ This session addressed three rounds of reviewer feedback and stabilized the corp
 9. §5 galactic-dynamics claim qualified: "deep-MOND asymptotic without dark matter; transition-regime SPARC fits part of ongoing empirical-test program."
 
 ### Source-divergence fixes
-10. `physics-papers/wedges/Paper_087_13Primitives.md` synced to canonical enumeration (P01 = Event-density layer existence) + tradition placement (substrate-ontology lineage, NOT operational-reconstruction) + minimality caveats (P03 bundling + P11/P13/V1 arrow redundancy).
+10. `physics-papers/foundations/Paper_087_13Primitives.md` synced to canonical enumeration (P01 = Event-density layer existence) + tradition placement (substrate-ontology lineage, NOT operational-reconstruction) + minimality caveats (P03 bundling + P11/P13/V1 arrow redundancy).
 11. Paper_098 M1→M2 sync (4 locations: abstract, audit table row 2, §3.1 Sector A, appendix arc-inventory table). Previous "FORCED-unconditional (4 postulates)" framing corrected throughout.
 
 ### Primitives directory restructure
@@ -272,8 +272,8 @@ The full Zenodo upload inventory (28 entries as of 2026-05-17) lives in `interna
 - **Internal-notes (working-state files; relocated 2026-05-17):** `internal notes/` — contains `ED_MEMORY.md` (this file), `ED_ORIENTATION.md`, `ED_Zenodo_Uploads.md`, `ED_Outreach_Contacts.md`, `PAPER_WRITING_CHECKLIST.md`.
 - **Whitepaper (public-facing front door):** `ED_WHITEPAPER.md` at top level.
 - **Public onboarding (less-technical + more-technical):** `ED_Public_Onboarding_LessTechnical.md` + `ED_Public_Onboarding_MoreTechnical.md` at top level.
-- **Position paper (canonical foundational statement):** `position-paper/paper_ED_Framework_13_Primitive_Generative_System.md` AND `physics-papers/wedges/Paper_087_13Primitives.md` (currently both canonical, post-sync; pick one per Round 4 Cleanup 1).
-- **Methodology:** `physics-papers/wedges/Paper_095_FormForced_ValueInherited.md`.
+- **Position paper (canonical foundational statement):** `position-paper/paper_ED_Framework_13_Primitive_Generative_System.md` AND `physics-papers/foundations/Paper_087_13Primitives.md` (currently both canonical, post-sync; pick one per Round 4 Cleanup 1).
+- **Methodology:** `physics-papers/foundations/Paper_095_FormForced_ValueInherited.md`.
 - **Falsification register:** `falsifiers/Paper_101_FalsificationRegister.md`.
 - **Primitives:** `primitives/` with two-tier structure (P01–P13 canonical + concepts/).
 - **T-stubs:** `theorems/T19.md`, `T20.md`, `T21.md`.

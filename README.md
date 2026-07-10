@@ -152,7 +152,7 @@ Every `physics-papers/` subfolder has a **README guide** — a "what this is" su
 
 | Folder | What's there | Guide |
 |---|---|---|
-| **wedges** *(the foundation)* | the substrate itself: the 13 primitives, the V1/V5 kernels, the arrow (T18), the methodology | [guide](physics-papers/wedges/README.md) |
+| **foundations** *(start here)* | the substrate itself: the 13 primitives, the V1/V5 kernels, the arrow (T18), the methodology | [guide](physics-papers/foundations/README.md) |
 | **qm-kinematics** | QM emergence: the four postulates, the Born rule, operators, interference | [guide](physics-papers/qm-kinematics/README.md) |
 | **relativistic-qm** | Dirac / Klein-Gordon, spin-statistics, Lorentz reps — and the **matter-sector spinor gate** | [guide](physics-papers/relativistic-qm/README.md) |
 | **qft** | fields, gauge, the Yang-Mills arc, and the Standard-Model matter sector (MS-I/II) | [guide](physics-papers/qft/README.md) |
@@ -178,7 +178,7 @@ position-paper/        The 13-primitive position paper; the contrast ontology ("
 primitives/            The 13 primitives + load-bearing audit + concept glossary.
 physics-papers/        Per-domain derivations across 13 subfolders (gravity, qm-kinematics,
                        relativistic-qm, qft, entanglement, dynamics, black-hole, cosmology,
-                       soft-matter, q-compute, wedges, substrate-evaluation, predictions).
+                       soft-matter, q-compute, foundations, substrate-evaluation, predictions).
                        Each subfolder has a README guide — see "The physics-papers map" above.
 scale correspondence/  Cross-scale invariants and the substrate–cosmology synthesis (SCBU).
 theorems/              Standalone theorem statements.

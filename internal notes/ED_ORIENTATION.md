@@ -76,11 +76,11 @@ ED uses a **form-FORCED / value-INHERITED methodology** with a three-tier verdic
 
 1. **`ED_WHITEPAPER.md`** — front door, non-technical, ~50 pages. Names the program, methodology, intellectual neighborhood, falsification program, 100+ paper navigation.
 
-2. **`physics-papers/wedges/Paper_087_13Primitives.md`** — the 13 primitives stated as axioms with operational content per primitive. The methodological discipline at its sharpest.
+2. **`physics-papers/foundations/Paper_087_13Primitives.md`** — the 13 primitives stated as axioms with operational content per primitive. The methodological discipline at its sharpest.
 
-3. **`physics-papers/wedges/Paper_095_FormForced_ValueInherited.md`** — the form-FORCED / value-INHERITED methodology formalized. This is the program's defense against the "speculative substrate ontology with no constraint discipline" critique.
+3. **`physics-papers/foundations/Paper_095_FormForced_ValueInherited.md`** — the form-FORCED / value-INHERITED methodology formalized. This is the program's defense against the "speculative substrate ontology with no constraint discipline" critique.
 
-4. **`physics-papers/wedges/Paper_090_V5Kernel.md`** — the most cross-domain substrate object. V5's job across six domains is the program's signature pattern.
+4. **`physics-papers/foundations/Paper_090_V5Kernel.md`** — the most cross-domain substrate object. V5's job across six domains is the program's signature pattern.
 
 5. **One or two standalone results** depending on interest:
    - Gravity: `physics-papers/gravity/Paper_027_Newtons_G.md` (Newton's $G$ from substrate constants), `Paper_029_a0.md` ($a_0 = cH_0/(2\pi)$), `Paper_031_BTFR.md` (slope-4 BTFR).
@@ -161,4 +161,4 @@ The corpus is **structurally complete with declared open derivations** — not a
 
 ---
 
-*If you are arriving at this repository for the first time, read `ED_WHITEPAPER.md` next. If you are returning after a gap, read `ED_MEMORY.md` for the durable state + Round 4 cleanup queue. If you are auditing, read `physics-papers/wedges/Paper_095_FormForced_ValueInherited.md` for the methodology discipline and then sample any paper's §2.5 Load-Bearing Step Audit Table to see the discipline in practice.*
+*If you are arriving at this repository for the first time, read `ED_WHITEPAPER.md` next. If you are returning after a gap, read `ED_MEMORY.md` for the durable state + Round 4 cleanup queue. If you are auditing, read `physics-papers/foundations/Paper_095_FormForced_ValueInherited.md` for the methodology discipline and then sample any paper's §2.5 Load-Bearing Step Audit Table to see the discipline in practice.*
