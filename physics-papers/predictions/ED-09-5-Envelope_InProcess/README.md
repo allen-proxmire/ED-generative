@@ -24,9 +24,9 @@
 
 **Observable:** Lomb-Scargle periodogram of the residual `r(t) = I(t) − I_model(t)` after subtracting the best-fit standard recovery model from a public FRAP curve.
 
-**Status:** **Self-contained. Executable within ~1 week at $0** with no third-party dependency. **The fastest path to a new ED empirical result in the entire program.**
+**Status:** **Pipeline BUILT + VALIDATED 2026-07-10** (`scripts/` — protocol Days 2–3 done). The analysis instrument (`frap_envelope_lombscargle.py`) implements F0–F5 and passes its synthetic validation: it recovers a known injected 240 Hz mode (`Q_v=6.6`, FAP≈10⁻²⁷), gives no false positive on recovery+noise, and rejects an off-prediction peak on F0. **Remaining = data:** feed it a concentrated, high-framerate (≥1–2 kHz) FRAP curve with known `γ_dec`. Self-contained analysis; $0.
 
-**Timeline:** 1 week from protocol adoption.
+**Timeline:** analysis ready now; result gated only on obtaining suitable high-framerate concentrated-FRAP data (protocol §7).
 
 ## Why two tracks test the same prediction
 
@@ -62,10 +62,9 @@ See `protocol.md` §15 for full list. Essential context:
 
 ## Next action
 
-Track B can be started immediately:
-1. **Day 1:** literature search for high-framerate concentrated-FRAP datasets.
-2. **Days 2–3:** write and validate `analysis/scripts/ed_09_5/frap_envelope_lombscargle.py`.
-3. **Days 4–5:** run on candidate datasets, per-dataset F0–F5 outcomes.
-4. **Days 6–7:** write up result (paper, memo, or null-result report).
+- ~~**Days 2–3:** write and validate the pipeline.~~ **DONE 2026-07-10** — see [`scripts/`](scripts/README.md) (built + validated, sensitive + specific).
+- **Day 1 (now the gating step):** obtain a **concentrated, high-framerate (≥1–2 kHz)** FRAP recovery curve with known/estimable `γ_dec` — either a machine-readable literature dataset (protocol §7 candidates) or the in-house UDM-FRAP V2 high-framerate add-on. Most published FRAP is dilute (low `f_v`); matched concentrated data is the search challenge.
+- **Then:** `python scripts/frap_envelope_lombscargle.py curve.csv --gamma-dec <Hz>` → per-dataset F0–F5; write up (result or null memo).
+- **Recommended parallel theory check:** drive the injected signal from the actual canonical ED PDE (Canon P6), not a resonator, to confirm ED *produces* the `f_v≈8γ_dec` envelope (`scripts/README.md` §"stronger theory-side check").
 
-In parallel: finalize the Aspelmeyer email v3 (cold-reader pass + affiliation line) and send.
+In parallel: finalize the Aspelmeyer email v3 (Track A) and send.
