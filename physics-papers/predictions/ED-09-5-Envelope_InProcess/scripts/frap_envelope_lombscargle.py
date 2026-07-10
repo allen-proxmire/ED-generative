@@ -105,7 +105,7 @@ def _lorentzian(f, f0, gamma, amp, base):
 # --------------------------------------------------------------------------
 # The pipeline
 # --------------------------------------------------------------------------
-def analyze(t, I, gamma_dec, *, N_osc=8.0, band=(80.0, 800.0),
+def analyze(t, I, gamma_dec, *, N_osc=1.1, band=(10.0, 120.0),
             f0_factor=2.0, fmax=None, fap_thresh=0.01, alpha_ring=0.018,
             n_boot=200, rng=None):
     """Run the full ED-09.5 Track B analysis on one recovery curve.

@@ -24,9 +24,9 @@
 
 **Observable:** Lomb-Scargle periodogram of the residual `r(t) = I(t) − I_model(t)` after subtracting the best-fit standard recovery model from a public FRAP curve.
 
-**Status:** **Pipeline BUILT + VALIDATED 2026-07-10** (`scripts/` — protocol Days 2–3 done). The analysis instrument (`frap_envelope_lombscargle.py`) implements F0–F5 and passes its synthetic validation: it recovers a known injected 240 Hz mode (`Q_v=6.6`, FAP≈10⁻²⁷), gives no false positive on recovery+noise, and rejects an off-prediction peak on F0. **Remaining = data:** feed it a concentrated, high-framerate (≥1–2 kHz) FRAP curve with known `γ_dec`. Self-contained analysis; $0.
+**Status:** **Pipeline BUILT + VALIDATED, and the prediction FREQUENCY CORRECTED ~7×, 2026-07-10** (`scripts/`). (1) The detector `frap_envelope_lombscargle.py` passes its synthetic validation (sensitive + specific). (2) **Driving the test from the real canonical PDE** (`ed_pde_envelope_drive.py`, [`ED_PDE_Drive_Finding_2026-07-10.md`](ED_PDE_Drive_Finding_2026-07-10.md)) found the participation envelope sits at **`f_v ≈ (Q/π)·γ_dec ≈ 1.1·γ_dec`, not `8·γ_dec`** — the `8` was a `10⁻³`-threshold cycle count mis-used in a `1/e`-time formula; the PDE reproduces the Canon's own `Q≈3.5` and gives `f_v/γ_dec≈1.1`. **Corrected band: ~11–110 Hz** (more accessible — needs ≥~250 Hz framerate, not 2 kHz). Commissioned FRAP is **not funded** ($15k declined). **Remaining = data** (literature dig) or a **spatial-PDE run** for the F4/F5 harmonic/triad legs.
 
-**Timeline:** analysis ready now; result gated only on obtaining suitable high-framerate concentrated-FRAP data (protocol §7).
+**Timeline:** detector ready; band corrected; result gated only on data or a spatial-PDE harmonic run.
 
 ## Why two tracks test the same prediction
 

@@ -7,8 +7,9 @@ data the moment a suitable dataset is in hand.
 ## Files
 | File | Purpose |
 |---|---|
-| `frap_envelope_lombscargle.py` | The pipeline. `analyze(t, I, gamma_dec)` → predicted vs measured `f_v`, `Q_v`, `N_osc`, 3rd-harmonic, triad, and the F0–F5 verdicts. Also a CLI: `python frap_envelope_lombscargle.py curve.csv --gamma-dec 30`. |
-| `synthetic_envelope_validation.py` | Instrument validation — injection / null / off-frequency cases. |
+| `frap_envelope_lombscargle.py` | The pipeline. `analyze(t, I, gamma_dec)` → predicted vs measured `f_v`, `Q_v`, `N_osc`, 3rd-harmonic, triad, F0–F5. CLI: `python frap_envelope_lombscargle.py curve.csv --gamma-dec 30`. Default `N_osc=1.1` (= `Q/π`, PDE-corrected; see below). |
+| `synthetic_envelope_validation.py` | Instrument validation — injection / null / off-frequency cases (corrected ~33 Hz band). |
+| `ed_pde_envelope_drive.py` | **Drives the prediction from the real canonical PDE** (Architectural_Canon P2+P3+P5). Measures `f_v`, `γ_dec`, `Q`, `r=f_v/γ_dec` in the oscillatory regime. **Found `r≈1.1` (=`Q/π`), not 8** → the `8·γ_dec` band is ~7× too high. See [`../ED_PDE_Drive_Finding_2026-07-10.md`](../ED_PDE_Drive_Finding_2026-07-10.md). |
 
 ## What it does (per protocol §6–10)
 Fit the smooth recovery model (exp1/exp2, lower-AIC) → residual `r(t)=I−I_model` →

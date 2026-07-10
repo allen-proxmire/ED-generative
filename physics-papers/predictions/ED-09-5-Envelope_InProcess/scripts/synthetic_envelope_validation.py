@@ -47,20 +47,22 @@ def _mode(n, f0, fs, Q, rms, rng):
     return x
 
 
-def make_case(kind, *, fs=2000.0, T=2.0, gamma_dec=30.0, N_osc=8.0,
+def make_case(kind, *, fs=2000.0, T=2.0, gamma_dec=30.0, N_osc=1.1,
               Q_inj=6.0, env_rms=0.03, noise=0.010, h3=0.04, seed=0):
+    # N_osc=1.1 (= Q/pi) is the PDE-corrected multiplier (ED_PDE_Drive_Finding_2026-07-10);
+    # predicted f_v = 1.1 * 30 = 33 Hz, inside the corrected 10-120 Hz band.
     rng = np.random.default_rng(seed)
     n = int(fs * T)
     t = np.arange(n) / fs
     I = _recovery(t)
-    f_v = N_osc * gamma_dec  # 240 Hz for the defaults
+    f_v = N_osc * gamma_dec  # ~33 Hz for the corrected defaults
 
     if kind == "injection":
         env = _mode(n, f_v, fs, Q_inj, env_rms, rng)
         env += _mode(n, 3.0 * f_v, fs, Q_inj, h3 * env_rms, rng)  # 3rd harmonic
         I = I + env
     elif kind == "offfreq":
-        I = I + _mode(n, 600.0, fs, Q_inj, env_rms, rng)  # real mode, wrong freq
+        I = I + _mode(n, 110.0, fs, Q_inj, env_rms, rng)  # real mode, wrong freq (in band, outside factor-2)
     elif kind == "null":
         pass  # recovery + noise only
     else:
@@ -72,8 +74,8 @@ def make_case(kind, *, fs=2000.0, T=2.0, gamma_dec=30.0, N_osc=8.0,
 
 def run():
     print("=" * 74)
-    print("ED-09.5 Track B -- synthetic pipeline validation")
-    print("predicted f_v = 8 * gamma_dec = 8 * 30 Hz = 240 Hz  (band 80-800 Hz)")
+    print("ED-09.5 Track B -- synthetic pipeline validation (PDE-corrected band)")
+    print("predicted f_v = (Q/pi) * gamma_dec ~ 1.1 * 30 Hz ~ 33 Hz  (band 10-120 Hz)")
     print("=" * 74)
 
     checks = []
@@ -82,15 +84,15 @@ def run():
     t, I = make_case("injection", seed=1)
     r = analyze(t, I, gamma_dec=30.0, rng=1)
     m = r["measured"]
-    print("\n[1] INJECTION (true mode at 240 Hz present)")
-    print(f"    f_v measured   = {m['f_v_Hz']:.1f} Hz   (pred 240.0)")
+    print("\n[1] INJECTION (true mode at ~33 Hz present)")
+    print(f"    f_v measured   = {m['f_v_Hz']:.1f} Hz   (pred 33.0)")
     print(f"    significant    = {m['significant']}  (FAP={m['false_alarm_prob']:.2e})")
     print(f"    Q_v            = {None if m['Q_v'] is None else round(m['Q_v'],2)}   (F3 band 4-9)")
     print(f"    N_osc          = {None if m['N_osc'] is None else round(m['N_osc'],2)}   (F2 band 6-12)")
     print(f"    3rd-harm ratio = {None if m['third_harmonic_ratio'] is None else round(m['third_harmonic_ratio'],3)}   (F4 band .03-.06)")
     print(f"    F0..F5         = {r['falsification']}")
     print(f"    verdict        = {r['verdict']}")
-    ok1 = r["falsification"]["F0"] and abs(np.log2(m["f_v_Hz"] / 240.0)) <= 1.0
+    ok1 = r["falsification"]["F0"] and abs(np.log2(m["f_v_Hz"] / 33.0)) <= 1.0
     checks.append(("injection detected at right f_v (F0)", ok1))
 
     # (2) null -- must NOT detect
@@ -108,7 +110,7 @@ def run():
     t, I = make_case("offfreq", seed=3)
     r = analyze(t, I, gamma_dec=30.0, rng=3)
     m = r["measured"]
-    print("\n[3] OFF-FREQ (real mode at 600 Hz; prediction is 240 Hz)")
+    print("\n[3] OFF-FREQ (real mode at 110 Hz; prediction is 33 Hz)")
     print(f"    f_v measured   = {m['f_v_Hz']:.1f} Hz  (significant={m['significant']})")
     print(f"    F0             = {r['falsification']['F0']}")
     print(f"    verdict        = {r['verdict']}")
