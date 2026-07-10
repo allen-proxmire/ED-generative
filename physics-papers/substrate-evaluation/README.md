@@ -51,6 +51,11 @@
 | [The Parity Wall](Paper_ParityWall_ChiralityVerdict.md) | ED gives matter/antimatter (C) natively but **not** the weak force's chirality (P) — the honest verdict | **Wall** (chirality not derived, #2b); *verdict superseded by the Clean-Substrate paper below* |
 | [The Clean Substrate Is Vector](Paper_CleanSubstrateVector_ParitySpontaneous.md) | grounds `γ⁵ = arrow × spontaneous orientation`; **theorem:** the parity-clean transport is vector for every channel-count, so parity violation is necessarily spontaneous; casting inherited (rep-theory) | **Wall + theorem** (supersedes The Parity Wall's verdict tier, #2b) |
 
+### Mass sector
+| Paper | Result | Tier |
+|---|---|---|
+| [Mass Without Mass](Paper_MassWithoutMass_BindingInertia.md) | rest mass and inertia from V5-binding of massless fronts (a lone front is massless, horizon-like); binding mass native (V5-conditional), fundamental Higgs inherited; and mass (binding) ≠ time dilation (commitment-rate) | Measured (V5-conditional) |
+
 ### QM keystone & coherence
 | Paper | Result | Tier |
 |---|---|---|

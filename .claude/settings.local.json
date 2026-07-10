@@ -329,7 +329,8 @@
       "Bash(git merge *)",
       "Bash(timeout 500 python mass_from_binding_probe.py)",
       "Bash(timeout 590 python mass_from_binding_probe.py)",
-      "Bash(timeout 200 python maxwell_from_coherence_probe.py)"
+      "Bash(timeout 200 python maxwell_from_coherence_probe.py)",
+      "Bash(python mass_from_binding_probe.py)"
     ]
   }
 }
