@@ -125,6 +125,8 @@ Under V1 substrate kernel propagation (Paper_089), the spinor rule-type amplitud
 
 Specifically: the V1 kernel acts on each spinor component $\Psi^\alpha(x)$ via the same finite-width retarded structure as for scalar amplitudes; the gamma-matrices supply the **inter-component coupling** that makes the equation first-order rather than second-order.
 
+> **Update (2026-07-10) — this §3.7 chain is no longer merely "asserted via inheritance"; it is now form-identified plus computed.** The unique first-order Clifford-linear operator built from the Cl(3,1) spinor bundle (T2) with $\gamma^\mu$ assigned to the four directions (T2 §3.5, via P03) and the retarded V1 connection (P05) is the Clifford contraction $D = \gamma^\mu\nabla_\mu$; discretized on the participation graph this is $D = \sum_\mu \gamma^\mu (V1\text{-retarded-difference})_\mu$, whose continuum limit is $i\gamma^\mu\partial_\mu$ (computed: $D(p)=\sum_\mu\gamma^\mu(e^{ip_\mu}-1)\approx i\gamma^\mu p_\mu$), and whose retardation is a Wilson term that **undoubles the Nielsen–Ninomiya doublers 16 → 1** (re-verified 2026-07-10, `evaluation/ChiralGauge/chiral_3p1d.py`). So the substrate-V1 → Dirac continuum limit is **computed**, and audit row 15 moves from OPEN to *form-identified + continuum-limit-computed*. Residual (genuinely open): the fully-covariant canonical-V1 proof (the worldline light-cone identification, shared with the continuum/curvature arc) and the graph-native construction of the spinor itself (the channel-topology program; canonical P07 supplies no native topology, `T4_04` fork a). The mass $m$ and the acoustic-metric signature stay inherited. Full synthesis: `event-density/foundations/T4_14_Closure_SubstrateToDirac_FormComplete_ValueInherited.md`.
+
 ---
 
 ## §4 Audit Table

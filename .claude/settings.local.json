@@ -324,7 +324,12 @@
       "Bash(python ed_pde_spatial_harmonic.py)",
       "Bash(python rep_spectrum_casting_winding.py)",
       "Bash(awk 'NR>=26 && NR<=60' ED_Research_Targets.md)",
-      "Bash(awk 'NR==26' ED_Research_Targets.md)"
+      "Bash(awk 'NR==26' ED_Research_Targets.md)",
+      "Bash(git fetch *)",
+      "Bash(git merge *)",
+      "Bash(timeout 500 python mass_from_binding_probe.py)",
+      "Bash(timeout 590 python mass_from_binding_probe.py)",
+      "Bash(timeout 200 python maxwell_from_coherence_probe.py)"
     ]
   }
 }
