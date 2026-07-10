@@ -43,6 +43,7 @@
 | [Common Cause, Not Channel (A1)](Paper_CommonCauseNotChannel_A1.md) | the determinability boundary: controlled channel capacity is exactly zero (ED locality) | Derived |
 | [Grown, Not Installed (A2)](Paper_GrownNotInstalled_A2.md) | an emergent decoupling boundary reproduces exact channel-zero | Grounded / Measured |
 | [The Topological Skeleton of Charge (B4)](Paper_ChargeAsTopology_B4.md) | quantized winding `w∈ℤ` + integral Gauss law on the graph (skeleton closed; local Coulomb open) | Grounded (Coulomb Open) |
+| [Maxwell as an Emergent Shadow](Paper_MaxwellEmergentShadow.md) | closes B4's open edge: the coherence-weighted limit is Coulomb, but the determinate substrate is kinetic/Σ-blind so it doesn't cast the smooth field — form native, smooth field a coarse-grained shadow | Analytic + Structural (shadow) |
 
 ### Gauge, matter, parity (the #2b frontier)
 | Paper | Result | Tier |
