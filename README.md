@@ -170,22 +170,36 @@ Every `physics-papers/` subfolder has a **README guide** — a "what this is" su
 
 ---
 
+## The companion folders
+
+Beyond `physics-papers/`, five top-level folders hold the axioms, the front door, the theorem registry, and two cross-cutting programs. Each now has a **README guide** in the same style:
+
+| Folder | What's there | Guide |
+|---|---|---|
+| **position-paper** *(front door)* | the whitepaper, the program review, the two position papers (axiomatic + philosophical), the Form-and-Flesh reach synthesis | [guide](position-paper/README.md) |
+| **primitives** | the 13 canonical primitives (P01–P13 cards), the load-bearing audit, the process-level `concepts/` glossary | [guide](primitives/README.md) |
+| **theorems** | the ratified-statement registry (T1–T21) — the anchor 78 papers cite by number; carries the live QM-foundations downgrades | [guide](theorems/README.md) |
+| **scale correspondence** | the ED-SC program: one substrate–cosmology boundary projected across scales (BH, MOND, Q-compute, soft matter) | [guide](scale%20correspondence/README.md) |
+| **layers** | ED's continuum laws as a coarse-graining hierarchy; the thesis *the layer divide is the arrow* | [guide](layers/README.md) |
+
+---
+
 ## Repository structure
 
 ```
-position-paper/        The 13-primitive position paper; the contrast ontology ("Facts") paper;
-                       the whitepaper; the Form-and-Flesh reach synthesis.
-primitives/            The 13 primitives + load-bearing audit + concept glossary.
 physics-papers/        Per-domain derivations across 13 subfolders (gravity, qm-kinematics,
                        relativistic-qm, qft, entanglement, dynamics, black-hole, cosmology,
                        soft-matter, q-compute, foundations, substrate-evaluation, predictions).
                        Each subfolder has a README guide — see "The physics-papers map" above.
-scale correspondence/  Cross-scale invariants and the substrate–cosmology synthesis (SCBU).
-theorems/              Standalone theorem statements.
-falsifiers/            Falsification criteria for the framework.
-predictions/           Active empirical-test program (BTFR scatter, a₀ tightening, …).
+position-paper/        The front door: whitepaper, program review, the axiomatic + philosophical
+                       position papers, the Form-and-Flesh reach synthesis. [guide]
+primitives/            The 13 primitives (P01–P13 cards) + load-bearing audit + concept glossary. [guide]
+theorems/              The ratified-statement registry (T1–T21) that the papers cite by number. [guide]
+scale correspondence/  The ED-SC program: one substrate–cosmology boundary (SCBU) across scales. [guide]
+layers/                Continuum laws as a coarse-graining hierarchy; "the divide is the arrow." [guide]
 archive/               Superseded artifacts.
 ```
+*(Each `[guide]` folder has a README — see "The companion folders" above. `essays/`, `outreach/`, `status updates/`, and `internal notes/` are working/non-canonical material.)*
 
 ---
 
