@@ -142,7 +142,31 @@ catalogs. For the full paper list and per-result verdict tiers, see `PAPERS_INDE
   Contrast Becomes Fact* — the foundational layer beneath the physics.
 - **The reach statement:** `position-paper/Paper_FormAndFlesh_TwoWalls.md` — what ED supplies (form)
   and what it withholds (flesh).
-- **Navigating the corpus:** `PAPERS_INDEX.md` (the canonical paper list with status and tiers).
+- **Navigating the corpus:** `PAPERS_INDEX.md` (the canonical paper list with status and tiers), and the per-folder guides below.
+
+---
+
+## The physics-papers map
+
+Every `physics-papers/` subfolder has a **README guide** — a "what this is" summary, a reading-order **spine**, per-paper one-line results, and an **epistemic tier** for each (`Derived` / `Grounded` / `Measured` / `Inherited` / `Prediction` / `Synthesis` / `Open` / `Wall`). Start with the folder that matches your interest:
+
+| Folder | What's there | Guide |
+|---|---|---|
+| **wedges** *(the foundation)* | the substrate itself: the 13 primitives, the V1/V5 kernels, the arrow (T18), the methodology | [guide](physics-papers/wedges/README.md) |
+| **qm-kinematics** | QM emergence: the four postulates, the Born rule, operators, interference | [guide](physics-papers/qm-kinematics/README.md) |
+| **relativistic-qm** | Dirac / Klein-Gordon, spin-statistics, Lorentz reps — and the **matter-sector spinor gate** | [guide](physics-papers/relativistic-qm/README.md) |
+| **qft** | fields, gauge, the Yang-Mills arc, and the Standard-Model matter sector (MS-I/II) | [guide](physics-papers/qft/README.md) |
+| **entanglement** | tensor structure, monogamy, von Neumann entropy, the Tsirelson bound, ER=EPR | [guide](physics-papers/entanglement/README.md) |
+| **gravity** | Newton, the khronometric Einstein metric (GR-I..IV), MOND / dark matter (KM-I/II), dark energy | [guide](physics-papers/gravity/README.md) |
+| **dynamics** | saddle dynamics and gravitational-wave generation (radiation, inspiral, ringdown) | [guide](physics-papers/dynamics/README.md) |
+| **black-hole** | horizons, the area law, the Hawking spectrum, the Page curve, the information paradox | [guide](physics-papers/black-hole/README.md) |
+| **cosmology** | the SCBU boundary, the substrate-inherited sequence (BBN/CMB/structure), baryogenesis, CCC | [guide](physics-papers/cosmology/README.md) |
+| **soft-matter** | DCGT (the continuum bridge), Navier-Stokes, rheology, the universal mobility law | [guide](physics-papers/soft-matter/README.md) |
+| **q-compute** | decoherence limits, the multiplicity cap, the A/B/C taxonomy, the Class-A wall prediction | [guide](physics-papers/q-compute/README.md) |
+| **substrate-evaluation** | cold-reader consolidation papers (ontology, coarse-graining, A1/A2, charge, gauge, parity) | [guide](physics-papers/substrate-evaluation/README.md) |
+| **predictions** | the falsification register + **prediction inventory** (Paper_101) + active experiments | [guide](physics-papers/predictions/README.md) |
+
+**State of the program** *(live map: `event-density/docs/ED_Research_Targets.md`)*. The **GR keystone is closed** (`gravity/`, GR-IV), as are the QM, entanglement, black-hole, soft-matter, and q-compute arcs. The live open **research** frontier is **the chiral-gauge / matter sector** (`qft/` MS-I/II + `relativistic-qm/`), which reduces to the **T4 spinor gate** (`Paper_106`). The highest-leverage build for the program's *goal* — a confirmed, novel, falsifiable prediction — is the **prediction inventory** (`predictions/Paper_101`). Each folder guide flags its own open edges.
 
 ---
 
@@ -152,8 +176,10 @@ catalogs. For the full paper list and per-result verdict tiers, see `PAPERS_INDE
 position-paper/        The 13-primitive position paper; the contrast ontology ("Facts") paper;
                        the whitepaper; the Form-and-Flesh reach synthesis.
 primitives/            The 13 primitives + load-bearing audit + concept glossary.
-physics-papers/        Per-domain derivations — gravity, cosmology, black-hole, qm-kinematics,
-                       qft, entanglement, q-compute, soft-matter, substrate-evaluation.
+physics-papers/        Per-domain derivations across 13 subfolders (gravity, qm-kinematics,
+                       relativistic-qm, qft, entanglement, dynamics, black-hole, cosmology,
+                       soft-matter, q-compute, wedges, substrate-evaluation, predictions).
+                       Each subfolder has a README guide — see "The physics-papers map" above.
 scale correspondence/  Cross-scale invariants and the substrate–cosmology synthesis (SCBU).
 theorems/              Standalone theorem statements.
 falsifiers/            Falsification criteria for the framework.
