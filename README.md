@@ -13,7 +13,7 @@ Picture an LED billboard: a wave crosses it, but nothing actually moves — only
 
 ## Start here
 
-**[Event Density: A Unified Framework for Physics](ED_UnifiedFramework_Report.md)** — the front door to the whole corpus in one document. Box by box, at honest tiers: what ED derives, what it inherits, what's open, and where each deep result lives. Built on the arrow-of-time spine, with the walls stated as loudly as the results. *(A typeset 40-page PDF is built from the same source.)*
+**[Event Density: A Unified Framework for Physics](ED_UnifiedFramework_Report.md)** — the front door to the whole corpus in one document. Box by box, at honest tiers: what ED derives, what it inherits, what's open, and where each deep result lives. Built on the arrow-of-time spine, with the walls stated as loudly as the results. *(Also as a typeset [40-page PDF](ED_UnifiedFramework_Report.pdf).)*
 
 ---
 
