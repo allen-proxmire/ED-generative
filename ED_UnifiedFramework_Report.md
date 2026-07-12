@@ -25,6 +25,7 @@ A framework earns the word "unified" by accounting for a specific list, and this
 
 - a minimal foundation (§3);
 - quantum mechanics from that foundation (§4);
+- entanglement, Bell and Tsirelson (§4);
 - gravity, including dark matter and dark energy (§5);
 - quantum mechanics and gravity unified rather than glued (§6);
 - the gauge forces `SU(3) × SU(2) × U(1)` (§7);
@@ -87,12 +88,13 @@ The substrate's postulates are thirteen (`P01`–`P13`, canonical in `foundation
 
 # §2 — The Scorecard
 
-The report's structure is this table. Read down the "arrow's job" column and the twelve boxes are not twelve separate achievements — they are one primitive, the arrow of time, showing up in eleven of them (every box but the constants, the value layer it does not set). Read the "tier" column and the tier is explicit in every row. Every ✅ is delivered by its section at the stated tier; every ⚠️ is a genuine open carried openly; every 📏 is a principled inheritance, not a hole.
+The report's structure is this table. Read down the "arrow's job" column and the thirteen boxes are not thirteen separate achievements — they are one primitive, the arrow of time, showing up in twelve of them (every box but the constants, the value layer it does not set). Read the "tier" column and the tier is explicit in every row. Every ✅ is delivered by its section at the stated tier; every ⚠️ is a genuine open carried openly; every 📏 is a principled inheritance, not a hole.
 
 | Box a unified framework must check | ED status | The arrow's job here | Tier | § |
 |---|---|---|---|---|
 | **Minimal foundation** | ✅ commitment + participation; one process does every job | the arrow *is* the sole process primitive | Grounded / synthesis | §3 |
 | **Quantum mechanics from the substrate** | ✅ reconstructed (orthogonality reduced, ℂ selected, Born non-contextuality grounded; residual = Solèr lattice rigor) | the arrow selects the pointer basis (einselection) + supplies repeatability | **Reconstructed** | §4 |
+| **Entanglement (Bell / Tsirelson)** | ✅ closed arc (non-factorizability, monogamy, no-signaling forced, the Bell–Tsirelson bound); read as the pre-individuation regime, not action-at-a-distance | commitment (P11) individuates; entanglement is the not-yet-committed regime | Closed (Grounded/Derived) + interpretation | §4 |
 | **Gravity (GR + dark matter + dark energy)** | ✅ GR quartet closed (GR-I..IV); khronon = dark matter + dark energy, grounded (cluster/CMB debt open) | the khronon *is* the arrow made dynamical (preferred time) | Derived (values inherited) | §5 |
 | **QM + gravity unified** | ✅ distinctive — the same arrow is pointer basis *and* preferred time (the problem of time dissolves); and the black-hole information paradox is addressed by a substrate-level unitarity-preserving mechanism (information = the arrow's record; no Hilbert-space unitarity proof claimed) | one arrow, two demands | **Account (distinctive)** | §6 |
 | **Gauge forces SU(3)×SU(2)×U(1)** | ✅ shape derived (SU(N) form, non-abelian, F², gap, single U(1)); ⚠️ {1,2,3} the wall | the single hypercharge = the arrow wearing a phase | Derived-conditional / **Wall** (#1) | §7 |
@@ -127,14 +129,14 @@ The payoff is the claim of this report: **sector after sector of physics, worked
 
 In ED the substrate is not a field or a particle or a piece of space. It is a set of relations, chains participating on channels, each carrying an amplitude, and the one thing that happens to those relations is **commitment**: a participation resolves, irreversibly, one way and not the other. That act is the primitive ED calls P11, and it is the arrow of time. Not a clock, not a coordinate, not the ticking of a background parameter. The arrow is the commitment itself: the substrate deciding, once, without taking it back.
 
-Two words carry the whole ontology. **Commitment and participation.** Participation is what is there to be resolved, a chain, on a channel, here, now. Commitment is the resolving. Everything else in this report is built out of that pair, and time is not a third thing added to them. Time *is* the commitment. That is why ED does not need a separate temporal stage: space is a genuine arena the substrate sits in, but time is not an arena, it is the act.
+Two words carry the whole ontology. **Commitment and participation.** Participation is what is there to be resolved, a chain, on a channel, here, now. Commitment is the resolving. Everything else in this report is built out of that pair, and time is not a third thing added to them. Time *is* the commitment. That is why ED does not need a separate temporal stage: space provides a bare index the substrate sits on, but time is not a stage at all, it is the act.
 
 ## The claim
 
 It is tempting to say "the arrow is the only primitive". The precise version is sharper and survives scrutiny. When you audit ED's primitives one by one against commitment, they sort cleanly into three piles (the reduction audit of the minimal-ontology paper):
 
 - The things the arrow **acts on** (participation, bandwidth, channels, polarity), which it presupposes and cannot be, because you need something there to commit.
-- The **arena** it acts in (space's homogeneity, its three dimensions, its scale, the kinds of rules available), which carries no direction of its own.
+- The **arena** it acts in — the bare substrate index (adjacency, dimension, grain scale) and the available rule-types, with the metric emergent on top rather than given — which carries no direction of its own.
 - The arrow **and every process built from it**: the causal chaining of events, the transport that connects them, the descent that drives them, all forward, all the arrow.
 
 So the precise claim is not that commitment is the only thing. It is that **commitment is the only *process*.** It is the one source of anything happening at all. A single source of process is exactly what you would need for a unified theory. If everything that *happens* traces to one act, then the sectors of physics are not independent. They are that one act, wearing different clothes.
@@ -171,7 +173,7 @@ Two guardrails, stated here so the rest of the report can lean on them.
 
 First, this is a **convergence, not a theorem.** No single derivation takes commitment and produces all ten jobs from it. Each is worked separately, each landing back on the arrow. That is consilience; and it is the kind of evidence unification is actually made of, one mechanism across the sectors. But it is not a proof that the arrow is logically prior to everything, and this document will not pretend it is. A skeptic is right to press here, and §6 presses back: the force of the claim is the recurrence, not a reduction.
 
-Second, the arrow is **not everything.** ED still carries a spatial arena it does not derive: three dimensions, a scale, a homogeneity, the kinds of rules the substrate can run. Those do not come from the arrow, and later sections that inherit numbers rather than deriving them (the constants, the representation spectrum) are inheriting them partly *because* the arrow is a process and not a stage, and a process cannot hand you the size of the room it runs in. Naming that limit up front is what keeps the spine load-bearing instead of mystical.
+Second, the arrow is **not everything** — but the "arena" is narrower than it sounds. What ED takes as primitive is only the *bare* substrate index: its adjacency, its dimension (P06), its grain scale (P08), and the available rule-types. It is **not** "space" in the usual sense. The metric geometry, physical distance, and even the boundary between one system and another are *emergent*, built by commitment: the weak-field metric comes out of the connectivity graph with no lengths on its edges (§5), and a spatial boundary is the coarse-grained shadow of an individuation surface (§4). So space is largely a *result*, not a stage; what stays primitive is the bare index, and even its dimension has a conjectured route home (the linking argument, §13). A process cannot hand you the bare index it runs on, and the later inherited numbers (the constants, the representation spectrum) trace partly to that same fact: the arrow is a process, not a stage. Naming that limit precisely is what keeps the spine load-bearing instead of mystical.
 
 ## What this section buys the rest of the report
 
@@ -224,12 +226,22 @@ This is a **coherent reconstruction, not a closed theorem**. Precisely:
 
 What is new and solid, independent of the residual rigor, is the **reframe**: orthogonality is operational rather than metric, the complex field is selected by ED's actual phase and composites, and the arrow selects the pointer basis.
 
+## Entanglement: the pre-individuation regime
+
+The same substrate carries entanglement, and it is where the ontology pays off most cleanly. ED has a **closed entanglement arc** (Papers 063–070): composite states are non-factorizable (the tensor-product structure), the Schmidt decomposition follows, monogamy comes from the finite cross-chain bandwidth budget, no-signaling is **forced and over-determined**, von Neumann entropy is grounded, and the **Bell–Tsirelson bound** — the exact quantum ceiling on correlations — is reconstructed. All of it is carried by **V5**, the cross-chain kernel: the finite-reach correlation between distinct chains. (Tier: the arc is closed, Grounded/Derived; no-signaling is Derived-forced.)
+
+The interpretation is where the arrow returns. Entanglement, in ED, is the **unresolved regime of participation-rule individuation** (Paper_072): a configuration where two would-be systems share cross-chain participation and **no commitment has yet individuated them** into distinct identities. Two entangled particles are not two things exchanging a spooky influence; they are **one un-individuated chain-complex expressed at two endpoints**. Measurement is P11 commitment completing the individuation, which is why entanglement is consumed when it is measured, and why no-signaling is not a constraint ED must impose but one it over-determines: there is no second, separate system for a signal to reach.
+
+This is also where ED's account of space does work. In the substrate, **individuation is prior to spatial separation**: the boundary between two systems is the coarse-grained *shadow* of an individuation surface, so a pre-individuated pair has no such boundary, which is exactly why entanglement reads as "non-local." The apparent distance between the endpoints is an emergent-metric quantity (§5), and the pre-individuated pair is not yet committed to that metric. (Honest scope: the chains still occupy substrate loci; what is undefined before commitment is the *emergent* separation, not location itself. Making that bridge fully explicit — entanglement as **pre-spatial** — is a named open synthesis, not yet a written result.)
+
+Finally, the same cross-chain kernel that carries entanglement also carries the black hole's interior structure, so ED exhibits an **ER=EPR-class echo** (Paper_071): entanglement and horizon geometry are governed by the one V5 object. This is a *structural echo*, honestly, not a constructive derivation of ER=EPR. (Tier: Grounded interpretation for the pre-individuation reading; a structural echo, not a theorem, for the ER=EPR link.)
+
 ## What this buys
 
 Note what did the work in every result above: the *irreversibility* of commitment. It locked the channel to give repeatability; it made the channel basis the unique pointer basis; it made outcomes stochastic commitments rather than pre-valued facts. That irreversibility is the arrow of §3. Hold onto the specific identification, **the arrow selects the quantum pointer basis** — because §5 will show the same arrow fixes gravity's preferred time, and §6 will argue those are not two facts.
 
 
-**Related papers.** *The Quantum-Logic Keystone: Gleason Reconstruction* (`substrate-evaluation/Paper_QuantumLogicKeystone_GleasonReconstruction`); *Gleason-Type Uniqueness* (`qm-kinematics/Paper_004_GleasonUniqueness`); *Pre-Individuation Amplitudes* (`qm-kinematics/Paper_001_PreIndividuation`).
+**Related papers.** *The Quantum-Logic Keystone: Gleason Reconstruction* (`substrate-evaluation/Paper_QuantumLogicKeystone_GleasonReconstruction`); *Gleason-Type Uniqueness* (`qm-kinematics/Paper_004_GleasonUniqueness`); *Pre-Individuation Amplitudes* (`qm-kinematics/Paper_001_PreIndividuation`). Entanglement arc: *Tensor Product* through *Bipartite Synthesis* (`entanglement/Paper_063_TensorProduct` … `Paper_070_BipartiteSynthesis`), the *Bell–Tsirelson reconstruction* (`entanglement/Paper_069_TsirelsonReconstruction`), *Individuation Regime* (`entanglement/Paper_072_IndividuationRegime`), and the *ER=EPR echo* (`entanglement/Paper_071_ER_EPR_Echo`).
 
 # §5 — Gravity: the khronon is the arrow made dynamical
 
@@ -320,7 +332,7 @@ On that picture the **Page-curve shape follows** — the radiation's entanglemen
 
 The distinctive move: **ED preserves information without fundamental Hilbert-space unitarity** — which the arrow actually forbids. Reversible unitary quantum mechanics is the emergent, between-commitments description; the fundamental substrate is irreversible. The physically required property was never reversibility, it was no-information-loss, and irreversible recording delivers that directly. So the black hole is not an awkward case the unification must survive; it is where the arrow's defining character turns the paradox's central assumption on its head. (Tier: the resolution — records, no erasure, no firewall, emergent-not-fundamental unitarity — is grounded in bandwidth conservation (P04) plus commitment-irreversibility (P11), the substrate-level information ledger of Paper_052; the Page-curve shape and the Hawking and remnant predictions are derived conditional on the two V5 cross-chain postulates (the entanglement-bandwidth budget and its re-routing on saturation), which are structural additions; the interior reconstruction and the exact horizon geometry are the remaining computations. A standard Hilbert-space unitarity proof is not claimed, and in ED that is a feature, not a gap.)
 
-This is the unification-bearing core of ED's black-hole sector, which is the part this overview carries. The fuller account — horizon thermodynamics, the Hawking spectrum and its `c_T = c`-clean derivation, the Page-curve mechanism, the absence of a central singularity, and the Bekenstein–Hawking area law read as a count of straddling edges (the same holographic edge-count behind A1) — is the black-hole arc, roughly Papers 039–052, which this section points to rather than reproduces. The report is a map of the twelve boxes a unified framework must check; the black hole is where the QM-and-gravity box is stress-tested, so it earns a place here, but its full treatment lives in the corpus.
+This is the unification-bearing core of ED's black-hole sector, which is the part this overview carries. The fuller account — horizon thermodynamics, the Hawking spectrum and its `c_T = c`-clean derivation, the Page-curve mechanism, the absence of a central singularity, and the Bekenstein–Hawking area law read as a count of straddling edges (the same holographic edge-count behind A1) — is the black-hole arc, roughly Papers 039–052, which this section points to rather than reproduces. The report is a map of the thirteen boxes a unified framework must check; the black hole is where the QM-and-gravity box is stress-tested, so it earns a place here, but its full treatment lives in the corpus.
 
 ## The guardrail 
 
