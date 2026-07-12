@@ -2,10 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/1237222292.svg)](https://doi.org/10.5281/zenodo.20149496)
 
-> The universe is a participation graph of discrete, relational becomings that commit
-> irreversibly and sparsely, one at a time. Smooth spacetime, fields, and the constants are
-> the coarse-grained pattern that process makes — with the arrow of time written into the
-> law, not the boundary conditions.
+> A unified framework for physics from one primitive: the arrow of time, the irreversible
+> act of commitment, written into the law rather than the boundary conditions. Thirteen
+> substrate postulates yield quantum mechanics, gravity (dark matter and dark energy in one
+> field), the Standard Model's gauge structure, charge, chirality, and entanglement.
+> Form-complete, value-inherited, and honest about what's open.
 
 Picture an LED billboard: a wave crosses it, but nothing actually moves — only a grid of lights switching on and off in coordinated ways. **The pattern is real; the thing moving is not.** Event Density (ED) says the universe is built that way. What we measure as motion, gravity, charge, probability, and time are patterns in how discrete events relate, and **one primitive — the arrow of time, the irreversible act of commitment — does the load-bearing work across every sector.**
 
