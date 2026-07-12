@@ -182,7 +182,12 @@ From here on, no sector is a standalone result. When §4 reconstructs quantum me
 The boxes a unified theory must check are the skeleton of this report. The arrow of time is the blood that runs through it. Everything after this page is the same one-way act, seen from one more angle.
 
 
-**Related papers.** *Commitment and Participation: the Minimal Ontology* (`substrate-evaluation/Paper_CommitmentAndParticipation_MinimalOntology`); *The Arrow Sorts the Continuum* (`substrate-evaluation/Paper_TheArrowSortsTheContinuum`); the position paper, the thirteen primitives (`foundations/Paper_087_13Primitives`).
+**Related papers:** 
+
+- *Commitment and Participation: the Minimal Ontology* 
+- *The Arrow Sorts the Continuum* 
+- *The Thirteen Primitives
+- Position papers
 
 # §4 — Quantum Mechanics from the Substrate: the arrow selects the pointer basis
 
@@ -228,20 +233,28 @@ What is new and solid, independent of the residual rigor, is the **reframe**: or
 
 ## Entanglement: the pre-individuation regime
 
-The same substrate carries entanglement, and it is where the ontology pays off most cleanly. ED has a **closed entanglement arc** (Papers 063–070): composite states are non-factorizable (the tensor-product structure), the Schmidt decomposition follows, monogamy comes from the finite cross-chain bandwidth budget, no-signaling is **forced and over-determined**, von Neumann entropy is grounded, and the **Bell–Tsirelson bound** — the exact quantum ceiling on correlations — is reconstructed. All of it is carried by **V5**, the cross-chain kernel: the finite-reach correlation between distinct chains. (Tier: the arc is closed, Grounded/Derived; no-signaling is Derived-forced.)
+ED has a **closed entanglement arc** (Papers 063–070): composite states are non-factorizable (the tensor-product structure), the Schmidt decomposition follows, monogamy comes from the finite cross-chain bandwidth budget, no-signaling is **forced and over-determined**, von Neumann entropy is grounded, and the **Bell–Tsirelson bound** — the exact quantum ceiling on correlations — is reconstructed. All of it is carried by **V5**, the cross-chain kernel: the finite-reach correlation between distinct chains. (Tier: the arc is closed, Grounded/Derived; no-signaling is Derived-forced.)
 
 The interpretation is where the arrow returns. Entanglement, in ED, is the **unresolved regime of participation-rule individuation** (Paper_072): a configuration where two would-be systems share cross-chain participation and **no commitment has yet individuated them** into distinct identities. Two entangled particles are not two things exchanging a spooky influence; they are **one un-individuated chain-complex expressed at two endpoints**. Measurement is P11 commitment completing the individuation, which is why entanglement is consumed when it is measured, and why no-signaling is not a constraint ED must impose but one it over-determines: there is no second, separate system for a signal to reach.
 
 This is also where ED's account of space does work. In the substrate, **individuation is prior to spatial separation**: the boundary between two systems is the coarse-grained *shadow* of an individuation surface, so a pre-individuated pair has no such boundary, which is exactly why entanglement reads as "non-local." The apparent distance between the endpoints is an emergent-metric quantity (§5), and the pre-individuated pair is not yet committed to that metric. (Honest scope: the chains still occupy substrate loci; what is undefined before commitment is the *emergent* separation, not location itself. Making that bridge fully explicit — entanglement as **pre-spatial** — is a named open synthesis, not yet a written result.)
 
-Finally, the same cross-chain kernel that carries entanglement also carries the black hole's interior structure, so ED exhibits an **ER=EPR-class echo** (Paper_071): entanglement and horizon geometry are governed by the one V5 object. This is a *structural echo*, honestly, not a constructive derivation of ER=EPR. (Tier: Grounded interpretation for the pre-individuation reading; a structural echo, not a theorem, for the ER=EPR link.)
+Finally, the same cross-chain kernel that carries entanglement also carries the black hole's interior structure, so ED exhibits an **ER=EPR-class echo** (Paper_071): entanglement and horizon geometry are governed by the one V5 object. This is a *structural echo*, not a constructive derivation of ER=EPR. (Tier: Grounded interpretation for the pre-individuation reading; a structural echo, not a theorem, for the ER=EPR link.)
 
 ## What this buys
 
 Note what did the work in every result above: the *irreversibility* of commitment. It locked the channel to give repeatability; it made the channel basis the unique pointer basis; it made outcomes stochastic commitments rather than pre-valued facts. That irreversibility is the arrow of §3. Hold onto the specific identification, **the arrow selects the quantum pointer basis** — because §5 will show the same arrow fixes gravity's preferred time, and §6 will argue those are not two facts.
 
 
-**Related papers.** *The Quantum-Logic Keystone: Gleason Reconstruction* (`substrate-evaluation/Paper_QuantumLogicKeystone_GleasonReconstruction`); *Gleason-Type Uniqueness* (`qm-kinematics/Paper_004_GleasonUniqueness`); *Pre-Individuation Amplitudes* (`qm-kinematics/Paper_001_PreIndividuation`). Entanglement arc: *Tensor Product* through *Bipartite Synthesis* (`entanglement/Paper_063_TensorProduct` … `Paper_070_BipartiteSynthesis`), the *Bell–Tsirelson reconstruction* (`entanglement/Paper_069_TsirelsonReconstruction`), *Individuation Regime* (`entanglement/Paper_072_IndividuationRegime`), and the *ER=EPR echo* (`entanglement/Paper_071_ER_EPR_Echo`).
+**Related papers.** 
+
+- *The Quantum-Logic Keystone: Gleason Reconstruction* 
+- *Gleason-Type Uniqueness*  
+- *Pre-Individuation Amplitudes* 
+- Entanglement arc: *Tensor Product* through *Bipartite Synthesis*
+- *Bell–Tsirelson reconstruction* 
+- *Individuation Regime* 
+- *ER=EPR echo* 
 
 # §5 — Gravity: the khronon is the arrow made dynamical
 
@@ -292,7 +305,16 @@ None of these demote the sector. The GR quartet is closed and Derived; the one-f
 The load-bearing fact to carry forward is the identification made at the top: **gravity's preferred time is the arrow.** The khronon is not a new field standing next to the arrow; it is the arrow, dynamical. Hold that against §4's result, *the arrow selects the quantum pointer basis*, and §6 has both halves it needs. The pointer basis and the preferred foliation are jobs of one primitive. That is the unification, and gravity is where its second half lives.
 
 
-**Related papers.** The gravity quartet, *Weak-Field Einstein Metric* through *The Arrow's Alibi* (`gravity/Paper_GR-I_WeakFieldEinsteinMetric` … `Paper_GR-IV_ArrowsAlibi`); *Khronon MOND* and *Khronon Cosmology* (`gravity/Paper_KM-I_KhrononMOND`, `Paper_KM-II_KhrononCosmology`); *One Field* (`gravity/Paper_OneField_Letter`); the MOND scale, Newton's `G`, the combination rule, and BTFR (`gravity/Paper_029_a0`, `Paper_027_Newtons_G`, `Paper_030_CombinationRule`, `Paper_031_BTFR`); the cosmological constant Λ (`gravity/Paper_038_5_Lambda_V1_Cosmological`).
+**Related papers.** 
+
+- *Weak-Field Einstein Metric*, *Khronometric Class*, *Dynamic Rule*, and *The Arrow's Alibi* 
+- *Khronon MOND* and *Khronon Cosmology* 
+- *One Field* 
+- *a_0 The MOND Scale*
+- *Newton's `G`*
+- *The Combination Rule*
+- *BTFR*
+- *The Cosmological Constant Λ*
 
 # §6 — The Unification Move: one arrow meets two demands
 
@@ -326,7 +348,7 @@ Third, it dissolves a recognized tension rather than ignoring or papering one ov
 
 The place quantum mechanics and gravity are supposed to be most irreconcilable is the black hole, and specifically the information paradox: Hawking radiation looks purely thermal (it carries no information), evaporation looks complete (the matter is gone), and quantum mechanics is unitary (information cannot be destroyed). The three statements cannot all hold. It is the sharpest test of any claim to unify the two, and the same arrow resolves it.
 
-The resolution is the arrow doing §4's job one step further. Commitment is irreversible — that is the arrow — and **the arrow that forbids reversibility forbids erasure**: every commitment is a permanent, un-erasable record in the committed channel basis. Information is never destroyed at the substrate level, not because evolution is reversible, but because commitments are recorded and locked and the total bandwidth ledger is conserved (P04, bandwidth additivity). The infalling matter is committed and recorded as it participates near the horizon; those records straddle the horizon and survive through it. The horizon here is not new physics: it is the same `b → 0` decoupling surface — the boundary at which the controlled information capacity between substrate regions falls to zero, ED's **A1** result (§11) — so the black hole is built from the report's own machinery, not a separate model. So the paradox's load-bearing premise — that evaporation erases information — is simply false in ED, and no firewall is needed to protect a unitarity that was never the fundamental requirement.
+The resolution is the arrow doing §4's job one step further. Commitment is irreversible — that is the arrow — and **the arrow that forbids reversibility forbids erasure**: every commitment is a permanent, un-erasable record in the committed channel basis. Information is never destroyed at the substrate level, not because evolution is reversible, but because commitments are recorded and locked and the total bandwidth ledger is conserved (P04, bandwidth additivity). The infalling matter is committed and recorded as it participates near the horizon; those records straddle the horizon and survive through it. The horizon here is not new physics: it is the same `b → 0` decoupling surface — the boundary at which the controlled information capacity between substrate regions falls to zero, ED's **A1** result (§11) — so the black hole is built from the report's own machinery, not a separate model. The paradox's load-bearing premise — that evaporation erases information — is simply false in ED, and no firewall is needed to protect a unitarity that was never the fundamental requirement.
 
 On that picture the **Page-curve shape follows** — the radiation's entanglement entropy rises, turns over when the cross-chain entanglement budget saturates, and declines as the information re-routes into radiation–radiation and radiation–remnant correlations (Paper_050, Paper_052). Two caveats bound it. The turnover and the decline each rest on an *added* postulate — a finite V5 entanglement-bandwidth budget (for the saturation) and re-routing on saturation (for the decline) — which Paper_050 carries as postulates, not derived from the V5 kernel alone; so the shape is **derived-conditional** on that added structure, not a bare-substrate consequence, and Paper_050 is explicit that it does not derive the Page curve from first principles. And the numerical scale (turnover near `t ≈ 0.54 τ_BH`) is inherited. Two byproducts are testable: a sign-definite non-thermal `(ω/ω_c)²` correction to the Hawking spectrum, and a stable Planck-mass remnant where evaporation halts (§14).
 
@@ -347,7 +369,9 @@ A skeptic is right to press exactly here, and the right response is not to push 
 §3 introduced the arrow; §4 and §5 described its two largest jobs; this section unified them. From here, the Standard Model sectors (§7–§10) are the same primitive again, in smaller and more inherited roles, the single hypercharge it anchors, the continuum it sorts, the spinor it undoubles, the chirality it half-carries. It is the primitive that keeps turning up as the mechanism, most strikingly where quantum mechanics and gravity were supposed to be irreconcilable. That recurrence, properly tiered, is the case for calling Event Density a unified framework.
 
 
-**Related papers.** *Commitment and Participation* §8, the keystone synthesis (`substrate-evaluation/Paper_CommitmentAndParticipation_MinimalOntology`). Black-hole arc: *Information-Paradox Synthesis* (`black-hole/Paper_052_BH_ParadoxSynthesis`), *The Page Curve* (`black-hole/Paper_050_PageCurve`), *Hawking Spectrum* (`black-hole/Paper_047_HawkingSpectrum`), *Horizon Decoupling* (`black-hole/Paper_039_HorizonDecoupling`).
+**Related papers.** 
+- *Commitment and Participation* 
+- *Information-Paradox Synthesis*, *The Page Curve*, *Hawking Spectrum*, and *Horizon Decoupling* 
 
 # §7 — Gauge Structure: the shape is derived, the multiplicities are the wall
 
@@ -374,7 +398,7 @@ First, the channel-family stability does not select {1,2,3} — a symmetric mult
 
 Second, the Standard Model does not explain them either. The gauge group and its representation content are inputs there. So ED's status on this specific question — the shape derived, the multiplicities inherited — is not *worse* than the Standard Model's; it is the same inheritance, on top of a derivation of the surrounding structure the Standard Model does not attempt.
 
-Third, the open question is bounded and well-posed, not a vague deficiency. It reduces to a single sharp question — why the internal channel-amplitude dimension is three — and it has one *candidate* route, still conjectured rather than a computation someone could just run: the linking argument (program review §5.5, minimal-ontology §6). Stable linking of one-dimensional loops exists in exactly three dimensions, and committed order needs a topologically stable holder, so ED plausibly reaches for 3D. But the corpus states two limits plainly. That argument targets the *spatial* dimension (P06); whether that is even the *same* fact as the internal amplitude dimension of #1 is explicitly not claimed either way. And its open premise is conceptual, not computational — whether committed order is held by linking *specifically* (the label-held alternative is ruled out on the simulator, but linking is not thereby established), a question that requires a three-dimensional substrate to so much as pose and so cannot be settled on the certified two-dimensional simulator. So #1 is a well-posed open problem with a conjectured route, left unbuilt.
+Third, the open question is bounded and well-posed, not a vague deficiency. It reduces to a single sharp question — why the internal channel-amplitude dimension is three — and it has one *candidate* route, still conjectured: the linking argument. Stable linking of one-dimensional loops exists in exactly three dimensions, and committed order needs a topologically stable holder, so ED plausibly reaches for 3D. But the corpus states two limits plainly. That argument targets the *spatial* dimension (P06). Whether that is even the *same* fact as the internal amplitude dimension of #1 is explicitly not claimed either way. So #1 is a well-posed open problem with a conjectured route, left unbuilt.
 
 ## What is inherited or gated
 
@@ -395,7 +419,9 @@ Third, the open question is bounded and well-posed, not a vague deficiency. It r
 The rest of the Standard Model quarter will refer back to this section. The inherited casting of §9 (which force is chiral = SU(2) pseudoreality), the inherited charge magnitudes of §8, and the inherited generation spectrum of §10 are all the *same* rep-spectrum wall, #1, and it lives here: ED derives the gauge sector's shape and inherits its multiplicities. Framed correctly, that is one bounded open problem, with a single conjectured route, sitting underneath a genuine derivation of structure — not three separate gaps, and not a vague failure.
 
 
-**Related papers.** *The Gauge Structure of Event Density* (`substrate-evaluation/Paper_GaugeStructure_FromChannelTransport`).
+**Related papers.** 
+
+- *The Gauge Structure of Event Density* 
 
 # §8 — Charge and Electromagnetism: a native skeleton, a shadow field
 
@@ -419,7 +445,7 @@ But that is a statement about the coherence-weighted ensemble, not about the det
 
 ## ED's monist position on electromagnetism
 
-Put the two halves together and the sector has a clean ontology. The charge *skeleton* — winding, quantization, Gauss law — is native substrate structure. The electromagnetic *field* — the smooth `A_μ`, `F_{μν}`, the Coulomb `1/r²` — is not a second fundamental thing sitting beside the substrate; it is what the substrate looks like coarse-grained — like the smooth metric (§5, emergent and kinematic) and the diffusion equation before it. The determined continuum is always the coarse-grained object, never a second primitive. ED does not have a fundamental field to reconcile. It has one substrate, and the field is its shadow. That is the same monist move the whole program makes, and electromagnetism is its cleanest instance, because the lattice-to-continuum dictionary here (Wilson's lattice gauge theory) is already standard.
+Put the two halves together and the sector has a clean ontology. The charge *skeleton* — winding, quantization, Gauss law — is native substrate structure. The electromagnetic *field* — the smooth `A_μ`, `F_{μν}`, the Coulomb `1/r²` — is not a second fundamental thing sitting beside the substrate; it is what the substrate looks like coarse-grained — like the smooth metric (§5, emergent and kinematic) and the diffusion equation before it. The determined continuum is always the coarse-grained object, never a primitive. ED does not have a fundamental field to reconcile. It has one substrate, and the field is its shadow. That is the same monist move the whole program makes, and electromagnetism is its cleanest instance, because the lattice-to-continuum dictionary here (Wilson's lattice gauge theory) is already standard.
 
 ## Scope
 
@@ -433,11 +459,15 @@ Put the two halves together and the sector has a clean ontology. The charge *ske
 The arrow in the charge sector is: irreversibility quantizing and protecting the winding, and the continuum-sorting that makes electromagnetism a shadow rather than a fundamental field. Charge is the sharpest instance of a reading the whole report shares — the determined continuum, whether the smooth metric (§5) or the diffusion PDE, is always the coarse-grained shadow, never a second primitive. The representation content that would fix the charge *magnitudes* is the open rep-spectrum question.
 
 
-**Related papers.** *The Topological Skeleton of Charge* / B4 (`substrate-evaluation/Paper_ChargeAsTopology_B4`); *Maxwell as an Emergent Shadow* (`substrate-evaluation/Paper_MaxwellEmergentShadow`); *The Continuum: a Kinetic Lattice-Gas* (`substrate-evaluation/Paper_Continuum_KineticLatticeGas`).
+**Related papers.** 
+
+- *The Topological Skeleton of Charge / B4 *
+- *Maxwell as an Emergent Shadow*
+- *The Continuum: a Kinetic Lattice-Gas*
 
 # §9 — Chirality: ED builds the stage, inherits the assignment
 
-**The arrow's job here.** Chirality is where the arrow does a half-job, and the point of the section is saying which half. The chirality operator `γ⁵` factors, in ED, into the arrow multiplied by a spatial orientation, so the arrow literally *is* one of its two ingredients. And the arrow's parity-cleanness — the substrate has no reflection in its toolkit — is what forces the central theorem: the clean substrate is vector, and any parity violation must be spontaneous. What the arrow does *not* do is pick which force is chiral. That is inherited.
+**The arrow's job here.** Chirality is where the arrow can only do half the job, and the point of this section is saying which half. The chirality operator `γ⁵` factors, in ED, into the arrow multiplied by a spatial orientation, so the arrow *is* one of its two ingredients. And the arrow's parity-cleanness — the substrate has no reflection in its toolkit — is what forces the central theorem: the clean substrate is vector, and any parity violation must be spontaneous. What the arrow does *not* do is pick which force is chiral. That is inherited.
 
 Parity violation, the fact that the weak force couples to left-handed fermions and not right, is one of the starkest facts in the Standard Model, and it is written into the law by hand. The question for ED is whether the substrate produces it or inherits it. The answer is precise: ED builds the entire stage on which chirality lives and inherits the one assignment.
 
@@ -453,17 +483,17 @@ Model a family of `N` channels as a commitment map on an emergent chain, `H(k) =
 
 Parity-cleanness fixes `B`. Parity is the spatial reflection `k → −k` together with the lane reflection `S` of the channel row, and parity-symmetry of `H` forces the backward hop to mirror the forward one, `B = S A S⁻¹`. Then
 
-`S H(k) S⁻¹ = e^{ik}B + e^{−ik}A = H(−k)`,
+> `S H(k) S⁻¹ = e^{ik}B + e^{−ik}A = H(−k)`,
 
 so `det H(k) = det H(−k)`: the determinant is **even** in `k`. An even determinant retraces its own path over the period, encircling nothing, so the **winding is identically zero, for every `N` and every forward hop `A`.** This was checked directly for `N = 1` through `6` over many random hops, zero in every case.
 
 > The parity-clean substrate carries no net chirality at any channel-count. It is vector for one channel, two, three, all of them.
 
-The corollary is the strong positive: since the clean transport is vector, any parity violation must break the parity symmetry, which means it must be the spontaneous orientation choice. **If parity is violated in ED, its direction is necessarily spontaneous** — not a handedness written into the law, because the clean rules provably cannot carry one, but a contingent, symmetry-broken choice. This is what turns the earlier verdict from "we looked and did not find chirality" into "the clean rules cannot carry it, and here is the proof."
+The corollary is the strong positive: since the clean transport is vector, any parity violation must break the parity symmetry, which means it must be the spontaneous orientation choice. **If parity is violated in ED, its direction is necessarily spontaneous** — not a handedness written into the law, because the clean rules provably cannot carry one.
 
 ## Capability is not selection
 
-Having a defined `γ⁵` is not yet parity violation; the dynamics has to treat the two handednesses differently. That splits into capability (is there a genuine left and right to couple to?) and selection (does the dynamics use it?). The capability structure is clean and precise: a parity-clean coupling that references the orientation must live in the reflection-odd part of the gauge structure. For `N = 1` (abelian) that sector is empty, so the coupling is **forced vector** — which is electromagnetism. For `N ≥ 2` it is nonempty, so a chiral coupling is **possible**. There is a suggestive arithmetic here: reflect a row of `N` lanes (`i ↦ N+1−i`), and a self-mirror central lane survives only when `N` is *odd* (a single lane, or the middle of three), so odd `N` is symmetrically anchored and reads vector, while *even* `N` — lanes that merely swap, with no anchor — can carry a handedness. That much is exact, and it correctly flags the weak force (`N = 2`) as the chiral one. But it is an intuition pump, not a law, and the report says so: the "even is chiral" reading would wrongly predict a chiral `N = 4`, and the step from "no central lane" to "*actually* chiral" is asserted, not derived. The geometry says whether there is a left and a right lane; it does not say which the universe drives in. That is the whole content of the wall — and the real reason `N = 2` is the special case is representation-theoretic, not a parity of `N`, as the next subsection explains.
+Having a defined `γ⁵` is not yet parity violation; the dynamics has to treat the two handednesses differently. That splits into capability (is there a genuine left and right to couple to?) and selection (does the dynamics use it?). The capability structure is clean and precise: a parity-clean coupling that references the orientation must live in the reflection-odd part of the gauge structure. For `N = 1` (abelian) that sector is empty, so the coupling is **forced vector** — which is electromagnetism. For `N ≥ 2` it is nonempty, so a chiral coupling is **possible**. There is a suggestive arithmetic here: reflect a row of `N` lanes (`i ↦ N+1−i`), and a self-mirror central lane survives only when `N` is *odd* (a single lane, or the middle of three), so odd `N` is symmetrically anchored and reads vector, while *even* `N` — lanes that merely swap, with no anchor — can carry a handedness. That much is exact, and it correctly flags the weak force (`N = 2`) as the chiral one. But it is an intuition pump, not a law, and this report is clear about it.derived. The geometry says whether there is a left and a right lane; it does not say which the universe drives in. That is the whole content of the wall — and the real reason `N = 2` is the special case is representation-theoretic, not a parity of `N`, as the next subsection explains.
 
 ## The casting is inherited
 
@@ -473,7 +503,7 @@ Where the selection genuinely lives is representation theory — and it explains
 
 ## The prediction, and the anomaly baseline
 
-Because the clean substrate is provably vector, ED's parity violation is necessarily a spontaneous, per-universe orientation tied to the arrow, and the same arrow sets the matter/antimatter sign. So ED predicts the **gauge handedness and the matter/antimatter sign are correlated** — two faces of one first-commitment choice — against the Standard Model's fixed, uncorrelated, law-level handedness. The claim is theoretically firm (it rests on the vector theorem, not a stance), but its **testability is open**: the corpus register flags it as not testable with current data, so §14 carries it as a distinctive-but-not-yet-testable prediction rather than a live weapon.
+Because the clean substrate is provably vector, ED's parity violation is necessarily a spontaneous, per-universe orientation tied to the arrow, and the same arrow sets the matter/antimatter sign (§10). So ED predicts the **gauge handedness and the matter/antimatter sign are correlated** — two faces of one first-commitment choice — against the Standard Model's fixed, uncorrelated, law-level handedness. The claim is theoretically firm (it rests on the vector theorem, not a stance), but its **testability is open**: the corpus register flags it as not testable with current data, so §14 carries it as a distinctive-but-not-yet-testable prediction rather than a live weapon.
 
 The theorem also fixes the anomaly baseline: a vector theory is automatically anomaly-free, so the clean substrate carries no gauge anomaly (at the transport level, contingent on the substrate-to-Dirac descent). The Standard Model's nontrivial chiral cancellation is a property of the inherited chiral content, so it is inherited with that content (§12).
 
@@ -488,13 +518,14 @@ The theorem also fixes the anomaly baseline: a vector theory is automatically an
 The arrow does half the job of chirality cleanly: it *is* half of `γ⁵`, and its parity-cleanness forces the vector theorem, so parity violation is provably spontaneous rather than law-level. The other half — which force is chiral — is the representation-theoretic inheritance behind the rep-spectrum wall. And the correlated-handedness prediction is a distinctive claim (testability open, §14). The verdict is a clean division: ED builds the stage of chirality and inherits the one assignment.
 
 
-**Related papers.** *The Clean Substrate Is Vector* (`substrate-evaluation/Paper_CleanSubstrateVector_ParitySpontaneous`), which supersedes *The Parity Wall* (`substrate-evaluation/Paper_ParityWall_ChiralityVerdict`).
+**Related papers.** 
+*The Clean Substrate Is Vector* which superseded *The Parity Wall*
 
 # §10 — Matter: the spinor, and mass without mass
 
-**The arrow's job here.** The matter sector uses the arrow four ways. The arrow **undoubles** the lattice spinor, cutting the Nielsen–Ninomiya sixteen species to one. Its first commitment **selects matter over antimatter** (the charge-conjugation reference C), the one chirality-adjacent thing ED fixes natively. The arrow makes a lone excitation **massless**, moving always at the substrate speed, which is what forces mass to come from binding. And the arrow's commitment rate sets a **clock**, which turns out to be time dilation and not mass, a distinction the substrate had entangled and this section separates.
+**The arrow's job here.** The matter sector uses the arrow four ways. The arrow **undoubles** the lattice spinor, cutting the Nielsen–Ninomiya sixteen species to one. Its first commitment **selects matter over antimatter** (the charge-conjugation reference C), the one chirality-adjacent thing ED fixes natively. The arrow makes a lone excitation **massless**, moving always at the substrate speed, which is what forces mass to come from binding. And the arrow's commitment rate sets a **clock**, which turns out to be time dilation and not mass, which this section separates.
 
-The matter sector splits into two questions: does ED produce the Dirac spinor, and does it produce mass? The spinor is form-complete and structure-inherited, the standard ED shape. Mass is the more interesting result, because ED at first looks unable to make it at all, and then makes it exactly where most of it actually lives.
+The matter sector splits into two questions: does ED produce the Dirac spinor, and does it produce mass? The spinor is form-complete and structure-inherited, the standard ED shape. Mass is the more interesting result, because ED accounts for it exactly where most of it actually lives.
 
 ## The spinor: substrate to Dirac, form-complete
 
@@ -528,7 +559,7 @@ This is **mass without mass**: a bound system of `c`-moving constituents has res
 
 ## Mass is not time dilation
 
-There is a *second* way to make something move slower than `c`, and separating it from mass is what makes the mass result clean. It is **not** the certified rule — that rule is ballistic-or-extinct, with no dwell (above). It is a deliberately-added, *non-certified* mechanism, brought in here only as a foil: a front *given* commitment-memory **dwells**, re-committing in place, which lowers its advance rate. Does that slowdown amount to mass? No. Push such a memory front and its forward drift tracks its path speed exactly (`v_x/path = 1` at every memory level): there is **no directional inertia**. A slow clock, not a mass. This is **time dilation** — the same commitment-rate factor that appears in gravity's sparse-commitment parameter (§5), which is why gravitational time dilation shares it. Only *binding* produces the directional inertia (`v_x/path < 1`) that is mass. So the two statements that looked contradictory are consistent: the certified fronts never dwell, the mass comes from binding those dwell-free fronts, and the memory-dwell — a deliberately off-certified foil — exists only to show that a mere slow clock is time dilation, not mass.
+There is a *second* way to make something move slower than `c`, and separating it from mass is what makes the mass result clean. It is **not** the certified rule — that rule is ballistic-or-extinct, with no dwell (above). It is a deliberately-added, *non-certified* mechanism, brought in only as a foil: a front *given* commitment-memory **dwells**, re-committing in place, which lowers its advance rate. Does that slowdown amount to mass? No. Push such a memory front and its forward drift tracks its path speed exactly (`v_x/path = 1` at every memory level): there is **no directional inertia**. A slow clock, not a mass. This is **time dilation** — the same commitment-rate factor that appears in gravity's sparse-commitment parameter (§5), which is why gravitational time dilation shares it. Only *binding* produces the directional inertia (`v_x/path < 1`) that is mass. So the two statements that looked contradictory are consistent: the certified fronts never dwell, the mass comes from binding those dwell-free fronts, and the memory-dwell — a deliberately off-certified foil — exists only to show that a mere slow clock is time dilation, not mass.
 
 So two things the substrate had entangled come apart cleanly: **commitment sparseness sets the clock (time dilation, and it ties matter to gravity through the shared factor); binding sets the mass.** They are distinct phenomena, and the arrow is behind both, once as the commitment rate, once as what makes the bound constituents massless in the first place.
 
@@ -544,7 +575,11 @@ So two things the substrate had entangled come apart cleanly: **commitment spars
 The matter sector is the arrow four times over: undoubling the spinor, matter over antimatter, making the lone front massless (so mass must be binding), and setting the clock that is time dilation. The mass-from-binding result is a genuine native mechanism for the dominant form of real mass, measured on the certified substrate, and the clean mass/time-dilation split reuses the same commitment factor that runs gravity's clock, tying the matter and gravity sectors together through the arrow once more. The pieces that stay inherited — the metric signature, the fundamental Higgs mass, the generation spectrum — all point to the same two places the report flags: the value layer and the rep-spectrum wall. (The Clifford algebra itself is fixed by the signature — form-identified, not inherited; Paper_103.)
 
 
-**Related papers.** *The Dirac Equation* (`relativistic-qm/Paper_106_DiracEquation`); *Cl(3,1) Frame Uniqueness* (`relativistic-qm/Paper_103_Cl31_FrameUniqueness`); *Mass Without Mass* (`substrate-evaluation/Paper_MassWithoutMass_BindingInertia`).
+**Related papers.** 
+
+- *The Dirac Equation* 
+- *Cl(3,1) Frame Uniqueness* 
+- *Mass Without Mass* 
 
 # §11 — The Constants: inherited by ED's own logic
 
@@ -558,7 +593,7 @@ So the constants are not quantities ED is failing to compute. They are quantitie
 
 ## The taxonomy of what ED can and cannot produce
 
-This is not a convenient after-the-fact story; it matches exactly what ED's machinery does and does not do. Every structural move in the corpus that succeeds produces an **O(1) coefficient sitting on top of an already-inherited scale** — the holographic area count gives the `1/4` in `S = A/4` on top of `ℓ_P`; the near-horizon smoothness gives the `2π` in the Hawking temperature on top of `κ`; the mixing-matrix phase count gives the combinatorial `(n−1)(n−2)/2` with the numerical inputs still inherited. Nothing in the demonstrated toolkit produces or suppresses across orders of magnitude.
+This is not a convenient after-the-fact story; it matches exactly what ED's machinery does and does not do. Every structural move in the corpus produces an **O(1) coefficient sitting on top of an already-inherited scale** — the holographic area count gives the `1/4` in `S = A/4` on top of `ℓ_P`; the near-horizon smoothness gives the `2π` in the Hawking temperature on top of `κ`; the mixing-matrix phase count gives the combinatorial `(n−1)(n−2)/2` with the numerical inputs still inherited. Nothing in the demonstrated toolkit produces or suppresses across orders of magnitude.
 
 And where ED tried to derive a genuine dimensionless number, it failed. The fine-structure constant was attempted by three independent routes (topological winding, an RG fixed point, a cross-overlap integral) and all three failed. The fermion mass ratios were attempted by six mechanisms and all six were refuted (a single real scalar field carries no topological invariant to quantize them). These negatives are exactly what the structural claim predicts: ED produces forms and O(1) factors, not the values.
 
@@ -566,24 +601,26 @@ And where ED tried to derive a genuine dimensionless number, it failed. The fine
 
 The cosmological constant looks like it should be the worst case — the notorious 122-orders-of-magnitude gap between the Planck-scale vacuum energy quantum field theory predicts and the tiny value observed, "the worst prediction in physics." What made it catastrophic was the *infinite tower of modes*: summing zero-point energies up to the Planck scale gives `~M_P⁴`. ED's substrate is discrete, so there is no infinite tower to sum, and that `~M_P⁴` vacuum energy is structurally absent (Paper_038_5). The huge number was the size of the mistake, not a real quantity waiting to be cancelled — so the *naïve* catastrophe does not arise. (Paper_038_5 is careful that this is a *partial* dissolution: a residual hierarchy survives, taken up below.)
 
-What survives is a genuine ED contribution, carefully bounded. Λ's *form* is **identified** — the structure is fixed (a vacuum-energy density set by the universe's reach and the substrate's grain, the V1 kernel integrated over the cosmic horizon `R_H = c/H₀`), though as a composition of inherited pieces rather than a from-nothing derivation. And the smallness is *reframed*, not fine-tuned: it is the dimensionless Friedmann ratio `(H₀/M_P)² ≈ 10⁻¹²²`, what two ordinary scales give, rather than a Planck-density vacuum cancelled to sixty decimal places. What is **not** claimed is a derivation of Λ's *value*: it reduces to the one inherited scale `H₀` (with `M_P` substrate-side via Paper_027), and pinning `H₀` from the substrate — closing the residual hierarchy — is the open Route-A derivation, which `Paper_038_5` states plainly is open. So Λ is *value-inherited via H₀*, like every other constant, while its notorious *catastrophe* is dissolved and its form identified — more than the Standard Model offers on it, and enough that it should never sit among ED's failed derivations.
+What survives is a genuine ED contribution, carefully bounded. Λ's *form* is **identified** — the structure is fixed (a vacuum-energy density set by the universe's reach and the substrate's grain, the V1 kernel integrated over the cosmic horizon `R_H = c/H₀`), though as a composition of inherited pieces rather than a from-nothing derivation. And the smallness is *reframed*, not fine-tuned: it is the dimensionless Friedmann ratio `(H₀/M_P)² ≈ 10⁻¹²²`, what two ordinary scales give, rather than a Planck-density vacuum cancelled to sixty decimal places. What is **not** claimed is a derivation of Λ's *value*: it reduces to the one inherited scale `H₀` (with `M_P` substrate-side via Paper_027), and pinning `H₀` from the substrate — closing the residual hierarchy — is the open Route-A derivation, which `Paper_038_5` states plainly is open. So Λ is *value-inherited via H₀*, like every other constant, while its notorious *catastrophe* is dissolved and its form identified.
 
 ## The resting place
 
-The consistent conclusion, reached in the corpus and adopted here, is that the constants ED needs but does not fix — `c`, `ℓ_P`, `ħ`, and the cosmological scale `H₀` (the `Θ_ED ≈ 10⁻¹²²` it sets) — are **substrate constants**, on the same footing as the speed of light. They are numbers the universe hands the theory, not research targets. Declining to chase them is backed by a taxonomic reason — no ED move produces this kind of number — not an instinct.
+The consistent conclusion, reached in the corpus and adopted here, has two parts that must be kept distinct. First, `c`, `ℓ_P`, and `ħ` are **dimensionful units**, not numbers ED is failing to compute: they are conversion factors one can set to 1 — in ED, `c` is one grain per tick, `ℓ_P` is the grain (P08), and `ħ` is the action quantum — and only *dimensionless* combinations of constants carry observer-independent physical content at all. Second, that physically-meaningful content, the genuinely inherited layer, is the **dimensionless** set: `α`, the mass ratios, and the cosmological ratio `Θ_ED ≈ (H₀/M_P)² ≈ 10⁻¹²²`. It is *that* kind of number the substrate provably cannot carry (the A1 result). Declining to chase it is a taxonomic verdict — no ED move produces a dimensionless number — not an instinct.
 
 Two clarifications bound the claim. First, dissolving the *naïve* mode-tower catastrophe and identifying Λ's *form* (above) is not the same as deriving its *value*: that still reduces to `H₀`, an inherited substrate scale whose first-principles derivation (Route A) is open, and the residual hierarchy closes only with it. ED inherits the number; what it removes is the infinite-tower catastrophe and the mystery of the form, not the last measured input. Second, the "no intrinsic scalar" claim is a structural posture with strong support (the A1 zero-scalar result, which is derived, plus the taxonomy of successes and failures), not a from-nothing impossibility theorem. It is as firm as A1 and the failure record make it, and it is stated at that tier.
 
 ## The fair comparison
 
-The decisive point for a skeptical reader is the same one that governs §7. The Standard Model does not derive its constants; they are its free parameters, fit to data. It is the identical inheritance. What ED adds on top is the structure the Standard Model leaves unexplained: the *form* of Newton's constant (`G = c³ℓ_P²/ℏ`), the *form* of the MOND scale (`a₀ = cH₀/2π`), the *form* of the cosmological constant (`ρ_Λ = (3/8π)H₀²M_P²`, §5), the combinatorial *form* of the mixing-matrix phase count, the `F²` action, the single hypercharge. ED organizes the constants and derives the relations among the forms; it inherits the numbers, exactly as its ontology says it must, and exactly as the Standard Model does anyway.
+The decisive point for a skeptical reader is the same one that governs §7. The Standard Model does not derive its constants; they are its free parameters, fit to data. ED incorporates an identical inheritance. What ED adds on top is the structure the Standard Model leaves unexplained: the *form* of Newton's constant (`G = c³ℓ_P²/ℏ`), the *form* of the MOND scale (`a₀ = cH₀/2π`), the *form* of the cosmological constant (`ρ_Λ = (3/8π)H₀²M_P²`, §5), the combinatorial *form* of the mixing-matrix phase count, the `F²` action, the single hypercharge. ED organizes the constants and derives the relations among the forms; it inherits the numbers, exactly as its ontology says it must, and exactly as the Standard Model does anyway.
 
 ## What this buys
 
 The constants are the report's `📏` column, and they belong in a different category from the two structural opens. #1 (the rep-spectrum) and #2 (the chiral anomaly cancellation) are things ED *could* still derive and has not; the constants are things ED's own logic says it *cannot* and *need not* derive. Keeping that line sharp is what stops the twenty free parameters from reading as twenty holes. They are one principled inheritance, predicted by the substrate's lack of an intrinsic scalar, and no worse than the Standard Model's own standing on the same numbers.
 
 
-**Related papers.** *Common Cause, Not Channel* / A1 (`substrate-evaluation/Paper_CommonCauseNotChannel_A1`); the cosmological constant Λ (`gravity/Paper_038_5_Lambda_V1_Cosmological`).
+**Related papers.** 
+*Common Cause, Not Channel / A1* 
+*The Cosmological Constant Λ*
 
 # §12 — Internal Consistency: the anomaly question, split by tier
 
@@ -624,7 +661,10 @@ It is a candidate, not a result, and it is gated. Establishing it requires the s
 The anomaly box is the report's second genuine structural open (#2), and it is smaller and better-located than #1. Its solid pieces are real (exact conservation, a provably vector baseline), its inherited piece is the same rep-spectrum wall the rest of the Standard Model quarter inherits, and its one non-inherited possibility is precisely gated on the T4 reduction that also gates §9's relativistic chirality and §10's graph-native spinor. So the two deep matter-sector arcs, the anomaly constraint-face and the substrate-to-Dirac descent, are one arc, and it is left open.
 
 
-**Related papers.** *The Topological Skeleton of Charge* / B4 (`substrate-evaluation/Paper_ChargeAsTopology_B4`); *The Clean Substrate Is Vector* (`substrate-evaluation/Paper_CleanSubstrateVector_ParitySpontaneous`).
+**Related papers.** 
+
+- *The Topological Skeleton of Charge / B4* 
+- *The Clean Substrate Is Vector* 
 
 # §13 — The Walls: what ED does not reach, and of how many kinds
 
@@ -658,21 +698,23 @@ Two further limits are neither proven walls nor open problems: they are resolved
 
 ## The map of "no"
 
-So ED's limits sort cleanly, and the sorting is the picture:
+ED's limits sort cleanly:
 
 - **Proven wall (1):** primality — theorem-anchored, the finite-memory ceiling. ED knows at least one thing it provably cannot do.
 - **Structural opens (2):** the rep-spectrum (#1, a conjectured linking route) and the anomaly constraint (#2, gated on substrate-to-Dirac). Both bounded, both unsolved in the Standard Model, both on the same two arcs.
 - **Principled inheritances:** dimension (selected, conditional route home) and casting (rep-theoretic, resolved-as-inherited).
 - **Inherited-by-design (§11):** the constants — a fourth category, things ED's own logic says it cannot and need not derive.
 
-None of these are hidden, and none are dressed as more settled than they are. That is the point of the section: the walls are of different kinds, and the report's credibility comes from keeping those kinds distinct rather than collapsing them into a single undifferentiated "open."
-
 ## What this buys
 
 The walls set up the two sections that close the report. §14 asks the harder question — not what ED has not yet derived, but what could prove it *wrong* — and §15 states the bottom line. The map here is what lets those sections be read as confident rather than defensive: a framework that has located its one proven limit, bounded its two real opens, and named its inheritances has earned the right to state plainly what it does and does not claim.
 
 
-**Related papers.** *Template, Not Escape* — the finite-memory ceiling (`substrate-evaluation/Paper_FiniteMemoryCeiling_Primes`); *Common Cause, Not Channel* / A1 (`substrate-evaluation/Paper_CommonCauseNotChannel_A1`); *The Gauge Structure of Event Density* (`substrate-evaluation/Paper_GaugeStructure_FromChannelTransport`).
+**Related papers.** 
+
+- *Template, Not Escape*
+- *Common Cause, Not Channel* / A1 *
+- *The Gauge Structure of Event Density*
 
 # §14 — The Falsifier Frontier: what could prove ED wrong
 
@@ -708,8 +750,8 @@ Several of these trace directly to arrow-sector results: `α₂ = 0` and the pin
 
 Two predictions are settled, and it is important to state exactly what they are worth.
 
-- **The Universal Degenerate-Mobility law** `D(c) = D₀(1 − c/c_max)^β` is peer-reviewed (May 2026), confirmed across ten materials at `R² > 0.986`. This is the corpus's one genuine *confirmed forward* prediction — a real result, and the floor the report stands on.
-- **`c_GW = c`** (GW170817, to `< 10⁻¹⁵`) is a survival that killed many rival modified-gravity theories. But ED inherits it structurally (§5), so it is consilience, not a distinctive win.
+- **The Universal Degenerate-Mobility law** `D(c) = D₀(1 − c/c_max)^β` is confirmed across ten materials at `R² > 0.986`. This is the corpus's one genuine *confirmed forward* prediction — a real result, and the floor the report stands on.
+- **`c_GW = c`** (GW170817, to `< 10⁻¹⁵`) is what killed many rival modified-gravity theories. But ED inherits it structurally (§5), so it is consilience, not a distinctive win.
 
 Neither of these is the argument-ending weapon. The mobility law is a soft-matter scaling law that other frameworks can accommodate; the GW speed is a survival ED shares with GR. They establish that ED makes correct forward predictions; they do not, by themselves, single ED out.
 
@@ -724,7 +766,13 @@ Two distinctive claims are explicitly *not yet* weapons, and this report flags t
 This is where the report is most exposed, and deliberately so. ED is falsifiable at many sharp, distinctive points — a universal envelope ratio, a step-like cluster knee, an architecture-independent decoherence wall, an exactly-zero BTFR scatter, a pinned dark-energy equation of state, a set of one-line matter-sector prohibitions. Its credibility as a unified framework ultimately does not rest on the derivations in §3–§13. It rests on confirming one of these, and that has not happened yet. The report's final section states what that means.
 
 
-**Related papers.** *Falsification Register and Prediction Inventory* (`predictions/Paper_101_FalsificationRegister`); *The Class-A Wall* (`q-compute/Paper_056_ClassA_Wall`); *Baryonic Tully–Fisher* (`gravity/Paper_031_BTFR`); *Offset–Velocity Law*, the merging-cluster test (`gravity/Paper_OffsetVelocityLaw_MergingClusterTest`); *Hawking Spectrum* (`black-hole/Paper_047_HawkingSpectrum`).
+**Related papers.** 
+
+- *Falsification Register and Prediction Inventory* (`predictions/Paper_101_FalsificationRegister`); 
+- *The Class-A Wall* 
+- *Baryonic Tully–Fisher* 
+- *Offset–Velocity Law*, the merging-cluster test 
+- *Hawking Spectrum*
 
 # §15 — The Bottom Line
 
@@ -754,7 +802,7 @@ Three things, in rough order of decisiveness:
 2. **The substrate-to-Dirac reduction (T4).** This single arc gates the relativistic chirality statement, the graph-native spinor, and the one non-inherited anomaly candidate. Closing it would convert three of the matter sector's "form-complete, structure-inherited" results into deeper derivations.
 3. **The linking argument for the internal dimension.** Establishing that committed order is held by linking *specifically* — the one open premise behind the 3D route — would tie the internal dimension to three and un-wall #1. It is conjectured, not a delegatable computation, and not even askable on the certified 2D simulator, so it is the least near-term of the three.
 
-## The bottom line
+## Conclusion
 
 ED is a unified framework — one primitive, the arrow of time, doing the load-bearing work across quantum mechanics, gravity, and the Standard Model's structure — that is form-complete, value-inherited by its own logic, explicit about two genuine structural opens and one proven wall, and not yet confirmed at any of its distinctive falsifiers. The case it makes is that the recurrence of a single primitive across sectors is real and worth taking seriously; the case it does not yet make is the empirical one that would end the argument. This document carries both openly and states them at their true tier.
 
