@@ -25,6 +25,7 @@ A unified framework must check a specific list of boxes. Here is ED's status on 
 |---|---|---|
 | **Minimal foundation** | commitment + participation; one process does every job | ✅ grounded |
 | **Quantum mechanics** | orthogonality reduced, ℂ selected, Born non-contextuality grounded (residual: Solèr rigor) | ✅ reconstructed |
+| **Entanglement (Bell / Tsirelson)** | closed arc (monogamy, no-signaling, the Tsirelson bound); the pre-individuation regime, not action-at-a-distance | ✅ closed |
 | **Gravity (GR + dark matter + dark energy)** | GR quartet closed (GR-I..IV); the khronon gives dark matter + dark energy, grounded; cluster/CMB debt open | ✅ closed |
 | **QM + gravity unified** | the same arrow is the quantum pointer basis *and* gravity's preferred time; the problem of time dissolves | ✅ distinctive |
 | **Gauge forces SU(3)×SU(2)×U(1)** | shape derived (SU(N), F² action, mass-gap, single hypercharge); why {1,2,3} is the wall | ✅ / ⚠️ |
