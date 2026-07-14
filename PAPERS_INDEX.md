@@ -138,6 +138,7 @@ Substrate origin of quantum-computing limits. $\mathcal{M}_{\text{cap}}$ as one 
 | 056 | Class A Wall at 140–250 kDa (Matter-Wave) | predictions | WRITTEN | `Paper_056_ClassA_Wall.md` |
 | 057 | Class B Exponential Gap-Suppression | predictions | WRITTEN | `Paper_057_ClassB_GapSuppression.md` |
 | 058 | Class C Correlation-Budget Plateau | predictions | WRITTEN | `Paper_058_ClassC_Plateau.md` |
+| 058b | Where the Plateau Binds: α_topological = 0, plateau domain = broadcast-type redundancy (settles ProxyConversionDoctrine §3.4; re-scopes prediction 4.10 to the repetition-code floor + cat-width ceiling pair) | q-compute | WRITTEN | `physics-papers/q-compute/Paper_058b_PlateauDomain_AlphaTopological.md` |
 | 059 | Meta-Architectures as Compositions (EC, DD, hybrids) | architectures | WRITTEN | `Paper_059_MetaArchitectures.md` |
 | 060 | $\mathcal{M}_{\text{crit}}$ Unification (Matter-Wave / Qubit) | unification | WRITTEN | `Paper_060_Mcrit_Unification.md` |
 | 061 | Q-Compute Foundations Consolidated (Capstone) | capstone | WRITTEN | `Paper_061_QCompute_Foundations.md` |

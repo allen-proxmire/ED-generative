@@ -35,7 +35,8 @@
 |---|---|---|---|
 | 056 | [Class-A Multiplicity Wall](Paper_056_ClassA_Wall.md) | the sharp Class-A wall + 140–250 kDa matter-wave extrapolation | **Prediction** (falsifiable) |
 | 057 | [Class-B Gap-Suppression](Paper_057_ClassB_GapSuppression.md) | Class-B exponential gap-suppression | Grounded (prediction-facing) |
-| 058 | [Class-C Plateau](Paper_058_ClassC_Plateau.md) | the Class-C correlation-budget plateau | Grounded (prediction-facing) |
+| 058 | [Class-C Plateau](Paper_058_ClassC_Plateau.md) | the Class-C correlation-budget plateau | Grounded (prediction-facing); *domain settled by 058b below* |
+| 058b | [Where the Plateau Binds (α_topological)](Paper_058b_PlateauDomain_AlphaTopological.md) | α_topological = 0: the plateau mechanism binds for broadcast-type redundancy, not surface-code distance; prediction 4.10 re-scoped (repetition-code floor + cat-width ceiling = the active pair) | **D-structural settlement** (2026-07-14) |
 | 059 | [Meta-Architectures](Paper_059_MetaArchitectures.md) | meta-architectures (error-correction, dynamical decoupling, reservoir, hybrids) as compositions | Grounded |
 
 ### Consolidation & cross-arc

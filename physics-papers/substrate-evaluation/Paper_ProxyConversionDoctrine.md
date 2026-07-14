@@ -74,9 +74,11 @@ Under the content rule the arithmetic changes shape: the GHZ floor and the code-
 2. **The topological code-distance leg may not exist at all.** If topological per-locus load is O(1) in `d` (§3.2), then `B_cross(u)` never approaches `B_cross,max` as `d` grows: the linear `α·R_C` form fails for topological encodings and **the plateau in code distance does not occur via this mechanism for topological codes** — not a demotion from near-term, a transfer of the entire code-distance leg to broadcast-type redundancy. Note also `Paper_058` §4.3 itself classifies surface codes as **hybrid Class-B + Class-C**, not pure Class-C, so the flagship topological platform was never a clean carrier of the pure-class plateau. And under the QD paper's own committed/live split, syndrome measurements are P11 commitments whose records are budget-free — further reducing topological live load and strengthening this branch.
 3. **The rescue branch, stated:** if 058's per-locus accounting turns out to load content proportional to `R_C` even for topological codes (α_topological non-small, contradicting §3.2's O(1) reading), the code-distance leg survives — and then the lock does tighten and its consequences for weapon #4's near-term status must be recomputed in the addenda. Either way the doctrine makes it a computable question instead of a mood. The deciding item is §3.4.
 
-### 3.4 Open item created (deliberately)
+### 3.4 Open item created (deliberately) — SETTLED same week
 
-D3 + §3.2 expose that `Paper_058`'s `B_cross(R_C) ≈ α·R_C` needs its encoding-dependence made explicit: the linear form with one α cannot cover both broadcast and topological encodings if their per-locus loadings differ in kind. This is the single highest-value review question for the Class-C arc.
+D3 + §3.2 expose that `Paper_058`'s `B_cross(R_C) ≈ α·R_C` needs its encoding-dependence made explicit: the linear form with one α cannot cover both broadcast and topological encodings if their per-locus loadings differ in kind. This was the single highest-value review question for the Class-C arc.
+
+**Settled (2026-07-14): `Paper_058b_PlateauDomain_AlphaTopological`.** From 058's own per-locus P-Corr-Budget + 090's pairwise kernel + the defining locality of topological encoding: **α_topological = 0** (per-locus load bounded at ~z·w_pair, constant in d) — the saturation mechanism never triggers for topological codes; P-Redundancy-Mapping's linear regime *is* the broadcast/hub regime. §3.3's item 3 rescue branch is closed against rescue: the code-distance leg relocates to broadcast-type redundancy, where public data already shows the predicted shape (the repetition-code floor).
 
 ## 4. Retroactive grounding
 
