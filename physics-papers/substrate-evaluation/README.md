@@ -71,4 +71,11 @@
 | [Template, Not Escape (Primes)](Paper_FiniteMemoryCeiling_Primes.md) | finite-memory ED saturates the prime-counting template but provably not the parity layer (Sarnak barrier) | **Wall** (a proven limit) |
 | [The Area Law Is the Edge Count](Paper_AreaLawIsTheEdgeCount.md) | holographic entropy = the count of straddling cross-chain (V5) edges | Grounded |
 
+### The V5 unified budget & the empirical interface (post-report addenda arc)
+| Paper | Result | Tier |
+|---|---|---|
+| [The V5 Correlation Budget is One Envelope](Paper_V5UnifiedBudget.md) | monogamy (065), the Page curve (050), and the Class-C plateau (058) are projections of one bounded envelope `W_max = ∫F_V5`; R1 = onset sharp in complexity, banded in proxy; R2 = ratios `1:1:0.88` (`ρ_loc = 1` a structural identity; 0.88 the area-law tiling) | Form-forced parent; R1/R2 D-conditional; scale Inherited |
+| [Quantum Darwinism: Committed Records Are Free](Paper_QuantumDarwinism_RecordBandwidth.md) | fourth face of the budget: committed records exit it (accounting theorem) so classical objectivity is unbounded (derived); live redundancy is capped → record-formation bandwidth + a conditional GHZ-width ceiling commensurate with the Class-C plateau | D-structural theorem; ceiling D conditional on P-QD-LiveWeight (declared) |
+| [The Proxy Conversion Doctrine](Paper_ProxyConversionDoctrine.md) | one rule set (D1–D4) replacing five local proxy-to-content patches; pre-registered live-width content rule; resolves the certified-floor arithmetic; opens 058's α encoding-dependence | Methodological (falsifiable structure claims) |
+
 *(One plain-language companion `thearrowsortsthecontinuum_plain_language.txt` accompanies the layers capstone. The two honest edges — the Gleason inner-product (#8b) and the parity/chirality wall (#2b) — are tiered against the research map, not the papers' own framing.)*
