@@ -175,6 +175,8 @@ The §15 derivation `ω_v = 2π·N_osc·γ_dec` is regime-agnostic — it follow
 
 **Public datasets (preferred for initial Track B execution):**
 
+> **⚠ Update 2026-07-14 — dig done, see [`LiteratureDig_Finding_2026-07-14.md`](LiteratureDig_Finding_2026-07-14.md).** Best instrument-class match is **Line-FRAP** (Dey/Marciano/Schreiber, JMB 2021): **800 Hz** line rate (covers the corrected 11–110 Hz band) with an *osmotic-stress `γ_dec` sweep* (crowded → near-arrest) — the ideal regime. No public raw-trace deposit found; path = data request to the Schreiber lab, gated on a record-length/cycle-count viability check (only the high-crowding end has enough envelope cycles). Candidates below are superseded (sub-viable framerate / not deposited).
+
 High-framerate (≥ 1 kHz) FRAP datasets from the cell-biology literature where raw or minimally-processed recovery curves have been deposited. Candidates to survey:
 
 - **Mueller et al. 2008 PNAS** (p53 FRAP at ~100 Hz) — supplementary data.
