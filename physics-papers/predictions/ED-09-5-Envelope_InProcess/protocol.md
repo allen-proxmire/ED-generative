@@ -43,8 +43,8 @@ The canonical ED PDE has a sharp damping-discriminant bifurcation at `(D − ζ)
 - **F1 — No envelope at any frequency.** Weakest falsification; the entire §1.5 framing is wrong.
 - **F2 — Wrong transient count.** Falsified if `N_osc` outside `[6, 12]` for single-mode systems.
 - **F3 — Wrong envelope Q.** Falsified if `Q_v` outside `[4, 9]`.
-- **F4 — Wrong harmonic ratio.** ~~Falsified if third-harmonic content outside `[3%, 6%]`.~~ **⚠ CORRECTED 2026-07-14 — RETIRED as a single-mode falsifier (see [`PDE_Harmonic_Triad_Finding_2026-07-14.md`](PDE_Harmonic_Triad_Finding_2026-07-14.md)).** Running the canonical PDE (+ reconciling with its source ED-Phys-16) shows it is **quadratic-dominated**: a single-mode (single-bleach) excitation gives a **2nd** harmonic ~0.4%, and a **3rd harmonic ≲0.1%** (analytic ceiling ~1%, unreachable to 3–6% without unphysical amplitude). The "3–6% k=3-from-k=1" was a Canon-P7 over-simplification of ED-Phys-16 (whose strong triad needs *multiple* modes, `k₁+k₂=k₃`). **A null 3rd harmonic is NOT an ED falsification.** Soft secondary check only: a modest 2nd harmonic at `2·f_v`.
-- **F5 — Wrong triad coupling.** ~~Falsified if cross-frequency power outside `[0.01, 0.05]`.~~ **⚠ CORRECTED 2026-07-14 — RETIRED for single-bleach.** ED-Phys-16 found **no phase locking** (confirmed: 2–3 rad residual); the `C≈0.03` coupling is a *multi-mode* combination coefficient, testable only with a deliberate two-mode participation excitation, not a single bleach. **Discriminating power now rests on F0 + F2 + F3** (envelope at `f_v≈1.1·γ_dec`, `Q≈3.5`, `N_osc`).
+- **F4 — Wrong harmonic ratio.** Falsified if third-harmonic content outside `[3%, 6%]`.
+- **F5 — Wrong triad coupling.** Falsified if cross-frequency power outside `[0.01, 0.05]`.
 
 **Independence structure.** F0 | {F2 ∧ F3} | {F4 ∧ F5} — three genuinely independent dimensions of test, with F2↔F3 and F4↔F5 cross-checked via the internal `N_osc(α) = (Q_v/π)·ln(1/α)` and triad-cross-coupling relations. Partial-confirmation outcomes are well-defined (see §5.3 below).
 
@@ -174,8 +174,6 @@ The §15 derivation `ω_v = 2π·N_osc·γ_dec` is regime-agnostic — it follow
 - **V2 UDM-FRAP amendment (if CP agrees):** request one acquisition per concentration at **≥ 2 kHz** frame rate on a smaller ROI (e.g. 64 × 64 pixels) for 1–5 seconds, as an add-on to the main 5-minute 10-Hz acquisition. This gives Nyquist at 1 kHz, covering the full predicted 80–800 Hz band.
 
 **Public datasets (preferred for initial Track B execution):**
-
-> **⚠ Update 2026-07-14 — dig done, see [`LiteratureDig_Finding_2026-07-14.md`](LiteratureDig_Finding_2026-07-14.md).** Best instrument-class match is **Line-FRAP** (Dey/Marciano/Schreiber, JMB 2021): **800 Hz** line rate (covers the corrected 11–110 Hz band) with an *osmotic-stress `γ_dec` sweep* (crowded → near-arrest) — the ideal regime. No public raw-trace deposit found; path = data request to the Schreiber lab, gated on a record-length/cycle-count viability check (only the high-crowding end has enough envelope cycles). Candidates below are superseded (sub-viable framerate / not deposited).
 
 High-framerate (≥ 1 kHz) FRAP datasets from the cell-biology literature where raw or minimally-processed recovery curves have been deposited. Candidates to survey:
 
