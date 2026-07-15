@@ -28,12 +28,12 @@ The #1/#2 → one-channel-topology-wall tightening now lives in `REPORT_ADDENDA.
 
 ---
 
-## Companion edits to LIVE docs (not the frozen report — can be applied now)
+## Companion edits to LIVE docs — APPLIED 2026-07-14
 
-These are the same findings reflected in working docs that are *not* frozen; applying them now keeps the lists honest without touching the report:
+The same findings, applied to the *live* master predictions list (not the frozen report):
 
-- **`physics-papers/predictions/ED_Master_Predictions_List.md` entry 1.4** — soften per C1 (add the MOND-shared caveat + the a₀-tracks-H₀ forward leg).
-- **`ED_Master_Predictions_List.md` entry 1.13** — soften "testable now" per C2 (point to the F3 table's "not contradicted, weakly").
-- **`ED_Master_Predictions_List.md` §6 reading-guide** — 1.4 and 1.13 both currently sit in the "sharpest/cheapest" and "long-shot highest-payoff" buckets; re-tier to consilience / survey-era respectively.
+- ✅ **`physics-papers/predictions/ED_Master_Predictions_List.md` entry 1.4** — softened (MOND-shared caveat + a₀-tracks-H₀ forward leg + postdictive ~10% note).
+- ✅ **entry 1.13** — "testable now" softened to "weakly checkable now" per the F3 table; sharp knee marked survey-era.
+- ✅ **§6 reading-guide** — 1.13's F3 removed from "sharpest/cheapest"; 1.4 moved from "long-shot weapon" to "strong consilience (ΛCDM-tension)"; the "most distinctive" knee note flagged survey-era.
 
-*(Ask before applying even these — kept as a list per "not touching the report yet.")*
+*(Frozen report itself untouched — C1/C2 above remain pending for v2.)*
