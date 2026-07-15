@@ -98,3 +98,20 @@ The report's closing frames the two structural opens as "one deep arc — the su
 **Open sub-question before folding into the report:** whether **#2 (anomaly)** sits on that same channel-topology wall or on T4's *other* residual (the fully-covariant canonical-V1 proof + non-Hermitian→unitary emergence, which T4_14 folds into the QM keystone + continuum arc). The report says #2 gates on "the reduction that also gates the graph-native spinor" (implying the same wall), but T4_14 leaves room for the other residual. Needs the anomaly note (not read this session). **#1's collapse to the channel-topology wall is solid; #2's exact gating is the one thing to confirm.**
 
 **Note:** the report is NOT stale on T4's form-completion — §10 already says "form-complete" and credits the computed continuum limit + undoubling. A9 is a *tightening of the open-frontier framing*, not a correction of an overclaim.
+
+## A10 — ⭐ FLAGSHIP: a₀ evolves with redshift (a₀(z)=cH(z)/(2π)); MUSE-DARK III confronts it — MOND-constant excluded at ~30σ, ED's rate mildly tense
+
+**Date:** 2026-07-14. **Touches:** §5 (gravity / MOND sector), §14 (predictions — this becomes a headline weapon). **Sources:** `Paper_038_CosmologicalImplications` CO-3 + `Paper_029_a0`; data: MUSE-DARK III (A&A 2026). **Prediction-inventory:** now `ED_Master_Predictions_List.md` entry **1.15 (flagship)**.
+
+**This is now a flagship ED prediction** — the sharpest live ED-vs-MOND weapon in the gravity sector. ED ties a₀ to the horizon `R_H = c/H` (Paper_029), so a₀ tracks the *instantaneous* Hubble rate: **`a₀(z) = cH(z)/(2π)`**, i.e. `a₀(z)/a₀(0) = H(z)/H₀` (×1.3 at z=0.5, ×1.8 at z=1, ×3 at z=2). MOND: a₀ constant. ΛCDM: no fundamental scale. Parameter-free *in shape* (the ~10% absolute-normalization postdiction cancels in the ratio). Already in the corpus as Paper_038 CO-3 (tier D), previously buried — now promoted.
+
+**Quantitative confrontation (this session) with MUSE-DARK III** (0.33<z<1.44, linear fit `a₀(z)=1.0+1.59z` ×10⁻¹⁰):
+- **Local value ✓:** intercept `a₀(0)=1.0×10⁻¹⁰` vs ED `cH₀/(2π)=1.08` — **match to 8%** (a cleaner anchor than the local RAR g†=1.2).
+- **Evolution exists ✓✓ (MOND dead):** a₀ increases with z at **~30σ**. MOND-constant-a₀ is strongly excluded — the picture ED was contradicting.
+- **H(z) rate ⚠️ (mildly tense, unsettled):** observed a₀ runs ~40% above ED's H(z)-tracking in absolute level (authors: "faster than H(z)"), *but* the normalization-independent inter-bin ratio (z~0.62→1.08) is +4% (`a₀∝H^1.13`, close to ED's α=1). The excess is mostly the low-z extrapolation; the linear fit is phenomenological, not `∝H(z)^α`.
+
+**The decisive test:** a direct `a₀ ∝ H(z)^α` fit to MUSE-DARK + z~0.9–2.4 rotation curves. **α=1 confirms ED distinctively; α clearly ≠1 tensions it; α=0 excluded at ~30σ.** That single number is the weapon.
+
+**Caveats (honest):** one survey; intercept extrapolated; high-z a₀ has real systematics; α≈1.13 is a two-bin point estimate without its error bar. Not a confirmation, not a refutation — a live forward test sitting on the edge of ED's prediction.
+
+**Corpus fix triggered (done, addendum companion):** `Paper_031` §8.8 ("No claim of cosmological-evolution prediction") contradicts Paper_038 CO-3 — corrected to point to CO-3 and the 1.15 flagship.

@@ -333,9 +333,11 @@ ED produces the deep-MOND asymptotic relation + ECR transition (Paper_030); not 
 
 Prediction restricted to the deep-MOND asymptotic regime.
 
-### 8.8 No claim of cosmological-evolution prediction
+### 8.8 The BTFR coefficient evolves with the Hubble rate (this is a prediction, not a disclaimer)
 
-If $H_0$ varies with cosmic time, $a_0$ varies; BTFR coefficient varies. ED does not derive $H_0$ evolution.
+*(Corrected 2026-07-14: an earlier version of this subsection read "No claim of cosmological-evolution prediction," which contradicts `Paper_038_CosmologicalImplications` CO-3. CO-3 wins — the evolution is a genuine ED prediction.)*
+
+Because $a_0 = cH(z)/(2\pi)$ tracks the *instantaneous* Hubble rate (the horizon $R_H = c/H$, Paper_029), the BTFR normalization is **not** cosmologically constant: at redshift $z$ the coefficient is $v_{\rm flat}^4 = G M_b\, a_0(z)$ with $a_0(z)/a_0(0) = H(z)/H_0$. ED does *not* derive $H(z)$ (inherited cosmological input), but it **does** predict that $a_0$ — and hence the high-$z$ BTFR/RAR acceleration scale — evolves factor-for-factor with it. This is `Paper_038` CO-3 (tier D), the flagship forward prediction (`ED_Master_Predictions_List.md` 1.15), now data-confronted: MUSE-DARK III (A&A 2026) detects $a_0$ evolution at ~30σ (excluding a constant $a_0$), matches the local value to ~8%, and sits on the edge of the $H(z)$ rate. What ED does *not* claim: to derive $H(z)$ itself, or the specific power $\alpha$ in $a_0\propto H^\alpha$ beyond the mechanism's $\alpha=1$ (the decisive open number).
 
 ### 8.9 No claim that the ECR derivation is contained in this paper
 
