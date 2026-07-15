@@ -110,8 +110,10 @@ The report's closing frames the two structural opens as "one deep arc — the su
 - **Evolution exists ✓✓ (MOND dead):** a₀ increases with z at **~30σ**. MOND-constant-a₀ is strongly excluded — the picture ED was contradicting.
 - **H(z) rate ⚠️ (mildly tense, unsettled):** observed a₀ runs ~40% above ED's H(z)-tracking in absolute level (authors: "faster than H(z)"), *but* the normalization-independent inter-bin ratio (z~0.62→1.08) is +4% (`a₀∝H^1.13`, close to ED's α=1). The excess is mostly the low-z extrapolation; the linear fit is phenomenological, not `∝H(z)^α`.
 
-**The decisive test:** a direct `a₀ ∝ H(z)^α` fit to MUSE-DARK + z~0.9–2.4 rotation curves. **α=1 confirms ED distinctively; α clearly ≠1 tensions it; α=0 excluded at ~30σ.** That single number is the weapon.
+**Direct α fit DONE (2026-07-14):** propagating MUSE-DARK's reported evolution into `a₀ ∝ H(z)^α` gives **α = 1.18 ± 0.04** (statistical, over z=0.33–1.44; robust: inner-bin 1.13, full-range 1.18). **MOND (α=0) excluded at 29σ; ED (α=1) is +4.4σ away — a *tension*, not a confirmation.** The evolution runs ~18% steeper than ED's `a₀∝H(z)`.
 
-**Caveats (honest):** one survey; intercept extrapolated; high-z a₀ has real systematics; α≈1.13 is a two-bin point estimate without its error bar. Not a confirmation, not a refutation — a live forward test sitting on the edge of ED's prediction.
+**Honest tiering of the tension (do NOT over-bank the 4σ):** the ±0.04 is statistical-only and *underestimated* — it ignores the (unpublished) intercept-slope covariance, uses MUSE-DARK's *linear* fit as a data proxy (the authors call it "phenomenological, not physically motivated" — a power-law-vs-line comparison inflates the tension), and rests on **one survey** with real high-z systematics. Folding those in (~±0.10–0.15), ED's α=1 is ~1–2σ, not 4. **Honest verdict: mild-to-moderate tension — ED's exact H(z) rate is disfavored but not excluded; ED (α=1) is far closer than MOND (α=0, dead); the specific `a₀=cH(z)/(2π)` is not confirmed.**
+
+**The real decisive test:** a *direct raw-data* `a₀ ∝ H(z)^α` fit (MUSE-DARK galaxies + z~0.9–2.4 rotation curves), not a re-reading of one linear fit — measure α with a full error budget across multiple surveys.
 
 **Corpus fix triggered (done, addendum companion):** `Paper_031` §8.8 ("No claim of cosmological-evolution prediction") contradicts Paper_038 CO-3 — corrected to point to CO-3 and the 1.15 flagship.
