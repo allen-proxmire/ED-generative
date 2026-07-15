@@ -1,5 +1,7 @@
 # Unification Report — Pending Text Edits (apply at v2, report is frozen)
 
+> **✅ C1, C2 APPLIED to report v2 (2026-07-15, commit `b40dd80`); C3 shipped as addendum A9, also applied.** This file is now clear; new report-text edits for a future version accumulate below.
+
 Distinct from `REPORT_ADDENDA.md`: the **addenda** log *new findings/sharpenings* (raw material for v2). This file lists **edits to the frozen report's existing text** — softenings, overclaim corrections, framing tightenings — to apply when the report is next opened. The report stays frozen at v1.0 (`d4e8647`) until then. Nothing here is applied yet.
 
 Each item: **where** · **current** · **change** · **why** · **backing**.
