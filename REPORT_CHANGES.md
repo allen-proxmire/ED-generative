@@ -22,14 +22,9 @@ Each item: **where** · **current** · **change** · **why** · **backing**.
 - **Why:** the "testable now" line overstates what the current dissociative-merger sample can decide.
 - **Backing:** `physics-papers/gravity/OffsetVelocity_F3_DataTable.md` (committed `9171ac5`), 11 anchor clusters, cited.
 
-## C3 — "What is open" (§13 / closing): tighten the #1/#2 framing to one wall
+## C3 — MOVED to addendum A9 (2026-07-14)
 
-- **Where:** the closing "two structural opens are really one deep arc (substrate-to-Dirac) + one conjectured route" framing; §12/§13.
-- **Current:** the two opens = "one deep arc — the substrate-to-Dirac reduction — plus the rep-spectrum's conjectured linking route."
-- **Change:** tighten. Per `event-density/foundations/T4_14_Closure_*`, the **substrate-to-Dirac reduction is form-complete** (operator form-forced, continuum limit computed, undoubling verified); its **sole residual — the graph-native spinor — is the SAME channel-topology wall as #1** (the rep-spectrum). So the two opens collapse toward **one wall (the unbuilt channel-topology program), plus a conjectured route (linking) to it** — not "one arc + one route." This *shrinks* the open frontier, which strengthens the report.
-- **Why:** the current phrasing reads as if the whole substrate-to-Dirac arc is open, when it is form-complete and only the shared channel-topology wall remains.
-- **Open sub-question before applying:** whether **#2 (anomaly)** sits on that same channel-topology wall or on T4's *other* residual (the fully-covariant canonical-V1 proof / non-Hermitian→unitary emergence, which folds into the QM keystone + continuum arc). Needs the anomaly note — not yet read. Apply C3 for #1; confirm #2's gating first.
-- **Backing:** `foundations/T4_14_Closure_SubstrateToDirac_FormComplete_ValueInherited.md`. (Could alternatively be logged as addendum A9 — this session flagged it either way.)
+The #1/#2 → one-channel-topology-wall tightening now lives in `REPORT_ADDENDA.md` as **A9** (it's a finding/sharpening, not just a text edit). When the report opens for v2, the "What is open" framing edit is driven by A9; its open sub-question (whether #2 sits on the same wall or T4's other residual) is carried there.
 
 ---
 
