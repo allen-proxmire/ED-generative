@@ -63,6 +63,7 @@ def main():
     open("_report_header.tex", "w", encoding="utf-8").write(HEADER)
     r = subprocess.run(
         ["pandoc", SRC, "-s", "--include-in-header=_report_header.tex",
+         "--toc", "--toc-depth=2",
          "-V", "geometry:margin=1in", "-V", "fontsize=10pt",
          "--highlight-style=tango", "-o", BASE + ".tex"],
         capture_output=True, text=True, encoding="utf-8", errors="replace")
