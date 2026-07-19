@@ -10,7 +10,7 @@ ED explains **galactic** dynamics — rotation curves, the baryonic Tully–Fish
 
 - **[Paper_ED_DarkSector_Position.md](Paper_ED_DarkSector_Position.md)** — the canonical position statement: the galaxy/cluster/CMB split, "MOND does not mean no particle," the neutral-relic candidate, why there is no double-counting, and the honest open crux with its falsifiers.
 - **[DarkSector_DebtMap.md](DarkSector_DebtMap.md)** — what the clusters and CMB *require* of ED, where MOND-class theories die, ED's candidate mechanisms, and what is proven vs. open (public port of the `event-density` Khronon–MOND Round-5 mapping).
-- **[DarkSector_SuperfluidRelic_Program.md](DarkSector_SuperfluidRelic_Program.md)** — the candidate unification consolidated: dark matter and MOND as **one committed substance in two phases** (dust dispersed, khronon-MOND condensed, `a₀` the coherence boundary), the reasoning chain that led there, the reconciliation with the standing GR-II khronon, the honest tiers, and **the single calculation (V5-coherence condensation) that would confirm or kill it.** A research program with a decisive test queued, not a result.
+- **[DarkSector_SuperfluidRelic_Program.md](DarkSector_SuperfluidRelic_Program.md)** — the candidate unification (dark matter and MOND as one committed substance in two phases), **tested and FALSIFIED 2026-07-19**: the condensed relic's collective mode is Newtonian (`(∇φ)^{2.00}`), not the MOND (`(∇φ)^3`) structure, so it is *not* the khronon. Kept as the honest record — the relic survives as a *dark-matter* candidate (condensation / mass-independence / thermal split all held), the unification does not. Probes + findings in `event-density/evaluation/DarkSector/`.
 
 ## Source papers (this folder synthesizes, it does not supersede)
 

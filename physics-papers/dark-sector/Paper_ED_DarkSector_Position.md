@@ -63,9 +63,11 @@ The obvious objection — a cold component that clusters in galaxies would spoil
 
 This is the MOND-plus-neutral-component picture with a literature precedent (νHDM; AeST is the relativistic-field version). It works **if** the relic's free-streaming length lands near cluster scale.
 
-## 5.5 Candidate unification: the khronon as the relic's collective mode *(hypothesis)*
+## 5.5 Candidate unification: the khronon as the relic's collective mode *(FALSIFIED 2026-07-19)*
 
-The reconciliation above treats MOND (khronon) and the relic as two components separated by scale. A stronger candidate — flagged here as a hypothesis, not a result — would make them **one substance read two ways**, which is the ED-native form of *superfluid dark matter* (Berezhiani–Khoury 2015):
+> **This unification was tested and refuted.** The decisive khronon-mode probe found the V5-condensed collective mode has a **standard (Newtonian) kinetic term** (`ΔE ~ (∇φ)^{2.00}`), not the non-analytic MOND (AQUAL, `~(∇φ)^3`) structure — so the condensed relic is **not** the khronon, and "one substance = dark matter and MOND" does not close. See `DarkSector_SuperfluidRelic_Program.md`. ED reverts to the two-component picture (§5): MOND = the separate khronon (KM-I) + a relic = dark matter. The subsection is retained below as the record of the falsified hypothesis.
+
+The reconciliation in §5 treats MOND (khronon) and the relic as two components separated by scale. A stronger candidate — *tested and falsified* (above) — would have made them **one substance read two ways**, the ED-native form of *superfluid dark matter* (Berezhiani–Khoury 2015):
 
 - The committed relic is the substance. **Dispersed** (large scales, high velocity dispersion) it is CDM — clusters, CMB, the `a⁻³` dust. **Condensed** (inside galaxies, below `a₀`, low acceleration) it forms a coherent state whose **collective (phonon) mode is the khronon**, and that mode produces the MOND force. So the galactic clumping *is* MOND, not an addition to it — the double-counting dissolves at the root.
 - The phase boundary is `a₀` — the cosmic-horizon scale ED already carries as the MOND scale (no new scale).
