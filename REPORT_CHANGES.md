@@ -2,6 +2,17 @@
 
 > Changes to fold into the next report version. **Do not edit `ED_UnifiedFramework_Report.md` in place mid-cycle**; accumulate here, then apply as a batch. Current released version: **v2.0.2** (commit `4c07299`).
 
+---
+
+## APPLIED 2026-07-19 — new §6 "Cosmology and the Dark Sector"
+
+A new numbered section **§6 — Cosmology and the Dark Sector** was added to the report (after §5 Gravity, before the Unification Move), and **§6–§15 renumbered to §7–§16** (all cross-references, the abstract "boxes" list, and the scorecard updated). The section covers inflation (= substrate saturation, consilience) and the dark sector (MOND as the horizon-interference cross-term, native; the committed-neutral-relic candidate for the CMB; the two-component picture; the "no particle *for galaxies*, not no dark matter" clarification; the honest live risk). Dark energy left in §5/§11. Source: `physics-papers/dark-sector/`.
+
+- **C1 — SUPERSEDED / do not apply.** Its "mimetic dust mode = `Ω_c`" and "conserved bandwidth current is natively that dust" resolutions were *retracted* by later 2026-07 work (the khronon does not natively carry the `a⁻³` dust — three checks; the CMB dark component is a *separate* relic, not the khronon's mode; MOND is the interference cross-term). Kept below for the audit trail only.
+- **C2 — APPLIED** in the new §6 (with the interference-cross-term MOND and the "relic must be warm" correction that its older text lacked). The report now points to `physics-papers/dark-sector/`.
+
+**Remaining:** rebuild the report PDF (`_build_report.py`) to reflect the new section — a build step, not a content change.
+
 Each entry: what changes, where, current text, proposed replacement, why, and status.
 
 ---
