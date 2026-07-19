@@ -31,8 +31,8 @@ A framework earns the word "unified" by accounting for a specific list, and this
 - quantum mechanics from that foundation (§4);
 - entanglement, Bell and Tsirelson (§4);
 - gravity — the weak field, the khronometric class, galactic dark matter, and dark energy (§5);
-- cosmology and the dark sector — inflation, and the CMB dark-matter frontier (§6);
-- quantum mechanics and gravity unified rather than glued (§7);
+- cosmology and the dark sector — inflation, and the CMB dark-matter frontier (§7);
+- quantum mechanics and gravity unified rather than glued (§6);
 - the gauge forces `SU(3) × SU(2) × U(1)` (§8);
 - charge quantization (§9);
 - electromagnetism (§9);
@@ -61,7 +61,7 @@ Every substantive claim in the report is tagged with one of these tiers, taken f
 - **Derived** — follows from the primitives or the substrate structure (a proof or forced construction).
 - **Form-forced / derived-conditional** — the *form* is forced given stated inputs (e.g. the gauge group given the complex amplitude); the conditions are disclosed.
 - **Reconstructed** — substantially grounded by mapping onto a standard theorem, with the theorem's rigor assumed (the quantum-logic keystone, §4).
-- **Structural / account** — a grounded argument or identification, not a proof; the unification move (§7) is the report's central account-tier claim.
+- **Structural / account** — a grounded argument or identification, not a proof; the unification move (§6) is the report's central account-tier claim.
 - **Measured** — a result produced by running the *certified* substrate simulator: a direct simulation of the primitives whose dynamics are validated against the substrate's own invariants and conservation laws, so its outputs are measurements of ED itself rather than of a stand-in model (the binding-mass mechanism, §11; the charge skeleton, §9).
 - **Grounded** — a primitive supplies the operational content, conditionally or structurally.
 - **Inherited** — a value or structure taken from measurement or standard mathematics by ED's own logic (the constants, e.g. the cosmological scale `H₀`; the Lorentzian metric signature; Piron–Solèr).
@@ -100,9 +100,9 @@ The report's structure is this table. Read down the "arrow's job" column and the
 | **Minimal foundation** | ✅ commitment + participation; one process does every job | the arrow *is* the sole process primitive | Grounded / synthesis | §3 |
 | **Quantum mechanics from the substrate** | ✅ reconstructed (orthogonality reduced, ℂ selected, Born non-contextuality grounded; residual = Solèr lattice rigor) | the arrow selects the pointer basis (einselection) + supplies repeatability | **Reconstructed** | §4 |
 | **Entanglement (Bell / Tsirelson)** | ✅ closed arc (non-factorizability, monogamy, no-signaling forced, the Bell–Tsirelson bound); read as the pre-individuation regime, not action-at-a-distance | commitment (P11) individuates; entanglement is the not-yet-committed regime | Closed (Grounded/Derived) + interpretation | §4 |
-| **Gravity (GR + galactic MOND + dark energy)** | ✅ GR quartet closed (GR-I..IV) + galactic MOND passes (KM-I); ⚠️ dark energy/Λ: form identified, magnitude inherited via `H₀` (§12) — the CMB/cluster dark sector is §6 | the khronon *is* the arrow made dynamical (preferred time) | Derived (weak field) / grounded (galactic); values inherited | §5 |
-| **Cosmology and the dark sector** | ✅ inflation = the substrate saturating (consilience); ✅ galactic MOND read as a horizon-interference cross-term (native); ⚠️ the CMB/cluster dark component = a native *candidate* (a committed neutral relic), not a fit — the sector's live falsification risk | the arrow saturates (inflation) + interferes with the horizon (MOND) | Consilience (inflation) / grounded (interference) / candidate-not-delivered (CMB); values inherited | §6 |
-| **QM + gravity unified** | ✅ distinctive — the same arrow is pointer basis *and* preferred time (the problem of time dissolves); and the black-hole information paradox is addressed by a substrate-level unitarity-preserving mechanism (information = the arrow's record; no Hilbert-space unitarity proof claimed) | one arrow, two demands | **Account (distinctive)** | §7 |
+| **Gravity (GR + galactic MOND + dark energy)** | ✅ GR quartet closed (GR-I..IV) + galactic MOND passes (KM-I); ⚠️ dark energy/Λ: form identified, magnitude inherited via `H₀` (§12) — the CMB/cluster dark sector is §7 | the khronon *is* the arrow made dynamical (preferred time) | Derived (weak field) / grounded (galactic); values inherited | §5 |
+| **Cosmology and the dark sector** | ✅ inflation = the substrate saturating (consilience); ✅ galactic MOND read as a horizon-interference cross-term (native); ⚠️ the CMB/cluster dark component = a native *candidate* (a committed neutral relic), not a fit — the sector's live falsification risk | the arrow saturates (inflation) + interferes with the horizon (MOND) | Consilience (inflation) / grounded (interference) / candidate-not-delivered (CMB); values inherited | §7 |
+| **QM + gravity unified** | ✅ distinctive — the same arrow is pointer basis *and* preferred time (the problem of time dissolves); and the black-hole information paradox is addressed by a substrate-level unitarity-preserving mechanism (information = the arrow's record; no Hilbert-space unitarity proof claimed) | one arrow, two demands | **Account (distinctive)** | §6 |
 | **Gauge forces SU(3)×SU(2)×U(1)** | ✅ shape derived (SU(N) form, non-abelian, F², gap, single U(1)); ⚠️ {1,2,3} the wall | the single hypercharge = the arrow wearing a phase | Derived-conditional / **Wall** (#1) | §8 |
 | **Charge quantization** | ✅ native (integer winding, integral Gauss law) | irreversibility quantizes + protects the winding | Measured | §9 |
 | **Electromagnetism (smooth field)** | ✅ coherence-weighted limit is Coulomb; the field is a coarse-grained shadow | the arrow sorts the continuum (field = shadow) | Analytic + structural | §9 |
@@ -159,7 +159,7 @@ What follows is the backbone of the report. Each line is a job the arrow does, a
 
 **Gravity's preferred time** [§5]. ED's gravity is khronometric: it has a preferred foliation of spacetime, a "which time is really flowing" that general relativity insists cannot exist. In ED it not only exists, it is forced, because the arrow *is* a preferred direction of time, and a preferred direction is a preferred foliation. The khronon field that carries ED's gravity is the arrow, spread across the substrate.
 
-**The unification move** [§7]. Hold those two jobs next to each other. The pointer basis of quantum mechanics and the preferred time of gravity are not two facts. They are the same arrow. That single identity is ED's answer to quantum gravity, and it is the heart of this report: the two theories were never separate to begin with, they share a spine, and that spine is time committing.
+**The unification move** [§6]. Hold those two jobs next to each other. The pointer basis of quantum mechanics and the preferred time of gravity are not two facts. They are the same arrow. That single identity is ED's answer to quantum gravity, and it is the heart of this report: the two theories were never separate to begin with, they share a spine, and that spine is time committing.
 
 **Undoubling the spinor** [§11]. Put a Dirac field on a lattice and it doubles: you get sixteen species where nature has one. The standard fixes are technical and cost you a symmetry. ED's substrate is a lattice, and the arrow undoubles it down to a single species, because it is a genuine direction that breaks the symmetry the doublers rely on. This is not free: the arrow pays the Nielsen–Ninomiya price by being *non-Hermitian* (its retardation is the Wilson term), which is exactly the premise the no-go forces you to surrender. The electron is one electron because the substrate commits.
 
@@ -177,13 +177,13 @@ Ten jobs, and they are not ten coincidences. They are the pattern you would expe
 
 Two guardrails, stated here so the rest of the report can lean on them.
 
-First, this is a **convergence, not a theorem.** No single derivation takes commitment and produces all ten jobs from it. Each is worked separately, each landing back on the arrow. That is consilience; and it is the kind of evidence unification is actually made of, one mechanism across the sectors. But it is not a proof that the arrow is logically prior to everything, and this document will not pretend it is. A skeptic is right to press here, and §7 presses back: the force of the claim is the recurrence, not a reduction.
+First, this is a **convergence, not a theorem.** No single derivation takes commitment and produces all ten jobs from it. Each is worked separately, each landing back on the arrow. That is consilience; and it is the kind of evidence unification is actually made of, one mechanism across the sectors. But it is not a proof that the arrow is logically prior to everything, and this document will not pretend it is. A skeptic is right to press here, and §6 presses back: the force of the claim is the recurrence, not a reduction.
 
 Second, the arrow is **not everything** — but the "arena" is narrower than it sounds. What ED takes as primitive is only the *bare* substrate index: its adjacency, its dimension (P06), its grain scale (P08), and the available rule-types. It is **not** "space" in the usual sense. The metric geometry, physical distance, and even the boundary between one system and another are *emergent*, built by commitment: the weak-field metric comes out of the connectivity graph with no lengths on its edges (§5), and a spatial boundary is the coarse-grained shadow of an individuation surface (§4). So space is largely a *result*, not a stage; what stays primitive is the bare index, and even its dimension has a conjectured route home (the linking argument, §14). A process cannot hand you the bare index it runs on, and the later inherited numbers (the constants, the representation spectrum) trace partly to that same fact: the arrow is a process, not a stage. Naming that limit precisely is what keeps the spine load-bearing instead of mystical.
 
 ## What this section buys the rest of the report
 
-From here on, no sector is a standalone result. When §4 reconstructs quantum mechanics, watch for the arrow selecting the basis. When §5 closes gravity, watch for the arrow as the preferred time. When §7 unifies them, it is not introducing a new idea, it is pointing out that the basis-selector and the preferred-time are the same object you met here. The Standard Model sectors, §8 through §11, each open by naming which job of the arrow they are.
+From here on, no sector is a standalone result. When §4 reconstructs quantum mechanics, watch for the arrow selecting the basis. When §5 closes gravity, watch for the arrow as the preferred time. When §6 unifies them, it is not introducing a new idea, it is pointing out that the basis-selector and the preferred-time are the same object you met here. The Standard Model sectors, §8 through §11, each open by naming which job of the arrow they are.
 
 The boxes a unified theory must check are the skeleton of this report. The arrow of time is the blood that runs through it. Everything after this page is the same one-way act, seen from one more angle.
 
@@ -249,7 +249,7 @@ Finally, the same cross-chain kernel that carries entanglement also carries the 
 
 ## What this buys
 
-Note what did the work in every result above: the *irreversibility* of commitment. It locked the channel to give repeatability; it made the channel basis the unique pointer basis; it made outcomes stochastic commitments rather than pre-valued facts. That irreversibility is the arrow of §3. Hold onto the specific identification, **the arrow selects the quantum pointer basis** — because §5 will show the same arrow fixes gravity's preferred time, and §7 will argue those are not two facts.
+Note what did the work in every result above: the *irreversibility* of commitment. It locked the channel to give repeatability; it made the channel basis the unique pointer basis; it made outcomes stochastic commitments rather than pre-valued facts. That irreversibility is the arrow of §3. Hold onto the specific identification, **the arrow selects the quantum pointer basis** — because §5 will show the same arrow fixes gravity's preferred time, and §6 will argue those are not two facts.
 
 
 **Related papers.** 
@@ -286,7 +286,7 @@ The reason to care about this sector is not that it re-derives GR. It is that th
 - In its **deep field**, it is the dark-matter phenomenology. KM-I embeds MOND relativistically as the khronon's low-acceleration behavior, forced given the ED combination rule `a = √(a_N·a₀)` (Paper_030), with the transition scale `a₀ = cH₀/(2π)` coming from the cosmic decoupling surface (Paper_029), the slope-4 Baryonic Tully–Fisher relation `v⁴ = GMa₀` with zero intrinsic scatter (Paper_031), and the AQUAL field equation (Paper_036). Lensing and PPN pass, and there is no new ghost (the `W`-sector adds no time derivatives); but KM-I is explicit that its feedback into the kinetic matrix is the same regulator degeneracy the cosmological sector below leaves unfit, so the full strong-coupling stability is conditional, not a closed proof (KM-I, Grounded/conditional). ED does not add dark matter; it reads the rotation curves off the same field that gives Newton.
 - In its **cosmological** face, it is the dark-fluid and a single cosmological constant Λ. ED *identifies* Λ's form (the V1 kernel integrated over the cosmic horizon; the smallness is reframed as the Friedmann ratio `(H₀/M_P)²`, so the *naïve* mode-tower version of the 122-order catastrophe does not arise) and inherits its *magnitude* through `H₀` (KM-II, Paper_038_5; the residual hierarchy reduces to the open Route-A derivation of `H₀`). See §12.
 
-That is the one-line summary of this section, and it is worth stating: **gravity, galactic dark matter, and dark energy are one field in ED, and that field is the arrow.** (Paper_OneField_Letter is the capstone; §6 develops the cosmological dark sector and is explicit that the CMB dark component is a *separate* question from this one field.)
+That is the one-line summary of this section, and it is worth stating: **gravity, galactic dark matter, and dark energy are one field in ED, and that field is the arrow.** (Paper_OneField_Letter is the capstone; §7 develops the cosmological dark sector and is explicit that the CMB dark component is a *separate* question from this one field.)
 
 ## Where ED departs from GR (the falsifiable edge)
 
@@ -302,7 +302,7 @@ These are not caveats, these are the sector's weapons:
 
 It is a closed sector, but it still has edges:
 
-- **Clusters and the CMB are the sector's live falsification risk** — no CMB spectrum is computed and no cluster profile is fit, and this is where MOND-class theories characteristically die. The full cosmological dark sector, its candidate component, and this failure mode are developed in §6.
+- **Clusters and the CMB are the sector's live falsification risk** — no CMB spectrum is computed and no cluster profile is fit, and this is where MOND-class theories characteristically die. The full cosmological dark sector, its candidate component, and this failure mode are developed in §7.
 - **Λ's magnitude is inherited via `H₀`** (its form is identified and the naïve mode-tower catastrophe dissolved — §12; the number reduces to `H₀`, whose substrate derivation, Route A, is the open piece).
 - **GW polarization content** beyond `c_T = c` is viable but its exact couplings are not fully derived, the one live tension, not a failure.
 
@@ -310,7 +310,7 @@ The GR quartet is closed and Derived, and the galactic MOND phenomenology (KM-I)
 
 ## What this buys
 
-The load-bearing fact to carry forward is the identification made at the top: **gravity's preferred time is the arrow.** The khronon is not a new field standing next to the arrow; it is the arrow, dynamical. Hold that against §4's result, *the arrow selects the quantum pointer basis*, and §7 has both halves it needs. The pointer basis and the preferred foliation are jobs of one primitive. That is the unification, and gravity is where its second half lives.
+The load-bearing fact to carry forward is the identification made at the top: **gravity's preferred time is the arrow.** The khronon is not a new field standing next to the arrow; it is the arrow, dynamical. Hold that against §4's result, *the arrow selects the quantum pointer basis*, and §6 has both halves it needs. The pointer basis and the preferred foliation are jobs of one primitive. That is the unification, and gravity is where its second half lives.
 
 
 **Related papers.** 
@@ -324,47 +324,7 @@ The load-bearing fact to carry forward is the identification made at the top: **
 - *BTFR*
 - *The Cosmological Constant Λ*
 
-# §6 — Cosmology and the Dark Sector: the arrow at the largest scale
-
-**The arrow's job here.** §5 closed gravity as the khronon, the arrow made dynamical. At cosmic scale the same field writes the cosmology: it saturates into inflation, it bends galaxies as an interference with the horizon, and it leaves ED's dark-matter question in a specific, honest place. This is the report's frontier sector. One result here is native and strong, one is a genuine open with a named candidate, and one — the CMB — is the live edge where this whole class of theory is judged. It is stated at that mix of tiers, not smoothed into a win.
-
-## Inflation is the substrate saturating
-
-Cosmic inflation, in ED, is not a new field on a tuned potential; it is the **saturation regime** of the substrate. In the post-boundary state the participation field `Ψ` is uniform (`∇Ψ = 0`), the kernel derivatives vanish, and the substrate stress-energy collapses to a vacuum-energy form (`w = −1`), which is de Sitter — the same exponential-expansion mechanism standard cosmology uses, reached from the substrate rather than an inflaton (Paper_ED_Cos_01; M3, form-identified / value-inherited). No inflaton particle exists at substrate level, and its detection would falsify the identification. This is **consilience, not a novel prediction**: ED reproduces the known sequence (the ~60 e-folds, the near-scale-invariant tilt) and *inherits* its values from Planck. The one genuinely native content is the ontological replacement — inflation as the substrate saturating, not a field slow-rolling — and the exit dynamics, how the uniform state breaks into structure, remain an open substrate-research item.
-
-## Dark matter is two questions, and ED answers "no particle" to only one
-
-"Dark matter" is not one observation. Galactic rotation curves and the baryonic Tully–Fisher relation are one; the CMB acoustic peaks and cluster masses are another. They have resisted a single explanation for two decades — MOND fits galaxies and dies at the CMB, cold dark matter fits the CMB and is too clumpy in galaxies. ED's position is the split the data has been pointing at: **MOND where MOND works, a cold component where it does not.**
-
-The distinction that matters, and that is easy to misread: ED's galactic result is that a dark-matter *particle* is not needed to explain galaxies. That is **not** the claim that no dark matter exists. ED's own gravity papers are explicit — *ED does not refute dark matter as particle content* (Paper_029, Paper_031). A particle is not needed *for galaxies*; the CMB is a separate question, and ED does not close the door on a component there.
-
-## MOND is an interference cross-term, not an added force
-
-The galactic phenomenology of §5 has a cleaner reading than "a modification bolted onto gravity." Reading gravitational strain as **quadratic in the participation amplitude** — `Str = |Σ_a P^(a)|²` with `P = √b · e^{iπ}` — splits it into a diagonal and an off-diagonal term. **The diagonal is Newton** (each source's self-potential); **the off-diagonal is MOND** — the interference *cross-term* between the local mass and the cosmic horizon, whose modulus is exactly the geometric mean `√(a_N · a₀)`, with `a₀ = cH₀/(2π)` supplied by the horizon (Paper_QuadraticStrain, sharpening Paper_030; Paper_029). This is the same interference structure as the double-slit, and it *discharges* the bilocal-coupling postulate the MOND line previously carried: the `√` is forced, not chosen (Grounded / structural). So ED does not add a MOND force — MOND is what the interference of matter *with the horizon* looks like, and Newton is the same strain form's diagonal. One residual is open and named: the constructive sign of the interference, which is the same open question as the V5 kernel's attractive sign.
-
-## The CMB and clusters: a separate component, and the sector's live edge
-
-MOND, being an interference *with the horizon*, handles galaxies with no dark component at all — but it does not supply what the CMB acoustic peaks demand: a source that gravitates without oscillating with the photon–baryon fluid, decoupled and diluting as `a⁻³`, at ~5× the baryon abundance. This is where every MOND-class theory is judged, and KM-II is explicit that ED does not discharge it: no regulator is chosen, no CMB spectrum is computed, no cluster profile is fit.
-
-ED's *candidate* for that component is native but unproven: a **committed neutral relic** produced at the inflation/saturation exit by the same admission mechanism that makes the baryons (Paper_ED_Baryogenesis), decoupled because it is uncharged, cold-capable because binding gives it mass (§11; Paper_MassWithoutMass), and diluting as `a⁻³`. It shares the *mechanism* with MOND — the same interference cross-term, in two roles (matter–horizon is MOND, relic–relic is the dark component) — but it is **not** the same substance: MOND does galaxies without it, and the relic is a separate component for the CMB. Its one free number, the relic's free-streaming length (set by an *inherited* mass), must land warm enough to stay diffuse in galaxies, where a clumped relic would *double-count* against MOND — and the interference *amplifies* that double-count. That is the sector's live risk, stated plainly.
-
-So the honest verdict: galactic MOND is native and now grounded as horizon-interference; the CMB dark component is an **open frontier with a native candidate and a named failure mode**, not a delivered fit. If the relic cannot be both warm-enough-for-galaxies and abundant-enough-for-the-CMB, or if a spectrum computed from the candidate misses the peaks, the cosmological half fails — and it could take the sector with it. The full, tiered map is `physics-papers/dark-sector/`.
-
-## What this buys
-
-The arrow's largest-scale face is the same one it wears everywhere else: **inflation is the substrate saturating, and MOND is the arrow's horizon read as an interference.** What ED does *not* buy here is a solved dark sector; it buys an honest one — a native, elegant account of galaxies (interference, not an added force), an explicit refusal to over-claim ("no particle *for galaxies*," not "no dark matter"), and a single sharp still-open question, the CMB component, carried at exactly that tier. This is the sector most likely to falsify ED, and the report says so.
-
-**Related papers.**
-
-- *Inflation as Substrate Saturation* (Cos_01)
-- *Interference Gravity: Newton on the Diagonal, MOND on the Off-Diagonal* (Quadratic Strain)
-- *Khronon MOND* and *Khronon Cosmology*
-- *The Combination Rule*, *`a₀` — the MOND Scale*, *BTFR*
-- *Baryogenesis*
-- *Mass Without Mass*
-- The dark-sector position, debt map, and program: `physics-papers/dark-sector/`
-
-# §7 — The Unification Move: one arrow meets two demands
+# §6 — The Unification Move: one arrow meets two demands
 
 Sections 4 and 5 each ended on the same primitive. In §4 the arrow selects the quantum pointer basis; in §5 the arrow made dynamical — the khronon — is gravity's preferred time. This section makes the claim those two results were building toward: the basis-selector and the preferred-time are not two arrows that happen to resemble each other, but one primitive doing one job, seen in two sectors. That single identification is ED's answer to quantum gravity, and it dissolves the problem that has always kept the two theories from fitting together. It is the report's central claim, and it is argued rather than asserted: the section is explicit about how strong the argument is and where it stops.
 
@@ -420,6 +380,46 @@ A skeptic is right to press exactly here, and the right response is not to push 
 **Related papers.** 
 - *Commitment and Participation* 
 - *Information-Paradox Synthesis*, *The Page Curve*, *Hawking Spectrum*, and *Horizon Decoupling* 
+
+# §7 — Cosmology and the Dark Sector: the arrow at the largest scale
+
+**The arrow's job here.** §5 closed gravity as the khronon, the arrow made dynamical. At cosmic scale the same field writes the cosmology: it saturates into inflation, it bends galaxies as an interference with the horizon, and it leaves ED's dark-matter question in a specific, honest place. This is the report's frontier sector. One result here is native and strong, one is a genuine open with a named candidate, and one — the CMB — is the live edge where this whole class of theory is judged. It is stated at that mix of tiers, not smoothed into a win.
+
+## Inflation is the substrate saturating
+
+Cosmic inflation, in ED, is not a new field on a tuned potential; it is the **saturation regime** of the substrate. In the post-boundary state the participation field `Ψ` is uniform (`∇Ψ = 0`), the kernel derivatives vanish, and the substrate stress-energy collapses to a vacuum-energy form (`w = −1`), which is de Sitter — the same exponential-expansion mechanism standard cosmology uses, reached from the substrate rather than an inflaton (Paper_ED_Cos_01; M3, form-identified / value-inherited). No inflaton particle exists at substrate level, and its detection would falsify the identification. This is **consilience, not a novel prediction**: ED reproduces the known sequence (the ~60 e-folds, the near-scale-invariant tilt) and *inherits* its values from Planck. The one genuinely native content is the ontological replacement — inflation as the substrate saturating, not a field slow-rolling — and the exit dynamics, how the uniform state breaks into structure, remain an open substrate-research item.
+
+## Dark matter is two questions, and ED answers "no particle" to only one
+
+"Dark matter" is not one observation. Galactic rotation curves and the baryonic Tully–Fisher relation are one; the CMB acoustic peaks and cluster masses are another. They have resisted a single explanation for two decades — MOND fits galaxies and dies at the CMB, cold dark matter fits the CMB and is too clumpy in galaxies. ED's position is the split the data has been pointing at: **MOND where MOND works, a cold component where it does not.**
+
+The distinction that matters, and that is easy to misread: ED's galactic result is that a dark-matter *particle* is not needed to explain galaxies. That is **not** the claim that no dark matter exists. ED's own gravity papers are explicit — *ED does not refute dark matter as particle content* (Paper_029, Paper_031). A particle is not needed *for galaxies*; the CMB is a separate question, and ED does not close the door on a component there.
+
+## MOND is an interference cross-term, not an added force
+
+The galactic phenomenology of §5 has a cleaner reading than "a modification bolted onto gravity." Reading gravitational strain as **quadratic in the participation amplitude** — `Str = |Σ_a P^(a)|²` with `P = √b · e^{iπ}` — splits it into a diagonal and an off-diagonal term. **The diagonal is Newton** (each source's self-potential); **the off-diagonal is MOND** — the interference *cross-term* between the local mass and the cosmic horizon, whose modulus is exactly the geometric mean `√(a_N · a₀)`, with `a₀ = cH₀/(2π)` supplied by the horizon (Paper_QuadraticStrain, sharpening Paper_030; Paper_029). This is the same interference structure as the double-slit, and it *discharges* the bilocal-coupling postulate the MOND line previously carried: the `√` is forced, not chosen (Grounded / structural). So ED does not add a MOND force — MOND is what the interference of matter *with the horizon* looks like, and Newton is the same strain form's diagonal. One residual is open and named: the constructive sign of the interference, which is the same open question as the V5 kernel's attractive sign.
+
+## The CMB and clusters: a separate component, and the sector's live edge
+
+MOND, being an interference *with the horizon*, handles galaxies with no dark component at all — but it does not supply what the CMB acoustic peaks demand: a source that gravitates without oscillating with the photon–baryon fluid, decoupled and diluting as `a⁻³`, at ~5× the baryon abundance. This is where every MOND-class theory is judged, and KM-II is explicit that ED does not discharge it: no regulator is chosen, no CMB spectrum is computed, no cluster profile is fit.
+
+ED's *candidate* for that component is native but unproven: a **committed neutral relic** produced at the inflation/saturation exit by the same admission mechanism that makes the baryons (Paper_ED_Baryogenesis), decoupled because it is uncharged, cold-capable because binding gives it mass (§11; Paper_MassWithoutMass), and diluting as `a⁻³`. It shares the *mechanism* with MOND — the same interference cross-term, in two roles (matter–horizon is MOND, relic–relic is the dark component) — but it is **not** the same substance: MOND does galaxies without it, and the relic is a separate component for the CMB. Its one free number, the relic's free-streaming length (set by an *inherited* mass), must land warm enough to stay diffuse in galaxies, where a clumped relic would *double-count* against MOND — and the interference *amplifies* that double-count. That is the sector's live risk, stated plainly.
+
+So the honest verdict: galactic MOND is native and now grounded as horizon-interference; the CMB dark component is an **open frontier with a native candidate and a named failure mode**, not a delivered fit. If the relic cannot be both warm-enough-for-galaxies and abundant-enough-for-the-CMB, or if a spectrum computed from the candidate misses the peaks, the cosmological half fails — and it could take the sector with it. The full, tiered map is `physics-papers/dark-sector/`.
+
+## What this buys
+
+The arrow's largest-scale face is the same one it wears everywhere else: **inflation is the substrate saturating, and MOND is the arrow's horizon read as an interference.** What ED does *not* buy here is a solved dark sector; it buys an honest one — a native, elegant account of galaxies (interference, not an added force), an explicit refusal to over-claim ("no particle *for galaxies*," not "no dark matter"), and a single sharp still-open question, the CMB component, carried at exactly that tier. This is the sector most likely to falsify ED, and the report says so.
+
+**Related papers.**
+
+- *Inflation as Substrate Saturation* (Cos_01)
+- *Interference Gravity: Newton on the Diagonal, MOND on the Off-Diagonal* (Quadratic Strain)
+- *Khronon MOND* and *Khronon Cosmology*
+- *The Combination Rule*, *`a₀` — the MOND Scale*, *BTFR*
+- *Baryogenesis*
+- *Mass Without Mass*
+- The dark-sector position, debt map, and program: `physics-papers/dark-sector/`
 
 # §8 — Gauge Structure: the shape is derived, the multiplicities are the wall
 
@@ -792,7 +792,7 @@ These are ED's sharpest falsifiable bets. The sharpest *live* one, and the only 
 
 7. **`α₂ = 0` exactly, and the matter-sector prohibitions.** The preferred-frame parameter `α₂` is identically zero (§5), where a generic khronometric or Lorentz-violating theory gives `α₂ ~ O(1)`; this is a kill-switch ED passes (GR passes it too, so it is a survival, not a win over GR). And the matter sector carries hard prohibitions from the clean-vector theorem (§10): no parity-violating chiral `U(1)` force, no stable gauge group beyond `SU(3)`, no anyons in genuine 3+1D. Any counterexample is a one-line kill, and competitors do not make these prohibitions.
 
-8. **Non-thermal Hawking radiation and a Planck-mass remnant.** ED predicts a sign-definite non-thermal correction to the Hawking spectrum, `n_H[1 − c₁(ω/ω_c)²]`, and that evaporation halts at a stable Planck-mass remnant rather than running to zero. Standard semiclassical gravity gives an exactly thermal spectrum and complete evaporation. Analog-gravity systems (BEC, optical) are the near-term test; the cosmological abundance of Planck-mass remnants is a longer-term one (§7).
+8. **Non-thermal Hawking radiation and a Planck-mass remnant.** ED predicts a sign-definite non-thermal correction to the Hawking spectrum, `n_H[1 − c₁(ω/ω_c)²]`, and that evaporation halts at a stable Planck-mass remnant rather than running to zero. Standard semiclassical gravity gives an exactly thermal spectrum and complete evaporation. Analog-gravity systems (BEC, optical) are the near-term test; the cosmological abundance of Planck-mass remnants is a longer-term one (§6).
 
 Several of these trace directly to arrow-sector results: `α₂ = 0` and the pinned dark energy come from the khronon (§5), and the matter-sector prohibitions come from the clean-vector theorem (§10). The arrow that unifies the report is also where several of its sharpest falsifiers come from.
 
@@ -830,9 +830,9 @@ Event Density is **form-complete and not closed**, and both halves of that sente
 
 ## What it is
 
-ED classifies the *form* of every sector a unified framework must address, and it does so from one primitive. The arrow of commitment reconstructs quantum mechanics by selecting the pointer basis and supplying measurement repeatability (§4); it closes gravity as the khronon, a genuine preferred time, unifying the weak-field Einstein metric with dark matter and dark energy in one field (§5); and, most distinctively, those two jobs are the *same* arrow, so the problem of time dissolves rather than being reconciled (§7). Around that spine, the Standard Model sectors are the same primitive in smaller roles: it quantizes and protects charge and casts electromagnetism as a coarse-grained shadow (§9), it is half of the chirality operator and forces parity violation to be spontaneous (§10), it undoubles the spinor and makes a lone excitation massless so that mass comes from binding (§11), and it anchors the single hypercharge of the derived gauge structure (§8). The values that fill in these forms — the couplings, the masses, the mixing angles, the cosmological constant's magnitude (which reduces to `H₀`) — are inherited, and inherited *by principle*: a pure-relation substrate produces no intrinsic scalar, so it cannot and need not set a dimensionless number (§12), exactly as the Standard Model inherits the same twenty parameters. (Dark energy's *structure* is accounted for and the naïve mode-tower catastrophe behind the 122-order problem dissolved — §5, §12; it is the value, the last measured scale `H₀`, that is inherited.)
+ED classifies the *form* of every sector a unified framework must address, and it does so from one primitive. The arrow of commitment reconstructs quantum mechanics by selecting the pointer basis and supplying measurement repeatability (§4); it closes gravity as the khronon, a genuine preferred time, unifying the weak-field Einstein metric with dark matter and dark energy in one field (§5); and, most distinctively, those two jobs are the *same* arrow, so the problem of time dissolves rather than being reconciled (§6). Around that spine, the Standard Model sectors are the same primitive in smaller roles: it quantizes and protects charge and casts electromagnetism as a coarse-grained shadow (§9), it is half of the chirality operator and forces parity violation to be spontaneous (§10), it undoubles the spinor and makes a lone excitation massless so that mass comes from binding (§11), and it anchors the single hypercharge of the derived gauge structure (§8). The values that fill in these forms — the couplings, the masses, the mixing angles, the cosmological constant's magnitude (which reduces to `H₀`) — are inherited, and inherited *by principle*: a pure-relation substrate produces no intrinsic scalar, so it cannot and need not set a dimensionless number (§12), exactly as the Standard Model inherits the same twenty parameters. (Dark energy's *structure* is accounted for and the naïve mode-tower catastrophe behind the 122-order problem dissolved — §5, §12; it is the value, the last measured scale `H₀`, that is inherited.)
 
-That is a serious and coherent claim. One primitive, worked independently across sectors that mainstream physics treats as unrelated, keeps turning up as the mechanism, most strikingly at the black hole, where the arrow's irreversibility preserves information as a record and addresses the information paradox (§7).
+That is a serious and coherent claim. One primitive, worked independently across sectors that mainstream physics treats as unrelated, keeps turning up as the mechanism, most strikingly at the black hole, where the arrow's irreversibility preserves information as a record and addresses the information paradox (§6).
 
 ## What is open
 
@@ -872,7 +872,7 @@ The "measured" tier means a result was produced by a built-and-run simulation of
 | Spinor undoubling (§11) | `chiral_3p1d.py` | Nielsen–Ninomiya: Hermitian naive = 16 doublers, arrow (Wilson term) = 1 survivor at the origin — `evaluation/ChiralGauge/` |
 | Binding mass + inertia (§11) | `mass_from_binding_probe.py` | free front v=0.98; unbound vs V5-confined (extent 55 vs 1.4–2.3); COM sub-luminal; inertia 0.72 vs unbound-control 0.97; the k₁₁ time-dilation discriminator — `theory/Higgs_Emergence/` |
 | Khronon dynamical rule (§5) | GR-III simulation (`ḃ = D∇²b − κρ`) | Newtonian fixed point; r_s ∝ M; frozen b→0 horizon + area law; khronon speed c_s = c — gravity arc |
-| Channel capacity = 0 (§7, §12, §14) | A1 channel-capacity probe | controlled capacity exactly zero (the internal reading of the finite-reach ceiling) |
+| Channel capacity = 0 (§6, §12, §14) | A1 channel-capacity probe | controlled capacity exactly zero (the internal reading of the finite-reach ceiling) |
 | Finite-memory ceiling (§14) | `primes_test.py` | sieve to N=5×10⁶: template reproduced (1.700-bit invariant, lpf ladder); escape blocked (optimal Möbius correlator → 0; twin density needs 2C₂) — `evaluation/Primes_Arc/` |
 
 *Verification status: every script path above is confirmed present. Four reproduce their cited numbers exactly on re-run — `rep_spectrum_casting_winding.py` (clean winding 0 ∀N, broken = N), `chiral_3p1d.py` (16 doublers → 1 survivor at the origin), `maxwell_from_coherence_probe.py` (p=1 3D-Coulomb, R²=0.97), and `mass_from_binding_probe.py` (inertia 0.72 vs unbound-control 0.97). The remainder (the B4 holonomy suite, `move1`/`gleason`, GR-III, A1, `primes_test.py`) carry the numbers reported in their source papers.*
