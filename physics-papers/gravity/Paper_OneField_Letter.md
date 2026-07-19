@@ -16,6 +16,12 @@ Everything below is a **conditional structural result**: conditional on thirteen
 
 ---
 
+> **⚠️ Correction (2026-07-19) — the "not a particle" framing overclaims ED's stated position; read step 4–5's dark-matter mechanism as a *candidate*, not a settled result.**
+> Two over-statements, flagged after the 2026-07 dark-sector work (`../dark-sector/`):
+> 1. **"Dark matter is not a particle" (§4) is stronger than ED's actual position.** ED *does not refute dark matter as particle content* (Paper_029, Paper_031): the galactic result shows a particle is *not needed for galaxies*, not that none exists. The stronger "no particle" claim is not one ED's own gravity papers make.
+> 2. **The khronon-as-standalone-field cannot natively supply the CMB dust *abundance*.** §5's "near-zero sound speed *is* the dust-clustering condition" conflates *clustering* (`c_s≈0`) with *abundance* (`∝a⁻³`, ~5× baryons); three native routes to put the abundance in the khronon itself fail (FRW reduction → `∝H²`; P11/P13 do not force the mimetic constraint; the emergent-metric conformal mode is a slaved bandwidth field). The abundance needs a real matter component, not the field alone.
+> The unification **ambition** (one commitment-substance carries gravity, MOND, dark matter, and dark energy) stands. The working ontology that makes it *land* is a **candidate**: the khronon is the **collective (superfluid) mode of a committed neutral relic** — the relic supplies the `a⁻³` dust (and the CMB/cluster abundance), its phase supplies the MOND khronon — which repairs the abundance gap and is consistent with "does not refute a particle." See `../dark-sector/Paper_ED_DarkSector_Position.md` and `event-density/docs/ED_Research_Targets.md` §5b.
+
 ## The claim
 
 > **From a discrete substrate whose only special structure is an irreversible arrow of time, one derives: Einstein's weak-field metric, including the factor-of-two light bending; the precise gravitational theory ED must be (khronometric — Einstein's gravity plus exactly one scalar, the arrow itself made dynamical); the MOND phenomenology of galaxies, with its transition scale $a₀ = cH₀/2π$ carried structurally rather than tuned; and the dark-energy scale, as the same field's vacuum term. One field. One scale. Five roles: the arrow, the Einstein sector, the dark-matter sector, the cosmological clustering dial, and the cosmological constant's magnitude.**

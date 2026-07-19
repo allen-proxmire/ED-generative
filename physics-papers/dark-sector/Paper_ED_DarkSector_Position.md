@@ -63,6 +63,18 @@ The obvious objection — a cold component that clusters in galaxies would spoil
 
 This is the MOND-plus-neutral-component picture with a literature precedent (νHDM; AeST is the relativistic-field version). It works **if** the relic's free-streaming length lands near cluster scale.
 
+## 5.5 Candidate unification: the khronon as the relic's collective mode *(hypothesis)*
+
+The reconciliation above treats MOND (khronon) and the relic as two components separated by scale. A stronger candidate — flagged here as a hypothesis, not a result — would make them **one substance read two ways**, which is the ED-native form of *superfluid dark matter* (Berezhiani–Khoury 2015):
+
+- The committed relic is the substance. **Dispersed** (large scales, high velocity dispersion) it is CDM — clusters, CMB, the `a⁻³` dust. **Condensed** (inside galaxies, below `a₀`, low acceleration) it forms a coherent state whose **collective (phonon) mode is the khronon**, and that mode produces the MOND force. So the galactic clumping *is* MOND, not an addition to it — the double-counting dissolves at the root.
+- The phase boundary is `a₀` — the cosmic-horizon scale ED already carries as the MOND scale (no new scale).
+- The identification is natural in ED because the khronon (arrow-as-field) and the relic (arrow-committed matter) are **both pure P11-commitment**: one as a field, one as matter. A superfluid's phase `θ` has a gradient `∂θ` that defines a preferred timelike frame — exactly a foliation scalar, exactly the khronon. And the superfluid's **phase–density conjugacy is the mimetic (unit-gradient) structure**, so the mimetic constraint that a standalone khronon would need *added* to carry dust becomes a *derived* consequence of the relic being a superfluid: relic **density** = the `a⁻³` dust; relic **phase** = the MOND khronon.
+
+This repairs the over-reach in `Paper_OneField_Letter` (the khronon does *not* natively carry the dust abundance; see its 2026-07-19 correction banner) by supplying the missing matter component while preserving the one-substance unification.
+
+**Load-bearing open pieces (why this is a hypothesis):** (1) does the relic actually *condense*? superfluid formation wants a light boson (~eV), which pulls against the ~GeV the abundance wanted — the mass tension of §6 resurfaces as the condensation condition; (2) does the phase reproduce ED's *specific* khronometric structure (`c_s=c`, `α₂=0`), not just a generic MOND-like field; (3) reconciliation with the khronon's existing derivation (GR-II: arrow-in-the-law → foliation scalar) — is the arrow-khronon the *same object* as the relic-phase-khronon? The next probe is (3).
+
 ## 6. The honest open crux, and the risk *(the frontier)*
 
 Everything above is form-complete. The whole account then turns on **one inherited number**: the relic's mass, which sets its free-streaming length.
