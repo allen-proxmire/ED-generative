@@ -53,6 +53,8 @@ This is the MOND + neutral-component picture (νHDM; AeST is the field version) 
 - Route A cannot supply the abundance without an added mimetic constraint (checked three ways).
 - Route B's relic mass / free-streaming length is inherited and expected cold — the live risk. If forced cold *and* cold breaks the galaxy fits, the sector fails.
 
+**Update (2026-07-19) — Route B now has a Lagrangian first construction (`Paper_ED_RelicLagrangian_v1.md`).** The relic field `Φ = √(ρ/m_R)e^{iθ}` carries a *conserved commitment number* (P11 read at the field level: a committed chain cannot un-commit), so `∇_μJ^μ = 0` gives `ρ ∝ a⁻³` as a **derived** result — precisely the volume memory §3 shows Route A structurally lacks. So the `a⁻³` abundance *form* is no longer owed: it is native to the relic field, with only the *amount* (`Ω_c ≈ 0.12`) inherited (at the `η_B` tier). The remaining open items narrow to: (i) the superfluid self-term `L_self` from coarse-graining V5 (decides one-substance vs two-component); (ii) the relic mass value / free-streaming length (still the live risk); (iii) the CMB spectrum itself (feed the action to a Boltzmann code, AeST-style). The construction is a *skeleton*, honestly tiered — it fixes the form and the `a⁻³`, not the two numbers or the self-term.
+
 ## 6. One-line status
 
 **The cluster/CMB debt is mapped and shown addressable — via a native committed-neutral-relic component (Route B), reconciled with galactic MOND by scale separation — but not discharged: no spectrum is computed, and the one free value (the relic's free-streaming length) is inherited and expected to sit on the galaxy-unfriendly side.** A frontier with a named failure path, not a solved sector.

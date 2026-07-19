@@ -88,6 +88,8 @@ Two framings, and the second is the ED-native one that could resolve the mass te
 
 **Net:** the decisive calculation passed on the one question that could have killed the program (mass-independent condensation), and the follow-on resolved the decoherence source as thermal (derived) — so the galaxy=MOND / cluster=CDM split now rests on primitives, not assertion. Remaining open: the *quantitative* transition dispersion (needs ED's V5 numbers); a targeted *heat-vs-density* check for dense-and-hot clusters; whether the condensed mode is genuinely the khronon (with the right `a₀`); and whether a *background* (non-encounter) commitment adds a second decoherence channel.
 
+**Update (2026-07-19) — the relic Lagrangian's first construction is written** (`Paper_ED_RelicLagrangian_v1.md`). It assembles the relic field `Φ = √(ρ/m_R)e^{iθ}` (ρ = the dust, θ = the candidate MOND khronon) from Baryogenesis + Mass-Without-Mass + MS-II, and *derives* `ρ ∝ a⁻³` from the P11-conserved commitment number — the CDM-relic (Route B) skeleton, with the `a⁻³` native and only the amount inherited. Crucially, it fixes the **attachment point** for the superfluid term: `L_self(Φ,∂Φ;u)`, the non-canonical kinetic functional whose deep limit must give `√(a_N a₀)`. So "the one calculation that decides it" is now sharply posed as *a term in a written action*: **coarse-grain the V5 coherence functional `E = Σ exp(−r/ℓ)cos Δφ` and read off `L_self`** — Berezhiani–Khoury-class `F(X)` → one substance, two phases; plain contact term → two components (CDM relic + the standing matter–horizon interference MOND). That coarse-graining is the next probe.
+
 ---
 
 ## Falsifiers
