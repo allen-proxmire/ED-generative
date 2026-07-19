@@ -35,6 +35,21 @@ Each entry: what changes, where, current text, proposed replacement, why, and st
 
 ---
 
+## C2 — §5 dark-matter position: state the full picture and point to the dark-sector folder  **[apply next report cycle]**
+
+**Status: TO APPLY (documentation clarity, not a physics change).** §5 currently frames clusters/CMB as a "live falsification risk," which is correct but *incomplete* — it lets a reader infer ED claims "no dark matter," which ED does not. The 2026-07-19 dark-sector work created a canonical home for the full position (`physics-papers/dark-sector/`); the report should carry a compact version of it and point there.
+
+**Where:** §5 (the dark-matter / MOND paragraph).
+
+**What to add (compact):**
+> ED explains galactic dynamics without a dark-matter *particle* (MOND/khronon) — but this means a particle is *not needed for galaxies*, **not** that ED claims none: ED does not refute dark matter as particle content (Paper_029/031). Clusters and the CMB are a *separate*, mapped debt (MOND-class theories all share the cluster shortfall), with a native candidate — a committed neutral relic from the saturation exit (decoupled, cold-capable, `a⁻³`), form-complete and value-inherited, its free-streaming length the one open number (expected cold — a live risk). Full statement: `physics-papers/dark-sector/`.
+
+**Why:** prevents the exact misreading a referee (and this project's own working notes) fell into — treating the inherited `Ω_c` in the cosmology papers as an unflagged contradiction with the gravity arc's "no dark matter." The dark-sector folder is the fix; the report just needs to reflect and point to it.
+
+**No verification gate** — this is documentation of an already-standing position, not a new claim.
+
+---
+
 ## Provenance (2026-07-17)
 
 Source: the CMB/cluster-debt work session (task 1 = the local-dial dust no-go; task 2 = GR-II native-dust; the OneField capstone reconciliation; the adversarial downgrade). Full detail: memory `project_cmb_dust_mimetic_debt`; map entry: `event-density/docs/ED_Research_Targets.md` §5b. **Nothing here is applied to the report; C1 is a candidate gated on verification.**

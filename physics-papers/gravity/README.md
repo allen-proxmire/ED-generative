@@ -4,8 +4,8 @@
 
 **State of the line** *(authoritative source: `event-density/docs/ED_Research_Targets.md`, targets #1, #5, #5b)*:
 - **The GR keystone (#1) is CLOSED** — the quartet **GR-I..IV** derives the weak-field Einstein metric, the khronometric class, the dynamical rule, and preferred-frame safety (`α₂=0` exact, `α₁` safe by ≥70 orders).
-- **MOND / dark matter (KM-I) is structurally complete** — embedded relativistically as the khronon's deep field (forced-given Paper_030).
-- **Open debts:** clusters + CMB (KM-II regulator dial), and the cosmological-constant *magnitude* (inherited, see `Θ_ED`, targets #10).
+- **MOND / dark matter (KM-I) is structurally complete** — embedded relativistically as the khronon's deep field (forced-given Paper_030). **Note carefully:** this means a dark-matter *particle is not needed for galaxies*, **not** that ED claims no dark matter — ED explicitly *does not refute dark matter as particle content* (Paper_029, Paper_031). The full position is in **[`../dark-sector/`](../dark-sector/)**.
+- **Open debts:** clusters + CMB — a *separate*, mapped, addressable debt (galaxies are handled; clusters/CMB are not), see **[`../dark-sector/DarkSector_DebtMap.md`](../dark-sector/DarkSector_DebtMap.md)** and KM-II — and the cosmological-constant *magnitude* (inherited, see `Θ_ED`, targets #10). The dark-sector candidate (a committed neutral relic for clusters/CMB, reconciled with galactic MOND by scale) is stated in **[`../dark-sector/Paper_ED_DarkSector_Position.md`](../dark-sector/Paper_ED_DarkSector_Position.md)**.
 
 **Tier key** *(the epistemic status of the result, distinct from publication status)*:
 `Derived` = from the primitives/structure · `Grounded` = structural / conditional / account-tier argument · `Measured` = simulation or probe result · `Inherited` = a value taken from measurement (G, ℓ_P, a₀, Λ-magnitude) · `Prediction` = falsifiable, experiment-facing · `Synthesis` = consolidation/overview · `Open` = declared open work. *(Tiers here are sourced from the research map + each paper's own load-bearing-step audit; verify against the paper before quoting.)*

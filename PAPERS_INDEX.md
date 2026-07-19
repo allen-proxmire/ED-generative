@@ -15,6 +15,18 @@
 
 ---
 
+## Cross-arc — The Dark Sector (`physics-papers/dark-sector/`)
+
+ED's dark-matter position spans the gravity, cosmology, QFT, and substrate-evaluation arcs; the `dark-sector/` folder is the single findable synthesis so it is not read from fragments. **Key point for any reader:** "ED explains galaxies without dark matter" means *a particle is not needed for galaxies*, **not** that ED claims no dark matter — ED *does not refute a DM particle* (Paper_029/031). Clusters + CMB are a separate, mapped, addressable debt with a native candidate (a committed neutral relic), form-complete and value-inherited.
+
+| Doc | Purpose | Status |
+|---|---|---|
+| `dark-sector/README.md` | folder overview + source-paper map | Synthesis |
+| `dark-sector/Paper_ED_DarkSector_Position.md` | the canonical position (galaxy/cluster/CMB split; "MOND ≠ no particle"; the relic candidate; the open crux + falsifiers) | Synthesis |
+| `dark-sector/DarkSector_DebtMap.md` | what clusters/CMB require, where MOND-class dies, ED's routes, proven vs open (public port of `event-density` Round-5) | Map |
+
+---
+
 ## Arc 1 — Quantum Kinematics (Papers 001–012 + decimal extensions)
 
 The Phase-1 QM-emergence program. Sixteen theorems closing the four standard quantum-mechanical postulates as substrate-derived results. **2026-07-02: 10 decimal-slot papers added** (found missing from the 2026-05-14 index) — supplementary derivations inserted between the integer papers; they do not renumber the integer sequence.
