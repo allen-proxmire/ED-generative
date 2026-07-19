@@ -1,6 +1,8 @@
-# Event Density: A Unified Framework for Physics
-
-**Allen Proxmire — 2026**
+---
+title: "Event Density: A Unified Framework for Physics"
+author: "Allen Proxmire"
+date: "July 2026"
+---
 
 *Availability: the corpus, this report, and the certified-simulation scripts are public at [github.com/allen-proxmire/ED-generative](https://github.com/allen-proxmire/ED-generative) (archived, all-versions DOI [10.5281/zenodo.20149496](https://doi.org/10.5281/zenodo.20149496)); the substrate simulator and companion evaluation scripts live in the [event-density](https://github.com/allen-proxmire/event-density) working repo.*
 
