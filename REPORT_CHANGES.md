@@ -6,9 +6,17 @@ Each entry: what changes, where, current text, proposed replacement, why, and st
 
 ---
 
-## C1 — §5 "The debts": sharpen *why* the CMB/cluster debt is hard  **[HOLD — do not apply until verified]**
+## C1 — §5 "The debts": the CMB/cluster debt  **[NO REPORT EDIT — the current §5 language is correct as-is]**
 
-**Status: PENDING VERIFICATION. Do not apply yet.** This rests on a **first-pass, unverified** derivation chain from the 2026-07-17 session (logged in memory `project_cmb_dust_mimetic_debt` + `ED_Research_Targets` §5b). The report's current §5 language is *already correctly honest* ("live falsification risk, not a bookkeeping debt"), so there is **no error to fix and no urgency** — this only *sharpens* the account, and only if the chain survives an adversarial check. If the chain fails, discard this entry.
+**Status (updated 2026-07-19): NO CHANGE TO THE REPORT.** The knot-1 pass turned the first-pass "sharpening" into a fuller finding (below), and the conclusion is that the report's current §5 language — "clusters and the CMB are a **live falsification risk, not a bookkeeping debt** … if that dial cannot thread the CMB acoustic peaks and the clusters, the sector fails" — is **exactly right and needs no edit.** The finding is a *reconciliation of an internal contradiction*, not a discharge of the debt; a reconciliation with an unbuilt demonstration does not earn a flagship claim. **Do not touch §5 until the one-field Boltzmann demonstration exists.** The corpus edits that the finding *does* warrant were applied to the source papers (Cos_03/Cos_04), not the report.
+
+**Knot-1 finding (2026-07-19), for the record — where the debt actually sits:**
+- The cosmology arc (Cos_03 CMB, Cos_04 structure) silently **runs on cold dark matter** (`Ω_c h² ≈ 0.12`, ~5× baryons, the Planck ΛCDM value, inside `Ω_m h² ≈ 0.143`) that the gravity arc (KM-I) denies — a cross-arc contradiction hidden under an "IC-inherited" label.
+- Resolution: the khronon is a **field**, not the foliation function `𝒲(0,Θ)`; its **mimetic dust mode `ρ=C/a³`** supplies the `a⁻³` abundance via an integration constant (the volume memory the local-dial no-go correctly showed a function-of-H cannot have). Identify Cos_03/04's `Ω_c` with that mode → not a particle, the cosmological face of the MOND field. Double-counting avoided by one-field-one-solution-per-regime (Orthogonality Theorem; AeST is the sister-theory existence proof).
+- **Unbuilt (what would actually retire the debt):** a direct one-field Boltzmann computation of the peaks + the galactic curves from the khronon dust (currently the value is inherited via a ΛCDM-CDM proxy in CAMB/CLASS); plus the `(□φ)²` instability regulator.
+- **Corpus edits applied 2026-07-19:** "Dark-component identification" note added to `Paper_ED_Cos_03_CMBAcoustic.md` and `Paper_ED_Cos_04_StructureFormation.md`; `ED_Research_Targets.md` §5b + memory `project_cmb_dust_mimetic_debt` updated. The report was deliberately left unchanged.
+
+**(Superseded) original C1 rationale:** rests on a first-pass chain (2026-07-17); the report's §5 was already correctly honest, so this was only a candidate *sharpening*, gated on verification. The knot-1 pass resolved the gating question in favor of "no report edit."
 
 **Where:** §5, "The debts," the CMB/clusters bullet (currently ~line 300).
 
