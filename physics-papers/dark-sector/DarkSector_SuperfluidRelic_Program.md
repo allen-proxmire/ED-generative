@@ -32,7 +32,7 @@ Dark matter and MOND are **one substance read two ways.** The substance is a **c
 - **Substance:** the committed neutral relic (`a⁻³`, decoupled, cold-capable).
 - **Dispersed phase (large scales):** CDM — clusters, CMB, the abundance.
 - **Condensed phase (galaxies, below `a₀`):** a coherent state; its collective (phonon) mode is the khronon; the mode produces MOND.
-- **Phase boundary:** `a₀ = cH₀/2π`, the cosmic-horizon acceleration ED already carries as the MOND scale — no new scale.
+- **Phase boundary:** set by whatever physically *decoheres* the relic phases. **[Corrected 2026-07-19 by the V5-condensation calculation]** — the boundary is **not** `a₀`: if the decohering agent were acceleration, clusters (also sub-`a₀`) would wrongly condense. The split needs a **thermal** boundary (velocity dispersion): galaxies cold → condense → MOND; clusters hot → disperse → CDM. Identifying the decoherence source (acceleration vs. temperature) is now an open question; thermal is the version that works.
 - **The mimetic constraint, for free:** a superfluid's phase–density conjugacy *is* the mimetic (unit-gradient) structure, so the constraint a standalone khronon would need *added* to carry dust is a *derived* consequence here: relic **density** = the dust; relic **phase** = the MOND khronon.
 
 ### Reconciliation with the standing khronon (GR-II)
@@ -68,7 +68,13 @@ Two framings, and the second is the ED-native one that could resolve the mass te
 - **Standard BEC (Khoury):** condensation needs a *light* boson (de Broglie wavelength > interparticle spacing). This re-imposes the mass tension (light-to-condense vs. heavy-for-abundance).
 - **ED-native — V5-coherence phase-locking (the calculation to run):** ED's relics are committed (P11) and coupled by the V5 cross-chain coherence kernel (P12-Coh rewards phase alignment, finite reach). "Condensation" here is V5 phase-locking, which survives only where **decoherence is low = the environment is calm**. Below `a₀` (galaxies) → V5-coherent → condensed → khronon → MOND; above `a₀` / hot (clusters) → V5-decohered → dispersed → CDM. **`a₀` becomes the V5 coherence boundary** — the MOND scale identified with where the relics can stay phase-coherent. If condensation is coherence-driven (not de-Broglie-driven), the light-boson requirement may not apply and the mass tension may dissolve.
 
-**The decisive test:** compute the V5 cross-chain coherence of a committed-relic gas as a function of environment (acceleration / velocity dispersion), and check (a) that it phase-locks below `a₀` and decoheres above it, (b) whether the locked state's collective mode reproduces the MOND force with the correct `a₀`, and (c) whether this holds *independently of the relic mass* (which would resolve the tension) or re-imposes a light-mass condition (which would not). This is a simulation/derivation on the V5 machinery (Paper_090, Paper_V5UnifiedBudget), not further interpretation.
+**The decisive test — RUN 2026-07-19** (`event-density/evaluation/DarkSector/v5_condensation_probe.py` + `V5_Condensation_Findings.md`), on ED's real V5 coherence functional `E = Σ exp(−r/ℓ)cos(Δφ)`:
+
+- **(c) Mass-independence — PASSED, the make-or-break.** The V5 functional contains only positions and phases; **no mass term.** So condensation cannot depend on the relic mass (unlike BEC, which needs a light boson). A heavy, abundance-friendly relic can still phase-lock. **The mass tension is dissolved** — the central threat to the program is removed.
+- **(a) Condensation happens** (calm → coherence order parameter 1.00, rising decoherence → falls toward 0), **but the boundary is the decoherence *source*, not `a₀`** — it must be *thermal* (velocity dispersion) for the galaxy/cluster split to work (acceleration would wrongly condense clusters). Plus a new caveat: condensation is **density-dependent** (denser resists decoherence), so "clusters disperse to CDM" is a live heat-vs-density competition, not automatic.
+- **(b) Still open:** that the condensed collective mode reproduces the khronon/MOND with the correct `a₀`.
+
+**Net:** the decisive calculation passed on the one question that could have killed the program (mass-independent condensation) and corrected two overclaims (the `a₀` boundary; the automatic split). Remaining open: *what decoheres the relic phases* (thermal, for the split), *whether clusters disperse* against their density, and *whether the condensed mode is the khronon*.
 
 ---
 
