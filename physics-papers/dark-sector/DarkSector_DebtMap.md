@@ -37,6 +37,7 @@ MOND (galaxies) and the component (clusters + CMB) do not double-count because t
 - Galaxies (~kpc): component too diffuse to fall in → MOND unaffected.
 - Clusters (~Mpc): component concentrates → fills the shortfall.
 - CMB: component provides the decoupled dust; khronon dial sequestered (Orthogonality, KM-II).
+- **Bullet Cluster:** being collisionless (neutral, no ram pressure), the component sails through a cluster merger with the galaxies while the gas is stripped, producing the gas–lensing offset the standard (ΛCDM-class) way. The Bullet is a *relic* phenomenon, not a MOND one, consistent with its being a cluster-scale event — and the same warm-`keV` window that keeps the relic out of galaxies keeps it clumped at cluster scale, so the offset follows for free. This supersedes the topological-defect reading (`gravity/Paper_117`) as the *primary* account; the defect's offset-velocity law survives only as a speculative distinctive-if-present bonus signal.
 
 This is the MOND + neutral-component picture (νHDM; AeST is the field version) — an existence proof that the needle *can* be threaded, conditional on the free-streaming length landing near cluster scale.
 
