@@ -4,7 +4,7 @@
 
 **July 2026**
 
-**Series:** Event Density (ED) Generative Papers — dark-sector flagship. Self-contained and cold-reader accessible; it synthesizes the dark-sector folder (`Paper_ED_DarkSector_Position`, `DarkSector_DebtMap`, `DarkSector_SuperfluidRelic_Program`, `Paper_ED_RelicLagrangian_v1`) into one peer-facing statement.
+**Series:** Event Density (ED) Generative Papers — dark-sector flagship. Self-contained and cold-reader accessible; it consolidates the ED dark-sector program into one peer-facing statement (companion construction: `Paper_ED_RelicLagrangian_v1`).
 
 **Status: research paper, honestly tiered.** One standing result (MOND as a horizon-interference cross-term), two derived results (the relic's `a⁻³` dust from commitment-irreversibility; the relic self-interaction is canonical, so the sector is two-component), one consistency bound (the relic is warm, `~keV`), and one named limit (the `keV` scale is inherited, and no ED spectrum is computed). The headline is a falsifiable prediction: **ED's dark matter is warm, not a cold WIMP.**
 
@@ -150,4 +150,4 @@ ED's dark sector is not "no dark matter," and it is not one substance doing ever
 
 ---
 
-*Dark-sector flagship. Synthesizes `Paper_ED_DarkSector_Position`, `DarkSector_DebtMap`, `DarkSector_SuperfluidRelic_Program`, and `Paper_ED_RelicLagrangian_v1`. Standing: MOND as horizon interference (Paper_QuadraticStrain). Derived: the relic's `a⁻³` from P11; `L_self` canonical (two-component). Bounded: the relic is warm, ~keV. Inherited: the mass value and the abundance. Not done: the CMB spectrum. The prediction is warm dark matter; the risk is that ED's natural relic is cold.*
+*Dark-sector flagship; a self-contained consolidation of the ED dark-sector program (companion construction: `Paper_ED_RelicLagrangian_v1`). Standing: MOND as horizon interference (Paper_QuadraticStrain). Derived: the relic's `a⁻³` from P11; `L_self` canonical (two-component). Bounded: the relic is warm, ~keV. Inherited: the mass value and the abundance. Not done: the CMB spectrum. The prediction is warm dark matter; the risk is that ED's natural relic is cold.*

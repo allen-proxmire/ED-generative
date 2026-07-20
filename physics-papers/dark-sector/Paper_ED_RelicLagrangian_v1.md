@@ -4,11 +4,11 @@
 
 **July 2026**
 
-**Series:** Event Density (ED) Generative Papers — dark-sector program. This is the **first move** on the relic Lagrangian named as the bottleneck in `DarkSector_SuperfluidRelic_Program.md` and the "How far from a Lagrangian and a CMB spectrum" scoping.
+**Series:** Event Density (ED) Generative Papers — dark-sector program. This is the **first move** on the relic Lagrangian named as the bottleneck in the superfluid-relic program note (`event-density` working repo, `theory/Dark_Sector/`) and the "How far from a Lagrangian and a CMB spectrum" scoping.
 
 **Status: construction skeleton, honestly tiered.** The relic's field content and its pressureless-dust (`a⁻³`) behaviour are assembled from standing corpus results (Baryogenesis, Mass-Without-Mass, MS-II). The mass *value* is inherited exactly as `η_B` is. The superfluid self-interaction `L_self` — the term that was to decide whether dark matter and MOND are one substance — has now been coarse-grained (§3.3, `v5_coarsegrain_Lself_probe.py`) and comes out **canonical**: the relic is (super)fluid CDM, not a MOND source, so **the dark sector is two-component** (a CDM relic plus the separate matter↔horizon interference MOND of `Paper_QuadraticStrain_v1`). No CMB spectrum is computed: this is the action one would *feed* a Boltzmann code, not the spectrum.
 
-**Anchors:** `Paper_ED_Baryogenesis` (M3; committed neutral relic, single-template admission, P11 number-lock); `Paper_MassWithoutMass_BindingInertia` (binding mass, V5-conditional, cold-capable composite); `Paper_MS-II_MatterSectorFromTheArrow` (channels P07 + polarity P09 + transport P05 + arrow P11); `Paper_087` (the 13 primitives); `Paper_KM-I_KhrononMOND` + GR-II (the khronometric preferred frame); `DarkSector_DebtMap.md` (the `a⁻³`-volume-memory no-go for Route A); `DarkSector_SuperfluidRelic_Program.md` (the two-role picture and the open self-term).
+**Anchors:** `Paper_ED_Baryogenesis` (M3; committed neutral relic, single-template admission, P11 number-lock); `Paper_MassWithoutMass_BindingInertia` (binding mass, V5-conditional, cold-capable composite); `Paper_MS-II_MatterSectorFromTheArrow` (channels P07 + polarity P09 + transport P05 + arrow P11); `Paper_087` (the 13 primitives); `Paper_KM-I_KhrononMOND` + GR-II (the khronometric preferred frame); and the working record in the `event-density` repo (`theory/Dark_Sector/`): `DarkSector_DebtMap.md` (the `a⁻³`-volume-memory no-go for Route A) and `DarkSector_SuperfluidRelic_Program.md` (the two-role picture and the open self-term).
 
 ---
 
