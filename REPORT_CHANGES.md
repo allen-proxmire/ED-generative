@@ -1,6 +1,6 @@
 # Report — Pending Changes (post-v2.0.2)
 
-> Changes to fold into the next report version. **Do not edit `ED_UnifiedFramework_Report.md` in place mid-cycle**; accumulate here, then apply as a batch. Current released version: **v2.0.2** (commit `4c07299`).
+> Changes to fold into the next report version. **Do not edit `ED_UnifiedFramework_Report.md` in place mid-cycle**; accumulate here, then apply as a batch. Current Report: **v2.0.4** (= v2.0.2 + §6 Cosmology/Dark-Sector [2026-07-19] + a₀(z)/MUSE-DARK accuracy [2026-07-21]). Full-version archives on the Desktop: `..._v2.0.2` (pre-§6), `..._v2.0.3` (pre-a₀-fix). *(Version labels are provisional — relabel if your scheme differs.)*
 
 ---
 
@@ -15,9 +15,9 @@ A new numbered section **§6 — Cosmology and the Dark Sector** was added to th
 
 ---
 
-## PENDING 2026-07-19 — a₀(z) evolution / MUSE-DARK III / the α = 1.18 provenance
+## APPLIED 2026-07-21 — a₀(z) evolution / MUSE-DARK III / the α = 1.18 provenance
 
-**Status: NOT applied (report is released; log for next fold-in). Verified against the real A&A source this session.** The report's a₀(z) treatment is **largely accurate and honest** — it already gets the hard part right (α = 1 is *mechanism*-forced, not dimensional, since ED has ℓ_P; forward-dated; honestly hedged as "evolution confirmed, exact rate mildly disfavored, not a refutation"). Only one real issue plus optional strengthening.
+**Status: APPLIED 2026-07-21 to the Report (§15 flagship ~line 779: α≈1.18 reattributed as an ED-side re-fit + the survey's real numbers [~30σ, a₀ 1.2→2.38 by z~1, "faster than H(z)"] added; scorecard row softened). PDF rebuilt. Verified against the real A&A source.** Kept below for the audit trail. The report's a₀(z) treatment is **largely accurate and honest** — it already gets the hard part right (α = 1 is *mechanism*-forced, not dimensional, since ED has ℓ_P; forward-dated; honestly hedged as "evolution confirmed, exact rate mildly disfavored, not a refutation"). Only one real issue plus optional strengthening.
 
 **The verified paper facts** (MUSE-DARK III, *A&A* 2026, article `aa59230-26`; arXiv `2604.22613`), to use as the source of truth:
 - ~30σ detection of acceleration-scale evolution across `0.33 < z < 1.44`; a *constant* `a₀` excluded.
