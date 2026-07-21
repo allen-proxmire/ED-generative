@@ -35,9 +35,9 @@ A new numbered section **§6 — Cosmology and the Dark Sector** was added to th
 
 ---
 
-## PENDING 2026-07-19 — NOT the report: fix in the dark-sector flagship paper
+## FIXED 2026-07-21 — dark-sector flagship paper (not the report)
 
-**Status: NOT applied; flagged for `physics-papers/dark-sector/Paper_ED_DarkSector.md` (a different file, its own fix).** While checking the report I found the *opposite* error in the new DM flagship I wrote today: its §6 and abstract say a₀(z) is *"unfudgeable: ED has no second scale … dimensionally forced."* **That is wrong** — ED *does* carry ℓ_P, so a bent power is dimensionally legal; α = 1 is **mechanism-forced** (Paper_029's projection introduces no ℓ_P, plus the no-intrinsic-scalar result), exactly as the report (§ "the MOND scale evolves", ~line 297/779) correctly states. The flagship DM paper should be corrected to that framing (and its Zenodo PDF rebuilt). Logged here so it is not lost; it is a paper fix, not a report change.
+**Status: DONE in `physics-papers/dark-sector/Paper_ED_DarkSector.md` (abstract + §6), PDF rebuilt.** The new DM flagship had the *opposite* error from the report: its §6 and abstract said a₀(z) is *"unfudgeable: ED has no second scale … dimensionally forced."* Corrected to the report's accurate framing — ED *does* carry ℓ_P, so a bent power is dimensionally legal; α = 1 is **mechanism-forced** (Paper_029's horizon projection introduces no ℓ_P, plus the no-intrinsic-scalar result leaves no dimensionless number to bend it). Not a report change; logged here for the audit trail.
 
 ---
 
