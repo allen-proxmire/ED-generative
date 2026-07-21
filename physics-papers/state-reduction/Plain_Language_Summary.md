@@ -4,7 +4,7 @@
 
 ## What we were doing
 
-Quantum things can be in many places at once, but when you look, you find just one. Why the "many" becomes "one" — collapse of the wavefunction — is the oldest unsolved puzzle in quantum mechanics. A small camp of physicists thinks **gravity** is what forces the choice. We set out to place ED next to the three leading members of that camp (Diósi, Penrose, Hossenfelder) and say honestly where ED agrees, where it goes deeper, and where it still owes them something.
+Quantum things can be in many places at once, but when you look, you find just one. Why the "many" becomes "one" — collapse of the wavefunction — is the oldest unsolved puzzle in quantum mechanics. A small camp of physicists thinks **gravity** is what forces the choice. We set out to place ED next to the two leading members of that camp (Diósi and Penrose) and say honestly where ED agrees, where it goes deeper, and where it still owes them something.
 
 ## ED's one big idea
 
