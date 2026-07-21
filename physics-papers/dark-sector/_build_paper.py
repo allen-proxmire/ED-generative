@@ -1,19 +1,19 @@
-r"""Build Paper_ED_DarkSector .pdf/.tex in the corpus report style:
+r"""Build every standalone paper in this folder (Paper_*.md) to .pdf/.tex, corpus report style:
 pandoc + xelatex, main=Cambria, mono=Consolas, math=Latin Modern Math (unicode-math),
-rendering source Unicode DIRECTLY. Glyphs the mono/main font lacks inside code spans map
-to a Latin Modern Math fallback via \symbol (works in \texttt, unlike \ensuremath).
+rendering source Unicode DIRECTLY. Glyphs the mono/main font lacks inside code spans map to a
+Latin Modern Math fallback via \symbol (works in \texttt, unlike \ensuremath).
 
-Strips the 6-line md title block and passes title/author/date as metadata for a centered
-\maketitle (paper convention). Outputs: PDF next to the .md AND to the Zenodo folder; TeX to
-the tex folder.
+Each paper is expected to open with the 6-line title block:
+    # Title / (blank) / **Allen Proxmire** / (blank) / **Month Year** / (blank) / **Series:** ...
+The block is stripped and the title/author/date passed as metadata for a centered \maketitle.
+
+Outputs per paper: PDF next to the .md AND to the Zenodo folder; .tex to the tex folder.
+Usage: python _build_paper.py            (build all Paper_*.md here)
+       python _build_paper.py Paper_X    (build just one, by basename)
 """
-import subprocess, os, sys, shutil
+import subprocess, os, sys, glob, shutil
 
-FOLDER = r"C:\Users\allen\GitHub\ED Generative\physics-papers\dark-sector"
-SRC = "Paper_ED_DarkSector.md"
-BASE = "Paper_ED_DarkSector"
-TITLE = ("The Event Density Dark Sector: MOND as Horizon Interference, a Warm Relic "
-         "for the Cosmic Web, and a Falsifiable Bet Against Cold Dark Matter")
+FOLDER = os.path.dirname(os.path.abspath(__file__))
 ZENODO = r"C:\Users\allen\Desktop\ED Important\ED_pdf_files"
 TEXDIR = r"C:\Users\allen\Desktop\ED Important\ED_tex_files"
 
@@ -27,7 +27,6 @@ HEADER = r"""
 \newfontfamily\symfb{Latin Modern Math}
 \providecommand{\tightlist}{}
 \usepackage{longtable,booktabs}
-% glyphs the mono/main font may lack inside inline-code spans -> Latin Modern Math via \symbol
 \newunicodechar{∇}{{\symfb\symbol{"2207}}}
 \newunicodechar{∝}{{\symfb\symbol{"221D}}}
 \newunicodechar{√}{{\symfb\symbol{"221A}}}
@@ -35,55 +34,60 @@ HEADER = r"""
 \newunicodechar{→}{{\symfb\symbol{"2192}}}
 \newunicodechar{↔}{{\symfb\symbol{"2194}}}
 \newunicodechar{∈}{{\symfb\symbol{"2208}}}
+\newunicodechar{⊥}{{\symfb\symbol{"22A5}}}
+\newunicodechar{⟨}{{\symfb\symbol{"27E8}}}
+\newunicodechar{⟩}{{\symfb\symbol{"27E9}}}
 """
 
-def build(body):
+
+def build_one(base):
+    src = base + ".md"
+    raw = open(src, encoding="utf-8").read().splitlines()
+    title = raw[0].lstrip("# ").strip()
+    body = "\n".join(raw[6:])  # drop the 6-line title block
     open("_paper_header.tex", "w", encoding="utf-8").write(HEADER)
     open("_body.md", "w", encoding="utf-8").write(body)
     common = ["--include-in-header=_paper_header.tex", "-V", "geometry:margin=1in",
-              "-V", "fontsize=11pt", "-V", "title=" + TITLE,
+              "-V", "fontsize=11pt", "-V", "title=" + title,
               "-V", "author=Allen Proxmire", "-V", "date=July 2026"]
-    # .tex
-    r = subprocess.run(["pandoc", "_body.md", "-s"] + common + ["-o", BASE + ".tex"],
+    r = subprocess.run(["pandoc", "_body.md", "-s"] + common + ["-o", base + ".tex"],
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     if r.returncode != 0:
-        print("PANDOC(tex) FAIL:", (r.stderr or "")[-800:]); return False
-    # pdf via two xelatex passes on the .tex
+        print(f"PANDOC(tex) FAIL [{base}]:", (r.stderr or "")[-800:]); return False
     log = ""
     for _ in range(2):
-        r = subprocess.run(["xelatex", "-interaction=nonstopmode", "-halt-on-error", BASE + ".tex"],
+        r = subprocess.run(["xelatex", "-interaction=nonstopmode", "-halt-on-error", base + ".tex"],
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
         log = r.stdout or ""
-    ok = os.path.exists(BASE + ".pdf") and r.returncode == 0
+    ok = os.path.exists(base + ".pdf") and r.returncode == 0
     miss = sorted(set(l for l in log.splitlines() if "Missing character" in l))
     dollar = [l for l in log.splitlines() if "Missing $ inserted" in l]
     if miss:
-        sys.stdout.buffer.write(b"MISSING GLYPHS:\n" + "\n".join(miss[:25]).encode("utf-8", "replace") + b"\n")
+        sys.stdout.buffer.write((f"MISSING GLYPHS [{base}]:\n").encode() +
+                                "\n".join(miss[:25]).encode("utf-8", "replace") + b"\n")
     if dollar:
-        print(f"MISSING-$ errors: {len(dollar)} (code-span math gotcha)")
+        print(f"MISSING-$ errors [{base}]: {len(dollar)}")
     if not ok:
-        i = log.find("\n!"); print("XELATEX FAIL:\n" + (log[i:i+900] if i >= 0 else log[-900:]))
-    return ok and not miss and not dollar
-
-def main():
-    os.chdir(FOLDER)
-    raw = open(SRC, encoding="utf-8").read().splitlines()
-    body = "\n".join(raw[6:])  # drop the 6-line title block (title/author/date)
-    ok = build(body)
-    if ok:
-        for d in (ZENODO,):
-            shutil.copyfile(BASE + ".pdf", os.path.join(d, BASE + ".pdf"))
-        shutil.copyfile(BASE + ".tex", os.path.join(TEXDIR, BASE + ".tex"))
-        print(f"OK  {BASE}.pdf  ({os.path.getsize(BASE + '.pdf')//1024} KB)  "
-              f"-> repo + Zenodo; .tex -> {TEXDIR}")
-    for f in [BASE + e for e in (".aux", ".out", ".toc", ".log")] + ["_paper_header.tex", "_body.md", "_charaudit.txt"]:
+        i = log.find("\n!"); print(f"XELATEX FAIL [{base}]:\n" + (log[i:i+900] if i >= 0 else log[-900:]))
+    good = ok and not miss and not dollar
+    if good:
+        shutil.copyfile(base + ".pdf", os.path.join(ZENODO, base + ".pdf"))
+        shutil.copyfile(base + ".tex", os.path.join(TEXDIR, base + ".tex"))
+        print(f"OK  {base}.pdf  ({os.path.getsize(base + '.pdf')//1024} KB)  -> repo + Zenodo; .tex -> tex folder")
+    for f in [base + e for e in (".aux", ".out", ".toc", ".log", ".tex")] + ["_paper_header.tex", "_body.md"]:
         if os.path.exists(f):
             try: os.remove(f)
             except OSError: pass
-    # keep BASE.tex in the folder only transiently; the canonical tex is in TEXDIR
-    if ok and os.path.exists(BASE + ".tex"):
-        os.remove(BASE + ".tex")
-    sys.exit(0 if ok else 1)
+    return good
+
+
+def main():
+    os.chdir(FOLDER)
+    targets = ([sys.argv[1].replace(".md", "")] if len(sys.argv) > 1
+               else sorted(b[:-3] for b in glob.glob("Paper_*.md")))
+    allok = all(build_one(b) for b in targets)
+    sys.exit(0 if allok else 1)
+
 
 if __name__ == "__main__":
     main()
