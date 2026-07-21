@@ -1,6 +1,6 @@
 # Report — Pending Changes (post-v2.0.2)
 
-> Changes to fold into the next report version. **Do not edit `ED_UnifiedFramework_Report.md` in place mid-cycle**; accumulate here, then apply as a batch. Current Report: **v2.0.4** (= v2.0.2 + §6 Cosmology/Dark-Sector [2026-07-19] + a₀(z)/MUSE-DARK accuracy [2026-07-21]). Full-version archives on the Desktop: `..._v2.0.2` (pre-§6), `..._v2.0.3` (pre-a₀-fix). *(Version labels are provisional — relabel if your scheme differs.)*
+> Changes to fold into the next report version. **Do not edit `ED_UnifiedFramework_Report.md` in place mid-cycle**; accumulate here, then apply as a batch. **The current Report is the one in the repo** — git commit dates are the versioning (dates *are* the version numbers). The last two content updates: §6 Cosmology/Dark-Sector (2026-07-19) and the a₀(z)/MUSE-DARK accuracy fixes (2026-07-21). Prior snapshots are archived on the Desktop, date-labeled.
 
 ---
 
