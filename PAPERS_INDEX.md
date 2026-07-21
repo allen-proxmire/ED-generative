@@ -27,6 +27,18 @@ ED's dark-matter position spans the gravity, cosmology, QFT, and substrate-evalu
 
 ---
 
+## Cross-arc — State Reduction (`physics-papers/state-reduction/`)
+
+The *measurement-side* companion to the dark sector: ED's position on gravitational collapse of the wavefunction, against its three nearest published neighbors (Diósi, Penrose, Hossenfelder). **Key point for any reader:** the neighbors say *gravity causes collapse* (scale in an energy `E_G`); ED says measurement-definiteness and gravitational time are **one primitive** — the arrow of commitment, which *is* the khronon — so the collapse variable is **time, not energy**. Post-referee status (2026-07-21): a scaling argument reproducing `τ ∝ ℏ/E_G` (coefficient open), one externally confirmed fork (difference-not-sum, vs Hossenfelder), and a retired 2020-experiment risk (immunity shared with QM, not a distinctive win); three named open pieces.
+
+| Doc | Purpose | Status |
+|---|---|---|
+| `state-reduction/README.md` | folder overview + source-paper map + open pieces | Synthesis |
+| `state-reduction/Paper_ED_StateReduction_vs_CollapseModels.md` | the peer-facing positioning note (shared conviction; ED's account; the three neighbors; time-not-energy; gap, falsifiers, tiers) | Synthesis |
+| `state-reduction/StateReduction_CollapseRate_ED_Derivation.md` | companion derivation: the `τ ∝ ℏ/E_G` scaling argument + the emission-signature analysis (why the 2020 bound does not exclude ED, honestly scoped) | Derivation |
+
+---
+
 ## Arc 1 — Quantum Kinematics (Papers 001–012 + decimal extensions)
 
 The Phase-1 QM-emergence program. Sixteen theorems closing the four standard quantum-mechanical postulates as substrate-derived results. **2026-07-02: 10 decimal-slot papers added** (found missing from the 2026-05-14 index) — supplementary derivations inserted between the integer papers; they do not renumber the integer sequence.
