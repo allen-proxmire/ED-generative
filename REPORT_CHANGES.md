@@ -13,6 +13,34 @@ A new numbered section **§6 — Cosmology and the Dark Sector** was added to th
 
 **Remaining:** rebuild the report PDF (`_build_report.py`) to reflect the new section — a build step, not a content change.
 
+---
+
+## PENDING 2026-07-19 — a₀(z) evolution / MUSE-DARK III / the α = 1.18 provenance
+
+**Status: NOT applied (report is released; log for next fold-in). Verified against the real A&A source this session.** The report's a₀(z) treatment is **largely accurate and honest** — it already gets the hard part right (α = 1 is *mechanism*-forced, not dimensional, since ED has ℓ_P; forward-dated; honestly hedged as "evolution confirmed, exact rate mildly disfavored, not a refutation"). Only one real issue plus optional strengthening.
+
+**The verified paper facts** (MUSE-DARK III, *A&A* 2026, article `aa59230-26`; arXiv `2604.22613`), to use as the source of truth:
+- ~30σ detection of acceleration-scale evolution across `0.33 < z < 1.44`; a *constant* `a₀` excluded.
+- `a₀` rises from `a₀(z=0) = 1.2 ± 0.26` (SPARC local) to **`a₀(z∼1) = 2.38 (+0.12/−0.10) × 10⁻¹⁰ m/s²`**.
+- The paper fits a **linear** `a₀(z) = a₀(0) + a₁ z` (`a₁ ≈ 1.59 × 10⁻¹⁰`), called "a simple phenomenological description."
+- The paper's own conclusion: the measured `a₀(z)` runs **"faster than that of H(z)"** and is "in tension with the scale-invariant vacuum paradigm."
+
+**Change 1 (the real fix) — §15 flagship (~line 779) + wherever "α ≈ 1.18" appears.** Current text reads *"a direct fit gives α ≈ 1.18 ± 0.04,"* which a reader takes as the survey's reported figure. **It is not.** The survey reports a *linear* fit and "faster than H(z)"; the `α ≈ 1.18` is a power-law **recast of the survey's points** (the ED-side "direct α fit / addendum A10," 2026-07-14), not a quantity MUSE-DARK III reports. **Reattribute**, e.g.: *"recasting the survey's measured evolution as a power law gives α ≈ 1.18 (the survey itself fits a linear a₀(z) and states the evolution runs faster than H(z))."* Keep the existing "nominal ~4σ → ~1–2σ under systematics" hedge; note the ±0.04 is the recast's error, which the corpus itself flags as underestimated.
+
+**Change 2 (optional strengthening) — §15 and the gravity body (~line 297).** Ground the tension in the survey's *own* numbers/words rather than the ED recast: add "`a₀` rises from 1.2 to `2.38 × 10⁻¹⁰` by `z∼1`" and the verbatim "faster than H(z)." Stronger and less dependent on the recast.
+
+**Change 3 (minor) — scorecard row (~line 113).** "exact rate mildly disfavored (~4σ nominal, one survey)" — the bare "~4σ nominal" is the recast's face value; align it with the body's more careful "~1–2σ under systematics; the data run faster than `H(z)`."
+
+**Source:** https://www.aanda.org/articles/aa/full_html/2026/05/aa59230-26/aa59230-26.html ; arXiv 2604.22613.
+
+---
+
+## PENDING 2026-07-19 — NOT the report: fix in the dark-sector flagship paper
+
+**Status: NOT applied; flagged for `physics-papers/dark-sector/Paper_ED_DarkSector.md` (a different file, its own fix).** While checking the report I found the *opposite* error in the new DM flagship I wrote today: its §6 and abstract say a₀(z) is *"unfudgeable: ED has no second scale … dimensionally forced."* **That is wrong** — ED *does* carry ℓ_P, so a bent power is dimensionally legal; α = 1 is **mechanism-forced** (Paper_029's projection introduces no ℓ_P, plus the no-intrinsic-scalar result), exactly as the report (§ "the MOND scale evolves", ~line 297/779) correctly states. The flagship DM paper should be corrected to that framing (and its Zenodo PDF rebuilt). Logged here so it is not lost; it is a paper fix, not a report change.
+
+---
+
 Each entry: what changes, where, current text, proposed replacement, why, and status.
 
 ---
