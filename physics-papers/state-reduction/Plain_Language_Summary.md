@@ -8,7 +8,7 @@ Quantum things can be in many places at once, but when you look, you find just o
 
 ## ED's one big idea
 
-For those three, gravity *causes* collapse. ED says something one step deeper: the thing that makes outcomes definite (measurement) and the thing that is gravity's flow of time are **the same single ingredient** — what ED calls the arrow, the one-way act of "committing" to a fact. So collapse and gravity's time aren't cause-and-effect; they're two faces of one thing. In particular, ED *hands Penrose the missing piece his own argument needs* (a well-defined "which clock is ticking"), which is why ED reads more as completing him than competing with him.
+For both of them, gravity *causes* collapse. ED says something one step deeper: the thing that makes outcomes definite (measurement) and the thing that is gravity's flow of time are **the same single ingredient** — what ED calls the arrow, the one-way act of "committing" to a fact. So collapse and gravity's time aren't cause-and-effect; they're two faces of one thing. In particular, ED *hands Penrose the missing piece his own argument needs* (a well-defined "which clock is ticking"), which is why ED reads more as completing him than competing with him.
 
 ## The four things we worked through
 
