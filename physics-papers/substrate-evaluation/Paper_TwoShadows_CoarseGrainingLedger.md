@@ -1,10 +1,8 @@
-# One Field, Two Shadows: What Each Theory Keeps, and What It Throws Away
+# How Our Best Theories Coarse-Grain Reality: One Field, Its Shadows, and What Each Blur Throws Away
 
 **Allen Proxmire**
 
 **July 2026**
-
-**Series:** Event Density (ED) Generative Papers — cold-reader consolidation (substrate-evaluation). **Status: draft synthesis, honestly tiered.** This article introduces no new derivation. It organizes standing results of the ED corpus under a single lens: each major theory of physics is a *coarse-graining* of one substrate, and each theory's celebrated symmetries are the receipt for what its coarse-graining threw away. **Corpus:** `github.com/allen-proxmire/ED-generative` (DOI: `10.5281/zenodo.20149496`). **Front door:** *Event Density: A Unified Framework for Physics* (the Report, repo root), which states every result below at its honest tier with the papers behind it.
 
 ---
 
@@ -21,7 +19,7 @@
 
 Event Density is an account of physics built on a **discrete, relational substrate**: a participation graph in which chains participate in channels. Each channel carries a **bandwidth** `b ≥ 0` and a phase, combined in the participation amplitude `P = √b·e^{iπ}`. There is one process primitive: **commitment** (P11) — the irreversible act by which an uncommitted participation becomes a definite, recorded fact. The arrow of time is not a boundary condition on top of reversible laws; it *is* this act, written into the law. Everything else — space, geometry, matter, fields, the quantum formalism — is developed as structure in how committed events relate, as conditional derivations from thirteen posited primitives, with the form/value split always named (*form-forced, value-inherited*).
 
-ED does not overturn any proven physics. General relativity and quantum mechanics remain as successful as ever; the claim of this article is about *where they sit*: each is what the substrate looks like after a particular blur. The corpus behind each section lives in the repository above; the two load-bearing sources for this article are the curvature-emergence line (`Paper_MetricFromTheGraph`, `Paper_027`, GR-I..IV, `Paper_QuadraticStrain`) and the coarse-graining line (`Paper_Continuum_KineticLatticeGas` and the two-layer results).
+ED does not overturn any proven physics. General relativity and quantum mechanics remain as successful as ever; the claim of this article is about *where they sit*: each is what the substrate looks like after a particular blur. This article introduces **no new derivation** — it arranges standing corpus results under a single lens, at their honest tiers. The corpus lives at `github.com/allen-proxmire/ED-generative` (DOI `10.5281/zenodo.20149496`); its front door is the Report, *Event Density: A Unified Framework for Physics*, which states every result below with the papers behind it. The two load-bearing sources for this article are the curvature-emergence line (`Paper_MetricFromTheGraph`, `Paper_027`, GR-I..IV, `Paper_QuadraticStrain`) and the coarse-graining line (`Paper_Continuum_KineticLatticeGas` and the two-layer results).
 
 ## 2. The two organizing facts
 
