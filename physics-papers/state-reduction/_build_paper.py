@@ -26,10 +26,10 @@ HEADER = r"""
 \setmathfont{Latin Modern Math}
 \newfontfamily\symfb{Latin Modern Math}
 \providecommand{\tightlist}{}
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,graphicx}
 \newunicodechar{∇}{{\symfb\symbol{"2207}}}
 \newunicodechar{∝}{{\symfb\symbol{"221D}}}
-\newunicodechar{√}{{\symfb\symbol{"221A}}}
+\newunicodechar{√}{{\symfb\raisebox{1.05ex}{\scalebox{0.62}{\symbol{"221A}}}}}
 \newunicodechar{⟹}{{\symfb\symbol{"27F9}}}
 \newunicodechar{→}{{\symfb\symbol{"2192}}}
 \newunicodechar{↔}{{\symfb\symbol{"2194}}}
