@@ -8,7 +8,7 @@
 > field), the Standard Model's gauge structure, charge, chirality, and entanglement.
 > Form-complete, value-inherited, and honest about what's open.
 
-Picture an LED billboard: a wave crosses it, but nothing actually moves — only a grid of lights switching on and off in coordinated ways. **The pattern is real; the thing moving is not.** Event Density (ED) says the universe is built that way. What we measure as motion, gravity, charge, probability, and time are patterns in how discrete events relate, and **one primitive — the arrow of time, the irreversible act of commitment — does the load-bearing work across every sector.**
+What we measure as motion, gravity, charge, probability, and time are patterns in how discrete events relate, and **one primitive — the arrow of time, the irreversible act of commitment — does the load-bearing work across every sector.**
 
 ---
 
