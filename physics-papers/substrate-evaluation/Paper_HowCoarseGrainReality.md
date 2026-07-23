@@ -116,7 +116,7 @@ And, on this ledger, it dissolves the oldest paradox in the subject. Loschmidt's
 
 ## 15. What the lens buys
 
-**It explains the shape of the canon.** Why do the two pillars of physics share the same two embarrassments — a missing arrow of time and an unexplained measurement event? Because they are two blurs of one substrate that discarded the same thing, one by averaging it out (GR) and one by windowing it out (Schrödinger). And why has a century of joining them theory-to-theory failed? Because hands do not attach to hands; they attach through the body. The unification move is not to quantize gravity — it is to **discretize both**, re-attaching each blur to the substrate it came from.
+**It explains the shape of the canon.** Why do the two pillars of physics share the same two embarrassments — a missing arrow of time and an unexplained measurement event? Because they are two blurs of one substrate that discarded the same thing, one by averaging it out (GR) and one by windowing it out (Schrödinger). And it explains why the century-long endeavor to marry GR and QM has failed. Because a body can't shake hands with itself. GR and QM are two limbs of one substrate, and the connective tissue is precisely what both threw away — the arrow, the commitment.. The unification move is not to quantize gravity — it is to **discretize both**, re-attaching each blur to the substrate it came from.
 
 **It explains why each theory is so good.** A blur is *exact about what it keeps*. Inside its kept-column, each theory is unbeatable, and ED predicts no deviation there — which is why ED overturns nothing.
 
