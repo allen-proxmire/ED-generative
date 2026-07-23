@@ -29,7 +29,7 @@
 |---|---|---|
 | [Commitment and Participation (Minimal Ontology)](Paper_CommitmentAndParticipation_MinimalOntology.md) | the minimal ontology — the substrate in two words | Synthesis / Grounded |
 | [The Arrow Sorts the Continuum](Paper_TheArrowSortsTheContinuum.md) | one primitive sorts continuum laws into structure-making / erasing / preserving | Synthesis (breaker-passed) |
-| [One Field, Two Shadows](Paper_TwoShadows_CoarseGrainingLedger.md) | the coarse-graining ledger: each major theory = a blur of the one bandwidth field (kept column → its variables, discarded column → its symmetries); G and GR as seam results; Born/collapse as the un-blurred commitment; thermodynamics as the receipt; the live leaks (sub-`a₀`, `M_crit`) located | Synthesis (draft, referee-passed; per-entry tiers inside) |
+| [How Our Best Theories Coarse-Grain Reality](Paper_HowCoarseGrainReality.md) | the coarse-graining ledger: each major theory = a blur of the one bandwidth field (kept column → its variables, discarded column → its symmetries); G and GR as seam results; Born/collapse as the un-blurred commitment; thermodynamics as the receipt; the live leaks (sub-`a₀`, `M_crit`) located | Synthesis (draft, referee-passed; per-entry tiers inside) |
 | [Knots, Not Crystals](Paper_BlindnessInvariant_KnotsNotCrystals.md) | ED lacks crystalline order but has topological (knot/link) order — the order that matters | Grounded |
 
 ### Coarse-graining → continuum (which shadow?)
