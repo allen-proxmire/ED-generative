@@ -35,7 +35,7 @@ A unified framework must check a specific list of boxes. Here is ED's status on 
 | **Electromagnetism** | coherence-weighted limit is Coulomb; the smooth field is a coarse-grained shadow | ✅ |
 | **Chirality / parity** | theorem: the clean substrate is vector, so parity violation is necessarily spontaneous; casting inherited | ✅ / ⚠️ |
 | **Matter (spinor, mass)** | substrate→Dirac form-complete; native binding-mass ("mass without mass"); mass ≠ time dilation | ✅ |
-| **The constants** | no intrinsic scalar, so ED inherits them — exactly as the Standard Model does | 📏 by design |
+| **The constants** | the units (c, ħ, ℓ_P) are substrate scaffolding; G and a₀ are derived downstream; the dimensionless core is inherited, as in the Standard Model | 📏 by design |
 | **Internal consistency (anomalies)** | conservation + clean-vector baseline solid; chiral cancellation inherited; one candidate gated | ✅ / ⚠️ |
 | **Novel falsifiable predictions** | several ranked weapons + one confirmed forward prediction; none argument-ending yet | ⚠️ open |
 
@@ -68,5 +68,6 @@ Every `physics-papers/` subfolder has a **README guide** (a "what this is," a re
 | **gravity** · **dynamics** · **black-hole** · **cosmology** | Newton→GR-I..IV, MOND/dark matter (KM-I/II), dark energy; GWs; horizons/Hawking/Page; SCBU |
 | **soft-matter** · **q-compute** | DCGT continuum bridge, the universal mobility law; decoherence limits, the Class-A wall |
 | **substrate-evaluation** · **predictions** | cold-reader consolidation papers; the falsification register + prediction inventory (Paper_101) |
+| **dark-sector** · **state-reduction** · **constants-inherited** | cross-arc synthesis: the two-culprit dark sector (MOND + a warm relic); ED vs Diósi/Penrose gravitational collapse; the constants ledger (units now, dimensionless personality inherited) |
 
 Companion top-level folders: `position-paper/` (front door), `primitives/`, `theorems/` (the T1–T21 registry papers cite by number), `scale correspondence/`, `layers/`. Each has its own README guide.
