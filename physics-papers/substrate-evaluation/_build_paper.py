@@ -39,6 +39,8 @@ HEADER = r"""
 \newunicodechar{⟩}{{\symfb\symbol{"27E9}}}
 \newunicodechar{ℏ}{{\symfb\symbol{"210F}}}
 \newunicodechar{≫}{{\symfb\symbol{"226B}}}
+\newunicodechar{≪}{{\symfb\symbol{"226A}}}
+\newunicodechar{⟺}{{\symfb\symbol{"27FA}}}
 """
 
 
